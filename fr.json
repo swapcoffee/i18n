@@ -497,12 +497,13 @@
         "explore": "Explorer les stakings"
     },
     "stakeTimeframes": [
-            "minutes",
-            "heures",
-            "jours",
-            "mois",
-            "années"
-        ],
+        "分钟",
+        "小时",
+        "天",
+        "月",
+        "年",
+        "年"
+    ],
     "stakeFormInfo": {
         "earn": "Vous pourriez gagner jusqu'à",
         "estimated": "Estimé à ~{points} points.",

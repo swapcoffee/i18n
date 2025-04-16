@@ -497,12 +497,13 @@
         "explore": "Explorar apuestas"
     },
     "stakeTimeframes": [
-            "minutos",
-            "horas",
-            "días",
-            "meses",
-            "años"
-        ],
+        "minutos",
+        "horas",
+        "días",
+        "meses",
+        "año",
+        "años"
+    ],
     "stakeFormInfo": {
         "earn": "Podrías ganar hasta",
         "estimated": "Se estima en ~{points} puntos.",

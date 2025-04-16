@@ -497,12 +497,13 @@
         "explore": "Explore stakes"
     },
     "stakeTimeframes": [
-            "minutes",
-            "hours",
-            "days",
-            "months",
-            "years"
-        ],
+        "minutes",
+        "hours",
+        "days",
+        "months",
+        "year",
+        "years"
+    ],
     "stakeFormInfo": {
         "earn": "You could earn up to",
         "estimated": "It's estimated at ~{points} points.",
