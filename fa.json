@@ -46,8 +46,8 @@
       "youSend": "شما ارسال می‌کنید",
       "youReceive": "شما دریافت می‌کنید",
       "balance": "موجودی: {currentBalance}",
-      "max": "حداکثر",
-      "half": "نصف",
+      "max": "Max",
+      "half": "Half",
       "slippage": "{slippageCount}% لغزش",
       "cashback": {
           "name": "بازگشت نقدی",
@@ -189,7 +189,7 @@
       "cashback": "بازگشت نقدی",
       "contests": "مسابقه معاملاتی",
       "dca": "DCA",
-      "perpetuals": "پرپچوال",
+      "perpetuals": "Perpetuals",
       "bridge": "پل",
       "onramp": "Onramp"
   },

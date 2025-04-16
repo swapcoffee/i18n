@@ -46,8 +46,8 @@
         "youSend": "Tú envías",
         "youReceive": "Tú recibes",
         "balance": "Saldo: {currentBalance}",
-        "max": "Máximo",
-        "half": "Mitad",
+        "max": "Max",
+        "half": "Half",
         "slippage": "{slippageCount}% deslizamiento",
         "cashback": {
             "name": "Reembolso",
@@ -189,7 +189,7 @@
         "cashback": "Reembolso",
         "contests": "Competencia de trading",
         "dca": "DCA",
-        "perpetuals": "Perpetuos",
+        "perpetuals": "Perpetuals",
         "bridge": "Puente",
         "onramp": "Onramp"
     },

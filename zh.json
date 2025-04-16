@@ -46,8 +46,8 @@
       "youSend": "您发送",
       "youReceive": "您接收",
       "balance": "余额：{currentBalance}",
-      "max": "最大",
-      "half": "一半",
+      "max": "Max",
+      "half": "Half",
       "slippage": "{slippageCount}% 滑点",
       "cashback": {
           "name": "返现",
@@ -189,7 +189,7 @@
       "cashback": "返现",
       "contests": "交易竞赛",
       "dca": "定投",
-      "perpetuals": "永续合约",
+      "perpetuals": "Perpetuals",
       "bridge": "桥接",
       "onramp": "Onramp"
   },

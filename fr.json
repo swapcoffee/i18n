@@ -47,7 +47,7 @@
         "youReceive": "Vous recevez",
         "balance": "Solde : {currentBalance}",
         "max": "Max",
-        "half": "Moitié",
+        "half": "Half",
         "slippage": "{slippageCount}% de glissement",
         "cashback": {
             "name": "Cashback",
