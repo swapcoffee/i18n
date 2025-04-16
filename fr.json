@@ -1,0 +1,1029 @@
+{
+    "dexSettings": {
+        "caption": "Paramètres",
+        "cashback": {
+            "title": "Cashback",
+            "text": "En activant cette fonctionnalité, vous acceptez de réclamer votre bonus",
+            "colorText": ["$KINGY", "$DFC", "$WEB3", "$DYOR"]
+        },
+        "expert": {
+            "title": "Mode expert",
+            "text": "Utilisez à vos propres risques."
+        },
+        "slippage": {
+            "title": "Tolérance au glissement",
+            "text": "Votre transaction sera annulée si le prix change défavorablement de plus que ce pourcentage."
+        },
+        "priceImpact": {
+            "title": "Impact sur le prix",
+            "text": "Nous ne vous permettrons pas d'effectuer un échange si l'impact sur le prix dépasse ce pourcentage."
+        },
+        "intermediate": {
+            "title": "Jetons intermédiaires",
+            "text": "Vous pouvez configurer le nombre maximum de jetons intermédiaires, contrôlant ainsi la longueur de la route. Plus elle est longue, plus elle consommera de gaz et plus la probabilité de recevoir un jeton intermédiaire au lieu de celui souhaité sera élevée si vous échangez via des pools très volatils ou avec un faible glissement."
+        },
+        "volatility": {
+            "title": "Volatilité des pools",
+            "text": "Vous pouvez exclure les routes qui utilisent des pools très volatils (et donc à haut risque). La volatilité est considérée comme le rapport entre les taux de prix maximum et minimum dans le pool au cours des 15 dernières minutes."
+        },
+        "parallel": {
+            "title": "Transactions parallèles",
+            "text": "Vous pouvez définir le nombre maximum de transactions parallèles, ce qui permet de construire des routes plus rentables.",
+            "textW5": "Obtenez l'option de choisir jusqu'à 20 routes avec",
+            "colorText": "portefeuille W5",
+            "tooltip": "Cependant, cela augmente également la quantité de gaz consommée et la probabilité de recevoir un jeton intermédiaire au lieu de celui souhaité lors de l'échange."
+        },
+        "sources": {
+            "title": "Sources de liquidité",
+            "text": "Désactiver la source de liquidité l'exclut de la route"
+        }
+    },
+    "dexInterface": {
+        "trustScore": "Score de confiance",
+        "trustShort": "Confiance",
+        "trustDescription": "Le score de confiance est calculé sur la base de paramètres on-chain et off-chain, mais cette évaluation ne garantit pas une sécurité à 100 %.",
+        "selectToken": "Sélectionnez un jeton",
+        "youSend": "Vous envoyez",
+        "youReceive": "Vous recevez",
+        "balance": "Solde : {currentBalance}",
+        "max": "Max",
+        "half": "Moitié",
+        "slippage": "{slippageCount}% de glissement",
+        "cashback": {
+            "name": "Cashback",
+            "status": "Activé"
+        }
+    },
+    "dexTokens": {
+        "searchPlaceholder": "Rechercher par nom",
+        "emptySearch": [
+            "Nous n'avons trouvé aucun actif.",
+            "Essayez de spécifier l'adresse du token."
+        ],
+        "validAddress": "Veuillez entrer une adresse de token valide",
+        "importNotice": "Ce token n'est pas inclus dans la liste active des tokens. Assurez-vous d'être conscient des risques associés aux tokens importés.",
+        "importBtn": "Accepter et Importer",
+        "titles": [
+            "Vos tokens",
+            "Tokens populaires",
+            "Résultats de recherche"
+        ],
+        "noData": "Aucune donnée trouvée",
+        "info": [
+            "Prix",
+            "Liquidité",
+            "Nombre de détenteurs"
+        ],
+        "filters": [
+            "Tous les actifs",
+            "Nouveau",
+            "Cashback",
+            "Concours"
+        ]
+    },
+    "stakeButton": {
+        "stake": "Staker",
+        "tooltip": [
+            "• Vous pouvez staker vos TON et recevoir {output_amount} {symbol}",
+            "• De plus, en stakant, vous êtes éligible pour recevoir des récompenses"
+        ]
+    },
+    "unstakeButton": {
+        "unstake": "Désengager dans {hours}h",
+        "unstakeNow": "Désengager maintenant",
+        "tooltip_later": [
+            "• Vous pouvez recevoir légèrement plus de TON en désengageant {symbol}",
+            "• En désengageant, vous recevrez {output_amount} TON",
+            "• Votre demande de désengagement sera traitée dans {hours} heures",
+            "• Cependant, vous pouvez échanger votre {symbol} contre des TON dès maintenant, mais vous recevrez moins"
+        ],
+        "tooltip_now": [
+            "• Vous pouvez recevoir légèrement plus de TON en désengageant {symbol}",
+            "• En désengageant, vous recevrez {output_amount} TON"
+        ]
+    },
+    "dexButton": {
+        "poolNotFound": "Pools de liquidité introuvables",
+        "connectWallet": "Connecter le portefeuille",
+        "notEnoughGas": "Pas assez de TON pour les frais",
+        "highPriceImpact": "Impact sur le prix trop élevé",
+        "notEnough": "Solde insuffisant",
+        "enterAmount": "Entrer un montant",
+        "selectToken": "Sélectionner un jeton",
+        "sendTransaction": "Échanger",
+        "stakeOneThousand": "Staker 1000 CES",
+        "deploySmartContract": "Déployer un contrat intelligent",
+        "choosePriceRange": "Choisir une plage de prix",
+        "createOrder": "Créer une commande",
+        "notPermission": "Pool non disponible",
+        "addLiquidity": "Ajouter de la liquidité",
+        "tooltip": [
+            "• Essayez d'augmenter le paramètre de volatilité du pool.",
+            "• Essayez d'augmenter le paramètre de jetons intermédiaires.",
+            "• Assurez-vous qu'un tel pool existe et informez le support."
+        ]
+    },
+    "dexSidebar": {
+        "portfolio": "Portefeuille",
+        "claim": "Centre de Réclamation",
+        "dex": "Agrégateur DEX",
+        "earn": "Notre DEX",
+        "pools": "Pools",
+        "benefits": "Avantages",
+        "launchpad": "Lancement",
+        "settings": "Paramètres",
+        "documentation": "Documentation",
+        "whitePaper": "Livre blanc",
+        "stake": "Staking",
+        "aggregator": "Agrégateur",
+        "tools": "Outils",
+        "memes": "Mèmes"
+    },
+    "dexGlobal": {
+        "chart": {
+            "title": "Graphique des prix",
+            "description": "Activer l'affichage du graphique"
+        },
+        "dev": {
+            "title": "Mode développeur",
+            "description": "Active le mode débogage"
+        },
+        "caption": "Paramètres globaux",
+        "theme": {
+            "name": [
+                "Système",
+                "Sombre",
+                "Clair",
+                "Café"
+            ],
+            "text": "Mode thème"
+        },
+        "lang": {
+            "name": "Langue",
+            "text": "Sélectionnez la langue préférée",
+            "caption": "Sélectionnez une langue"
+        },
+        "chart-provider": {
+            "title": "Fournisseur de graphiques",
+            "caption": "Sélectionner un graphique",
+            "providers-description": [
+                "Graphique avancé (TradingView)",
+                "Graphique léger",
+                "Concentré sur l'activité DEX et les flux de liquidité",
+                "Graphiques détaillés en temps réel"
+            ]
+        },
+        "chart-profit": {
+            "title": "Profit de trading",
+            "caption": "Vos profits de trading apparaîtront sur les graphiques Dyor"
+        },
+        "mini-modal": {
+            "full": "Voir les détails",
+            "mini": "Détails"
+        }
+    },
+    "dexNavigation": {
+        "swap": "Échanger",
+        "limit": "Limite",
+        "referral": "Programme de parrainage",
+        "cashback": "Cashback",
+        "contests": "Compétition de trading",
+        "dca": "DCA",
+        "perpetuals": "Perpétuels",
+        "bridge": "Pont",
+        "onramp": "Onramp"
+    },
+    "dexInfo": {
+        "highPriceImpact": "Impact élevé sur le prix {priceImpact}% de baisse !",
+        "priceImpact": "Échanger ce montant de tokens sélectionnés entraînera un impact significatif sur le prix et réduira votre résultat.",
+        "reverseSwap": "Le swap ExactOut prend en charge moins de lieux de liquidité et moins de routes. Il peut également offrir un prix moins avantageux.",
+        "exactOut": "Swap Exact Out"
+    },
+    "dexWallet": {
+        "title": "Compte",
+        "balance": "Votre solde"
+    },
+    "dexDetails": {
+        "titles": [
+            "Afficher les détails de l'échange",
+            "Masquer les détails"
+        ],
+        "priceImpact": {
+            "name": "Impact sur le prix",
+            "tooltip": [
+                "La différence entre le prix du marché",
+                "et le prix estimé en raison de la taille",
+                "de la transaction."
+            ]
+        },
+        "minimumReceive": {
+            "name": "Minimum reçu",
+            "tooltip": [
+                "Votre transaction sera annulée s'il y a un ",
+                "mouvement de prix défavorable important ",
+                "avant qu'elle ne soit confirmée."
+            ]
+        },
+        "fee": {
+            "name": "Frais de blockchain",
+            "text": "Jusqu'à {gasFee} TON",
+            "integrator": "Frais d'intégrateur"
+        },
+        "mev": {
+            "name": "Frais MEV Protect"
+        },
+        "economy": "Votre Économie",
+        "distribution": "Plan de Distribution"
+    },
+    "dexSuccess": {
+        "status": {
+            "error": "Erreur de transaction",
+            "timed_out": "Le temps de la transaction est écoulé",
+            "pending": "Encore une seconde",
+            "success": "Échange réussi !"
+        },
+        "btnText": "Échanger tous les jetons intermédiaires",
+        "info": [
+            "Essayez d'utiliser une tolérance au glissement plus élevée pour",
+            "vous assurer que votre transaction est complétée."
+        ],
+        "cashback": {
+            "name": "Cashback",
+            "text": "Succès"
+        },
+        "resultText": "🔥 Regardez comme j'ai acheté {token} de manière rentable sur swap.coffee !\n🤑 Rejoignez-moi et échangez de manière rentable avec moi !"
+    },
+    "dexRouteInfo": {
+        "cashback": "Vous recevrez un Cashback",
+        "plan": "Plan de distribution via {dexNames}",
+        "shortPlan": "via {dexNames}",
+        "caption": [
+            "Plan de distribution",
+            "Routage"
+        ]
+    },
+    "claimCenter": {
+        "description": "Invitez des amis, gagnez un pourcentage de la commission de leurs transactions et réclamez vos récompenses !",
+        "titles": ["Toutes les récompenses", "Cashback", "Parrainage", "Concours", "Staking", "Pools"],
+        "caption": "Sélectionnez une récompense à retirer",
+        "text": "Le coût du retrait dépend du nombre de tokens que vous avez sélectionnés",
+        "empty-title": "Vous n'avez aucune récompense dans le Centre de Réclamation",
+        "empty-description": "Utilisez swap.coffee pour gagner des récompenses",
+        "tooltip": "Nous attribuons des récompenses à partir de différents portefeuilles, un token peut être retiré de plusieurs portefeuilles, le gaz doit être payé pour chaque transaction"
+    },
+    "claim-banner": {
+        "title": "Centre de Réclamation",
+        "description": "Bienvenue dans le Centre de Réclamation — votre hub personnel pour gérer les récompenses sur swap.coffee. \n\n Nous l'avons conçu pour rendre le processus de collecte des récompenses aussi simple et agréable que possible.",
+        "detail-button": "Comment ça marche",
+        "connect-button": "Connecter le portefeuille"
+    },
+    "claimHistory": {
+        "empty": "L'historique des réclamations est actuellement vide."
+    },
+    "claimStatus": {
+        "failedText": "Erreur de réclamation de token. Veuillez réessayer plus tard ou contacter le support.",
+        "error": "Échec de la réclamation",
+        "timed_out": "Le temps de la transaction est écoulé",
+        "pending": "Encore une seconde",
+        "success": "Réclamation réussie !"
+    },
+    "claimTokens": {
+        "category": [
+            "Tout sélectionner",
+            "Cashback",
+            "Staking",
+            "Pools",
+            "Parrainage",
+            "Concours",
+            "Récompenses"
+        ],
+        "all-rewards": "Toutes les récompenses",
+        "claim-now": "Réclamer maintenant",
+        "claim-selected": "Réclamer sélectionné",
+        "unselect": "Désélectionner",
+        "table-titles": [
+            "Token",
+            "Valeur",
+            "Montant",
+            "Source",
+            "Liquidité",
+            "Prix"
+        ],
+        "select-all": "Tout sélectionner"
+    },
+    "qr-modal": {
+        "title": "Code QR",
+        "description": "Scannez avec votre mobile"
+    },
+    "referralInfo": {
+        "referrals": "{count} parrainages",
+        "withdraw": "Disponible pour retrait",
+        "emptyWithdraw": "Il n'y a pas de tokens disponibles pour le retrait",
+        "blockNames": [
+            "Récompenses non réclamées",
+            "Revenu (Total)",
+            "Revenu (30J)",
+            "Volume (Total)",
+            "Volume (30J)"
+        ],
+        "tooltip-income": "Le profit 'théorique' est indiqué, qui dépend des paiements de nos fournisseurs et peut ne pas être immédiatement disponible pour le retrait",
+        "statsNames": [
+            "Pourcentage de récompense",
+            "Votre niveau",
+            "Nombre de parrainages"
+        ],
+        "tableTitles": [
+            "Adresse",
+            "Transactions",
+            "Volume",
+            "Ma récompense"
+        ],
+        "levels": [
+            "Bronze",
+            "Argent",
+            "Or"
+        ],
+        "empty": [
+            "La liste des parrainages est actuellement vide.",
+            "Partagez votre lien de parrainage avec d'autres utilisateurs"
+        ],
+        "level-tooltip": "Au fur et à mesure que le nombre de vos parrainages et leur volume augmentent, vous pouvez prétendre à des récompenses de commission plus élevées et à un lien personnalisé et attractif."
+    },
+    "referralHistory": {
+        "tableTitles": ["Transaction", "Heure", "Valeur"]
+    },
+    "referralLink": {
+        "caption": "Votre lien de parrainage",
+        "description": "Ceci est votre lien de parrainage, dès que votre ami clique sur le lien, il deviendra automatiquement votre filleul",
+        "copyBtn": "Copier le lien de parrainage",
+        "linkCopied": "Lien copié !",
+        "qrBtn": "Afficher le code QR"
+    },
+    "referralNav": {
+        "info": "Mes infos",
+        "referrals": "Mes filleuls",
+        "history": "Historique des réclamations"
+    },
+    "referralFaq": {
+        "questions": [
+            "Comment est calculé le pourcentage de récompense ?",
+            "Qu'est-ce que le niveau du système de parrainage ?",
+            "Qui peut être mon filleul ?",
+            "Comment augmenter le pourcentage de récompense ?",
+            "Comment réclamer des récompenses ?"
+        ],
+        "answers": [
+            "Le pourcentage de récompense est basé sur votre niveau.\nswap.coffee ne facture aucun frais supplémentaire aux utilisateurs. Nous partageons une partie de nos bénéfices de commission avec l'utilisateur, garantissant qu'il n'y a pas de coûts supplémentaires.",
+            "Le niveau du système de parrainage indique votre pourcentage de revenus provenant des filleuls. Plus le niveau est élevé, plus le pourcentage de récompense est élevé.",
+            "Seuls les nouveaux utilisateurs peuvent être invités en tant que filleuls. Les utilisateurs ayant déjà utilisé swap.coffee ne peuvent pas être invités en tant que filleuls.",
+            "Des outils pour améliorer le niveau seront ajoutés ultérieurement. Des conditions spéciales s'appliquent aux influenceurs. Pour plus de détails, veuillez contacter notre Telegram.",
+            "Sur la page du programme de parrainage, vous pouvez voir le montant total de vos gains. Cela inclut tous vos filleuls de tous les DEX.\nDans le centre de réclamation, vous pouvez demander le montant gagné à partir de StonFi. Les récompenses de DeDust seront disponibles pour réclamation plus tard, après leur distribution."
+        ],
+        "levels": "Nous avons trois niveaux de commission :\nBronze - Pour tous les utilisateurs\nArgent - Pour les stakers CES (Bientôt disponible)\nOr - Pour les influenceurs"
+    },
+    "referral-banner": {
+        "title": "Programme de parrainage",
+        "description": "Bienvenue dans le monde des opportunités de gains avec le Programme de Parrainage de swap.coffee ! Invitez des amis et gagnez un pourcentage de la commission de leurs transactions !",
+        "detail-button": "Community Manager",
+        "connect-button": "Connecter le portefeuille",
+        "claim-rewards": "Réclamer des récompenses"
+    },
+    "cashback": {
+        "addCashback": "Ajouter du cashback",
+        "bannerTopText": "Programme de récompenses pour votre activité sur la plateforme.",
+        "bannerBottomText": "Comme la banque traditionnelle, mais entièrement décentralisée.",
+        "btnText": "Plus de détails",
+        "menuDetail": "Détail",
+        "menuPromo": "Conditions de la promotion",
+        "terms": [
+            "Utilisez swap.coffee et recevez du cashback en {token} pour chaque échange. La récompense est créditée à un taux de {percent}% du volume de la transaction. La récompense maximale pour 1 jour est de {dailyLimit} {token}, et pour tout le temps - {totalLimit} {token}. Au total, {distributed} {token} seront distribués.",
+            "Utilisez swap.coffee et gagnez du cashback en {token} pour chaque échange dans la paire de tokens {pair1} et {pair2}. La récompense est calculée à {percent}% du volume de la transaction. La récompense maximale par jour est de {dailyLimit} {token}, et pour tout le temps - {totalLimit} {token}. Un total de {distributed} {token} sera distribué.",
+            "Utilisez swap.coffee et gagnez du cashback en {token} pour chaque échange dans la paire de tokens avec {pair1}. La récompense est calculée à {percent}% du volume de la transaction. La récompense maximale par jour est de {dailyLimit} {token}, et pour tout le temps - {totalLimit} {token}. Un total de {distributed} {token} sera distribué."
+        ],
+        "specialTerms": "Utilisez swap.coffee et gagnez du cashback en XROCK !\n\nLa récompense est de 0,01 % du montant de la transaction. La récompense maximale par jour est de 10 XROCK, et la récompense totale est de 100 XROCK. Un total de 55 000 XROCK sera distribué.\n\nDe plus, 42 000 XROCK seront distribués pour les échanges dans des paires avec XROCK. La récompense est de 0,035 % du montant de la transaction. La récompense maximale par jour est de 30 XROCK, et la récompense maximale par mois est de 300 XROCK.",
+        "specialTerms1": "Utilisez swap.coffee et gagnez du cashback en STORM !\n\nLa récompense est créditée à 0,01 % du montant de la transaction. La récompense maximale par jour est de 250 STORM, et la récompense à vie est de 2 500 STORM. Un total de 65 000 STORM sera distribué.\n\nDe plus, 50 000 STORM seront distribués parmi les échanges jumelés avec STORM.\nLa récompense est créditée à 0,035 % du montant de la transaction. La récompense maximale par jour est de 250 STORM, et la récompense mensuelle est de 2 500 STORM.",
+        "details": [
+            "Début de la promo",
+            "Fin de la promo",
+            "Pool de récompenses",
+            "Cashback (quotidien)",
+            "Cashback (pour tout le temps)",
+            "% du montant de la transaction",
+            "Cashback (mensuel)"
+        ],
+        "ads": {
+            "btnText": "Obtenez un bonus",
+            "title": "30 % de Cashback quotidien \"No BS\" uniquement en ",
+            "description": "Déposez et jouez aujourd'hui !",
+            "subtitle": "Meilleur Agrégateur DEX"
+        }
+    },
+    "contestPage": {
+        "leaderboardTitles": ["Classement", "Adresse utilisateur", "Volume", "Récompenses estimées"],
+        "leaderBoard": "Classement",
+        "prize": "Cagnotte",
+        "faq": "FAQ / Règles de la compétition",
+        "leaderboardPlace": "Vous êtes à la {place} place",
+        "withoutPlace": "Vous n'êtes pas dans le tableau",
+        "lastUpdate": "Dernière mise à jour :",
+        "showing": "Affichage de {low} - {high} sur {total}",
+        "empty": "La liste des compétitions est vide.",
+        "leaderboardEmpty": "Le classement est vide.\n Personne n'a encore participé au concours",
+        "bannerTitle": "Compétitions de Trading",
+        "bannerSubtitle": "Bienvenue dans le monde palpitant des Compétitions de Trading sur swap.coffee !",
+        "createBtn": "Créer un concours"
+    },
+    "contestItem": {
+        "details": "Détails",
+        "rewards": "Récompenses totales",
+        "timerTitles": ["Jusqu'au début :", "Jusqu'à la fin :", "La compétition est terminée"],
+        "eventPeriod": "Période de l'événement :"
+    },
+    "contestFaq": {
+        "questions": [
+            "Comment participer à un concours de trading ?",
+            "Les tokens intermédiaires comptent-ils dans le volume de trading ?",
+            "Puis-je participer à plusieurs concours de trading en même temps ?",
+            "J'ai gagné un concours de trading. Comment puis-je recevoir mon prix ?"
+        ],
+        "answers": [
+            "Échangez n'importe quelle paire avec un token sur lequel un concours de trading est actif. Vous pouvez acheter ou vendre un token.",
+            "Oui",
+            "Oui. Si les deux tokens que vous échangez participent à un concours, une transaction d'échange sera comptée dans les deux concours.",
+            "Toutes les récompenses seront créditées au Centre de Réclamation dans les 30 jours suivant la fin du concours."
+        ]
+    },
+    "interfaceTag": {
+        "soon": "Bientôt",
+        "new": "Nouveau",
+        "cashback": "Cashback",
+        "contest": "Concours"
+    },
+    "stakeDetails": {
+        "title": "Informations sur {token}",
+        "stakingTitle": "Staking {token}",
+        "price": "Prix de {token}",
+        "circulated": "Offre en circulation",
+        "totalSupply": "Offre totale",
+        "yourPoints": "Vos points",
+        "totalPoints": "Points totaux",
+        "apr": "APR",
+        "totalStaked": "Total staké {token}"
+    },
+    "stakeFaq": {
+        "questions": [
+            "Comment les récompenses sont-elles calculées ?",
+            "Comment puis-je réclamer mes récompenses ?",
+            "Que sont les Points ?",
+            "Qu'est-ce que la part du pool ?",
+            "Quel sera l'APR ?",
+            "Puis-je retirer mes tokens stakés plus tôt ?",
+            "Avez-vous accès à mes tokens ?"
+        ],
+        "answers": [
+            "La récompense dépend du nombre de Points que vous avez. Plus vous avez de Points, plus la part du pool de récompenses total que vous recevrez sera importante.",
+            "Les récompenses sont automatiquement créditées au Centre de Réclamation. Vous pouvez les réclamer à tout moment.",
+            "Les Points sont une unité universelle pour mesurer votre contribution au staking de {token}. Vous pouvez gagner plus de Points en stakant des tokens LP et/ou en choisissant une période de staking plus longue.",
+            "La part du pool est le ratio de vos Points au nombre total de Points détenus par tous les participants au staking. Plus votre part est élevée, plus vous recevrez de récompenses.",
+            "L'APR du pool est dynamique et dépend de divers facteurs, tels que le nombre de récompenses dans le pool et leur valeur marchande, ainsi que la quantité et la valeur des {token} stakés (y compris les tokens LP {token}).",
+            "Non.",
+            "Non. Vos tokens sont stakés dans un contrat intelligent, et vous seul pouvez les retirer une fois la période de staking terminée."
+        ]
+    },
+    "stakeMenu": {
+        "new": "Nouveau staking",
+        "stakes": "Mes stakings",
+        "now": "Staker maintenant",
+        "explore": "Explorer les stakings"
+    },
+    "stakeTimeframes": [
+            "minutes",
+            "heures",
+            "jours",
+            "mois",
+            "années"
+        ],
+    "stakeFormInfo": {
+        "earn": "Vous pourriez gagner jusqu'à",
+        "estimated": "Estimé à ~{points} points.",
+        "notEnough": "Vous avez besoin de {token} pour staker",
+        "showDetails": "Détails du staking",
+        "hideDetails": "Masquer les détails",
+        "yearly": "par an"
+    },
+    "stakeFormDetails": {
+        "historical": "APR historique",
+        "duration": "Durée",
+        "estimated": "Points estimés",
+        "boost": "Boosts"
+    },
+    "stakeForm": {
+        "select": "Sélectionnez le token à staker",
+        "stake": "Vous stakez",
+        "notEnough": "Vous avez besoin de {token} pour staker.",
+        "back": "Retour aux stakings"
+    },
+    "stakeItem": {
+        "stakeTime": "Temps staké",
+        "unstakeTime": "Temps de désengagement",
+        "newDuration": "Nouvelle durée",
+        "points": "Points",
+        "positionNumber": "Position",
+        "position": "Position",
+        "totalEarned": "Total gagné",
+        "newPoints": "Nouveaux points",
+        "staked": "Staké",
+        "earned": "Gagné",
+        "rewards": "Récompenses",
+        "details": "Voir plus",
+        "restake": "Prolonger le staking",
+        "restakeWindow": "Restaker",
+        "restakeLocked": "Position verrouillée",
+        "closeStake": "Fermer le staking",
+        "yourStake": "Votre staking",
+        "restakeInfo": "Vous pouvez prolonger la position de staking jusqu'à",
+        "fee": "Frais de blockchain",
+        "feeInfo": "Jusqu'à 0.510 TON",
+        "showDetails": "Afficher les détails",
+        "hideDetails": "Masquer les détails",
+        "unclaimRewards": "Récompenses",
+        "selectFrame": "Sélectionnez la période",
+        "aprTooltip": "L'APR dépend du coût de l'actif, de la quantité et de la valeur des récompenses distribuées."
+    },
+    "stakeStatus": {
+        "failedText": "L'action de staking a échoué !",
+        "error": "Échec du staking",
+        "timed_out": "Le temps de la transaction de staking est écoulé",
+        "pending": "Encore une seconde",
+        "success": "Opération de staking réussie !"
+    },
+    "stakeBtn": {
+        "connectWallet": "Connecter le portefeuille",
+        "enterAmount": "Entrer un montant",
+        "buyCes": "Achetez {token} pour recevoir des récompenses",
+        "noBalance": "Solde insuffisant",
+        "stakeAction": "Staker {token}"
+    },
+    "stakeRewards": {
+        "title": "Détails des récompenses",
+        "profit": "Profit total"
+    },
+    "stakeBanner": {
+        "title": "Staking",
+        "description": "Bienvenue dans le monde du staking sur swap.coffee, où chaque investissement est un pas vers l'avenir de la cryptomonnaie.",
+        "buttonClaimRewards": "Réclamer des récompenses",
+        "buttonAddMyStaking": "Ajouter mon staking"
+    },
+    "snowflakePopup": {
+        "topTitle": "CakeMania",
+        "balanceDescription": "Votre Solde :",
+        "itemTitle": "Règles et Conditions du Concours :",
+        "itemDescriptionFirst": "Pour chaque 25 $ de volume de transaction, 1 gâteau apparaîtra.",
+        "itemDescriptionSecond": "Pendant l'attente de la finalisation de la transaction, des gâteaux commencent à tomber.",
+        "itemDescriptionThird": "Attrapez les gâteaux avant qu'ils ne tombent et se cassent pour les ajouter à votre solde.",
+        "itemDescriptionFourth": "Si le gâteau tombe, il se cassera simplement et ne sera pas ajouté à votre solde.",
+        "itemDescriptionFive": "Les 10 meilleurs utilisateurs avec le plus grand nombre de gâteaux recevront des prix ! Vous pouvez consulter les prix dans notre",
+        "itemDescriptionLink": "chaîne Telegram"
+    },
+    "charts-frames": {
+        "1d": "24 h",
+        "1w": "1 sem",
+        "1m": "1 mois",
+        "3m": "3 mois",
+        "6m": "6 mois",
+        "all": "Tout"
+    },
+    "charts-info": {
+        "info": ["Détenteurs", "Liquidité", "Score de confiance"]
+    },
+    "connectBanner": {
+        "title": "Portefeuille non connecté",
+        "description": "Connectez votre portefeuille pour voir vos récompenses"
+    },
+    "swapPlug": {
+        "titleClosed": "Test BETA Fermé",
+        "titleReady": "Commençons !",
+        "titleLoading": "Veuillez patienter...",
+        "descriptionTextClosed": "Les ordres limites et DCA sont uniquement disponibles\n pour les détenteurs de 1000 CES en staking.",
+        "descriptionTextReady": "Pour utiliser en toute sécurité les ordres limites et DCA,\n vous devez déployer un contrat intelligent spécial.",
+        "descriptionTextLoading": "La blockchain réfléchit, une fois prête,\n les ordres limites et DCA seront disponibles.",
+        "description2TextClosed": "Vous devez attendre un peu ou staker 1000 CES.",
+        "description2TextReady": "C'est rapide et très peu coûteux.",
+        "firstTitleDex": "Vous envoyez",
+        "firstTitleLimit": "Vente",
+        "firstTitleDca": "Je veux allouer",
+        "secondTitleLimit": "Achat",
+        "secondTitleDca": "Je veux acheter",
+        "assetOne": "Actif 1",
+        "assetTwo": "Actif 2"
+    },
+    "limitDetails": {
+        "titleSend": "Vous envoyez",
+        "titleReceive": "Vous recevez",
+        "titleRate": "Taux actuel",
+        "titleSuborders": "Sous-ordres max"
+    },
+    "limitHistory": {
+        "firstTitleDeposit": "Total déposé",
+        "secondTitleDepositFirst": "Taille de chaque ordre",
+        "secondTitleDepositSecond": "Vous recevez"
+    },
+    "limitHistoryDetails": {
+        "limitDetails": {
+            "firstTitleSelling": "Vente",
+            "secondTitleBuying": "Achat",
+            "firstTitlePrice": "Prix",
+            "firstTitleCommission": "Commission estimée",
+            "secondTitleSuborders": "Nombre de sous-ordres",
+            "firstTitleCreated": "Créé"
+        },
+        "dcaDetails": {
+            "firstTitleDeposited": "Total déposé",
+            "secondTitleActiveStatus": "Taille de chaque ordre",
+            "secondTitleCancelStatus": "Vous recevez",
+            "secondTitleCurrentAveragePrice": "Prix moyen actuel",
+            "firstTitleCreated": "Créé",
+            "firstTitleEstimated": "Commission estimée",
+            "secondTitleEstimated": "Nombre de sous-ordres"
+        },
+        "displayStatus": {
+            "cancel": "Annulation",
+            "completed": "Terminé",
+            "cancelled": "Annulé",
+            "max-retries": "Nombre maximal de tentatives dépassé"
+        },
+        "limitTimeTitle": {
+            "expiryTime": "Date d'expiration",
+            "completed": "Terminé",
+            "cancelled": "Annulé"
+        },
+        "dcaTitles": {
+            "balance": "Solde",
+            "priceRange": "Plage de prix"
+        },
+        "dcaTime": {
+            "estimatedEndData": "Date de fin estimée",
+            "completed": "Terminé",
+            "cancelled": "Annulé"
+        }
+    },
+    "limitHistoryItem": {
+        "balance": "Solde",
+        "cancelOrder": "Annuler l'ordre"
+    },
+    "ordersStatus": {
+        "completed": "Terminé",
+        "cancelled": "Annulé",
+        "maxRetries": "Nombre maximal de tentatives dépassé",
+        "cancellation": "Annulation"
+    },
+    "limitOrdersHistory": {
+        "tabs": ["Ordres ouverts", "Historique {historyType}"],
+        "tabDca": "DCA",
+        "tabLimit": "Limite",
+        "emptyList": "La liste des ordres est vide",
+        "connectWallet": "Connectez votre portefeuille pour voir vos ordres"
+    },
+    "limitSubordersField": {
+        "text": "Nombre de sous-ordres"
+    },
+    "limitTokenRate": {
+        "setToMarket": "Définir sur le marché",
+        "atRate": "au taux",
+        "send": "Envoyer",
+        "receive": "Recevoir"
+    },
+    "transactionStatusModal": {
+        "swapStatus": {
+            "swapPendingBlockchain": "Frais de blockchain",
+            "swapSuccessPriceImpact": "Impact sur le prix",
+            "swapSuccessEconomy": "Votre Économie",
+            "swapSuccessCashback": "Cashback"
+        },
+        "swapDetails": {
+            "name": "Jetons intermédiaires"
+        },
+        "limitDetails": {
+            "price": "Prix",
+            "buying": "Achat",
+            "suborders": "Nombre de sous-ordres",
+            "created": "Créé",
+            "expiryTime": "Date d'expiration"
+        },
+        "dcaDetails": {
+            "totalDeposited": "Total déposé",
+            "eachOrderSize": "Taille de chaque ordre",
+            "orderCount": "Nombre d'ordres",
+            "created": "Créé",
+            "estimatedEndDate": "Date de fin estimée"
+        }
+    },
+    "dcaDetails": {
+        "dcaSummary": "Résumé DCA",
+        "details": [
+            "Vente totale",
+            "Vente par ordre",
+            "À acheter",
+            "Intervalle des ordres",
+            "Date de fin estimée"
+        ],
+        "dcaDeal": {
+            "swapMessage": "Échanger {sellPerOrder} contre {toBuy} toutes les ~{orderInterval} avec un budget total de {sellTotal} en {orders} ordre(s) sur une période de ~{totalInterval}"
+        }
+    },
+    "dcaSettings": {
+        "rangeOptional": "Plage (facultatif)",
+        "everyField": "Chaque",
+        "overField": "Sur",
+        "enable": "Activer",
+        "disable": "Désactiver",
+        "suborders": "Sous-ordres",
+        "orders": "Ordres"
+    },
+    "bannersMain": {
+        "whale": {
+            "text1": "Déposez et jouez aujourd'hui !",
+            "text2": "À chaque montée de niveau dans Whale, nous vous offrons une SURPRISE sur votre compte.",
+            "bannerDesc": "À CHAQUE montée de niveau dans {promo}, nous vous offrons une SURPRISE sur votre compte ! 🎁 #sometimeslosealwayswin",
+            "getBonus": "Obtenez un bonus",
+            "actionBtn": "Aller à l'application"
+        },
+        "major": {
+            "text1": "Mise à jour majeure de swap.coffee ! Découvrez-en plus sur le canal Telegram !",
+            "actionBtn": "Aller sur Telegram"
+        }
+    },
+    "stakesBoosts": {
+        "endsIn": "Se termine dans",
+        "days": "jours",
+        "hours": "heures",
+        "day": "jour",
+        "ended": "Terminé"
+    },
+    "tradeMode": {
+        "title": "Mode de trading",
+        "descriptions": [
+            "Échange instantané au meilleur prix",
+            "Échangez des actifs au prix spécifié ou au meilleur prix",
+            "Échange d'un actif à intervalles réguliers"
+        ]
+    },
+    "invocations": {
+        "title": "Invocations max",
+        "text": "Multiplicateur basé sur le nombre de sous-ordres"
+    },
+    "timeZone": {
+        "minutes": "minute(s)",
+        "hours": "heure(s)",
+        "days": "jour(s)",
+        "months": "mois",
+        "years": "année(s)",
+        "minute": "minute",
+        "hour": "heure",
+        "day": "jour",
+        "week": "semaine",
+        "month": "mois"
+    },
+    "poolsBanner": {
+        "title": "Fournissez de la liquidité et gagnez des frais",
+        "descriptionFirst": "Explorez de nouvelles opportunités en fournissant de la liquidité.",
+        "descriptionSecond": "Choisissez le pool parfait pour vous et commencez à gagner sur les frais de trading dès aujourd'hui !"
+    },
+    "poolsActions": {
+        "transferLiquidity": "Transférer la liquidité",
+        "createPool": "Créer un pool"
+    },
+    "poolsFilters": {
+        "hidden": "caché",
+        "group": "Groupe",
+        "boost": "Boost",
+        "newPairs": "Nouvelles paires"
+    },
+    "poolsCommon": {
+        "pools": "pools",
+        "boost": "Boost",
+        "day": "jour",
+        "backToPools": "Retour aux pools",
+        "poolsAmountSmall": "pool"
+    },
+    "poolsTable": {
+        "poolName": "Pool",
+        "source": "Source",
+        "tvl": "TVL",
+        "volume": "Volume (24h)",
+        "apr": "APR",
+        "noPoolsFound": "Aucun pool trouvé"
+    },
+    "poolsTabs": {
+        "allPools": "Tous les pools",
+        "myPools": "Mes pools",
+        "searchPool": "Rechercher un pool"
+    },
+    "earnInterface": {
+        "createPool": "Créer un pool",
+        "addLiquidity": "Ajouter de la liquidité",
+        "deposit": "Déposer"
+    },
+    "aprTooltip": {
+        "poolApr": "APR de base",
+        "boostApr": "Bonus APR",
+        "totalApr": "APR total",
+        "aprDescription": "L'APR est calculé en fonction des frais des pools au cours des dernières 24 heures."
+    },
+    "farmPositions": {
+        "farmPositionsTitle": "Farming",
+        "farmLpTokens": "Ajouter des tokens LP",
+        "farmDisabled": "Aucun volume LP"
+    },
+    "myPoolAction": {
+        "claimRewards": "Réclamer des récompenses",
+        "goToWithdraw": "Aller au retrait",
+        "custom": "Personnalisé"
+    },
+    "myPoolLiquidity": {
+        "myLiquidityTitle": "Ma liquidité",
+        "addLiquidity": "Ajouter de la liquidité",
+        "addLiquidityDisabledTooltip": ["Le protocole STON.fi v1 est obsolète.", "Recommandé d'utiliser le protocole STON.fi v2."]
+    },
+    "poolHeading": {
+        "infoText": "Faites du farming avec des tokens LP pour obtenir des récompenses",
+        "totalApr": "APR Total",
+        "farmApr": "APR du Farming",
+        "tradeFee": "Frais de transaction"
+    },
+    "poolLiq": {
+        "title": "Liquidité du pool",
+        "tvl": "TVL",
+        "volume": "Volume (24h)",
+        "fees": "Frais (24h)"
+    },
+    "transferActions": {
+        "transferLiq": "Transférer la liquidité"
+    },
+    "transferAprDifference": {
+        "aprDifference": "Différence d'APR",
+        "apr": "APR"
+    },
+    "transferDetails": {
+        "title": "Détails du transfert"
+    },
+    "transferFirstStep": {
+        "title": "Aucun portefeuille connecté",
+        "text": "Connectez un portefeuille pour gérer votre liquidité",
+        "connect": "Connecter le portefeuille"
+    },
+    "transferMyLiq": {
+        "myLiq": "Ma liquidité",
+        "total": "Total",
+        "value": "Valeur"
+    },
+    "transferSteps": {
+        "connectWallet": "Connecter le portefeuille",
+        "selectPool": "Sélectionner un pool",
+        "transferLiq": "Transférer la liquidité"
+    },
+    "earnModal": {
+        "depositTitle": "Ajouter de la liquidité",
+        "withdrawTitle": "Retirer la liquidité",
+        "farmTitle": "Faites du farming avec des tokens LP",
+        "price": "Prix",
+        "blockchainFee": "Frais de blockchain",
+        "apr": "APR 24h",
+        "slippage": "Glissement",
+        "estPoolShare": "Part estimée du pool",
+        "minimumReceive": "Minimum reçu",
+        "myFarm": "Mon farming",
+        "farmApr": "APR du farming",
+        "withdrawFarmTitle": "Retirer le farming et réclamer les récompenses"
+    },
+    "earnModalFirstStep": {
+        "youReceive": "Vous recevez",
+        "youSend": "Vous envoyez",
+        "withdrawLiquidity": "Retirer la liquidité",
+        "addLiquidity": "Ajouter de la liquidité",
+        "enterLpAmount": "Entrez le montant des LP",
+        "farm": "Farming",
+        "available": "Disponible"
+    },
+    "poolSettingsModal": {
+        "title": "Paramètres du pool",
+        "saveBtn": "Enregistrer les paramètres"
+    },
+    "poolDetails": {
+        "poolShare": "Part du pool",
+        "provided": "fourni",
+        "lpTokens": "Tokens LP"
+    },
+    "poolsGroupList": {
+        "view-all": "Voir tous les pools"
+    },
+    "farmPositionsDetails": {
+        "farmApr":"APR du farming",
+        "lpTokens": "Tokens LP",
+        "totalEarned":"Total gagné"
+    },
+    "detailsList": {
+        "hideDetails":"Masquer les détails",
+        "showDetails":"Afficher les détails"
+    },
+    "farmModal": {
+        "farmTitle": "Mes récompenses de farming",
+        "rewards": "Récompenses",
+        "hide": "Masquer",
+        "withdraw": "Retirer",
+        "claim": "Réclamer",
+        "farm": "Farming",
+        "details": "Détails"
+    },
+    "modalStatusSteps": {
+        "detailsTitle": {
+            "deposit": "Déposer de la liquidité",
+            "withdraw": "Retirer la liquidité",
+            "claim": "Retirer le farming et réclamer les récompenses",
+            "create": "Créer et déposer de la liquidité",
+            "swap": "Échanger",
+            "limit": "Limite",
+            "dca": "DCA",
+            "withdrawFarm": "Retirer le farming et réclamer les récompenses",
+            "default": "Déposer de la liquidité"
+        },
+        "title": {
+            "pending": "Traitement de la transaction...",
+            "failed": "Échec de la transaction",
+            "success": "Réussi !",
+            "default": "Traitement de la transaction..."
+        },
+        "description": {
+            "default": "Saviez-vous que le café est la deuxième marchandise la plus échangée au monde ? Seul le pétrole la dépasse."
+        },
+        "successDescription": {
+            "deposit": "La liquidité est déjà dans le pool",
+            "create": "Le pool a été créé",
+            "deploySmart": "Le contrat intelligent a été déployé",
+            "limit": "L'ordre a été créé avec succès",
+            "stake": "Les tokens ont été stakés avec succès",
+            "cancel": "L'ordre a été annulé avec succès",
+            "default": "Les tokens sont déjà dans votre portefeuille."
+        },
+        "pendingDescription": {
+            "deploySmart": "Déploiement du contrat intelligent",
+            "limit": "Ordre limite en cours de traitement...",
+            "cancel": "Annulation de l'ordre en cours...",
+            "default": "Saviez-vous que le café est la deuxième marchandise la plus échangée au monde ? Seul le pétrole la dépasse."
+        },
+        "failedDescription": {
+            "swap": "Essayez d'utiliser un glissement supérieur à la normale pour garantir que votre transaction soit complétée.",
+            "default": "Une erreur inattendue s'est produite, veuillez réessayer."
+        },
+        "share": "Partager",
+        "close": "Fermer",
+        "copyToClipboard": "Copié dans le presse-papiers !"
+    },
+    "globalSearch": {
+        "placeholder": "Rechercher par pools, portefeuille, adresse ou ticker",
+        "paste": "Coller",
+        "back": "Retour",
+        "open": "Ouvrir dans {sourceName}",
+        "hints": ["Fermer", "Sélectionner", "Naviguer"],
+        "empty": {
+            "text": "Aucun résultat de recherche trouvé",
+            "description": "Veuillez vous assurer que vous avez correctement saisi le terme de recherche"
+        },
+        "categories": ["Tokens", "Pools", "Avantages", "Liens"],
+        "benefitTypes": ["Cashback", "Compétition de trading", "Staking"]
+    },
+    "mevProtect": {
+        "title": "Protection MEV",
+        "status": {
+            "enabled": "Activer",
+            "disabled": "Désactiver"
+        },
+        "settings": {
+            "first": {
+                "title": "Protection MEV",
+                "description": "Protégez vos échanges contre les attaques MEV dans 99 % des cas.",
+                "description2": "Réduction !",
+                "oldPrice": "Ancien : 0,5 TON",
+                "newPrice": "Nouveau : 0,25 TON par fractionnement."
+            },
+            "second": {
+                "title": "Échanges multi-hop",
+                "description": "Utilisez la protection MEV dans les échanges avec des tokens intermédiaires",
+                "description2": "Remarque : la protection MEV protège uniquement le premier saut et n'affecte pas les sauts suivants dans la route",
+                "yes": "Oui",
+                "no": "Non"
+            },
+            "third": {
+                "title": "Montant minimum d'échange",
+                "description": "Utilisez la protection MEV uniquement pour les échanges dépassant le montant",
+                "customField": "Personnalisé"
+            },
+            "fourth": {
+                "title": "Informations supplémentaires",
+                "description1": "La protection MEV protège uniquement le premier saut et n'affecte pas les sauts suivants dans la route.",
+                "description2": "La protection MEV ne garantit pas une protection, mais utilise les capacités maximales de la blockchain pour la protection.",
+                "description3": "La protection MEV n'autorise pas l'émulation de transaction."
+            }
+        }
+    }
+}
