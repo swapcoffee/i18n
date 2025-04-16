@@ -183,8 +183,8 @@
         }
     },
     "dexNavigation": {
-        "swap": "Обмін",
-        "limit": "Ліміт",
+        "swap": "Swap",
+        "limit": "Limit",
         "referral": "Реферальна програма",
         "cashback": "Кешбек",
         "contests": "Торгові змагання",

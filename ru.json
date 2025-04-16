@@ -183,15 +183,15 @@
         }
     },
     "dexNavigation": {
-        "swap": "Обмен",
-        "limit": "Лимит",
+        "swap": "Swap",
+        "limit": "Limit",
         "referral": "Реферальная программа",
         "cashback": "Кэшбэк",
         "contests": "Торговые соревнования",
         "dca": "DCA",
         "perpetuals": "Перпетуалы",
         "bridge": "Мост",
-        "onramp": "Онрамп"
+        "onramp": "Onramp"
     },
     "dexInfo": {
         "highPriceImpact": "Высокое влияние на цену {priceImpact}% падение!",

@@ -183,15 +183,15 @@
       }
   },
   "dexNavigation": {
-      "swap": "交换",
-      "limit": "限价",
+      "swap": "Swap",
+      "limit": "Limit",
       "referral": "推荐计划",
       "cashback": "返现",
       "contests": "交易竞赛",
       "dca": "定投",
       "perpetuals": "永续合约",
       "bridge": "桥接",
-      "onramp": "入金"
+      "onramp": "Onramp"
   },
   "dexInfo": {
       "highPriceImpact": "高价格影响 {priceImpact}% 下跌！",

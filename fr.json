@@ -183,8 +183,8 @@
         }
     },
     "dexNavigation": {
-        "swap": "Échanger",
-        "limit": "Limite",
+        "swap": "Swap",
+        "limit": "Limit",
         "referral": "Programme de parrainage",
         "cashback": "Cashback",
         "contests": "Compétition de trading",

@@ -183,15 +183,15 @@
       }
   },
   "dexNavigation": {
-      "swap": "مبادله",
-      "limit": "محدود",
+      "swap": "Swap",
+      "limit": "Limit",
       "referral": "برنامه ارجاع",
       "cashback": "بازگشت نقدی",
       "contests": "مسابقه معاملاتی",
       "dca": "DCA",
       "perpetuals": "پرپچوال",
       "bridge": "پل",
-      "onramp": "آن‌رَمپ"
+      "onramp": "Onramp"
   },
   "dexInfo": {
       "highPriceImpact": "تأثیر قیمت بالا {priceImpact}% کاهش!",
