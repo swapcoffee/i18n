@@ -497,12 +497,12 @@
         "explore": "Explorer les stakings"
     },
     "stakeTimeframes": [
-        "分钟",
-        "小时",
-        "天",
-        "月",
-        "年",
-        "年"
+        "minute",
+        "heure",
+        "jour",
+        "mois",
+        "année",
+        "année"
     ],
     "stakeFormInfo": {
         "earn": "Vous pourriez gagner jusqu'à",
