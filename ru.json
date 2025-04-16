@@ -133,7 +133,7 @@
         "launchpad": "Лаунчпад",
         "settings": "Настройки",
         "documentation": "Документация",
-        "whitePaper": "Белая книга",
+        "whitePaper": "White paper",
         "stake": "Стейкинг",
         "aggregator": "Агрегатор",
         "tools": "Инструменты",
@@ -429,8 +429,8 @@
         "showing": "Показано {low} - {high} из {total}",
         "empty": "Список конкурсов пуст.",
         "leaderboardEmpty": "Таблица лидеров пуста.\n Никто еще не участвовал в конкурсе",
-        "bannerTitle": "Торговые соревнования",
-        "bannerSubtitle": "Добро пожаловать в захватывающий мир торговых соревнований swap.coffee!",
+        "bannerTitle": "Торговые конкурсы",
+        "bannerSubtitle": "Добро пожаловать в захватывающий мир торговых конкурсы swap.coffee!",
         "createBtn": "Создать конкурс"
     },
     "contestItem": {
