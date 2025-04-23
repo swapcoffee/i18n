@@ -1036,7 +1036,8 @@
         },
         "rewards": {
             "title": "Rewards",
-            "rewardsDescription": "How many rewards would you like to distribute?\n Minimum at least $5 equivalent per day."
+            "rewardsDescription": "How many rewards would you like to distribute?\n Minimum at least $5 equivalent per day.",
+            "amount": "Amount"
         },
         "duration": {
             "title": "Duration",

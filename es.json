@@ -1036,7 +1036,8 @@
         },
         "rewards": {
             "title": "Recompensas",
-            "rewardsDescription": "¿Cuántas recompensas te gustaría distribuir?\n Mínimo al menos $5 equivalente por día."
+            "rewardsDescription": "¿Cuántas recompensas te gustaría distribuir?\n Mínimo al menos $5 equivalente por día.",
+            "amount": "Cantidad"
         },
         "duration": {
             "title": "Duración",

@@ -1034,7 +1034,8 @@
       },
       "rewards": {
               "title": "奖励",
-              "rewardsDescription": "您想分发多少奖励？\n每天至少相当于 $5 的奖励。"
+              "rewardsDescription": "您想分发多少奖励？\n每天至少相当于 $5 的奖励。",
+              "amount": "金额"
       },
       "duration": {
               "title": "持续时间",
