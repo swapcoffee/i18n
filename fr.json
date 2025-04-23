@@ -1026,5 +1026,33 @@
                 "description3": "La protection MEV n'autorise pas l'émulation de transaction."
             }
         }
+    },
+    "boostLiquidity": {
+        "boostLiquidity": "Booster la liquidité",
+        "boostLiquidityDescription": "Ajoutez des récompenses à un pool pour inciter les fournisseurs de liquidité à participer.",
+        "pool": {
+            "title": "Pool",
+            "poolDescription": "Sélectionnez le pool que vous souhaitez booster"
+        },
+        "rewards": {
+            "title": "Récompenses",
+            "rewardsDescription": "Combien de récompenses souhaitez-vous distribuer ?\n Minimum d'au moins 5 $ équivalent par jour."
+        },
+        "duration": {
+            "title": "Durée",
+            "durationDescription": "Période pendant laquelle vous souhaitez distribuer les récompenses."
+        },
+        "address": {
+            "title": "Exclure certaines adresses de la réception des récompenses",
+            "addressDescription": "Spécifiez jusqu'à 10 adresses (facultatif)",
+            "enterAddress": "Entrez une adresse"
+        },
+        "buttons": {
+            "boostPool": "Booster un pool",
+            "enterAmount": "Entrer un montant",
+            "selectDuration": "Sélectionner une durée",
+            "addMyWallet": "Ajouter mon portefeuille",
+            "add": "Ajouter"
+        }
     }
 }

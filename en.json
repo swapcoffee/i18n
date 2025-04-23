@@ -1026,5 +1026,33 @@
                 "description3": "MEV Protect does not allow emulate transaction. "
             }
         }
+    },
+    "boostLiquidity": {
+        "boostLiquidity": "Boost liquidity",
+        "boostLiquidityDescription": "Add rewards to a pool to boost liquidity providers joining in.",
+        "pool": {
+            "title": "Pool",
+            "poolDescription": "Select pool you want to boost"
+        },
+        "rewards": {
+            "title": "Rewards",
+            "rewardsDescription": "How many rewards would you like to distribute?\n Minimum at least $5 equivalent per day."
+        },
+        "duration": {
+            "title": "Duration",
+            "durationDescription": "Period you want to distribute rewards."
+        },
+        "address": {
+            "title": "Exclude some addresses from receiving rewards",
+            "addressDescription": "Specify up to 10 addresses (optional)",
+            "enterAddress": "Enter address"
+        },
+        "buttons": {
+            "boostPool": "Boost a pool",
+            "enterAmount": "Enter amount",
+            "selectDuration": "Select duration",
+            "addMyWallet": "Add my wallet",
+            "add": "Add"
+        }
     }
 }

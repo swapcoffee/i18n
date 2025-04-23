@@ -1024,5 +1024,33 @@
               "description3": "MEV保护不允许模拟交易。"
           }
       }
+  },
+  "boostLiquidity": {
+      "boostLiquidity": "提升流动性",
+      "boostLiquidityDescription": "向池中添加奖励以吸引更多流动性提供者加入。",
+      "pool": {
+              "title": "池",
+              "poolDescription": "选择您想要提升的池"
+      },
+      "rewards": {
+              "title": "奖励",
+              "rewardsDescription": "您想分发多少奖励？\n每天至少相当于 $5 的奖励。"
+      },
+      "duration": {
+              "title": "持续时间",
+              "durationDescription": "您希望分发奖励的时间段。"
+      },
+      "address": {
+              "title": "排除某些地址接收奖励",
+              "addressDescription": "最多可指定10个地址（可选）",
+              "enterAddress": "输入地址"
+      },
+      "buttons": {
+              "boostPool": "提升池",
+              "enterAmount": "输入金额",
+              "selectDuration": "选择持续时间",
+              "addMyWallet": "添加我的钱包",
+              "add": "添加"
+      }
   }
 }

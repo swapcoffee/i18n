@@ -1026,5 +1026,33 @@
                 "description3": "La Protección MEV no permite emular transacciones."
             }
         }
+    },
+    "boostLiquidity": {
+        "boostLiquidity": "Impulsar liquidez",
+        "boostLiquidityDescription": "Añade recompensas a un pool para incentivar la participación de los proveedores de liquidez.",
+        "pool": {
+            "title": "Pool",
+            "poolDescription": "Selecciona el pool que deseas impulsar"
+        },
+        "rewards": {
+            "title": "Recompensas",
+            "rewardsDescription": "¿Cuántas recompensas te gustaría distribuir?\n Mínimo al menos $5 equivalente por día."
+        },
+        "duration": {
+            "title": "Duración",
+            "durationDescription": "Período durante el cual deseas distribuir recompensas."
+        },
+        "address": {
+            "title": "Excluir algunas direcciones de recibir recompensas",
+            "addressDescription": "Especifica hasta 10 direcciones (opcional)",
+            "enterAddress": "Introduce dirección"
+        },
+        "buttons": {
+            "boostPool": "Impulsar un pool",
+            "enterAmount": "Introduce cantidad",
+            "selectDuration": "Seleccionar duración",
+            "addMyWallet": "Añadir mi billetera",
+            "add": "Añadir"
+        }
     }
 }
