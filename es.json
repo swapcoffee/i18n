@@ -743,9 +743,9 @@
     },
     "bannersMain": {
         "whale": {
-            "text1": "¡Deposita y juega hoy! ",
-            "text2": "En cada nivel alcanzado en Whale, te regalaremos una SORPRESA en tu cuenta.",
-            "bannerDesc": "En CADA nivel alcanzado en {promo}, te regalaremos una SORPRESA en tu cuenta! 🎁 #avecespierdesiempreganas",
+            "text1": "¡Regístrate y obtén una Caja de Botín Gratis! - ¡Hasta un 20% de Reembolso Diario!",
+            "text2": "Sin tarifas de gas, Sin límites 🚀",
+            "bannerDesc": "¡Regístrate y obtén una Caja de Botín Gratis! - ¡Hasta un 20% de Reembolso Diario! Sin tarifas de gas, Sin límites 🚀",
             "getBonus": "Obtén un bono",
             "actionBtn": "Ir a la App"
         },

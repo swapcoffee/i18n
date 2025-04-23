@@ -741,9 +741,9 @@
   },
   "bannersMain": {
       "whale": {
-          "text1": "存款并立即开始！",
-          "text2": "在鲸鱼活动中每次升级，我们将向您的账户赠送惊喜奖励。",
-          "bannerDesc": "在 {promo} 中每次升级，我们将向您的账户赠送惊喜奖励！🎁 #sometimeslosealwayswin",
+          "text1": "注册并获得免费战利品箱！ - 每日高达20%的返现！",
+          "text2": "零Gas费用，无限制 🚀",
+          "bannerDesc": "注册并获得免费战利品箱！ - 每日高达20%的返现！零Gas费用，无限制 🚀",
           "getBonus": "获取奖励",
           "actionBtn": "前往应用"
       },
