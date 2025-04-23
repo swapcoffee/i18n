@@ -1046,7 +1046,7 @@
         "address": {
             "title": "Exclude some addresses from receiving rewards",
             "addressDescription": "Specify up to 10 addresses (optional)",
-            "enterAddress": "Enter address"
+            "enterAddress": "Enter the address"
         },
         "buttons": {
             "boostPool": "Boost a pool",
