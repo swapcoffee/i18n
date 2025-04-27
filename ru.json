@@ -1015,5 +1015,53 @@
             "addMyWallet": "Добавить мой кошелек",
             "add": "Добавить"
         }
+    },
+    "bridge": {
+        "via": "через",
+        "notSelected": "Не выбрано",
+        "bridgeProvider": "Поставщик моста",
+        "from": "Из",
+        "to": "В",
+        "providersList": "Список поставщиков",
+        "swapVia": "Обмен через",
+        "selectChainAndToken": "Выберите сеть и токен",
+        "best": "Лучший",
+        "warn": "Предупреждение",
+        "buttons": {
+            "notAvailableProviders": "Нет доступных поставщиков",
+            "selectProvider": "Выбрать поставщика",
+            "findProvider": "Поиск поставщиков...",
+            "enterAmount": "Введите сумму",
+            "connectTonWallet": "Подключить TON кошелек",
+            "connectMultiWallet": "Подключить мультичейн кошелек"
+        },
+        "bridgePopup": {
+            "chainTitle": "Список сетей",
+            "tokenTitle": "Список токенов",
+            "bridgeSearchInput": "Поиск по названию",
+            "list": {
+                "allChains": "Все сети",
+                "All": "Все",
+                "Popular": "Популярные",
+                "Promo": "Промо",
+                "Layer-2": "Layer-2",
+                "EVM": "EVM"
+            },
+            "tokens": {
+                "All": "Все",
+                "Trending": "Тренды",
+                "Gainers": "Лидеры роста",
+                "Losers": "Лидеры падения"
+            }
+        },
+        "connectModal": {
+            "title": "Подключить кошелек",
+            "receiverAddress": "Адрес получателя",
+            "receiverAddressDescription1": "Вы можете ввести его вручную или использовать подключение кошелька.",
+            "receiverAddressDescription2": "(Адреса CEX не поддерживаются)",
+            "inputPlaceholder": "Введите адрес сети Ethereum",
+            "clearBtn": "Очистить",
+            "pasteBtn": "Вставить"
+        }
     }
 }

@@ -1055,5 +1055,53 @@
             "addMyWallet": "Ajouter mon portefeuille",
             "add": "Ajouter"
         }
+    },
+    "bridge": {
+        "via": "via",
+        "notSelected": "Non sélectionné",
+        "bridgeProvider": "Fournisseur de pont",
+        "from": "De",
+        "to": "À",
+        "providersList": "Liste des fournisseurs",
+        "swapVia": "Échanger via",
+        "selectChainAndToken": "Sélectionnez une chaîne et un token",
+        "best": "Meilleur",
+        "warn": "Avertissement",
+        "buttons": {
+            "notAvailableProviders": "Fournisseurs non disponibles",
+            "selectProvider": "Sélectionner un fournisseur",
+            "findProvider": "Recherche de fournisseurs...",
+            "enterAmount": "Entrer un montant",
+            "connectTonWallet": "Connecter le portefeuille TON",
+            "connectMultiWallet": "Connecter le portefeuille Multichain"
+        },
+        "bridgePopup": {
+            "chainTitle": "Liste des chaînes",
+            "tokenTitle": "Liste des tokens",
+            "bridgeSearchInput": "Rechercher par nom",
+            "list": {
+                "allChains": "Toutes les chaînes",
+                "All": "Tout",
+                "Popular": "Populaire",
+                "Promo": "Promo",
+                "Layer-2": "Layer-2",
+                "EVM": "EVM"
+            },
+            "tokens": {
+                "All": "Tout",
+                "Trending": "Tendance",
+                "Gainers": "Gagnants",
+                "Losers": "Perdants"
+            }
+        },
+        "connectModal": {
+            "title": "Connecter le portefeuille",
+            "receiverAddress": "Adresse du destinataire",
+            "receiverAddressDescription1": "Vous pouvez l'entrer manuellement ou utiliser la connexion au portefeuille. ",
+            "receiverAddressDescription2": "(Les adresses CEX ne sont pas prises en charge)",
+            "inputPlaceholder": "Entrez l'adresse de la chaîne Ethereum",
+            "clearBtn": "Effacer",
+            "pasteBtn": "Coller"
+        }
     }
 }

@@ -1055,5 +1055,53 @@
             "addMyWallet": "Añadir mi billetera",
             "add": "Añadir"
         }
+    },
+    "bridge": {
+        "via": "vía",
+        "notSelected": "No seleccionado",
+        "bridgeProvider": "Proveedor de puente",
+        "from": "Desde",
+        "to": "Hacia",
+        "providersList": "Lista de proveedores",
+        "swapVia": "Intercambiar vía",
+        "selectChainAndToken": "Seleccionar cadena y token",
+        "best": "Mejor",
+        "warn": "Advertencia",
+        "buttons": {
+            "notAvailableProviders": "Proveedores no disponibles",
+            "selectProvider": "Seleccionar proveedor",
+            "findProvider": "Buscando proveedores...",
+            "enterAmount": "Introduce cantidad",
+            "connectTonWallet": "Conectar billetera TON",
+            "connectMultiWallet": "Conectar billetera Multichain"
+        },
+        "bridgePopup": {
+            "chainTitle": "Lista de cadenas",
+            "tokenTitle": "Lista de tokens",
+            "bridgeSearchInput": "Buscar por nombre",
+            "list": {
+                "allChains": "Todas las cadenas",
+                "All": "Todas",
+                "Popular": "Popular",
+                "Promo": "Promoción",
+                "Layer-2": "Capa-2",
+                "EVM": "EVM"
+            },
+            "tokens": {
+                "All": "Todos",
+                "Trending": "Tendencias",
+                "Gainers": "Ganadores",
+                "Losers": "Perdedores"
+            }
+        },
+        "connectModal": {
+            "title": "Conectar billetera",
+            "receiverAddress": "Dirección del receptor",
+            "receiverAddressDescription1": "Puedes ingresarla manualmente o usar la conexión de billetera.",
+            "receiverAddressDescription2": "(Direcciones CEX no son compatibles)",
+            "inputPlaceholder": "Introduce la dirección de la cadena Ethereum",
+            "clearBtn": "Limpiar",
+            "pasteBtn": "Pegar"
+        }
     }
 }

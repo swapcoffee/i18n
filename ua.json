@@ -1062,5 +1062,53 @@
             "addMyWallet": "Додати мій гаманець",
             "add": "Додати"
         }
+    },
+    "bridge": {
+        "via": "через",
+        "notSelected": "Не вибрано",
+        "bridgeProvider": "Постачальник мосту",
+        "from": "З",
+        "to": "До",
+        "providersList": "Список постачальників",
+        "swapVia": "Обмін через",
+        "selectChainAndToken": "Виберіть мережу та токен",
+        "best": "Найкращий",
+        "warn": "Попередження",
+        "buttons": {
+            "notAvailableProviders": "Недоступні постачальники",
+            "selectProvider": "Вибрати постачальника",
+            "findProvider": "Пошук постачальників...",
+            "enterAmount": "Введіть суму",
+            "connectTonWallet": "Підключити TON гаманець",
+            "connectMultiWallet": "Підключити мультигаманець"
+        },
+        "bridgePopup": {
+            "chainTitle": "Список мереж",
+            "tokenTitle": "Список токенів",
+            "bridgeSearchInput": "Пошук за назвою",
+            "list": {
+                "allChains": "Усі мережі",
+                "All": "Усі",
+                "Popular": "Популярні",
+                "Promo": "Промо",
+                "Layer-2": "Layer-2",
+                "EVM": "EVM"
+            },
+            "tokens": {
+                "All": "Усі",
+                "Trending": "Трендові",
+                "Gainers": "Зростаючі",
+                "Losers": "Спадаючі"
+            }
+        },
+        "connectModal": {
+            "title": "Підключити гаманець",
+            "receiverAddress": "Адреса отримувача",
+            "receiverAddressDescription1": "Ви можете ввести її вручну або скористатися підключенням гаманця.",
+            "receiverAddressDescription2": "(Адреси CEX не підтримуються)",
+            "inputPlaceholder": "Введіть адресу мережі Ethereum",
+            "clearBtn": "Очистити",
+            "pasteBtn": "Вставити"
+        }
     }
 }

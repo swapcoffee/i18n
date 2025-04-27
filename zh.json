@@ -1053,5 +1053,53 @@
               "addMyWallet": "添加我的钱包",
               "add": "添加"
       }
-  }
+  },
+  "bridge": {
+      "via": "通过",
+      "notSelected": "未选择",
+      "bridgeProvider": "桥接提供商",
+      "from": "从",
+      "to": "到",
+      "providersList": "提供商列表",
+      "swapVia": "交换通过",
+      "selectChainAndToken": "选择链和代币",
+      "best": "最佳",
+      "warn": "警告",
+      "buttons": {
+              "notAvailableProviders": "无可用提供商",
+              "selectProvider": "选择提供商",
+              "findProvider": "正在查找提供商...",
+              "enterAmount": "输入金额",
+              "connectTonWallet": "连接 TON 钱包",
+              "connectMultiWallet": "连接多链钱包"
+      },
+      "bridgePopup": {
+              "chainTitle": "链列表",
+              "tokenTitle": "代币列表",
+              "bridgeSearchInput": "按名称搜索",
+              "list": {
+                      "allChains": "所有链",
+                      "All": "所有",
+                      "Popular": "热门",
+                      "Promo": "促销",
+                      "Layer-2": "Layer-2",
+                      "EVM": "EVM"
+              },
+              "tokens": {
+                      "All": "所有",
+                      "Trending": "趋势",
+                      "Gainers": "涨幅",
+                      "Losers": "跌幅"
+              }
+      },
+      "connectModal": {
+              "title": "连接钱包",
+              "receiverAddress": "接收地址",
+              "receiverAddressDescription1": "您可以手动输入或使用钱包连接。",
+              "receiverAddressDescription2": "（不支持 CEX 地址）",
+              "inputPlaceholder": "输入以太坊链地址",
+              "clearBtn": "清除",
+              "pasteBtn": "粘贴"
+      }
+    }
 }

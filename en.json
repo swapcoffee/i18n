@@ -1055,5 +1055,54 @@
             "addMyWallet": "Add my wallet",
             "add": "Add"
         }
+    },
+    "bridge": {
+        "via": "via",
+        "notSelected": "Not selected",
+        "bridgeProvider": "Bridge provider",
+        "from": "From",
+        "to": "To",
+        "providersList": "Providers list",
+        "swapVia": "Swap via",
+        "selectChainAndToken": "Select Chain and Token",
+        "best": "Best",
+        "warn": "Warn",
+        "buttons": {
+            "notAvailableProviders": "Not available providers",
+            "selectProvider": "Select provider",
+            "findProvider": "Finding providers...",
+            "enterAmount": "Enter amount",
+            "connectTonWallet": "Connect TON Wallet",
+            "connectMultiWallet": "Connect Multichain Wallet"
+        },
+        "bridgePopup": {
+            "chainTitle": "Chain List",
+            "tokenTitle": "Token List",
+            "bridgeSearchInput": "Search by name",
+            "list": {
+                "allChains": "All chains",
+                "All": "All",
+                "Popular": "Popular",
+                "Promo": "Promo",
+                "Layer-2": "Layer-2",
+                "EVM": "EVM"
+            },
+            "tokens": {
+                "All": "All",
+                "Trending": "Trending",
+                "Gainers": "Gainers",
+                "Losers": "Losers"
+            }
+        },
+        "connectModal": {
+            "title": "Connect Wallet",
+            "receiverAddress": "Receiver address",
+            "receiverAddressDescription1": "You can enter it manually or use the wallet connection. ",
+            "receiverAddressDescription2": "(CEX addresses are not supported)",
+            "inputPlaceholder": "Enter Ethereum Chain address",
+            "clearBtn": "Clear",
+            "pasteBtn": "Paste"
+        }
     }
 }
+ 
