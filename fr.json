@@ -946,6 +946,7 @@
             "limit": "Limite",
             "dca": "DCA",
             "withdrawFarm": "Retirer le farming et réclamer les récompenses",
+            "vault": "Déploiement de DEX Vault",
             "default": "Déposer de la liquidité"
         },
         "title": {
@@ -964,6 +965,7 @@
             "limit": "L'ordre a été créé avec succès",
             "stake": "Les tokens ont été stakés avec succès",
             "cancel": "L'ordre a été annulé avec succès",
+            "vault": "Le vault a été déployé",
             "default": "Les tokens sont déjà dans votre portefeuille."
         },
         "pendingDescription": {
@@ -1102,6 +1104,29 @@
             "inputPlaceholder": "Entrez l'adresse de la chaîne Ethereum",
             "clearBtn": "Effacer",
             "pasteBtn": "Coller"
+        }
+    },
+    "newPool": {
+        "ratio": {
+            "title": "Ratio des tokens",
+            "enter": "Entrer le ratio"
+        },
+        "infoList": {
+            "badRatio": {
+                "title": "Alerte de Ratio Défavorable",
+                "text": "Le ratio des actifs que vous fournissez est significativement déséquilibré. Cela peut entraîner une provision de liquidité sous-optimale et des pertes potentielles."
+            }
+        },
+        "details": {
+            "firstAsset": "Premier Actif",
+            "secondAsset": "Second Actif",
+            "poolRatio": "Ratio du pool"
+        },
+        "buttons": {
+            "create": "Créer un nouveau pool",
+            "deploySingleVault": "Déployer le vault {token}",
+            "deployMultiVault": "Déployer plusieurs vaults",
+            "selectSecondAsset": "Sélectionner le second actif"
         }
     }
 }
