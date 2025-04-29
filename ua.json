@@ -625,7 +625,7 @@
         "secondTitleDca": "Я хочу купити",
         "assetOne": "Актив 1",
         "assetTwo": "Актив 2",
-        "assetByNumber" : "Актив {number}"
+        "assetByNumber": "Актив {number}"
     },
     "limitDetails": {
         "titleSend": "Ви надсилаєте",
