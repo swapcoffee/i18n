@@ -102,7 +102,7 @@
     "dexButton": {
         "poolNotFound": "Ликвидные пулы не найдены",
         "connectWallet": "Подключить кошелёк",
-        "highPriceImpacлt": "Высокое влияние цены",
+        "highPriceImpact": "Высокое влияние цены",
         "notEnoughGas": "Недостаточно TON для газа",
         "notEnough": "Недостаточный баланс",
         "enterAmount": "Введите сумму",
