@@ -1108,6 +1108,12 @@
             "inputPlaceholder": "Introduce la dirección de la cadena",
             "clearBtn": "Limpiar",
             "pasteBtn": "Pegar"
+        },
+        "detail": {
+            "minimumReceived": "Mínimo recibido",
+            "receiverAddress": "Dirección del receptor",
+            "estimatedTime": "Tiempo estimado",
+            "estimatedFee": "Tarifa estimada"
         }
     },
     "newPool": {

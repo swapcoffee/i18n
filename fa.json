@@ -1107,6 +1107,12 @@
          "inputPlaceholder": "آدرس شبکه را وارد کنید",
          "clearBtn": "پاک کردن",
          "pasteBtn": "چسباندن"
+    },
+    "detail": {
+        "minimumReceived": "حداقل دریافت",
+        "receiverAddress": "آدرس گیرنده",
+        "estimatedTime": "زمان تخمینی",
+        "estimatedFee": "هزینه تخمینی"
     }
   },
   "newPool": {

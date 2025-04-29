@@ -1106,6 +1106,12 @@
               "inputPlaceholder": "输入网络地址",
               "clearBtn": "清除",
               "pasteBtn": "粘贴"
+     },
+     "detail": {
+       "minimumReceived": "最低接收",
+       "receiverAddress": "接收地址",
+       "estimatedTime": "预计时间",
+       "estimatedFee": "预计费用"
       }
     },
     "newPool": {

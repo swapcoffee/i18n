@@ -1116,6 +1116,12 @@
             "inputPlaceholder": "Введіть адресу мережі",
             "clearBtn": "Очистити",
             "pasteBtn": "Вставити"
+        },
+        "detail": {
+            "minimumReceived": "Мінімум до отримання",
+            "receiverAddress": "Адреса отримувача",
+            "estimatedTime": "Орієнтовний час",
+            "estimatedFee": "Орієнтовна комісія"
         }
     },
     "newPool": {

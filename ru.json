@@ -1068,6 +1068,12 @@
             "inputPlaceholder": "Введите адрес сети",
             "clearBtn": "Очистить",
             "pasteBtn": "Вставить"
+        },
+        "detail": {
+            "minimumReceived": "Минимум к получению",
+            "receiverAddress": "Адрес получателя",
+            "estimatedTime": "Оценочное время",
+            "estimatedFee": "Оценочная комиссия"
         }
     },
     "newPool": {
