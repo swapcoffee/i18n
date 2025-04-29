@@ -1029,7 +1029,7 @@
         "warn": "Предупреждение",
         "buttons": {
             "notAvailableProviders": "Нет доступных поставщиков",
-            "selectProvider": "Выбрать поставщика",
+            "selectProvider": "Выберите поставщика",
             "findProvider": "Поиск поставщиков...",
             "enterAmount": "Введите сумму",
             "connectTonWallet": "Подключить TON кошелек",

@@ -1076,7 +1076,7 @@
         "warn": "Попередження",
         "buttons": {
             "notAvailableProviders": "Недоступні постачальники",
-            "selectProvider": "Вибрати постачальника",
+            "selectProvider": "Виберіть постачальника",
             "findProvider": "Пошук постачальників...",
             "enterAmount": "Введіть суму",
             "connectTonWallet": "Підключити TON гаманець",
