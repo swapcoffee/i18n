@@ -616,7 +616,8 @@
         "secondTitleLimit": "Comprando",
         "secondTitleDca": "Quiero comprar",
         "assetOne": "Activo 1",
-        "assetTwo": "Activo 2"
+        "assetTwo": "Activo 2",
+        "assetByNumber" : "Activo {number}"
     },
     "limitDetails": {
         "titleSend": "Tú envías",
@@ -750,7 +751,7 @@
             "actionBtn": "Ir a la App"
         },
         "major": {
-            "text1": "Únete al Programa de Embajadores de swap.coffee. ¡Comparte contenido y gana recompensas!", 
+            "text1": "Únete al Programa de Embajadores de swap.coffee. ¡Comparte contenido y gana recompensas!",
             "actionBtn": "Leer más"
         }
     },
@@ -946,6 +947,7 @@
             "limit": "Límite",
             "dca": "DCA",
             "withdrawFarm": "Eliminar farm y reclamar recompensas",
+            "vault": "Despliegue de DEX Vault",
             "default": "Depositar liquidez"
         },
         "title": {
@@ -964,6 +966,7 @@
             "limit": "La orden se creó con éxito",
             "stake": "Los tokens se han apostado con éxito",
             "cancel": "La orden se canceló con éxito",
+            "vault": "El vault ha sido desplegado",
             "default": "Los tokens ya están en tu billetera."
         },
         "pendingDescription": {
@@ -1102,6 +1105,29 @@
             "inputPlaceholder": "Introduce la dirección de la cadena Ethereum",
             "clearBtn": "Limpiar",
             "pasteBtn": "Pegar"
+        }
+    },
+    "newPool": {
+        "ratio": {
+            "title": "Ratio de tokens",
+            "enter": "Introducir ratio"
+        },
+        "infoList": {
+            "badRatio": {
+                "title": "Alerta de Ratio Inadecuado",
+                "text": "La proporción de activos que estás proporcionando está significativamente desequilibrada. Esto puede resultar en una provisión de liquidez subóptima y posibles pérdidas."
+            }
+        },
+        "details": {
+            "firstAsset": "Primer Activo",
+            "secondAsset": "Segundo Activo",
+            "poolRatio": "Ratio del pool"
+        },
+        "buttons": {
+            "create": "Crear nuevo pool",
+            "deploySingleVault": "Desplegar vault de {token}",
+            "deployMultiVault": "Desplegar múltiples vaults",
+            "selectSecondAsset": "Seleccionar segundo activo"
         }
     }
 }

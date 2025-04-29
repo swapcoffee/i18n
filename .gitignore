@@ -1,0 +1,39 @@
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Build outputs
+dist/
+build/
+out/
+
+# Miscellaneous
+.DS_Store
+.env
+.env.local
+.env.*.local
+
+# IDE / Editor configs
+.idea/
+*.iml
+
+# WebStorm specific
+/shelf/
+/httpRequests/
+/dataSources/
+/dataSources.local.xml
+/.idea/workspace.xml
+
+# Optional: OS generated files
+Thumbs.db
+ehthumbs.db

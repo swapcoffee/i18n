@@ -616,7 +616,8 @@
         "secondTitleLimit": "Buying",
         "secondTitleDca": "I want to buy",
         "assetOne": "Asset 1",
-        "assetTwo": "Asset 2"
+        "assetTwo": "Asset 2",
+        "assetByNumber" : "Asset {number}"
     },
     "limitDetails": {
         "titleSend": "You send",
@@ -946,6 +947,7 @@
             "limit": "Limit",
             "dca": "DCA",
             "withdrawFarm": "Remove farm and claim rewards",
+            "vault": "DEX Vault deployment",
             "default": "Deposit liquidity"
         },
         "title": {
@@ -964,6 +966,7 @@
             "limit": "The order was successfully created",
             "stake": "Tokens have been successfully staking",
             "cancel": "The order was successfully cancelled",
+            "vault": "Vault has been deployed",
             "default": "The tokens are already in your wallet."
         },
         "pendingDescription": {
@@ -1103,6 +1106,28 @@
             "clearBtn": "Clear",
             "pasteBtn": "Paste"
         }
+    },
+  "newPool": {
+    "ratio": {
+      "title": "Tokens ratio",
+      "enter": "Enter ratio"
+    },
+    "infoList": {
+        "badRatio": {
+            "title": "Bad Ratio Alert",
+            "text": "The ratio of assets you're providing is significantly unbalanced. This may result in suboptimal liquidity provision and potential losses."
+        }
+    },
+    "details": {
+      "firstAsset": "First Asset",
+      "secondAsset": "Second Asset",
+      "poolRatio": "Pool ratio"
+    },
+    "buttons": {
+      "create": "Create new pool",
+      "deploySingleVault": "Deploy {token} vault",
+      "deployMultiVault": "Deploy multi vaults",
+      "selectSecondAsset": "Select second asset"
     }
+  }
 }
- 

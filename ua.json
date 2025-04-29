@@ -128,6 +128,7 @@
         "claim": "Центр збору",
         "dex": "DEX Агрегатор",
         "earn": "Наш DEX",
+        "pools": "Пули",
         "benefits": "Бонуси",
         "launchpad": "Лаунчпад",
         "soon": "Скоро",
@@ -592,7 +593,7 @@
         "itemDescriptionFourth": "Якщо торт впаде, то він просто розіб'ється і не додасться на ваш баланс.",
         "itemDescriptionFive": "ТОП 10 користувачів, які набрали найбільшу кількість тортів, отримають призи! Ознайомитися з призами можна в нашому",
         "itemDescriptionLink": "Telegram-каналі"
-    },    
+    },
     "charts-frames": {
       "1d": "24 г",
       "1w": "1 тиж",
@@ -600,14 +601,14 @@
       "3m": "3 міс",
       "6m": "6 міс",
       "all": "Всі"
-    },    
+    },
     "charts-info": {
       "info": ["Власники", "Ліквідність", "Рейтинг довіри"]
-    },    
+    },
     "connectBanner": {
        "title": "Wallet is not connected",
        "description": "Connect your wallet to see your rewards"
-    },    
+    },
     "swapPlug": {
         "titleClosed": "Закрите БЕТА тестування",
         "titleReady": "Почнемо!",
@@ -623,8 +624,9 @@
         "secondTitleLimit": "Купуєте",
         "secondTitleDca": "Я хочу купити",
         "assetOne": "Актив 1",
-        "assetTwo": "Актив 2"
-    },    
+        "assetTwo": "Актив 2",
+        "assetByNumber": "Актив {number}"
+    },
     "limitDetails": {
         "titleSend": "Ви надсилаєте",
         "titleReceive": "Ви отримуєте",
@@ -635,7 +637,7 @@
         "firstTitleDeposit": "Загальний депозит",
         "secondTitleDepositFirst": "Розмір кожного замовлення",
         "secondTitleDepositSecond": "Ви отримуєте"
-    },    
+    },
     "limitHistoryDetails": {
         "limitDetails": {
             "firstTitleSelling": "Продаж",
@@ -653,7 +655,7 @@
             "firstTitleCreated": "Створено",
             "firstTitleEstimated": "Орієнтовна комісія",
             "secondTitleEstimated": "Кількість саб-ордерів"
-        },  
+        },
         "displayStatus": {
             "cancel": "Скасування",
             "completed": "Завершено",
@@ -737,7 +739,7 @@
         ],
         "dcaDeal": {
             "swapMessage": "Обмін {sellPerOrder} на {toBuy} кожні ~{orderInterval} з загальним бюджетом {sellTotal} з {orders} ордер(ами) протягом ~{totalInterval}"
-        }      
+        }
     },
     "dcaSettings": {
         "rangeOptional": "Діапазон (необов'язково)",
@@ -746,7 +748,7 @@
         "enable": "Увімкнути",
         "disable": "Вимкнути",
         "suborders": "Саб-ордери",
-        "orders": "ордерiв"    
+        "orders": "ордерiв"
     },
     "bannersMain": {
         "whale": {
@@ -774,11 +776,11 @@
             "Миттєвий обмін за найкращою ціною",
             "Обмін активів за вказаною або найкращою ціною",
             "Обмін активу через регулярні інтервали"
-        ]    
+        ]
     },
     "invocations": {
         "title": "Максимальна кількість спроб",
-        "text": "Множник від кількості саб-ордерів"  
+        "text": "Множник від кількості саб-ордерів"
     },
     "timeZone": {
         "minutes": "хвилина(и)",
@@ -790,12 +792,12 @@
         "hour": "година",
         "day": "день",
         "week": "тиждень",
-        "month": "місяць"    
+        "month": "місяць"
     },
     "poolsBanner": {
         "title": "Заробляйте на постачанні ліквідності",
         "descriptionFirst": "Досліджуйте нові можливості з наданням ліквідності.",
-        "descriptionSecond": "Обирайте ідеальний пул для себе та починайте заробляти на торгових комісіях вже сьогодні!"    
+        "descriptionSecond": "Обирайте ідеальний пул для себе та починайте заробляти на торгових комісіях вже сьогодні!"
     },
     "poolsActions": {
         "transferLiquidity": "Передати ліквідність",
@@ -812,7 +814,7 @@
         "boost": "Буст",
         "day": "день",
         "backToPools": "Назад до пулів",
-        "poolsAmountSmall": "пул"    
+        "poolsAmountSmall": "пул"
     },
     "poolsTable": {
         "poolName": "Пул",
@@ -953,6 +955,7 @@
             "limit": "Ліміт",
             "dca": "DCA",
             "withdrawFarm": "Видалити фарм і отримати винагороди",
+            "vault": "Розгортання DEX Vault",
             "default": "Депозит ліквідності"
         },
         "title": {
@@ -971,6 +974,7 @@
             "limit": "Ордер успішно створено",
             "stake": "Токени успішно застейкано",
             "cancel": "Ордер успішно скасовано",
+            "vault": "Vault було розгорнуто",
             "default": "Токени вже у вашому гаманці."
         },
         "pendingDescription": {
@@ -1109,6 +1113,29 @@
             "inputPlaceholder": "Введіть адресу мережі Ethereum",
             "clearBtn": "Очистити",
             "pasteBtn": "Вставити"
+        }
+    },
+    "newPool": {
+        "ratio": {
+            "title": "Співвідношення токенів",
+            "enter": "Введіть співвідношення"
+        },
+        "infoList": {
+            "badRatio": {
+                "title": "Попередження про несприятливе співвідношення",
+                "text": "Співвідношення активів, які ви надаєте, значно незбалансоване. Це може призвести до неоптимального надання ліквідності та потенційних збитків."
+            }
+        },
+        "details": {
+            "firstAsset": "Перший актив",
+            "secondAsset": "Другий актив",
+            "poolRatio": "Співвідношення пулу"
+        },
+        "buttons": {
+            "create": "Створити новий пул",
+            "deploySingleVault": "Розгорнути vault {token}",
+            "deployMultiVault": "Розгорнути кілька vaults",
+            "selectSecondAsset": "Вибрати другий актив"
         }
     }
 }

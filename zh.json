@@ -614,7 +614,8 @@
       "secondTitleLimit": "购买",
       "secondTitleDca": "我想购买",
       "assetOne": "资产 1",
-      "assetTwo": "资产 2"
+      "assetTwo": "资产 2",
+      "assetByNumber": "资产 {number}"
   },
   "limitDetails": {
       "titleSend": "您发送",
@@ -944,6 +945,7 @@
           "limit": "限价",
           "dca": "定投",
           "withdrawFarm": "移除挖矿并领取奖励",
+          "vault": "DEX Vault 部署",
           "default": "存入流动性"
       },
       "title": {
@@ -962,6 +964,7 @@
           "limit": "订单已成功创建",
           "stake": "代币已成功质押",
           "cancel": "订单已成功取消",
+          "vault": "Vault 已部署",
           "default": "代币已在您的钱包中。"
       },
       "pendingDescription": {
@@ -1101,5 +1104,28 @@
               "clearBtn": "清除",
               "pasteBtn": "粘贴"
       }
+    },
+    "newPool": {
+        "ratio": {
+            "title": "代币比率",
+            "enter": "输入比率"
+        },
+        "infoList": {
+            "badRatio": {
+                "title": "不良比率警告",
+                "text": "您提供的资产比率严重不平衡。这可能导致次优的流动性提供和潜在损失。"
+            }
+        },
+        "details": {
+            "firstAsset": "第一资产",
+            "secondAsset": "第二资产",
+            "poolRatio": "池比率"
+        },
+        "buttons": {
+            "create": "创建新池",
+            "deploySingleVault": "部署 {token} vault",
+            "deployMultiVault": "部署多个 vaults",
+            "selectSecondAsset": "选择第二资产"
+        }
     }
 }
