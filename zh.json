@@ -1103,7 +1103,7 @@
               "receiverAddress": "接收地址",
               "receiverAddressDescription1": "您可以手动输入或使用钱包连接。",
               "receiverAddressDescription2": "（不支持 CEX 地址）",
-              "inputPlaceholder": "输入以太坊链地址",
+              "inputPlaceholder": "输入网络地址",
               "clearBtn": "清除",
               "pasteBtn": "粘贴"
       }

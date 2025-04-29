@@ -1113,7 +1113,7 @@
             "receiverAddress": "Адреса отримувача",
             "receiverAddressDescription1": "Ви можете ввести її вручну або скористатися підключенням гаманця.",
             "receiverAddressDescription2": "(Адреси CEX не підтримуються)",
-            "inputPlaceholder": "Введіть адресу мережі Ethereum",
+            "inputPlaceholder": "Введіть адресу мережі",
             "clearBtn": "Очистити",
             "pasteBtn": "Вставити"
         }

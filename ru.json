@@ -1065,7 +1065,7 @@
             "receiverAddress": "Адрес получателя",
             "receiverAddressDescription1": "Вы можете ввести его вручную или использовать подключение кошелька.",
             "receiverAddressDescription2": "(Адреса CEX не поддерживаются)",
-            "inputPlaceholder": "Введите адрес сети Ethereum",
+            "inputPlaceholder": "Введите адрес сети",
             "clearBtn": "Очистить",
             "pasteBtn": "Вставить"
         }

@@ -1105,7 +1105,7 @@
             "receiverAddress": "Receiver address",
             "receiverAddressDescription1": "You can enter it manually or use the wallet connection. ",
             "receiverAddressDescription2": "(CEX addresses are not supported)",
-            "inputPlaceholder": "Enter Ethereum Chain address",
+            "inputPlaceholder": "Enter network address",
             "clearBtn": "Clear",
             "pasteBtn": "Paste"
         }
