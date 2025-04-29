@@ -1068,6 +1068,8 @@
       "selectChainAndToken": "选择链和代币",
       "best": "最佳",
       "warn": "警告",
+      "invalidAddress": "此钱包地址似乎有误。请再试一次。",
+      "correctAddress": "看起来不错——地址已保存。",
       "buttons": {
               "notAvailableProviders": "无可用提供商",
               "selectProvider": "选择提供商",

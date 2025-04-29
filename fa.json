@@ -1069,6 +1069,8 @@
     "selectChainAndToken": "زنجیره و توکن را انتخاب کنید",
     "best": "بهترین",
     "warn": "هشدار",
+    "invalidAddress": "این آدرس کیف پول به نظر نادرست است. دوباره تلاش کنید.",
+    "correctAddress": "به نظر خوب می‌رسد — آدرس ذخیره شد.",
     "buttons": {
          "notAvailableProviders": "ارائه‌دهندگان در دسترس نیستند",
          "selectProvider": "انتخاب ارائه‌دهنده",

@@ -1070,6 +1070,8 @@
         "selectChainAndToken": "Select Chain and Token",
         "best": "Best",
         "warn": "Warn",
+        "invalidAddress": "This wallet address seems off. Try again.",
+        "correctAddress": "Looks good — address saved.",
         "buttons": {
             "notAvailableProviders": "Not available providers",
             "selectProvider": "Select provider",

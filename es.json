@@ -1070,6 +1070,8 @@
         "selectChainAndToken": "Seleccionar cadena y token",
         "best": "Mejor",
         "warn": "Advertencia",
+        "invalidAddress": "Esta dirección de billetera parece incorrecta. Inténtalo de nuevo.",
+        "correctAddress": "Se ve bien — dirección guardada.",
         "buttons": {
             "notAvailableProviders": "Proveedores no disponibles",
             "selectProvider": "Seleccionar proveedor",

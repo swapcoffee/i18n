@@ -1030,6 +1030,8 @@
         "selectChainAndToken": "Выберите сеть и токен",
         "best": "Лучший",
         "warn": "Предупреждение",
+        "invalidAddress": "Этот адрес кошелька кажется неверным. Попробуйте снова.",
+        "correctAddress": "Выглядит хорошо — адрес сохранен.",
         "buttons": {
             "notAvailableProviders": "Нет доступных поставщиков",
             "selectProvider": "Выберите поставщика",

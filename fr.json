@@ -1070,6 +1070,8 @@
         "selectChainAndToken": "Sélectionnez une chaîne et un token",
         "best": "Meilleur",
         "warn": "Avertissement",
+        "invalidAddress": "Cette adresse de portefeuille semble incorrecte. Réessayez.",
+        "correctAddress": "Ça a l'air bon — adresse enregistrée.",
         "buttons": {
             "notAvailableProviders": "Fournisseurs non disponibles",
             "selectProvider": "Sélectionner un fournisseur",
