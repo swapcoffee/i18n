@@ -1076,7 +1076,8 @@
             "findProvider": "Finding providers...",
             "enterAmount": "Enter amount",
             "connectTonWallet": "Connect TON Wallet",
-            "connectMultiWallet": "Connect Multichain Wallet"
+            "connectMultiWallet": "Connect Multichain Wallet",
+            "enterReceiverAddress": "Set Receiver Address"
         },
         "bridgePopup": {
             "chainTitle": "Chain List",

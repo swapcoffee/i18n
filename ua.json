@@ -1084,7 +1084,8 @@
             "findProvider": "Пошук постачальників...",
             "enterAmount": "Введіть суму",
             "connectTonWallet": "Підключити TON гаманець",
-            "connectMultiWallet": "Підключити мультигаманець"
+            "connectMultiWallet": "Підключити мультигаманець",
+            "enterReceiverAddress": "Встановити адресу отримувача"
         },
         "bridgePopup": {
             "chainTitle": "Список мереж",

@@ -1076,7 +1076,8 @@
             "findProvider": "Buscando proveedores...",
             "enterAmount": "Introduce cantidad",
             "connectTonWallet": "Conectar billetera TON",
-            "connectMultiWallet": "Conectar billetera Multichain"
+            "connectMultiWallet": "Conectar billetera Multichain",
+            "enterReceiverAddress": "Establecer dirección del receptor"
         },
         "bridgePopup": {
             "chainTitle": "Lista de cadenas",

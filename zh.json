@@ -1074,7 +1074,8 @@
               "findProvider": "正在查找提供商...",
               "enterAmount": "输入金额",
               "connectTonWallet": "连接 TON 钱包",
-              "connectMultiWallet": "连接多链钱包"
+              "connectMultiWallet": "连接多链钱包",
+              "enterReceiverAddress": "输入接收地址"
       },
       "bridgePopup": {
               "chainTitle": "链列表",

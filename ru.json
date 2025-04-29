@@ -1036,7 +1036,8 @@
             "findProvider": "Поиск поставщиков...",
             "enterAmount": "Введите сумму",
             "connectTonWallet": "Подключить TON кошелек",
-            "connectMultiWallet": "Подключить мультичейн кошелек"
+            "connectMultiWallet": "Подключить мультичейн кошелек",
+            "enterReceiverAddress": "Указать адрес получателя"
         },
         "bridgePopup": {
             "chainTitle": "Список сетей",
