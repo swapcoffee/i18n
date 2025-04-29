@@ -615,7 +615,8 @@
       "secondTitleLimit": "خرید",
       "secondTitleDca": "می‌خواهم بخرم",
       "assetOne": "دارایی ۱",
-      "assetTwo": "دارایی ۲"
+      "assetTwo": "دارایی ۲",
+      "assetByNumber" : "{number} دارایی"
   },
   "limitDetails": {
       "titleSend": "شما ارسال می‌کنید",

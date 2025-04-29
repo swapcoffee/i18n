@@ -616,7 +616,8 @@
         "secondTitleLimit": "Achat",
         "secondTitleDca": "Je veux acheter",
         "assetOne": "Actif 1",
-        "assetTwo": "Actif 2"
+        "assetTwo": "Actif 2",
+        "assetByNumber": "Actif {number}"
     },
     "limitDetails": {
         "titleSend": "Vous envoyez",

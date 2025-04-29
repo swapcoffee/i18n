@@ -573,7 +573,8 @@
         "secondTitleLimit": "Покупка",
         "secondTitleDca": "Я хочу купить",
         "assetOne": "Актив 1",
-        "assetTwo": "Актив 2"
+        "assetTwo": "Актив 2",
+        "assetByNumber" : "Актив {number}"
     },
     "limitDetails": {
         "titleSend": "Вы отправляете",

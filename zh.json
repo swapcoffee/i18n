@@ -614,7 +614,8 @@
       "secondTitleLimit": "购买",
       "secondTitleDca": "我想购买",
       "assetOne": "资产 1",
-      "assetTwo": "资产 2"
+      "assetTwo": "资产 2",
+      "assetByNumber": "资产 {number}"
   },
   "limitDetails": {
       "titleSend": "您发送",
