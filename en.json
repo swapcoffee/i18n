@@ -948,6 +948,7 @@
             "dca": "DCA",
             "withdrawFarm": "Remove farm and claim rewards",
             "vault": "DEX Vault deployment",
+            "createPool": "Create pool and deposit liquidity",
             "default": "Deposit liquidity"
         },
         "title": {
@@ -967,6 +968,7 @@
             "stake": "Tokens have been successfully staking",
             "cancel": "The order was successfully cancelled",
             "vault": "Vault has been deployed",
+            "createPool": "The pool has been created",
             "default": "The tokens are already in your wallet."
         },
         "pendingDescription": {

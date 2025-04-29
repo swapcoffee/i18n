@@ -946,6 +946,7 @@
             "swap": "Échanger",
             "limit": "Limite",
             "dca": "DCA",
+            "createPool": "Créer une réserve et déposer des liquidités",
             "withdrawFarm": "Retirer le farming et réclamer les récompenses",
             "vault": "Déploiement de DEX Vault",
             "default": "Déposer de la liquidité"
@@ -967,6 +968,7 @@
             "stake": "Les tokens ont été stakés avec succès",
             "cancel": "L'ordre a été annulé avec succès",
             "vault": "Le vault a été déployé",
+            "createPool": "La réserve a été créée",
             "default": "Les tokens sont déjà dans votre portefeuille."
         },
         "pendingDescription": {

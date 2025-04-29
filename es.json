@@ -948,6 +948,7 @@
             "dca": "DCA",
             "withdrawFarm": "Eliminar farm y reclamar recompensas",
             "vault": "Despliegue de DEX Vault",
+            "createPool": "Crear pool y depositar liquidez",
             "default": "Depositar liquidez"
         },
         "title": {
@@ -967,6 +968,7 @@
             "stake": "Los tokens se han apostado con éxito",
             "cancel": "La orden se canceló con éxito",
             "vault": "El vault ha sido desplegado",
+            "createPool": "El fondo ha sido creado",
             "default": "Los tokens ya están en tu billetera."
         },
         "pendingDescription": {
