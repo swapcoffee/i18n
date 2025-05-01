@@ -946,6 +946,7 @@
           "dca": "定投",
           "withdrawFarm": "移除挖矿并领取奖励",
           "vault": "DEX Vault 部署",
+          "createPool": "创建资金池并存入流动性",
           "default": "存入流动性"
       },
       "title": {
@@ -965,6 +966,7 @@
           "stake": "代币已成功质押",
           "cancel": "订单已成功取消",
           "vault": "Vault 已部署",
+          "createPool": "资金池已创建",
           "default": "代币已在您的钱包中。"
       },
       "pendingDescription": {
