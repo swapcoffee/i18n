@@ -1072,6 +1072,9 @@
         "warn": "Warn",
         "invalidAddress": "This wallet address seems off. Try again.",
         "correctAddress": "Looks good — address saved.",
+        "depositInfo": "Deposit address to transfer funds",
+        "addressCopied": "Address copied!",
+        "addressNotCopied": "Address not copied",
         "buttons": {
             "notAvailableProviders": "Not available providers",
             "selectProvider": "Select provider",

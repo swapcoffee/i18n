@@ -1071,6 +1071,9 @@
     "warn": "هشدار",
     "invalidAddress": "این آدرس کیف پول به نظر نادرست است. دوباره تلاش کنید.",
     "correctAddress": "به نظر خوب می‌رسد — آدرس ذخیره شد.",
+    "depositInfo": "آدرس واریز برای انتقال وجوه",
+    "addressCopied": "آدرس کپی شد!",
+    "addressNotCopied": "آدرس کپی نشد",
     "buttons": {
          "notAvailableProviders": "ارائه‌دهندگان در دسترس نیستند",
          "selectProvider": "انتخاب ارائه‌دهنده",

@@ -1070,6 +1070,9 @@
       "warn": "警告",
       "invalidAddress": "此钱包地址似乎有误。请再试一次。",
       "correctAddress": "看起来不错——地址已保存。",
+      "depositInfo": "存款地址以转移资金",
+      "addressCopied": "地址已复制！",
+      "addressNotCopied": "地址未复制",
       "buttons": {
               "notAvailableProviders": "无可用提供商",
               "selectProvider": "选择提供商",

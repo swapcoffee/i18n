@@ -1072,6 +1072,9 @@
         "warn": "Advertencia",
         "invalidAddress": "Esta dirección de billetera parece incorrecta. Inténtalo de nuevo.",
         "correctAddress": "Se ve bien — dirección guardada.",
+        "depositInfo": "Dirección de depósito para transferir fondos",
+        "addressCopied": "¡Dirección copiada!",
+        "addressNotCopied": "Dirección no copiada",
         "buttons": {
             "notAvailableProviders": "Proveedores no disponibles",
             "selectProvider": "Seleccionar proveedor",

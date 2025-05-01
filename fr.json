@@ -1072,6 +1072,9 @@
         "warn": "Avertissement",
         "invalidAddress": "Cette adresse de portefeuille semble incorrecte. Réessayez.",
         "correctAddress": "Ça a l'air bon — adresse enregistrée.",
+        "depositInfo": "Adresse de dépôt pour transférer des fonds",
+        "addressCopied": "Adresse copiée !",
+        "addressNotCopied": "Adresse non copiée",
         "buttons": {
             "notAvailableProviders": "Fournisseurs non disponibles",
             "selectProvider": "Sélectionner un fournisseur",
