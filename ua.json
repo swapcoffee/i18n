@@ -1085,6 +1085,7 @@
         "depositInfo": "Адреса для внесення коштів",
         "addressCopied": "Адресу скопійовано!",
         "addressNotCopied": "Адресу не скопійовано",
+        "tokensMustBeSendingSoon": "Токени будуть зараховані на ваш гаманець найближчим часом.",
         "buttons": {
             "notAvailableProviders": "Недоступні постачальники",
             "selectProvider": "Виберіть постачальника",

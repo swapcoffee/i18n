@@ -1037,6 +1037,7 @@
         "depositInfo": "Адрес для депозита для перевода средств",
         "addressCopied": "Адрес скопирован!",
         "addressNotCopied": "Адрес не скопирован",
+        "tokensMustBeSendingSoon": "Токены будут зачислены на ваш кошелёк в ближайшее время.",
         "buttons": {
             "notAvailableProviders": "Нет доступных поставщиков",
             "selectProvider": "Выберите поставщика",

@@ -1077,6 +1077,7 @@
         "depositInfo": "Dirección de depósito para transferir fondos",
         "addressCopied": "¡Dirección copiada!",
         "addressNotCopied": "Dirección no copiada",
+        "tokensMustBeSendingSoon": "Los tokens se acreditarán en tu billetera en breve.",
         "buttons": {
             "notAvailableProviders": "Proveedores no disponibles",
             "selectProvider": "Seleccionar proveedor",

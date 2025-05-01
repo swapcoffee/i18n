@@ -1077,6 +1077,7 @@
         "depositInfo": "Deposit address to transfer funds",
         "addressCopied": "Address copied!",
         "addressNotCopied": "Address not copied",
+        "tokensMustBeSendingSoon": "Tokens will be credited to your wallet shortly.",
         "buttons": {
             "notAvailableProviders": "Not available providers",
             "selectProvider": "Select provider",

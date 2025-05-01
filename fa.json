@@ -1076,6 +1076,7 @@
     "depositInfo": "آدرس واریز برای انتقال وجوه",
     "addressCopied": "آدرس کپی شد!",
     "addressNotCopied": "آدرس کپی نشد",
+    "tokensMustBeSendingSoon": "توکن‌ها به زودی به کیف پول شما واریز خواهند شد.",
     "buttons": {
          "notAvailableProviders": "ارائه‌دهندگان در دسترس نیستند",
          "selectProvider": "انتخاب ارائه‌دهنده",

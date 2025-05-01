@@ -1077,6 +1077,7 @@
         "depositInfo": "Adresse de dépôt pour transférer des fonds",
         "addressCopied": "Adresse copiée !",
         "addressNotCopied": "Adresse non copiée",
+        "tokensMustBeSendingSoon": "Les tokens seront crédités sur votre portefeuille sous peu.",
         "buttons": {
             "notAvailableProviders": "Fournisseurs non disponibles",
             "selectProvider": "Sélectionner un fournisseur",
