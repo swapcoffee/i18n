@@ -972,6 +972,7 @@
             "swap": "Échanger",
             "limit": "Limite",
             "dca": "DCA",
+            "createPool": "Créer une réserve et déposer des liquidités",
             "withdrawFarm": "Retirer le farming et réclamer les récompenses",
             "vault": "Déploiement de DEX Vault",
             "default": "Déposer de la liquidité"
@@ -993,6 +994,7 @@
             "stake": "Les tokens ont été stakés avec succès",
             "cancel": "L'ordre a été annulé avec succès",
             "vault": "Le vault a été déployé",
+            "createPool": "La réserve a été créée",
             "default": "Les tokens sont déjà dans votre portefeuille."
         },
         "pendingDescription": {
@@ -1096,13 +1098,20 @@
         "selectChainAndToken": "Sélectionnez une chaîne et un token",
         "best": "Meilleur",
         "warn": "Avertissement",
+        "invalidAddress": "Cette adresse de portefeuille semble incorrecte. Réessayez.",
+        "correctAddress": "Ça a l'air bon — adresse enregistrée.",
+        "depositInfo": "Adresse de dépôt pour transférer des fonds",
+        "addressCopied": "Adresse copiée !",
+        "addressNotCopied": "Adresse non copiée",
+        "tokensMustBeSendingSoon": "Les tokens seront crédités sur votre portefeuille sous peu.",
         "buttons": {
             "notAvailableProviders": "Fournisseurs non disponibles",
             "selectProvider": "Sélectionner un fournisseur",
             "findProvider": "Recherche de fournisseurs...",
             "enterAmount": "Entrer un montant",
             "connectTonWallet": "Connecter le portefeuille TON",
-            "connectMultiWallet": "Connecter le portefeuille Multichain"
+            "connectMultiWallet": "Connecter le portefeuille Multichaîne",
+            "enterReceiverAddress": "Définir l'adresse du destinataire"
         },
         "bridgePopup": {
             "chainTitle": "Liste des chaînes",
@@ -1128,9 +1137,15 @@
             "receiverAddress": "Adresse du destinataire",
             "receiverAddressDescription1": "Vous pouvez l'entrer manuellement ou utiliser la connexion au portefeuille. ",
             "receiverAddressDescription2": "(Les adresses CEX ne sont pas prises en charge)",
-            "inputPlaceholder": "Entrez l'adresse de la chaîne Ethereum",
+            "inputPlaceholder": "Entrez l'adresse de la chaîne",
             "clearBtn": "Effacer",
             "pasteBtn": "Coller"
+        },
+        "detail": {
+            "minimumReceived": "Minimum reçu",
+            "receiverAddress": "Adresse du destinataire",
+            "estimatedTime": "Temps estimé",
+            "estimatedFee": "Frais estimés"
         }
     },
     "newPool": {

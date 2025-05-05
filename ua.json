@@ -980,6 +980,7 @@
             "create": "Створити і додати ліквідність",
             "swap": "Обмін",
             "limit": "Ліміт",
+            "createPool": "Створюємо пул і вносимо ліквідність",
             "dca": "DCA",
             "withdrawFarm": "Видалити фарм і отримати винагороди",
             "vault": "Розгортання DEX Vault",
@@ -1002,7 +1003,8 @@
             "stake": "Токени успішно застейкано",
             "cancel": "Ордер успішно скасовано",
             "vault": "Vault було розгорнуто",
-            "default": "Токени вже у вашому гаманці."
+            "default": "Токени вже у вашому гаманці.",
+            "createPool": "Пул створено"
         },
         "pendingDescription": {
             "deploySmart": "Розгортання смарт-контракту",
@@ -1105,13 +1107,20 @@
         "selectChainAndToken": "Виберіть мережу та токен",
         "best": "Найкращий",
         "warn": "Попередження",
+        "invalidAddress": "Ця адреса гаманця виглядає неправильно. Спробуйте ще раз.",
+        "correctAddress": "Виглядає добре — адресу збережено.",
+        "depositInfo": "Адреса для внесення коштів",
+        "addressCopied": "Адресу скопійовано!",
+        "addressNotCopied": "Адресу не скопійовано",
+        "tokensMustBeSendingSoon": "Токени будуть зараховані на ваш гаманець найближчим часом.",
         "buttons": {
             "notAvailableProviders": "Недоступні постачальники",
-            "selectProvider": "Вибрати постачальника",
+            "selectProvider": "Виберіть постачальника",
             "findProvider": "Пошук постачальників...",
             "enterAmount": "Введіть суму",
             "connectTonWallet": "Підключити TON гаманець",
-            "connectMultiWallet": "Підключити мультигаманець"
+            "connectMultiWallet": "Підключити мультигаманець",
+            "enterReceiverAddress": "Встановити адресу отримувача"
         },
         "bridgePopup": {
             "chainTitle": "Список мереж",
@@ -1137,9 +1146,15 @@
             "receiverAddress": "Адреса отримувача",
             "receiverAddressDescription1": "Ви можете ввести її вручну або скористатися підключенням гаманця.",
             "receiverAddressDescription2": "(Адреси CEX не підтримуються)",
-            "inputPlaceholder": "Введіть адресу мережі Ethereum",
+            "inputPlaceholder": "Введіть адресу мережі",
             "clearBtn": "Очистити",
             "pasteBtn": "Вставити"
+        },
+        "detail": {
+            "minimumReceived": "Мінімум до отримання",
+            "receiverAddress": "Адреса отримувача",
+            "estimatedTime": "Орієнтовний час",
+            "estimatedFee": "Орієнтовна комісія"
         }
     },
     "newPool": {

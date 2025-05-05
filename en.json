@@ -968,6 +968,7 @@
             "dca": "DCA",
             "withdrawFarm": "Remove farm and claim rewards",
             "vault": "DEX Vault deployment",
+            "createPool": "Create pool and deposit liquidity",
             "default": "Deposit liquidity"
         },
         "title": {
@@ -987,6 +988,7 @@
             "stake": "Tokens have been successfully staking",
             "cancel": "The order was successfully cancelled",
             "vault": "Vault has been deployed",
+            "createPool": "The pool has been created",
             "default": "The tokens are already in your wallet."
         },
         "pendingDescription": {
@@ -1090,13 +1092,20 @@
         "selectChainAndToken": "Select Chain and Token",
         "best": "Best",
         "warn": "Warn",
+        "invalidAddress": "This wallet address seems off. Try again.",
+        "correctAddress": "Looks good — address saved.",
+        "depositInfo": "Deposit address to transfer funds",
+        "addressCopied": "Address copied!",
+        "addressNotCopied": "Address not copied",
+        "tokensMustBeSendingSoon": "Tokens will be credited to your wallet shortly.",
         "buttons": {
             "notAvailableProviders": "Not available providers",
             "selectProvider": "Select provider",
             "findProvider": "Finding providers...",
             "enterAmount": "Enter amount",
             "connectTonWallet": "Connect TON Wallet",
-            "connectMultiWallet": "Connect Multichain Wallet"
+            "connectMultiWallet": "Connect Multichain Wallet",
+            "enterReceiverAddress": "Set Receiver Address"
         },
         "bridgePopup": {
             "chainTitle": "Chain List",
@@ -1122,9 +1131,15 @@
             "receiverAddress": "Receiver address",
             "receiverAddressDescription1": "You can enter it manually or use the wallet connection. ",
             "receiverAddressDescription2": "(CEX addresses are not supported)",
-            "inputPlaceholder": "Enter Ethereum Chain address",
+            "inputPlaceholder": "Enter network address",
             "clearBtn": "Clear",
             "pasteBtn": "Paste"
+        },
+        "detail": {
+            "minimumReceived": "Minimum received",
+            "receiverAddress":"Receiver address",
+            "estimatedTime": "Estimated time",
+            "estimatedFee": "Estimated fee"
         }
     },
   "newPool": {

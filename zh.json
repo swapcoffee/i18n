@@ -969,6 +969,7 @@
           "dca": "定投",
           "withdrawFarm": "移除挖矿并领取奖励",
           "vault": "DEX Vault 部署",
+          "createPool": "创建资金池并存入流动性",
           "default": "存入流动性"
       },
       "title": {
@@ -988,6 +989,7 @@
           "stake": "代币已成功质押",
           "cancel": "订单已成功取消",
           "vault": "Vault 已部署",
+          "createPool": "资金池已创建",
           "default": "代币已在您的钱包中。"
       },
       "pendingDescription": {
@@ -1091,13 +1093,20 @@
       "selectChainAndToken": "选择链和代币",
       "best": "最佳",
       "warn": "警告",
+      "invalidAddress": "此钱包地址似乎有误。请再试一次。",
+      "correctAddress": "看起来不错——地址已保存。",
+      "depositInfo": "存款地址以转移资金",
+      "addressCopied": "地址已复制！",
+      "addressNotCopied": "地址未复制",
+      "tokensMustBeSendingSoon": "代币将很快记入您的钱包。", 
       "buttons": {
               "notAvailableProviders": "无可用提供商",
               "selectProvider": "选择提供商",
               "findProvider": "正在查找提供商...",
               "enterAmount": "输入金额",
               "connectTonWallet": "连接 TON 钱包",
-              "connectMultiWallet": "连接多链钱包"
+              "connectMultiWallet": "连接多链钱包",
+              "enterReceiverAddress": "输入接收地址"
       },
       "bridgePopup": {
               "chainTitle": "链列表",
@@ -1123,9 +1132,15 @@
               "receiverAddress": "接收地址",
               "receiverAddressDescription1": "您可以手动输入或使用钱包连接。",
               "receiverAddressDescription2": "（不支持 CEX 地址）",
-              "inputPlaceholder": "输入以太坊链地址",
+              "inputPlaceholder": "输入网络地址",
               "clearBtn": "清除",
               "pasteBtn": "粘贴"
+     },
+     "detail": {
+       "minimumReceived": "最低接收",
+       "receiverAddress": "接收地址",
+       "estimatedTime": "预计时间",
+       "estimatedFee": "预计费用"
       }
     },
     "newPool": {

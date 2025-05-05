@@ -926,6 +926,7 @@
             "swap": "Обмен",
             "limit": "Лимит",
             "dca": "DCA",
+            "createPool": "Создаем пул и вносим ликвидность",
             "withdrawFarm": "Удалить ферму и забрать награды",
             "vault": "Развертывание DEX Vault",
             "default": "Депозит ликвидности"
@@ -947,6 +948,7 @@
             "stake": "Токены успешно застейканы",
             "cancel": "Ордер успешно отменен",
             "vault": "Vault был развернут",
+            "createPool": "Пул был создан",
             "default": "Токены уже в вашем кошельке."
         },
         "pendingDescription": {
@@ -1050,13 +1052,20 @@
         "selectChainAndToken": "Выберите сеть и токен",
         "best": "Лучший",
         "warn": "Предупреждение",
+        "invalidAddress": "Этот адрес кошелька кажется неверным. Попробуйте снова.",
+        "correctAddress": "Выглядит хорошо — адрес сохранен.",
+        "depositInfo": "Адрес для депозита для перевода средств",
+        "addressCopied": "Адрес скопирован!",
+        "addressNotCopied": "Адрес не скопирован",
+        "tokensMustBeSendingSoon": "Токены будут зачислены на ваш кошелёк в ближайшее время.",
         "buttons": {
             "notAvailableProviders": "Нет доступных поставщиков",
-            "selectProvider": "Выбрать поставщика",
+            "selectProvider": "Выберите поставщика",
             "findProvider": "Поиск поставщиков...",
             "enterAmount": "Введите сумму",
             "connectTonWallet": "Подключить TON кошелек",
-            "connectMultiWallet": "Подключить мультичейн кошелек"
+            "connectMultiWallet": "Подключить мультичейн кошелек",
+            "enterReceiverAddress": "Указать адрес получателя"
         },
         "bridgePopup": {
             "chainTitle": "Список сетей",
@@ -1082,9 +1091,15 @@
             "receiverAddress": "Адрес получателя",
             "receiverAddressDescription1": "Вы можете ввести его вручную или использовать подключение кошелька.",
             "receiverAddressDescription2": "(Адреса CEX не поддерживаются)",
-            "inputPlaceholder": "Введите адрес сети Ethereum",
+            "inputPlaceholder": "Введите адрес сети",
             "clearBtn": "Очистить",
             "pasteBtn": "Вставить"
+        },
+        "detail": {
+            "minimumReceived": "Минимум к получению",
+            "receiverAddress": "Адрес получателя",
+            "estimatedTime": "Оценочное время",
+            "estimatedFee": "Оценочная комиссия"
         }
     },
     "newPool": {

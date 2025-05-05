@@ -971,6 +971,7 @@
             "dca": "DCA",
             "withdrawFarm": "Eliminar farm y reclamar recompensas",
             "vault": "Despliegue de DEX Vault",
+            "createPool": "Crear pool y depositar liquidez",
             "default": "Depositar liquidez"
         },
         "title": {
@@ -990,6 +991,7 @@
             "stake": "Los tokens se han apostado con éxito",
             "cancel": "La orden se canceló con éxito",
             "vault": "El vault ha sido desplegado",
+            "createPool": "El fondo ha sido creado",
             "default": "Los tokens ya están en tu billetera."
         },
         "pendingDescription": {
@@ -1093,13 +1095,20 @@
         "selectChainAndToken": "Seleccionar cadena y token",
         "best": "Mejor",
         "warn": "Advertencia",
+        "invalidAddress": "Esta dirección de billetera parece incorrecta. Inténtalo de nuevo.",
+        "correctAddress": "Se ve bien — dirección guardada.",
+        "depositInfo": "Dirección de depósito para transferir fondos",
+        "addressCopied": "¡Dirección copiada!",
+        "addressNotCopied": "Dirección no copiada",
+        "tokensMustBeSendingSoon": "Los tokens se acreditarán en tu billetera en breve.",
         "buttons": {
             "notAvailableProviders": "Proveedores no disponibles",
             "selectProvider": "Seleccionar proveedor",
             "findProvider": "Buscando proveedores...",
             "enterAmount": "Introduce cantidad",
             "connectTonWallet": "Conectar billetera TON",
-            "connectMultiWallet": "Conectar billetera Multichain"
+            "connectMultiWallet": "Conectar billetera Multichain",
+            "enterReceiverAddress": "Establecer dirección del receptor"
         },
         "bridgePopup": {
             "chainTitle": "Lista de cadenas",
@@ -1125,9 +1134,15 @@
             "receiverAddress": "Dirección del receptor",
             "receiverAddressDescription1": "Puedes ingresarla manualmente o usar la conexión de billetera.",
             "receiverAddressDescription2": "(Direcciones CEX no son compatibles)",
-            "inputPlaceholder": "Introduce la dirección de la cadena Ethereum",
+            "inputPlaceholder": "Introduce la dirección de la cadena",
             "clearBtn": "Limpiar",
             "pasteBtn": "Pegar"
+        },
+        "detail": {
+            "minimumReceived": "Mínimo recibido",
+            "receiverAddress": "Dirección del receptor",
+            "estimatedTime": "Tiempo estimado",
+            "estimatedFee": "Tarifa estimada"
         }
     },
     "newPool": {

@@ -970,6 +970,7 @@
           "dca": "DCA",
           "withdrawFarm": "حذف فارم و درخواست پاداش‌ها",
           "vault": "استقرار DEX Vault",
+          "createPool": "ایجاد استخر و واریز نقدینگی",
           "default": "واریز نقدینگی"
       },
       "title": {
@@ -989,6 +990,7 @@
           "stake": "توکن‌ها با موفقیت استیک شدند",
           "cancel": "سفارش با موفقیت لغو شد",
           "vault": "Vault مستقر شده است",
+          "createPool": "استخر ایجاد شد",
           "default": "توکن‌ها در حال حاضر در کیف پول شما هستند."
       },
       "pendingDescription": {
@@ -1092,13 +1094,20 @@
     "selectChainAndToken": "زنجیره و توکن را انتخاب کنید",
     "best": "بهترین",
     "warn": "هشدار",
+    "invalidAddress": "این آدرس کیف پول به نظر نادرست است. دوباره تلاش کنید.",
+    "correctAddress": "به نظر خوب می‌رسد — آدرس ذخیره شد.",
+    "depositInfo": "آدرس واریز برای انتقال وجوه",
+    "addressCopied": "آدرس کپی شد!",
+    "addressNotCopied": "آدرس کپی نشد",
+    "tokensMustBeSendingSoon": "توکن‌ها به زودی به کیف پول شما واریز خواهند شد.",
     "buttons": {
          "notAvailableProviders": "ارائه‌دهندگان در دسترس نیستند",
          "selectProvider": "انتخاب ارائه‌دهنده",
          "findProvider": "در حال یافتن ارائه‌دهندگان...",
          "enterAmount": "مقدار را وارد کنید",
          "connectTonWallet": "اتصال کیف پول TON",
-         "connectMultiWallet": "اتصال کیف پول چند زنجیره‌ای"
+         "connectMultiWallet": "اتصال کیف پول چند زنجیره‌ای",
+         "enterReceiverAddress": "تنظیم آدرس گیرنده" 
     },
     "bridgePopup": {
          "chainTitle": "لیست زنجیره‌ها",
@@ -1124,9 +1133,15 @@
          "receiverAddress": "آدرس گیرنده",
          "receiverAddressDescription1": "می‌توانید آن را به صورت دستی وارد کنید یا از اتصال کیف پول استفاده کنید.",
          "receiverAddressDescription2": "(آدرس‌های CEX پشتیبانی نمی‌شوند)",
-         "inputPlaceholder": "آدرس زنجیره اتریوم را وارد کنید",
+         "inputPlaceholder": "آدرس شبکه را وارد کنید",
          "clearBtn": "پاک کردن",
          "pasteBtn": "چسباندن"
+    },
+    "detail": {
+        "minimumReceived": "حداقل دریافت",
+        "receiverAddress": "آدرس گیرنده",
+        "estimatedTime": "زمان تخمینی",
+        "estimatedFee": "هزینه تخمینی"
     }
   },
   "newPool": {
