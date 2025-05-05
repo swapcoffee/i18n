@@ -433,9 +433,10 @@
   },
   "contestItem": {
       "details": "详情",
-      "rewards": "总奖励",
-      "timerTitles": ["距离开始：", "距离结束：", "比赛已结束"],
-      "eventPeriod": "活动期间："
+    "rewards": "总奖励",
+      "rewardsUn": "现成的奖励",
+    "timerTitles": ["直到开始：", "直到最后：", "比赛结束"],
+    "eventPeriod": "活动时间："
   },
   "contestFaq": {
       "questions": [
@@ -523,31 +524,33 @@
       "back": "返回质押"
   },
   "stakeItem": {
-      "stakeTime": "质押时间",
-      "unstakeTime": "解质押时间",
-      "newDuration": "新持续时间",
-      "points": "积分",
-      "positionNumber": "位置编号",
-      "position": "位置",
-      "totalEarned": "总收益",
-      "newPoints": "新积分",
-      "staked": "已质押",
-      "earned": "已赚取",
-      "rewards": "奖励",
-      "details": "查看更多",
-      "restake": "延长质押",
-      "restakeWindow": "重新质押",
-      "restakeLocked": "位置已锁定",
-      "closeStake": "关闭质押",
-      "yourStake": "您的质押",
-      "restakeInfo": "您可以将质押位置延长最多",
-      "fee": "区块链费用",
-      "feeInfo": "最多 0.510 TON",
-      "showDetails": "显示详情",
-      "hideDetails": "隐藏详情",
-      "unclaimRewards": "奖励",
-      "selectFrame": "选择时间框架",
-      "aprTooltip": "年化收益率取决于资产成本、数量和分发奖励的价值。"
+    "stakeTime": "质押时间",
+    "unstakeTime": "取消质押时间",
+    "newDuration": "新的持续时间",
+    "points": "积分",
+      "positionNumber": "职位",
+      "position": "职位",
+      "totalEarned": "总收入",
+    "newPoints": "新积分",
+    "staked": "已质押",
+    "earned": "已赚取",
+    "rewards": "奖励",
+    "details": "查看更多详情",
+    "restake": "延长质押",
+    "restakeWindow": "延长质押窗口",
+    "restakeLocked": "位置已锁定",
+    "closeStake": "关闭质押",
+    "yourStake": "您的质押",
+    "restakeInfo": "您可以将质押位置延长至",
+    "fee": "区块链费用",
+    "feeInfo": "最高0.510 TON",
+      "showDetails": "展览详情",
+      "hideDetails": "隐藏详细信息",
+      "showSteps": "显示步骤",
+      "hideSteps": "隐藏步骤",
+      "unclaimRewards": "无人认领的奖赏",
+    "selectFrame": "选择时间范围",
+      "aprTooltip": "APR取决于资产成本，金额和分配奖励的价值。"
   },
   "stakeStatus": {
       "failedText": "质押操作失败！",
@@ -800,11 +803,17 @@
       "newPairs": "新交易对"
   },
   "poolsCommon": {
-      "pools": "池",
-      "boost": "加成",
-      "day": "天",
-      "backToPools": "返回池",
-      "poolsAmountSmall": "池"
+        "noActiveBoostDescr": "向池中添加奖励以促进流动性提供商加入—还没有积极的提升，成为第一个启动一个！",
+        "noActiveBoost": "没有主动提升",
+        "boostPool": "提升泳池",
+        "boostFarmSubDescription": "要参与农业，首先将流动性添加到特定池中。 这将授予您LP令牌，这是农业所必需的。",
+        "boostFarmSubTitle": "增加流动性以赚取",
+        "boostFarmTitle": "农场活跃",
+        "pools": "流动性池",
+        "boost": "提升",
+        "day": "天",
+        "backToPools": "返回流动性池",
+        "poolsAmountSmall": "池子"
   },
   "poolsTable": {
       "poolName": "池",
@@ -836,26 +845,40 @@
       "farmDisabled": "无流动性代币量"
   },
   "myPoolAction": {
-      "claimRewards": "领取奖励",
-      "goToWithdraw": "前往提取",
-      "custom": "自定义"
+      "claimAllRewards": "索取所有奖赏",
+    "claimRewards": "领取奖励",
+    "goToWithdraw": "前往提现",
+    "custom": "自定义"
   },
-  "myPoolLiquidity": {
-      "myLiquidityTitle": "我的流动性",
-      "addLiquidity": "添加流动性",
-      "addLiquidityDisabledTooltip": ["协议 STON.fi v1 已被弃用。", "建议使用协议 STON.fi v2。"]
-  },
-  "poolHeading": {
-      "infoText": "质押流动性代币以获取奖励",
-      "totalApr": "总年化收益率",
-      "farmApr": "流动性挖矿年化收益率",
-      "tradeFee": "交易费用"
+    "myPoolLiquidity": {
+        "dedustTooltip": "协议没有公开审计报告。",
+        "rewardsRemove": "删除和索赔",
+        "rewardsForClaim": "申索的奖赏",
+        "liquidityPool": "池中的流动性",
+        "liquidityFarm": "农场的流动性",
+        "myLiquidityTitle": "我的流动资金总额",
+        "addLiquidity": "添加流动性",
+        "yourPositions": "你的职位",
+        "connectWalletDescr": "现在连接你的钱包，看看你的位置",
+        "noPositions": "没有找到职位",
+        "noPositionsTitle": "你在这个池子里没有任何液体。 增加流动性以获得泳池奖励.",
+        "addLiquidityDisabledTooltip": [
+            "STON.fi v1协议已弃用。",
+            "建议使用STON.fi v2协议。"
+        ]
+    },
+    "poolHeading": {
+    "infoText": "农场 LP 代币以获得奖励",
+    "totalApr": "总年化收益率",
+    "farmApr": "农场年化收益率",
+    "tradeFee": "交易费用"
   },
   "poolLiq": {
-      "title": "池流动性",
-      "tvl": "总锁仓价值",
-      "volume": "交易量 (24小时)",
-      "fees": "费用 (24小时)"
+    "title": "池子流",
+    "tvl": "总锁仓价值",
+    "volume": "交易量 (24小时)",
+    "fees": "费用 (24小时)",
+      "poolAddress": "泳池地址"
   },
   "transferActions": {
       "transferLiq": "转移流动性"

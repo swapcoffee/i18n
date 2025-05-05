@@ -436,7 +436,12 @@
     "contestItem": {
         "details": "Détails",
         "rewards": "Récompenses totales",
-        "timerTitles": ["Jusqu'au début :", "Jusqu'à la fin :", "La compétition est terminée"],
+        "rewardsUn": "Récompenses non réclamées",
+        "timerTitles": [
+            "Jusqu'au début :",
+            "Jusqu'à la fin :",
+            "La compétition est terminée"
+        ],
         "eventPeriod": "Période de l'événement :"
     },
     "contestFaq": {
@@ -525,31 +530,33 @@
         "back": "Retour aux stakings"
     },
     "stakeItem": {
-        "stakeTime": "Temps staké",
-        "unstakeTime": "Temps de désengagement",
+        "stakeTime": "Temps de staking",
+        "unstakeTime": "Temps de unstaking",
         "newDuration": "Nouvelle durée",
         "points": "Points",
-        "positionNumber": "Position",
-        "position": "Position",
+        "positionNumber": "Poste",
+        "position": "Poste",
         "totalEarned": "Total gagné",
         "newPoints": "Nouveaux points",
         "staked": "Staké",
         "earned": "Gagné",
         "rewards": "Récompenses",
-        "details": "Voir plus",
-        "restake": "Prolonger le staking",
-        "restakeWindow": "Restaker",
+        "details": "Voir plus de détails",
+        "restake": "Prolonger le stake",
+        "restakeWindow": "Prolonger",
         "restakeLocked": "Position verrouillée",
-        "closeStake": "Fermer le staking",
-        "yourStake": "Votre staking",
+        "closeStake": "Fermer le stake",
+        "yourStake": "Votre stake",
         "restakeInfo": "Vous pouvez prolonger la position de staking jusqu'à",
-        "fee": "Frais de blockchain",
-        "feeInfo": "Jusqu'à 0.510 TON",
+        "fee": "Frais de la blockchain",
+        "feeInfo": "Jusqu'à 0,510 TON",
         "showDetails": "Afficher les détails",
         "hideDetails": "Masquer les détails",
-        "unclaimRewards": "Récompenses",
+        "showSteps": "Afficher Les Étapes",
+        "hideSteps": "Masquer Les Étapes",
+        "unclaimRewards": "Récompenses non réclamées",
         "selectFrame": "Sélectionnez la période",
-        "aprTooltip": "L'APR dépend du coût de l'actif, de la quantité et de la valeur des récompenses distribuées."
+        "aprTooltip": "Le TAP dépend du coût de l'actif, du montant et de la valeur des récompenses distribuées."
     },
     "stakeStatus": {
         "failedText": "L'action de staking a échoué !",
@@ -802,12 +809,18 @@
         "newPairs": "Nouvelles paires"
     },
     "poolsCommon": {
-        "pools": "pools",
-        "boost": "Boost",
-        "day": "jour",
-        "backToPools": "Retour aux pools",
-        "poolsAmountSmall": "pool"
-    },
+      "noActiveBoostDescr": "Ajoutez des récompenses à un pool pour stimuler l'adhésion des fournisseurs de liquidités — pas encore de boosts actifs, soyez le premier à en lancer un!",
+      "noActiveBoost": "Pas de boosts actifs",
+      "boostPool": "Booster une piscine",
+      "boostFarmSubDescription": "Pour participer à l'agriculture, ajoutez d'abord des liquidités à un pool spécifique. Cela vous accordera des jetons LP, qui sont nécessaires pour l'agriculture.",
+      "boostFarmSubTitle": "Ajoutez de la liquidité pour gagner",
+      "boostFarmTitle": "La ferme est active!",
+    "pools": "pools",
+    "boost": "Boost",
+    "day": "jour",
+    "backToPools": "Retour aux pools",
+    "poolsAmountSmall": "piscine"
+  },
     "poolsTable": {
         "poolName": "Pool",
         "source": "Source",
@@ -838,26 +851,39 @@
         "farmDisabled": "Aucun volume LP"
     },
     "myPoolAction": {
+        "claimAllRewards": "Réclamez toutes les récompenses",
         "claimRewards": "Réclamer des récompenses",
-        "goToWithdraw": "Aller au retrait",
-        "custom": "Personnalisé"
+        "goToWithdraw": "Aller au retrait"
     },
     "myPoolLiquidity": {
-        "myLiquidityTitle": "Ma liquidité",
+        "dedustTooltip": "Le protocole n'a pas de rapport d'audit public.",
+        "rewardsRemove": "Retirer et réclamer",
+        "rewardsForClaim": "Récompenses pour réclamation",
+        "liquidityPool": "Liquidité dans le pool",
+        "liquidityFarm": "Liquidité dans l'exploitation",
+        "myLiquidityTitle": "Ma liquidité totale",
         "addLiquidity": "Ajouter de la liquidité",
-        "addLiquidityDisabledTooltip": ["Le protocole STON.fi v1 est obsolète.", "Recommandé d'utiliser le protocole STON.fi v2."]
+        "yourPositions": "Vos Positions",
+        "connectWalletDescr": "Connectez votre portefeuille maintenant pour voir vos positions",
+        "noPositions": "Aucun Poste Trouvé",
+        "noPositionsTitle": "Vous n'avez aucune liquidité dans ce pool. Ajoutez de la liquidité pour gagner des récompenses de pool.",
+        "addLiquidityDisabledTooltip": [
+            "Le protocole STON.fi v1 est obsolète.",
+            "Nous recommandons d'utiliser le protocole STON.fi v2."
+        ]
     },
     "poolHeading": {
-        "infoText": "Faites du farming avec des tokens LP pour obtenir des récompenses",
-        "totalApr": "APR Total",
-        "farmApr": "APR du Farming",
+        "infoText": "Cultivez des tokens LP pour obtenir des récompenses",
+        "totalApr": "APR total",
+        "farmApr": "APR de la ferme",
         "tradeFee": "Frais de transaction"
     },
     "poolLiq": {
-        "title": "Liquidité du pool",
-        "tvl": "TVL",
+        "title": "Liquidité",
+        "tvl": "Valeur totale verrouillée (TVL)",
         "volume": "Volume (24h)",
-        "fees": "Frais (24h)"
+        "fees": "Frais (24h)",
+        "poolAddress": "Adresse de la piscine"
     },
     "transferActions": {
         "transferLiq": "Transférer la liquidité"
