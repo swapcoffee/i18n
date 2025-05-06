@@ -1154,6 +1154,10 @@
             "badRatio": {
                 "title": "Alerta de Ratio Inadecuado",
                 "text": "La proporción de activos que estás proporcionando está significativamente desequilibrada. Esto puede resultar en una provisión de liquidez subóptima y posibles pérdidas."
+            },
+            "existPool": {
+                "title": "El pool ya existe",
+                "text": "Ya existe un pool de liquidez para estos dos tokens. Por favor, considera añadir liquidez al pool existente en lugar de crear uno nuevo."
             }
         },
         "details": {
@@ -1163,6 +1167,7 @@
         },
         "buttons": {
             "create": "Crear nuevo pool",
+            "poolExist": "El pool ya existe",
             "deploySingleVault": "Desplegar vault de {token}",
             "deployMultiVault": "Desplegar múltiples vaults",
             "selectSecondAsset": "Seleccionar segundo activo"

@@ -1157,6 +1157,10 @@
             "badRatio": {
                 "title": "Alerte de Ratio Défavorable",
                 "text": "Le ratio des actifs que vous fournissez est significativement déséquilibré. Cela peut entraîner une provision de liquidité sous-optimale et des pertes potentielles."
+            },
+            "existPool": {
+                "title": "Le pool existe déjà",
+                "text": "Un pool de liquidité pour ces deux tokens existe déjà. Veuillez envisager d'ajouter de la liquidité au pool existant au lieu d'en créer un nouveau."
             }
         },
         "details": {
@@ -1166,6 +1170,7 @@
         },
         "buttons": {
             "create": "Créer un nouveau pool",
+            "poolExist": "Le pool existe déjà",
             "deploySingleVault": "Déployer le vault {token}",
             "deployMultiVault": "Déployer plusieurs vaults",
             "selectSecondAsset": "Sélectionner le second actif"

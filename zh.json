@@ -1098,7 +1098,7 @@
       "depositInfo": "存款地址以转移资金",
       "addressCopied": "地址已复制！",
       "addressNotCopied": "地址未复制",
-      "tokensMustBeSendingSoon": "代币将很快记入您的钱包。", 
+      "tokensMustBeSendingSoon": "代币将很快记入您的钱包。",
       "buttons": {
               "notAvailableProviders": "无可用提供商",
               "selectProvider": "选择提供商",
@@ -1152,6 +1152,10 @@
             "badRatio": {
                 "title": "不良比率警告",
                 "text": "您提供的资产比率严重不平衡。这可能导致次优的流动性提供和潜在损失。"
+            },
+            "existPool": {
+                "title": "池已存在",
+                "text": "这两个代币的流动性池已经存在。请考虑向现有池添加流动性，而不是创建新池。"
             }
         },
         "details": {
@@ -1161,6 +1165,7 @@
         },
         "buttons": {
             "create": "创建新池",
+            "poolExist": "池已存在",
             "deploySingleVault": "部署 {token} vault",
             "deployMultiVault": "部署多个 vaults",
             "selectSecondAsset": "选择第二资产"

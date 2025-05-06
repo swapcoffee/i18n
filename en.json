@@ -1151,6 +1151,10 @@
         "badRatio": {
             "title": "Bad Ratio Alert",
             "text": "The ratio of assets you're providing is significantly unbalanced. This may result in suboptimal liquidity provision and potential losses."
+        },
+        "existPool": {
+            "title": "Pool has already exist",
+            "text": "A liquidity pool for these two tokens already exists. Please consider adding liquidity to the existing pool instead of creating a new one."
         }
     },
     "details": {
@@ -1160,6 +1164,7 @@
     },
     "buttons": {
       "create": "Create new pool",
+      "poolExist": "Pool already exists",
       "deploySingleVault": "Deploy {token} vault",
       "deployMultiVault": "Deploy multi vaults",
       "selectSecondAsset": "Select second asset"
