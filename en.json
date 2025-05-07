@@ -1078,6 +1078,12 @@
         "addressCopied": "Address copied!",
         "addressNotCopied": "Address not copied",
         "tokensMustBeSendingSoon": "Tokens will be credited to your wallet shortly.",
+        "awaitingDeposit": "Awaiting deposit",
+        "errors": {
+            "noProvidersFound": "No providers found",
+            "pleaseTryAgain": "Please try again with another token or amount",
+            "ratesError": "Updated Rates Error. Try again"
+        },
         "buttons": {
             "notAvailableProviders": "Not available providers",
             "selectProvider": "Select provider",

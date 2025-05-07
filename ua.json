@@ -1086,6 +1086,12 @@
         "addressCopied": "Адресу скопійовано!",
         "addressNotCopied": "Адресу не скопійовано",
         "tokensMustBeSendingSoon": "Токени будуть зараховані на ваш гаманець найближчим часом.",
+        "awaitingDeposit": "Очікується депозит",
+        "errors": {
+            "noProvidersFound": "Постачальників не знайдено",
+            "pleaseTryAgain": "Спробуйте ще раз з іншим токеном або сумою",
+            "ratesError": "Помилка оновлення курсів. Спробуйте ще раз"
+        },
         "buttons": {
             "notAvailableProviders": "Недоступні постачальники",
             "selectProvider": "Виберіть постачальника",

@@ -1038,6 +1038,12 @@
         "addressCopied": "Адрес скопирован!",
         "addressNotCopied": "Адрес не скопирован",
         "tokensMustBeSendingSoon": "Токены будут зачислены на ваш кошелёк в ближайшее время.",
+        "awaitingDeposit": "Ожидание депозита",
+        "errors": {
+            "noProvidersFound": "Поставщики не найдены",
+            "pleaseTryAgain": "Попробуйте снова с другим токеном или суммой",
+            "ratesError": "Ошибка обновления курсов. Попробуйте снова"
+        },
         "buttons": {
             "notAvailableProviders": "Нет доступных поставщиков",
             "selectProvider": "Выберите поставщика",

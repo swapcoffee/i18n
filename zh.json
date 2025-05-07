@@ -1076,6 +1076,12 @@
       "addressCopied": "地址已复制！",
       "addressNotCopied": "地址未复制",
       "tokensMustBeSendingSoon": "代币将很快记入您的钱包。", 
+      "awaitingDeposit": "等待存款",
+      "errors": {
+          "noProvidersFound": "未找到提供商",
+          "pleaseTryAgain": "请尝试使用其他代币或金额重试",
+          "ratesError": "更新汇率时出错。请重试"
+      },
       "buttons": {
               "notAvailableProviders": "无可用提供商",
               "selectProvider": "选择提供商",

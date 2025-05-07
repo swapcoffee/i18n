@@ -1077,6 +1077,12 @@
     "addressCopied": "آدرس کپی شد!",
     "addressNotCopied": "آدرس کپی نشد",
     "tokensMustBeSendingSoon": "توکن‌ها به زودی به کیف پول شما واریز خواهند شد.",
+    "awaitingDeposit": "در انتظار واریز",
+    "errors": {
+        "noProvidersFound": "هیچ ارائه‌دهنده‌ای یافت نشد",
+        "pleaseTryAgain": "لطفاً با توکن یا مقدار دیگری دوباره تلاش کنید",
+        "ratesError": "خطا در به‌روزرسانی نرخ‌ها. لطفاً دوباره تلاش کنید"
+    },
     "buttons": {
          "notAvailableProviders": "ارائه‌دهندگان در دسترس نیستند",
          "selectProvider": "انتخاب ارائه‌دهنده",

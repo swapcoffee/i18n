@@ -1078,6 +1078,12 @@
         "addressCopied": "Adresse copiée !",
         "addressNotCopied": "Adresse non copiée",
         "tokensMustBeSendingSoon": "Les tokens seront crédités sur votre portefeuille sous peu.",
+        "awaitingDeposit": "En attente de dépôt",
+        "errors": {
+            "noProvidersFound": "Aucun fournisseur trouvé",
+            "pleaseTryAgain": "Veuillez réessayer avec un autre token ou montant",
+            "ratesError": "Erreur de mise à jour des taux. Veuillez réessayer"
+        },
         "buttons": {
             "notAvailableProviders": "Fournisseurs non disponibles",
             "selectProvider": "Sélectionner un fournisseur",

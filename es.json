@@ -1078,6 +1078,12 @@
         "addressCopied": "¡Dirección copiada!",
         "addressNotCopied": "Dirección no copiada",
         "tokensMustBeSendingSoon": "Los tokens se acreditarán en tu billetera en breve.",
+        "awaitingDeposit": "Esperando depósito",
+        "errors": {
+            "noProvidersFound": "No se encontraron proveedores",
+            "pleaseTryAgain": "Intenta nuevamente con otro token o cantidad",
+            "ratesError": "Error al actualizar las tasas. Intenta nuevamente"
+        },
         "buttons": {
             "notAvailableProviders": "Proveedores no disponibles",
             "selectProvider": "Seleccionar proveedor",
