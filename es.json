@@ -1086,6 +1086,7 @@
     },
     "bridge": {
         "via": "vía",
+        "accept": "Aceptar",
         "notSelected": "No seleccionado",
         "bridgeProvider": "Proveedor de puente",
         "from": "Desde",

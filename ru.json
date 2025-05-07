@@ -1043,6 +1043,7 @@
     },
     "bridge": {
         "via": "через",
+        "accept": "Принять",
         "notSelected": "Не выбрано",
         "bridgeProvider": "Поставщик моста",
         "from": "Из",

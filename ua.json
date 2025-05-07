@@ -1098,6 +1098,7 @@
     },
     "bridge": {
         "via": "через",
+        "accept": "Прийняти",
         "notSelected": "Не вибрано",
         "bridgeProvider": "Постачальник мосту",
         "from": "З",

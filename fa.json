@@ -1085,6 +1085,7 @@
    },
    "bridge": {
     "via": "از طریق",
+    "accept": "接受",
     "notSelected": "انتخاب نشده",
     "bridgeProvider": "ارائه‌دهنده پل",
     "from": "از",

@@ -1083,6 +1083,7 @@
     },
     "bridge": {
         "via": "via",
+        "accept": "Accept",
         "notSelected": "Not selected",
         "bridgeProvider": "Bridge provider",
         "from": "From",
