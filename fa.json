@@ -434,9 +434,10 @@
   },
   "contestItem": {
       "details": "جزئیات",
-      "rewards": "کل پاداش‌ها",
-      "timerTitles": ["تا شروع:", "تا پایان:", "مسابقه به پایان رسید"],
-      "eventPeriod": "دوره رویداد:"
+    "rewards": "مجموع جوایز:",
+      "rewardsUn": "مكافآت لم يطالب بها أحد",
+    "timerTitles": ["تا شروع:", "تا آخر:", "رقابت به پایان رسیده است"],
+    "eventPeriod": "دوره رویداد:"
   },
   "contestFaq": {
       "questions": [
@@ -524,31 +525,33 @@
       "back": "بازگشت به استیک‌ها"
   },
   "stakeItem": {
-      "stakeTime": "زمان استیک",
-      "unstakeTime": "زمان لغو استیک",
-      "newDuration": "مدت زمان جدید",
-      "points": "امتیازات",
-      "positionNumber": "موقعیت",
-      "position": "موقعیت",
-      "totalEarned": "کل درآمد",
-      "newPoints": "امتیازات جدید",
-      "staked": "استیک‌شده",
-      "earned": "درآمد",
-      "rewards": "پاداش‌ها",
-      "details": "مشاهده بیشتر",
-      "restake": "تمدید استیک",
-      "restakeWindow": "تمدید استیک",
-      "restakeLocked": "موقعیت قفل شده",
-      "closeStake": "بستن استیک",
-      "yourStake": "استیک شما",
-      "restakeInfo": "شما می‌توانید موقعیت استیک را تا",
-      "fee": "هزینه بلاکچین",
-      "feeInfo": "تا 0.510 TON",
-      "showDetails": "نمایش جزئیات",
-      "hideDetails": "پنهان کردن جزئیات",
-      "unclaimRewards": "پاداش‌ها",
-      "selectFrame": "انتخاب بازه زمانی",
-      "aprTooltip": "APR به هزینه دارایی، مقدار و ارزش پاداش‌های توزیع‌شده بستگی دارد."
+    "stakeTime": "زمان استیکینگ",
+    "unstakeTime": "زمان برداشت استیک",
+    "newDuration": "مدت زمان جدید",
+    "points": "امتیاز‌ها",
+      "positionNumber": "المنصب",
+      "position": "المنصب",
+      "totalEarned": "المجموع المكتسب",
+    "newPoints": "امتیاز‌های جدید",
+    "staked": "استیک‌شده",
+    "earned": "کسب‌شده",
+    "rewards": "پاداش‌ها",
+    "details": "مشاهده جزئیات بیشتر",
+    "restake": "تمدید استیک",
+    "restakeWindow": "تمدید",
+    "restakeLocked": "موقعیت قفل شده",
+    "closeStake": "بستن استیک",
+    "yourStake": "استیک شما",
+    "restakeInfo": "می‌توانید موقعیت استیک را تا",
+    "fee": "هزینه بلاکچین",
+    "feeInfo": "تا 0.510 TON",
+      "showDetails": "عرض التفاصيل",
+      "hideDetails": "إخفاء التفاصيل",
+      "showSteps": "إظهار الخطوات",
+      "hideSteps": "وإخفاء الخطوات",
+      "unclaimRewards": "مكافآت لم يطالب بها أحد",
+    "selectFrame": "بازه زمانی را انتخاب کنید",
+      "aprTooltip": "يعتمد معدل الفائدة السنوية على تكلفة الأصول ومقدارها وقيمة المكافآت الموزعة."
   },
   "stakeStatus": {
       "failedText": "عملیات استیک ناموفق بود!",
@@ -801,9 +804,15 @@
       "newPairs": "جفت‌های جدید"
   },
   "poolsCommon": {
-      "pools": "استخرها",
-      "boost": "افزایش",
-      "day": "روز",
+      "noActiveBoostDescr": "أضف مكافآت إلى مجموعة لتعزيز انضمام مزودي السيولة - لا توجد تعزيزات نشطة حتى الآن ، كن أول من يطلق واحدة!",
+      "noActiveBoost": "لا يعزز النشطة",
+      "boostPool": "تعزيز بركة",
+      "boostFarmSubDescription": "للمشاركة في الزراعة ، أضف أولا السيولة إلى مجموعة معينة. هذا سوف يمنحك الرموز ليرة لبنانية ، والتي هي ضرورية للزراعة.",
+      "boostFarmSubTitle": "إضافة السيولة لكسب",
+      "boostFarmTitle": "المزرعة نشطة",
+      "pools": "التجمعات",
+      "boost": "تعزيز",
+      "day": "يوم",
       "backToPools": "بازگشت به استخرها",
       "poolsAmountSmall": "استخر"
   },
@@ -837,26 +846,40 @@
       "farmDisabled": "حجم LP موجود نیست"
   },
   "myPoolAction": {
-      "claimRewards": "درخواست پاداش‌ها",
-      "goToWithdraw": "رفتن به برداشت",
-      "custom": "سفارشی"
+      "claimAllRewards": "المطالبة بجميع المكافآت",
+      "claimRewards": "المطالبة بالمكافآت",
+      "goToWithdraw": "الذهاب إلى السحب",
+      "custom": "مخصص"
   },
   "myPoolLiquidity": {
-      "myLiquidityTitle": "نقدینگی من",
-      "addLiquidity": "افزودن نقدینگی",
-      "addLiquidityDisabledTooltip": ["پروتکل STON.fi v1 منسوخ شده است.", "توصیه می‌شود از پروتکل STON.fi v2 استفاده کنید."]
+      "dedustTooltip": "لا يحتوي البروتوكول على تقرير تدقيق عام.",
+      "rewardsRemove": "إزالة والمطالبة",
+      "rewardsForClaim": "مكافآت للمطالبة",
+      "liquidityPool": "السيولة في المجمع",
+      "liquidityFarm": "السيولة في المزرعة",
+      "myLiquidityTitle": "إجمالي السيولة",
+      "addLiquidity": "إضافة السيولة",
+      "yourPositions": "مواقفكم",
+      "connectWalletDescr": "ربط محفظتك الآن لمعرفة مواقفكم",
+      "noPositions": "لم يتم العثور على وظائف",
+      "noPositionsTitle": "ليس لديك أي سيولة في هذا التجمع. إضافة السيولة لكسب المكافآت تجمع.",
+      "addLiquidityDisabledTooltip": [
+            "پروتکل STON.fi v1 منسوخ شده است.",
+            "توصیه می‌شود از پروتکل STON.fi v2 استفاده کنید."
+      ]
   },
   "poolHeading": {
-      "infoText": "فارم کردن توکن‌های LP برای دریافت پاداش",
-      "totalApr": "کل APR",
-      "farmApr": "APR فارم",
-      "tradeFee": "کارمزد معامله"
+    "infoText": "قم بزراعة رموز LP للحصول على المكافآت",
+    "totalApr": "إجمالي معدل الفائدة السنوي",
+    "farmApr": "معدل الفائدة السنوي للمزرعة",
+    "tradeFee": "رسوم التداول"
   },
   "poolLiq": {
-      "title": "نقدینگی استخر",
-      "tvl": "TVL",
-      "volume": "حجم (۲۴ ساعت)",
-      "fees": "کارمزدها (۲۴ ساعت)"
+    "title": "التجمع",
+    "tvl": "القيمة الإجمالية المقفلة",
+    "volume": "الحجم (24 ساعة)",
+    "fees": "الرسوم (24 ساعة)",
+      "poolAddress": "عنوان المسبح"
   },
   "transferActions": {
       "transferLiq": "انتقال نقدینگی"
@@ -1090,7 +1113,7 @@
          "enterAmount": "مقدار را وارد کنید",
          "connectTonWallet": "اتصال کیف پول TON",
          "connectMultiWallet": "اتصال کیف پول چند زنجیره‌ای",
-         "enterReceiverAddress": "تنظیم آدرس گیرنده" 
+         "enterReceiverAddress": "تنظیم آدرس گیرنده"
     },
     "bridgePopup": {
          "chainTitle": "لیست زنجیره‌ها",
@@ -1136,6 +1159,10 @@
         "badRatio": {
             "title": "هشدار نسبت نامناسب",
             "text": "نسبت دارایی‌هایی که ارائه می‌کنید به طور قابل توجهی نامتعادل است. این ممکن است منجر به تأمین نقدینگی نامطلوب و زیان‌های احتمالی شود."
+        },
+        "existPool": {
+            "title": "استخر از قبل وجود دارد",
+            "text": "یک استخر نقدینگی برای این دو توکن از قبل وجود دارد. لطفاً به جای ایجاد استخر جدید، افزودن نقدینگی به استخر موجود را در نظر بگیرید."
         }
     },
     "details": {
@@ -1145,6 +1172,7 @@
     },
     "buttons": {
       "create": "ایجاد استخر جدید",
+      "poolExist": "استخر از قبل وجود دارد",
       "deploySingleVault": "استقرار vault {token}",
       "deployMultiVault": "استقرار چندین vault",
       "selectSecondAsset": "انتخاب دارایی دوم"

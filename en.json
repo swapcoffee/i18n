@@ -436,6 +436,7 @@
     "contestItem": {
         "details": "Details",
         "rewards": "Total rewards",
+        "rewardsUn": "Unclaimed rewards",
         "timerTitles": ["Until the start:", "Until the end:", "Competition is over"],
         "eventPeriod": "Event period:"
     },
@@ -547,6 +548,8 @@
         "feeInfo": "Up to 0.510 TON",
         "showDetails": "Show details",
         "hideDetails": "Hide details",
+        "showSteps": "Show Steps",
+        "hideSteps": "Hide Steps",
         "unclaimRewards": "Rewards",
         "selectFrame": "Select timeframe",
         "aprTooltip": "APR depends on the asset cost, amount and the value of distributed rewards."
@@ -802,6 +805,12 @@
         "newPairs": "New pairs"
     },
     "poolsCommon": {
+        "noActiveBoostDescr": "Add rewards to a pool to boost liquidity providers joining in — no active boosts yet, be the first to launch one!",
+        "noActiveBoost": "No active boosts",
+        "boostPool": "Boost a pool",
+        "boostFarmSubDescription": "To participate in farming, first add liquidity to a specific pool. This will grant you LP tokens, which are necessary for farming.",
+        "boostFarmSubTitle": "Add liquidity to earn",
+        "boostFarmTitle": "Farm is active!",
         "pools": "pools",
         "boost": "Boost",
         "day": "day",
@@ -838,13 +847,23 @@
         "farmDisabled": "No LP volume"
     },
     "myPoolAction": {
+        "claimAllRewards": "Claim all rewards",
         "claimRewards": "Claim rewards",
         "goToWithdraw": "Go to withdraw",
         "custom": "Custom"
     },
     "myPoolLiquidity": {
-        "myLiquidityTitle": "My liquidity",
+        "dedustTooltip": "Protocol doesn’t have public audit report.",
+        "rewardsRemove": "Remove and claim",
+        "rewardsForClaim": "Rewards for claim",
+        "liquidityPool": "Liquidity in the pool",
+        "liquidityFarm": "Liquidity in the farm",
+        "myLiquidityTitle": "My total liquidity",
         "addLiquidity": "Add liquidity",
+        "yourPositions": "Your positions",
+        "connectWalletDescr": "Connect your wallet now to see your positions",
+        "noPositions": "No Positions Found",
+        "noPositionsTitle": "You don't have any liquidities in this pool. Add liquidity to earn pool rewards.",
         "addLiquidityDisabledTooltip": ["Protocol STON.fi v1 is deprecated.", "Recommend using protocol STON.fi v2."]
     },
     "poolHeading": {
@@ -854,10 +873,11 @@
         "tradeFee": "Trade fee"
     },
     "poolLiq": {
-        "title": "Pool liquidity",
+        "title": "Liquidity",
         "tvl": "TVL",
         "volume": "Volume (24h)",
-        "fees": "Fees (24h)"
+        "fees": "Fees (24h)",
+        "poolAddress": "Pool address"
     },
     "transferActions": {
         "transferLiq": "Transfer liquidity"
@@ -1137,6 +1157,10 @@
         "badRatio": {
             "title": "Bad Ratio Alert",
             "text": "The ratio of assets you're providing is significantly unbalanced. This may result in suboptimal liquidity provision and potential losses."
+        },
+        "existPool": {
+            "title": "Pool has already exist",
+            "text": "A liquidity pool for these two tokens already exists. Please consider adding liquidity to the existing pool instead of creating a new one."
         }
     },
     "details": {
@@ -1146,6 +1170,7 @@
     },
     "buttons": {
       "create": "Create new pool",
+      "poolExist": "Pool already exists",
       "deploySingleVault": "Deploy {token} vault",
       "deployMultiVault": "Deploy multi vaults",
       "selectSecondAsset": "Select second asset"

@@ -436,8 +436,9 @@
     "contestItem": {
         "details": "Detalles",
         "rewards": "Recompensas totales",
-        "timerTitles": ["Hasta el inicio:", "Hasta el final:", "La competencia ha terminado"],
-        "eventPeriod": "Período del evento:"
+        "rewardsUn": "Recompensas no reclamadas",
+        "timerTitles": ["Hasta el comienzo:", "Hasta el final:", "La competencia ha terminado"],
+        "eventPeriod": "Periodo del evento:"
     },
     "contestFaq": {
         "questions": [
@@ -525,31 +526,33 @@
         "back": "Volver a apuestas"
     },
     "stakeItem": {
-        "stakeTime": "Tiempo apostado",
-        "unstakeTime": "Tiempo de desapostar",
+        "stakeTime": "Tiempo de staking",
+        "unstakeTime": "Tiempo de unstaking",
         "newDuration": "Nueva duración",
         "points": "Puntos",
         "positionNumber": "Posición",
         "position": "Posición",
         "totalEarned": "Total ganado",
         "newPoints": "Nuevos puntos",
-        "staked": "Apostado",
+        "staked": "Stakeado",
         "earned": "Ganado",
         "rewards": "Recompensas",
-        "details": "Ver más",
-        "restake": "Extender apuesta",
-        "restakeWindow": "Reapostar",
+        "details": "Ver más detalles",
+        "restake": "Extender stake",
+        "restakeWindow": "Extender",
         "restakeLocked": "Posición bloqueada",
-        "closeStake": "Cerrar apuesta",
-        "yourStake": "Tu apuesta",
-        "restakeInfo": "Puedes extender la posición de apuesta hasta",
-        "fee": "Tarifa de blockchain",
+        "closeStake": "Cerrar stake",
+        "yourStake": "Tu stake",
+        "restakeInfo": "Puedes extender la posición de staking hasta",
+        "fee": "Comisión de la blockchain",
         "feeInfo": "Hasta 0.510 TON",
         "showDetails": "Mostrar detalles",
         "hideDetails": "Ocultar detalles",
-        "unclaimRewards": "Recompensas",
-        "selectFrame": "Seleccionar período de tiempo",
-        "aprTooltip": "El APR depende del costo del activo, la cantidad y el valor de las recompensas distribuidas."
+        "showSteps": "Mostrar Steps",
+        "hideSteps": "Ocultar Steps",
+        "unclaimRewards": "Recompensas no reclamadas",
+        "selectFrame": "Selecciona el periodo de tiempo",
+        "aprTooltip": "La TAE depende del costo de los activos, el monto y el valor de las recompensas distribuidas."
     },
     "stakeStatus": {
         "failedText": "¡La acción de apuesta falló!",
@@ -802,6 +805,12 @@
         "newPairs": "Nuevos pares"
     },
     "poolsCommon": {
+        "noActiveBoostDescr": "Agregue recompensas a un grupo para impulsar a los proveedores de liquidez que se unan; ¡aún no hay aumentos activos, sea el primero en lanzar uno!",
+        "noActiveBoost": "Sin refuerzos activos",
+        "boostPool": "Impulsar una piscina",
+        "boostFarmSubDescription": "Para participar en la agricultura, primero agregue liquidez a un grupo específico. Esto te otorgará tokens LP, que son necesarios para la agricultura.",
+        "boostFarmSubTitle": "Agregue liquidez para ganar",
+        "boostFarmTitle": "La granja está activa!",
         "pools": "pools",
         "boost": "Impulso",
         "day": "día",
@@ -838,27 +847,41 @@
         "farmDisabled": "Sin volumen de LP"
     },
     "myPoolAction": {
-        "claimRewards": "Reclamar recompensas",
-        "goToWithdraw": "Ir a retirar",
-        "custom": "Personalizado"
-    },
-    "myPoolLiquidity": {
-        "myLiquidityTitle": "Mi liquidez",
-        "addLiquidity": "Añadir liquidez",
-        "addLiquidityDisabledTooltip": ["El protocolo STON.fi v1 está obsoleto.", "Se recomienda usar el protocolo STON.fi v2."]
-    },
-    "poolHeading": {
-        "infoText": "Farma tokens LP para obtener recompensas",
-        "totalApr": "APR total",
-        "farmApr": "APR de farming",
-        "tradeFee": "Tarifa de intercambio"
-    },
-    "poolLiq": {
-        "title": "Liquidez del pool",
-        "tvl": "TVL",
-        "volume": "Volumen (24h)",
-        "fees": "Comisiones (24h)"
-    },
+      "claimAllRewards": "Reclama todas las recompensas",
+    "claimRewards": "Reclamar recompensas",
+    "goToWithdraw": "Ir a retirar",
+    "custom": "Personalizado"
+  },
+  "myPoolLiquidity": {
+      "dedustTooltip": "El protocolo no tiene informe de auditoría pública.",
+      "rewardsRemove": "Eliminar y reclamar",
+      "rewardsForClaim": "Recompensas por reclamo",
+      "liquidityPool": "Liquidez en el pool",
+      "liquidityFarm": "Liquidez en la granja",
+    "myLiquidityTitle": "Mi liquidez total",
+    "addLiquidity": "Agregar liquidez",
+      "yourPositions": "Tus Posiciones",
+      "connectWalletDescr": "Conecte su billetera ahora para ver sus posiciones",
+      "noPositions": "No Se Encontraron Posiciones",
+      "noPositionsTitle": "No tienes liquidez en este grupo. Agregue liquidez para ganar recompensas de grupo.",
+    "addLiquidityDisabledTooltip": [
+      "El protocolo STON.fi v1 está obsoleto.",
+      "Recomendamos usar el protocolo STON.fi v2."
+    ]
+  },
+  "poolHeading": {
+    "infoText": "Farma tokens LP para obtener recompensas",
+    "totalApr": "APR Total",
+    "farmApr": "APR de Farming",
+    "tradeFee": "Tarifa de Comercio"
+  },
+  "poolLiq": {
+    "title": "Liquidez",
+    "tvl": "TVL",
+    "volume": "Volumen (24h)",
+    "fees": "Comisiones (24h)",
+      "poolAddress": "Dirección de la piscina"
+  },
     "transferActions": {
         "transferLiq": "Transferir liquidez"
     },
@@ -1137,6 +1160,10 @@
             "badRatio": {
                 "title": "Alerta de Ratio Inadecuado",
                 "text": "La proporción de activos que estás proporcionando está significativamente desequilibrada. Esto puede resultar en una provisión de liquidez subóptima y posibles pérdidas."
+            },
+            "existPool": {
+                "title": "El pool ya existe",
+                "text": "Ya existe un pool de liquidez para estos dos tokens. Por favor, considera añadir liquidez al pool existente en lugar de crear uno nuevo."
             }
         },
         "details": {
@@ -1146,6 +1173,7 @@
         },
         "buttons": {
             "create": "Crear nuevo pool",
+            "poolExist": "El pool ya existe",
             "deploySingleVault": "Desplegar vault de {token}",
             "deployMultiVault": "Desplegar múltiples vaults",
             "selectSecondAsset": "Seleccionar segundo activo"
