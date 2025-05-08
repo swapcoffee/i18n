@@ -1083,6 +1083,7 @@
       }
   },
   "bridge": {
+      "recAddress": "指定接收者的地址",
       "via": "通过",
       "accept": "接受",
       "notSelected": "未选择",

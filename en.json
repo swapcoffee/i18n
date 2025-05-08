@@ -1082,6 +1082,7 @@
         }
     },
     "bridge": {
+        "recAddress": "Specify the recipient's address",
         "via": "via",
         "accept": "Accept",
         "notSelected": "Not selected",

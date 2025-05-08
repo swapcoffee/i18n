@@ -1085,6 +1085,7 @@
         }
     },
     "bridge": {
+        "recAddress": "Especifica la dirección del receptor",
         "via": "vía",
         "accept": "Aceptar",
         "notSelected": "No seleccionado",

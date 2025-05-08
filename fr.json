@@ -1088,6 +1088,7 @@
         }
     },
     "bridge": {
+        "recAddress": "Spécifiez l'adresse du destinataire",
         "via": "via",
         "accept": "Accepter",
         "notSelected": "Non sélectionné",
