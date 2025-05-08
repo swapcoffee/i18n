@@ -1098,7 +1098,7 @@
             "receiverAddress": "Адрес получателя",
             "receiverAddressDescription1": "Вы можете ввести его вручную или использовать подключение кошелька.",
             "receiverAddressDescription2": "(Адреса CEX не поддерживаются)",
-            "inputPlaceholder": "Введите адрес сети",
+            "inputPlaceholder": "Введите адрес в сети",
             "clearBtn": "Очистить",
             "pasteBtn": "Вставить"
         },

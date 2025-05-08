@@ -1153,7 +1153,7 @@
             "receiverAddress": "Адреса отримувача",
             "receiverAddressDescription1": "Ви можете ввести її вручну або скористатися підключенням гаманця.",
             "receiverAddressDescription2": "(Адреси CEX не підтримуються)",
-            "inputPlaceholder": "Введіть адресу мережі",
+            "inputPlaceholder": "Введіть адресу в мережі",
             "clearBtn": "Очистити",
             "pasteBtn": "Вставити"
         },

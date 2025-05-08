@@ -1141,7 +1141,7 @@
             "receiverAddress": "Dirección del receptor",
             "receiverAddressDescription1": "Puedes ingresarla manualmente o usar la conexión de billetera.",
             "receiverAddressDescription2": "(Direcciones CEX no son compatibles)",
-            "inputPlaceholder": "Introduce la dirección de la cadena",
+            "inputPlaceholder": "Introduce una dirección en la red",
             "clearBtn": "Limpiar",
             "pasteBtn": "Pegar"
         },

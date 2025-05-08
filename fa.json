@@ -1140,7 +1140,7 @@
          "receiverAddress": "آدرس گیرنده",
          "receiverAddressDescription1": "می‌توانید آن را به صورت دستی وارد کنید یا از اتصال کیف پول استفاده کنید.",
          "receiverAddressDescription2": "(آدرس‌های CEX پشتیبانی نمی‌شوند)",
-         "inputPlaceholder": "آدرس شبکه را وارد کنید",
+         "inputPlaceholder": "آدرس را در شبکه وارد کنید",
          "clearBtn": "پاک کردن",
          "pasteBtn": "چسباندن"
     },

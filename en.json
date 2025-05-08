@@ -1138,7 +1138,7 @@
             "receiverAddress": "Receiver address",
             "receiverAddressDescription1": "You can enter it manually or use the wallet connection. ",
             "receiverAddressDescription2": "(CEX addresses are not supported)",
-            "inputPlaceholder": "Enter network address",
+            "inputPlaceholder": "Enter the address on the network",
             "clearBtn": "Clear",
             "pasteBtn": "Paste"
         },

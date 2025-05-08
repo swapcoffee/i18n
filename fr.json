@@ -1144,7 +1144,7 @@
             "receiverAddress": "Adresse du destinataire",
             "receiverAddressDescription1": "Vous pouvez l'entrer manuellement ou utiliser la connexion au portefeuille. ",
             "receiverAddressDescription2": "(Les adresses CEX ne sont pas prises en charge)",
-            "inputPlaceholder": "Entrez l'adresse de la chaîne",
+            "inputPlaceholder": "Entrez une adresse sur le réseau",
             "clearBtn": "Effacer",
             "pasteBtn": "Coller"
         },
