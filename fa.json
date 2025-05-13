@@ -814,7 +814,8 @@
       "boost": "تعزيز",
       "day": "يوم",
       "backToPools": "بازگشت به استخرها",
-      "poolsAmountSmall": "استخر"
+      "poolsAmountSmall": "استخر",
+      "remove": "إزالة"
   },
   "poolsTable": {
       "poolName": "استخر",

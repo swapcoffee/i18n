@@ -815,7 +815,8 @@
         "boost": "Boost",
         "day": "day",
         "backToPools": "Back to pools",
-        "poolsAmountSmall": "pool"
+        "poolsAmountSmall": "pool",
+        "remove": "Remove"
     },
     "poolsTable": {
         "poolName": "Pool",

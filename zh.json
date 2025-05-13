@@ -1,808 +1,840 @@
 {
-  "dexSettings": {
-      "caption": "设置",
-      "cashback": {
-          "title": "返现",
-          "text": "激活此功能即表示您同意领取您的奖励",
-          "colorText": ["$KINGY", "$DFC", "$WEB3", "$DYOR"]
-      },
-      "expert": {
-          "title": "专家模式",
-          "text": "风险自负。"
-      },
-      "slippage": {
-          "title": "滑点容差",
-          "text": "如果价格变化超过此百分比，您的交易将被撤销。"
-      },
-      "priceImpact": {
-          "title": "价格影响",
-          "text": "如果价格影响超过此百分比，我们将不允许您进行交换。"
-      },
-      "intermediate": {
-          "title": "中间代币",
-          "text": "您可以配置中间代币的最大数量，从而控制路径的长度。路径越长，消耗的Gas越多，并且在通过高波动性池或低滑点交换时，收到中间代币而不是目标代币的概率越高。"
-      },
-      "volatility": {
-          "title": "池波动性",
-          "text": "您可以排除使用高波动性（因此高风险）池的路径。波动性被认为是过去15分钟内池中最高和最低价格比率的比值。"
-      },
-      "parallel": {
-          "title": "并行交易",
-          "text": "您可以设置最大并行交易数量，从而构建更有利可图的路径。",
-          "textW5": "使用",
-          "colorText": "W5钱包",
-          "tooltip": "选择最多20条路径的选项，但这也会增加消耗的Gas量，并在交换时收到中间代币而不是目标代币的概率。"
-      },
-      "sources": {
-          "title": "流动性来源",
-          "text": "禁用流动性来源会将其从路径中排除"
-      }
-  },
-  "dexInterface": {
-      "trustScore": "信任分数",
-      "trustShort": "信任",
-      "trustDescription": "信任分数基于链上和链下参数计算，但此评估不提供100%的安全保证。",
-      "selectToken": "选择代币",
-      "youSend": "您发送",
-      "youReceive": "您接收",
-      "balance": "余额：{currentBalance}",
-      "max": "Max",
-      "half": "Half",
-      "slippage": "{slippageCount}% 滑点",
-      "cashback": {
-          "name": "返现",
-          "status": "已启用"
-      }
-  },
-  "dexTokens": {
-      "searchPlaceholder": "按名称搜索",
-      "emptySearch": [
-          "我们没有找到任何资产。",
-          "尝试指定代币的地址。"
-      ],
-      "validAddress": "请输入有效的代币地址",
-      "importNotice": "此代币未包含在活动代币列表中。请确保您了解与导入代币相关的风险。",
-      "importBtn": "接受并导入",
-      "titles": [
-          "您的代币",
-          "热门代币",
-          "搜索结果"
-      ],
-      "noData": "未找到数据",
-      "info": [
-          "价格",
-          "流动性",
-          "持有者数量"
-      ],
-      "filters": [
-          "所有资产",
-          "新",
-          "返现",
-          "竞赛"
-      ]
-  },
-  "stakeButton": {
-      "stake": "质押",
-      "tooltip": [
-          "• 您可以质押您的TON并接收{output_amount} {symbol}",
-          "• 此外，通过质押您有资格获得奖励"
-      ]
-  },
-  "unstakeButton": {
-      "unstake": "{hours}小时后解质押",
-      "unstakeNow": "立即解质押",
-      "tooltip_later": [
-          "• 解质押{symbol}可以稍微多接收一些TON",
-          "• 解质押后您将接收{output_amount} TON",
-          "• 您的解质押请求将在{hours}小时内处理",
-          "• 不过，您现在可以将{symbol}兑换为TON，但接收的会更少"
-      ],
-      "tooltip_now": [
-          "• 解质押{symbol}可以稍微多接收一些TON",
-          "• 解质押后您将接收{output_amount} TON"
-      ]
-  },
-  "dexButton": {
-      "poolNotFound": "未找到流动性池",
-      "connectWallet": "连接钱包",
-      "notEnoughGas": "TON不足以支付Gas费用",
-      "highPriceImpact": "价格影响过高",
-      "notEnough": "余额不足",
-      "enterAmount": "输入金额",
-      "selectToken": "选择代币",
-      "sendTransaction": "交换",
-      "stakeOneThousand": "质押1000 CES",
-      "deploySmartContract": "部署智能合约",
-      "choosePriceRange": "选择价格范围",
-      "createOrder": "创建订单",
-      "notPermission": "池不可用",
-      "addLiquidity": "添加流动性",
-      "tooltip": [
-          "• 尝试增加池波动性设置。",
-          "• 尝试增加中间代币设置。",
-          "• 确保此类池存在并通知支持团队。"
-      ]
-  },
-  "dexSidebar": {
-      "portfolio": "投资组合",
-      "claim": "奖励中心",
-      "dex": "DEX聚合器",
-      "earn": "我们的DEX",
-      "pools": "流动性池",
-      "benefits": "福利",
-      "launchpad": "启动平台",
-      "settings": "设置",
-      "documentation": "文档",
-      "whitePaper": "White paper",
-      "stake": "质押",
-      "aggregator": "聚合器",
-      "tools": "工具",
-      "memes": "表情包"
-  },
-  "dexGlobal": {
-      "chart": {
-          "title": "价格图表",
-          "description": "启用图表显示"
-      },
-      "dev": {
-          "title": "开发者模式",
-          "description": "启用调试模式"
-      },
-      "caption": "全局设置",
-      "theme": {
-          "name": [
-              "系统",
-              "深色",
-              "浅色",
-              "咖啡"
-          ],
-          "text": "主题模式"
-      },
-      "lang": {
-          "name": "语言",
-          "text": "选择首选语言",
-          "caption": "选择一种语言"
-      },
-      "chart-provider": {
-          "title": "图表提供商",
-          "caption": "选择图表",
-          "providers-description": [
-              "高级图表（TradingView）",
-              "轻量级图表",
-              "专注于DEX活动和流动性流动",
-              "详细的实时图表"
-          ]
-      },
-      "chart-profit": {
-          "title": "交易利润",
-          "caption": "您的交易利润将显示在Dyor图表上"
-      },
-      "mini-modal": {
-          "full": "查看详情",
-          "mini": "详情"
-      }
-  },
-  "dexNavigation": {
-      "swap": "Swap",
-      "limit": "Limit",
-      "referral": "推荐计划",
-      "cashback": "返现",
-      "contests": "交易竞赛",
-      "dca": "定投",
-      "perpetuals": "Perpetuals",
-      "bridge": "桥接",
-      "onramp": "Onramp"
-  },
-  "dexInfo": {
-      "highPriceImpact": "高价格影响 {priceImpact}% 下跌！",
-      "priceImpact": "交换此数量的选定代币将导致显著的价格影响并减少您的收益。",
-      "reverseSwap": "精确输出交换支持的流动性场所较少，路径较少。它可能还会提供更差的价格。",
-      "exactOut": "精确输出交换"
-  },
-  "dexWallet": {
-      "title": "账户",
-      "balance": "您的余额"
-  },
-  "dexDetails": {
-      "titles": [
-          "显示交换详情",
-          "隐藏详情"
-      ],
-      "priceImpact": {
-          "name": "价格影响",
-          "tooltip": [
-              "市场价格与估计价格之间的差异",
-              "由于交易规模导致的。"
-          ]
-      },
-      "minimumReceive": {
-          "name": "最低接收",
-          "tooltip": [
-              "如果在交易确认之前发生",
-              "大幅不利的价格变动，您的交易将被撤销。"
-          ]
-      },
-      "fee": {
-          "name": "区块链费用",
-          "text": "最多 {gasFee} TON",
-          "integrator": "集成商费用"
-      },
-      "mev": {
-          "name": "MEV 保护费用"
-      },
-      "economy": "您的经济",
-      "distribution": "分配计划"
-  },
-  "dexSuccess": {
-      "status": {
-          "error": "交易错误",
-          "timed_out": "交易超时",
-          "pending": "再等一秒",
-          "success": "交换成功！"
-      },
-      "btnText": "交换所有中间代币",
-      "info": [
-          "尝试使用高于正常的滑点以确保",
-          "您的交易完成。"
-      ],
-      "cashback": {
-          "name": "返现",
-          "text": "成功"
-      },
-      "resultText": "🔥 看看我在 swap.coffee 上多么划算地买到了 {token}！\n🤑 加入并与我一起划算地交换吧！"
-  },
-  "dexRouteInfo": {
-      "cashback": "您将收到返现",
-      "plan": "通过 {dexNames} 的分配计划",
-      "shortPlan": "通过 {dexNames}",
-      "caption": [
-          "分配计划",
-          "路由"
-      ]
-  },
-  "claimCenter": {
-      "description": "邀请朋友，赚取他们交易佣金的一部分，并领取您的奖励！",
-      "titles": ["所有奖励", "返现", "推荐", "竞赛", "质押", "流动性池"],
-      "caption": "选择要提取的奖励",
-      "text": "提取费用取决于您选择的代币数量",
-      "empty-title": "您在领取中心没有奖励",
-      "empty-description": "使用 swap.coffee 赚取奖励",
-      "tooltip": "我们从不同的钱包中发放奖励，一个代币可以从多个钱包中提取，每笔交易都需要支付Gas费用"
-  },
-  "claim-banner": {
-      "title": "领取中心",
-      "description": "欢迎来到领取中心——您在 swap.coffee 上管理奖励的个人中心。\n\n我们设计了它，使奖励领取过程尽可能简单和愉快。",
-      "detail-button": "如何运作",
-      "connect-button": "连接钱包"
-  },
-  "claimHistory": {
-      "empty": "领取历史目前为空。"
-  },
-  "claimStatus": {
-      "failedText": "代币领取错误。请稍后重试或联系支持。",
-      "error": "领取失败",
-      "timed_out": "交易超时",
-      "pending": "再等一秒",
-      "success": "领取成功！"
-  },
-  "claimTokens": {
-      "category": [
-          "全选",
-          "返现",
-          "质押",
-          "流动性池",
-          "推荐",
-          "竞赛",
-          "奖励"
-      ],
-      "all-rewards": "所有奖励",
-      "claim-now": "立即领取",
-      "claim-selected": "领取选中项",
-      "unselect": "取消选择",
-      "table-titles": [
-          "代币",
-          "价值",
-          "数量",
-          "来源",
-          "流动性",
-          "价格"
-      ],
-      "select-all": "全选"
-  },
-  "qr-modal": {
-      "title": "二维码",
-      "description": "用您的手机扫描"
-  },
-  "referralInfo": {
-      "referrals": "{count} 个推荐",
-      "withdraw": "可提取",
-      "emptyWithdraw": "没有可提取的代币",
-      "blockNames": [
-          "未领取奖励",
-          "收入（全部）",
-          "收入（30天）",
-          "交易额（全部）",
-          "交易额（30天）"
-      ],
-      "tooltip-income": "显示的是“账面”利润，取决于我们供应商的支付，可能无法立即提取",
-      "statsNames": [
-          "奖励百分比",
-          "您的等级",
-          "推荐人数"
-      ],
-      "tableTitles": [
-          "地址",
-          "交易次数",
-          "交易额",
-          "我的奖励"
-      ],
-      "levels": [
-          "青铜",
-          "白银",
-          "黄金"
-      ],
-      "empty": [
-          "推荐列表目前为空。",
-          "与其他用户分享您的推荐链接"
-      ],
-      "level-tooltip": "随着您的推荐人数和交易量的增加，您可以获得更高的佣金奖励和一个自定义的吸引人链接。"
-  },
-  "referralHistory": {
-      "tableTitles": ["交易", "时间", "价值"]
-  },
-  "referralLink": {
-      "caption": "您的推荐链接",
-      "description": "这是您的推荐链接，当您的朋友点击该链接时，他将自动成为您的推荐人",
-      "copyBtn": "复制推荐链接",
-      "linkCopied": "链接已复制！",
-      "qrBtn": "显示二维码"
-  },
-  "referralNav": {
-      "info": "我的信息",
-      "referrals": "我的推荐",
-      "history": "领取历史"
-  },
-  "referralFaq": {
-      "questions": [
-          "奖励百分比是如何计算的？",
-          "什么是推荐系统等级？",
-          "谁可以成为我的推荐人？",
-          "如何提高奖励百分比？",
-          "如何领取奖励？"
-      ],
-      "answers": [
-          "奖励百分比基于您的等级。\nswap.coffee 不向用户收取任何额外费用。我们与用户分享部分佣金利润，确保没有额外成本。",
-          "推荐系统的等级表示您从推荐人中获得收入的百分比。等级越高，奖励百分比越高。",
-          "只有新用户可以被邀请为推荐人。以前使用过 swap.coffee 的用户不能被邀请为推荐人。",
-          "升级等级的工具将稍后添加。对于影响者有特殊条件。详情请联系我们的 Telegram。",
-          "在推荐计划页面，您可以看到您的总收入金额。这包括您所有推荐人的所有 DEX 收入。\n在领取中心，您可以请求从 StonFi 获得的金额。来自 DeDust 的奖励将在分发后可供领取。"
-      ],
-      "levels": "我们有三个佣金等级：\n青铜 - 适用于所有用户\n白银 - 适用于 CES 质押者（即将推出）\n黄金 - 适用于影响者"
-  },
-  "referral-banner": {
-      "title": "推荐计划",
-      "description": "欢迎来到 swap.coffee 推荐计划的赚钱机会世界！邀请朋友并从他们的交易中赚取佣金百分比！",
-      "detail-button": "社区经理",
-      "connect-button": "连接钱包",
-      "claim-rewards": "领取奖励"
-  },
-  "cashback": {
-      "addCashback": "添加返现",
-      "bannerTopText": "平台活动奖励计划。",
-      "bannerBottomText": "像传统银行一样，但完全去中心化。",
-      "btnText": "更多详情",
-      "menuDetail": "详情",
-      "menuPromo": "促销条款",
-      "terms": [
-          "使用 swap.coffee，每次交换都可获得 {token} 的返现奖励。奖励按交易量的 {percent}% 计算。每日最高奖励为 {dailyLimit} {token}，总奖励为 {totalLimit} {token}。总共将分发 {distributed} {token}。",
-          "使用 swap.coffee，在代币对 {pair1} 和 {pair2} 的每次交换中赚取 {token} 的返现奖励。奖励按交易量的 {percent}% 计算。每日最高奖励为 {dailyLimit} {token}，总奖励为 {totalLimit} {token}。总共将分发 {distributed} {token}。",
-          "使用 swap.coffee，在与 {pair1} 配对的代币对的每次交换中赚取 {token} 的返现奖励。奖励按交易量的 {percent}% 计算。每日最高奖励为 {dailyLimit} {token}，总奖励为 {totalLimit} {token}。总共将分发 {distributed} {token}。"
-      ],
-      "specialTerms": "使用 swap.coffee 并赚取 XROCK 的返现！\n\n奖励为交易金额的 0.01%。每日最高奖励为 10 XROCK，总奖励为 100 XROCK。总共将分发 55,000 XROCK。\n\n此外，将为与 XROCK 配对的交换分发 42,000 XROCK。奖励为交易金额的 0.035%。每日最高奖励为 30 XROCK，每月最高奖励为 300 XROCK。",
-      "specialTerms1": "使用 swap.coffee 并赚取 STORM 的返现！\n\n奖励按交易金额的 0.01% 计算。每日最高奖励为 250 STORM，终身奖励为 2,500 STORM。总共将分发 65,000 STORM。\n\n此外，将在与 STORM 配对的交换中分发 50,000 STORM。\n奖励按交易金额的 0.035% 计算。每日最高奖励为 250 STORM，每月奖励为 2,500 STORM。",
-      "details": [
-          "促销开始",
-          "促销结束",
-          "奖励池",
-          "返现（每日）",
-          "返现（总计）",
-          "交易金额百分比",
-          "返现（每月）"
-      ],
-      "ads": {
-          "btnText": "获取奖励",
-          "title": "每日 30% \"无废话\" 返现仅限于 ",
-          "description": "今天存款并开始！",
-          "subtitle": "最佳 DEX 聚合器"
-      }
-  },
-  "contestPage": {
-      "leaderboardTitles": ["排名", "用户地址", "交易量", "预计奖励"],
-      "leaderBoard": "排行榜",
-      "prize": "奖池",
-      "faq": "常见问题 / 比赛规则",
-      "leaderboardPlace": "您在第 {place} 名",
-      "withoutPlace": "您未在排行榜中",
-      "lastUpdate": "最后更新：",
-      "showing": "显示 {low} - {high}，共 {total}",
-      "empty": "比赛列表为空。",
-      "leaderboardEmpty": "排行榜为空。\n尚无人参与比赛",
-      "bannerTitle": "交易竞赛",
-      "bannerSubtitle": "欢迎来到 swap.coffee 交易竞赛的激动人心的世界！",
-      "createBtn": "创建竞赛"
-  },
-  "contestItem": {
-      "details": "详情",
-    "rewards": "总奖励",
-      "rewardsUn": "现成的奖励",
-    "timerTitles": ["直到开始：", "直到最后：", "比赛结束"],
-    "eventPeriod": "活动时间："
-  },
-  "contestFaq": {
-      "questions": [
-          "如何参与交易竞赛？",
-          "中间代币是否计入交易量？",
-          "我可以同时参与多个交易竞赛吗？",
-          "我在交易竞赛中获胜了。如何领取我的奖励？"
-      ],
-      "answers": [
-          "交易任何包含活跃交易竞赛的代币对。您可以购买或出售代币。",
-          "是的",
-          "是的。如果您交易的两个代币都参与了竞赛，一次交换交易将计入两个竞赛。",
-          "所有奖励将在竞赛结束后30天内记入奖励中心。"
-      ]
-  },
-  "interfaceTag": {
-      "soon": "即将推出",
-      "new": "新",
-      "cashback": "返现",
-      "contest": "竞赛"
-  },
-  "stakeDetails": {
-      "title": "{token} 信息",
-      "stakingTitle": "质押 {token}",
-      "price": "{token} 价格",
-      "circulated": "流通供应量",
-      "totalSupply": "总供应量",
-      "yourPoints": "您的积分",
-      "totalPoints": "总积分",
-      "apr": "年化收益率",
-      "totalStaked": "总质押 {token}"
-  },
-  "stakeFaq": {
-      "questions": [
-          "奖励是如何计算的？",
-          "我如何领取奖励？",
-          "什么是积分？",
-          "什么是池份额？",
-          "年化收益率（APR）是多少？",
-          "我可以提前提取质押的代币吗？",
-          "你们可以访问我的代币吗？"
-      ],
-      "answers": [
-          "奖励取决于您的积分数量。积分越多，您从总奖励池中获得的份额就越大。",
-          "奖励会自动记入领取中心。您可以在任何方便的时候领取。",
-          "积分是衡量您对 {token} 质押贡献的通用单位。通过质押 LP 代币和/或选择更长的质押期，您可以赚取更多积分。",
-          "池份额是您的积分与所有质押参与者持有的总积分的比率。您的份额越高，您获得的奖励就越多。",
-          "池的年化收益率是动态的，取决于各种因素，例如池中奖励的数量及其市场价值，以及质押的 {token}（包括 {token} LP 代币）的数量和价值。",
-          "不能。",
-          "不能。您的代币质押在智能合约中，只有您可以在质押期结束后提取它们。"
-      ]
-  },
-  "stakeMenu": {
-      "new": "新质押",
-      "stakes": "我的质押",
-      "now": "立即质押",
-      "explore": "探索质押"
-  },
-"stakeTimeframes": [
-    "分钟",
-    "小时",
-    "天",
-    "月",
-    "年",
-    "年"
-    ],
-  "stakeFormInfo": {
-      "earn": "您可以赚取高达",
-      "estimated": "预计约为 ~{points} 积分。",
-      "notEnough": "您需要 {token} 才能质押",
-      "showDetails": "质押详情",
-      "hideDetails": "隐藏详情",
-      "yearly": "每年"
-  },
-  "stakeFormDetails": {
-      "historical": "历史年化收益率",
-      "duration": "持续时间",
-      "estimated": "预计积分",
-      "boost": "加成"
-  },
-  "stakeForm": {
-      "select": "选择要质押的代币",
-      "stake": "您质押",
-      "notEnough": "您需要 {token} 才能质押。",
-      "back": "返回质押"
-  },
-  "stakeItem": {
-    "stakeTime": "质押时间",
-    "unstakeTime": "取消质押时间",
-    "newDuration": "新的持续时间",
-    "points": "积分",
-      "positionNumber": "职位",
-      "position": "职位",
-      "totalEarned": "总收入",
-    "newPoints": "新积分",
-    "staked": "已质押",
-    "earned": "已赚取",
-    "rewards": "奖励",
-    "details": "查看更多详情",
-    "restake": "延长质押",
-    "restakeWindow": "延长质押窗口",
-    "restakeLocked": "位置已锁定",
-    "closeStake": "关闭质押",
-    "yourStake": "您的质押",
-    "restakeInfo": "您可以将质押位置延长至",
-    "fee": "区块链费用",
-    "feeInfo": "最高0.510 TON",
-      "showDetails": "展览详情",
-      "hideDetails": "隐藏详细信息",
-      "showSteps": "显示步骤",
-      "hideSteps": "隐藏步骤",
-      "unclaimRewards": "无人认领的奖赏",
-    "selectFrame": "选择时间范围",
-      "aprTooltip": "APR取决于资产成本，金额和分配奖励的价值。"
-  },
-  "stakeStatus": {
-      "failedText": "质押操作失败！",
-      "error": "质押失败",
-      "timed_out": "质押交易超时",
-      "pending": "再等一秒",
-      "success": "质押操作成功！"
-  },
-  "stakeBtn": {
-      "connectWallet": "连接钱包",
-      "enterAmount": "输入金额",
-      "buyCes": "购买 {token} 以获得奖励",
-      "noBalance": "余额不足",
-      "stakeAction": "质押 {token}"
-  },
-  "stakeRewards": {
-      "title": "奖励详情",
-      "profit": "累计收益"
-  },
-  "stakeBanner": {
-      "title": "质押",
-      "description": "欢迎来到 swap.coffee 的质押世界，每一笔投资都是迈向加密货币未来的一步。",
-      "buttonClaimRewards": "领取奖励",
-      "buttonAddMyStaking": "添加我的质押"
-  },
-  "snowflakePopup": {
-      "topTitle": "蛋糕狂欢",
-      "balanceDescription": "您的余额：",
-      "itemTitle": "比赛规则和条件：",
-      "itemDescriptionFirst": "每完成 $25 的交易量，将出现一个蛋糕。",
-      "itemDescriptionSecond": "在等待交易完成的过程中，蛋糕开始掉落。",
-      "itemDescriptionThird": "在蛋糕掉落并破碎之前抓住它们，将其添加到您的余额中。",
-      "itemDescriptionFourth": "如果蛋糕掉落，它将破碎并不会添加到您的余额中。",
-      "itemDescriptionFive": "蛋糕数量最多的前10名用户将获得奖品！您可以在我们的",
-      "itemDescriptionLink": "Telegram 频道"
-  },
-  "charts-frames": {
-      "1d": "24 小时",
-      "1w": "1 周",
-      "1m": "1 月",
-      "3m": "3 月",
-      "6m": "6 月",
-      "all": "全部"
-  },
-  "charts-info": {
-      "info": ["持有者", "流动性", "信任分数"]
-  },
-  "connectBanner": {
-      "title": "钱包未连接",
-      "description": "连接您的钱包以查看您的奖励"
-  },
-  "swapPlug": {
-      "titleClosed": "封闭测试版",
-      "titleReady": "开始吧！",
-      "titleLoading": "请稍候...",
-      "descriptionTextClosed": "限价单和定投仅对质押1000 CES的持有者开放。",
-      "descriptionTextReady": "为了安全使用限价单和定投，您需要部署一个特殊的智能合约。",
-      "descriptionTextLoading": "区块链正在处理，一旦准备就绪，限价单和定投将可用。",
-      "description2TextClosed": "您需要稍等片刻或质押1000 CES。",
-      "description2TextReady": "这很快且非常便宜。",
-      "firstTitleDex": "您发送",
-      "firstTitleLimit": "出售",
-      "firstTitleDca": "我想分配",
-      "secondTitleLimit": "购买",
-      "secondTitleDca": "我想购买",
-      "assetOne": "资产 1",
-      "assetTwo": "资产 2",
-      "assetByNumber": "资产 {number}"
-  },
-  "limitDetails": {
-      "titleSend": "您发送",
-      "titleReceive": "您接收",
-      "titleRate": "当前汇率",
-      "titleSuborders": "最大子订单数"
-  },
-  "limitHistory": {
-      "firstTitleDeposit": "总存入",
-      "secondTitleDepositFirst": "每笔订单大小",
-      "secondTitleDepositSecond": "您接收"
-  },
-  "limitHistoryDetails": {
-      "limitDetails": {
-          "firstTitleSelling": "出售",
-          "secondTitleBuying": "购买",
-          "firstTitlePrice": "价格",
-          "firstTitleCommission": "预计佣金",
-          "secondTitleSuborders": "子订单数量",
-          "firstTitleCreated": "创建时间"
-      },
-      "dcaDetails": {
-          "firstTitleDeposited": "总存入",
-          "secondTitleActiveStatus": "每笔订单大小",
-          "secondTitleCancelStatus": "您接收",
-          "secondTitleCurrentAveragePrice": "当前平均价格",
-          "firstTitleCreated": "创建时间",
-          "firstTitleEstimated": "预计佣金",
-          "secondTitleEstimated": "子订单数量"
-      },
-      "displayStatus": {
-          "cancel": "取消",
-          "completed": "已完成",
-          "cancelled": "已取消",
-          "max-retries": "超出最大重试次数"
-      },
-      "limitTimeTitle": {
-          "expiryTime": "到期时间",
-          "completed": "已完成",
-          "cancelled": "已取消"
-      },
-      "dcaTitles": {
-          "balance": "余额",
-          "priceRange": "价格范围"
-      },
-      "dcaTime": {
-          "estimatedEndData": "预计结束日期",
-          "completed": "已完成",
-          "cancelled": "已取消"
-      }
-  },
-  "limitHistoryItem": {
-      "balance": "余额",
-      "cancelOrder": "取消订单"
-  },
-  "ordersStatus": {
-      "completed": "已完成",
-      "cancelled": "已取消",
-      "maxRetries": "超出最大重试次数",
-      "cancellation": "取消中"
-  },
-  "limitOrdersHistory": {
-      "tabs": ["未完成订单", "{historyType} 历史"],
-      "tabDca": "定投",
-      "tabLimit": "限价",
-      "emptyList": "订单列表为空",
-      "connectWallet": "连接钱包以查看您的订单"
-  },
-  "limitSubordersField": {
-      "text": "子订单数量"
-  },
-  "limitTokenRate": {
-      "setToMarket": "设置为市场价",
-      "atRate": "以价格",
-      "send": "发送",
-      "receive": "接收"
-  },
-  "transactionStatusModal": {
-      "swapStatus": {
-          "swapPendingBlockchain": "区块链费用",
-          "swapSuccessPriceImpact": "价格影响",
-          "swapSuccessEconomy": "您的经济",
-          "swapSuccessCashback": "返现"
-      },
-      "swapDetails": {
-          "name": "中间代币"
-      },
-      "limitDetails": {
-          "price": "价格",
-          "buying": "购买",
-          "suborders": "子订单数量",
-          "created": "创建时间",
-          "expiryTime": "到期时间"
-      },
-      "dcaDetails": {
-          "totalDeposited": "总存入",
-          "eachOrderSize": "每笔订单大小",
-          "orderCount": "订单数量",
-          "created": "创建时间",
-          "estimatedEndDate": "预计结束日期"
-      }
-  },
-  "dcaDetails": {
-      "dcaSummary": "定投摘要",
-      "details": [
-          "总出售",
-          "每笔订单出售",
-          "购买",
-          "订单间隔",
-          "预计结束日期"
-      ],
-      "dcaDeal": {
-          "swapMessage": "每 ~{orderInterval} 交换 {sellPerOrder} 为 {toBuy}，总预算为 {sellTotal}，共 {orders} 笔订单，持续 ~{totalInterval}"
-      }
-  },
-  "dcaSettings": {
-      "rangeOptional": "范围（可选）",
-      "everyField": "每",
-      "overField": "持续",
-      "enable": "启用",
-      "disable": "禁用",
-      "suborders": "子订单",
-      "orders": "订单"
-  },
-  "bannersMain": {
-      "whale": {
-          "text1": "注册并获得免费战利品箱！ - 每日高达20%的返现！",
-          "text2": "零Gas费用，无限制 🚀",
-          "bannerDesc": "注册并获得免费战利品箱！ - 每日高达20%的返现！零Gas费用，无限制 🚀",
-          "getBonus": "获取奖励",
-          "actionBtn": "前往应用"
-      },
-      "major": {
-          "text1": "加入 swap.coffee 大使计划。分享内容，获取奖励！",
-          "actionBtn": "阅读更多"
+    "dexSettings": {
+        "caption": "设置",
+        "cashback": {
+            "title": "返现",
+            "text": "激活此功能即表示您同意领取您的奖励",
+            "colorText": [
+                "$KINGY",
+                "$DFC",
+                "$WEB3",
+                "$DYOR"
+            ]
+        },
+        "expert": {
+            "title": "专家模式",
+            "text": "风险自负。"
+        },
+        "slippage": {
+            "title": "滑点容差",
+            "text": "如果价格变化超过此百分比，您的交易将被撤销。"
+        },
+        "priceImpact": {
+            "title": "价格影响",
+            "text": "如果价格影响超过此百分比，我们将不允许您进行交换。"
+        },
+        "intermediate": {
+            "title": "中间代币",
+            "text": "您可以配置中间代币的最大数量，从而控制路径的长度。路径越长，消耗的Gas越多，并且在通过高波动性池或低滑点交换时，收到中间代币而不是目标代币的概率越高。"
+        },
+        "volatility": {
+            "title": "池波动性",
+            "text": "您可以排除使用高波动性（因此高风险）池的路径。波动性被认为是过去15分钟内池中最高和最低价格比率的比值。"
+        },
+        "parallel": {
+            "title": "并行交易",
+            "text": "您可以设置最大并行交易数量，从而构建更有利可图的路径。",
+            "textW5": "使用",
+            "colorText": "W5钱包",
+            "tooltip": "选择最多20条路径的选项，但这也会增加消耗的Gas量，并在交换时收到中间代币而不是目标代币的概率。"
+        },
+        "sources": {
+            "title": "流动性来源",
+            "text": "禁用流动性来源会将其从路径中排除"
         }
-  },
-  "stakesBoosts": {
-      "endsIn": "结束于",
-      "days": "天",
-      "hours": "小时",
-      "day": "天",
-      "ended": "已结束"
-  },
-  "tradeMode": {
-      "title": "交易模式",
-      "descriptions": [
-          "以最佳价格即时交换",
-          "以指定或最佳价格交换资产",
-          "定期交换资产"
-      ]
-  },
-  "invocations": {
-      "title": "最大调用次数",
-      "text": "子订单数量的倍数"
-  },
-  "timeZone": {
-      "minutes": "分钟",
-      "hours": "小时",
-      "days": "天",
-      "months": "月",
-      "years": "年",
-      "minute": "分钟",
-      "hour": "小时",
-      "day": "天",
-      "week": "周",
-      "month": "月"
-  },
-  "poolsBanner": {
-      "title": "提供流动性并赚取费用",
-      "descriptionFirst": "通过提供流动性探索新机会。",
-      "descriptionSecond": "选择适合您的池并从今天开始赚取交易费用！"
-  },
-  "poolsActions": {
-      "transferLiquidity": "转移流动性",
-      "createPool": "创建池"
-  },
-  "poolsFilters": {
-      "hidden": "隐藏",
-      "group": "分组",
-      "boost": "加成",
-      "newPairs": "新交易对"
-  },
-  "poolsCommon": {
+    },
+    "dexInterface": {
+        "trustScore": "信任分数",
+        "trustShort": "信任",
+        "trustDescription": "信任分数基于链上和链下参数计算，但此评估不提供100%的安全保证。",
+        "selectToken": "选择代币",
+        "youSend": "您发送",
+        "youReceive": "您接收",
+        "balance": "余额：{currentBalance}",
+        "max": "Max",
+        "half": "Half",
+        "slippage": "{slippageCount}% 滑点",
+        "cashback": {
+            "name": "返现",
+            "status": "已启用"
+        }
+    },
+    "dexTokens": {
+        "searchPlaceholder": "按名称搜索",
+        "emptySearch": [
+            "我们没有找到任何资产。",
+            "尝试指定代币的地址。"
+        ],
+        "validAddress": "请输入有效的代币地址",
+        "importNotice": "此代币未包含在活动代币列表中。请确保您了解与导入代币相关的风险。",
+        "importBtn": "接受并导入",
+        "titles": [
+            "您的代币",
+            "热门代币",
+            "搜索结果"
+        ],
+        "noData": "未找到数据",
+        "info": [
+            "价格",
+            "流动性",
+            "持有者数量"
+        ],
+        "filters": [
+            "所有资产",
+            "新",
+            "返现",
+            "竞赛"
+        ]
+    },
+    "stakeButton": {
+        "stake": "质押",
+        "tooltip": [
+            "• 您可以质押您的TON并接收{output_amount} {symbol}",
+            "• 此外，通过质押您有资格获得奖励"
+        ]
+    },
+    "unstakeButton": {
+        "unstake": "{hours}小时后解质押",
+        "unstakeNow": "立即解质押",
+        "tooltip_later": [
+            "• 解质押{symbol}可以稍微多接收一些TON",
+            "• 解质押后您将接收{output_amount} TON",
+            "• 您的解质押请求将在{hours}小时内处理",
+            "• 不过，您现在可以将{symbol}兑换为TON，但接收的会更少"
+        ],
+        "tooltip_now": [
+            "• 解质押{symbol}可以稍微多接收一些TON",
+            "• 解质押后您将接收{output_amount} TON"
+        ]
+    },
+    "dexButton": {
+        "poolNotFound": "未找到流动性池",
+        "connectWallet": "连接钱包",
+        "notEnoughGas": "TON不足以支付Gas费用",
+        "highPriceImpact": "价格影响过高",
+        "notEnough": "余额不足",
+        "enterAmount": "输入金额",
+        "selectToken": "选择代币",
+        "sendTransaction": "交换",
+        "stakeOneThousand": "质押1000 CES",
+        "deploySmartContract": "部署智能合约",
+        "choosePriceRange": "选择价格范围",
+        "createOrder": "创建订单",
+        "notPermission": "池不可用",
+        "addLiquidity": "添加流动性",
+        "tooltip": [
+            "• 尝试增加池波动性设置。",
+            "• 尝试增加中间代币设置。",
+            "• 确保此类池存在并通知支持团队。"
+        ]
+    },
+    "dexSidebar": {
+        "portfolio": "投资组合",
+        "claim": "奖励中心",
+        "dex": "DEX聚合器",
+        "earn": "我们的DEX",
+        "pools": "流动性池",
+        "benefits": "福利",
+        "launchpad": "启动平台",
+        "settings": "设置",
+        "documentation": "文档",
+        "whitePaper": "White paper",
+        "stake": "质押",
+        "aggregator": "聚合器",
+        "tools": "工具",
+        "memes": "表情包"
+    },
+    "dexGlobal": {
+        "chart": {
+            "title": "价格图表",
+            "description": "启用图表显示"
+        },
+        "dev": {
+            "title": "开发者模式",
+            "description": "启用调试模式"
+        },
+        "caption": "全局设置",
+        "theme": {
+            "name": [
+                "系统",
+                "深色",
+                "浅色",
+                "咖啡"
+            ],
+            "text": "主题模式"
+        },
+        "lang": {
+            "name": "语言",
+            "text": "选择首选语言",
+            "caption": "选择一种语言"
+        },
+        "chart-provider": {
+            "title": "图表提供商",
+            "caption": "选择图表",
+            "providers-description": [
+                "高级图表（TradingView）",
+                "轻量级图表",
+                "专注于DEX活动和流动性流动",
+                "详细的实时图表"
+            ]
+        },
+        "chart-profit": {
+            "title": "交易利润",
+            "caption": "您的交易利润将显示在Dyor图表上"
+        },
+        "mini-modal": {
+            "full": "查看详情",
+            "mini": "详情"
+        }
+    },
+    "dexNavigation": {
+        "swap": "Swap",
+        "limit": "Limit",
+        "referral": "推荐计划",
+        "cashback": "返现",
+        "contests": "交易竞赛",
+        "dca": "定投",
+        "perpetuals": "Perpetuals",
+        "bridge": "桥接",
+        "onramp": "Onramp"
+    },
+    "dexInfo": {
+        "highPriceImpact": "高价格影响 {priceImpact}% 下跌！",
+        "priceImpact": "交换此数量的选定代币将导致显著的价格影响并减少您的收益。",
+        "reverseSwap": "精确输出交换支持的流动性场所较少，路径较少。它可能还会提供更差的价格。",
+        "exactOut": "精确输出交换"
+    },
+    "dexWallet": {
+        "title": "账户",
+        "balance": "您的余额"
+    },
+    "dexDetails": {
+        "titles": [
+            "显示交换详情",
+            "隐藏详情"
+        ],
+        "priceImpact": {
+            "name": "价格影响",
+            "tooltip": [
+                "市场价格与估计价格之间的差异",
+                "由于交易规模导致的。"
+            ]
+        },
+        "minimumReceive": {
+            "name": "最低接收",
+            "tooltip": [
+                "如果在交易确认之前发生",
+                "大幅不利的价格变动，您的交易将被撤销。"
+            ]
+        },
+        "fee": {
+            "name": "区块链费用",
+            "text": "最多 {gasFee} TON",
+            "integrator": "集成商费用"
+        },
+        "mev": {
+            "name": "MEV 保护费用"
+        },
+        "economy": "您的经济",
+        "distribution": "分配计划"
+    },
+    "dexSuccess": {
+        "status": {
+            "error": "交易错误",
+            "timed_out": "交易超时",
+            "pending": "再等一秒",
+            "success": "交换成功！"
+        },
+        "btnText": "交换所有中间代币",
+        "info": [
+            "尝试使用高于正常的滑点以确保",
+            "您的交易完成。"
+        ],
+        "cashback": {
+            "name": "返现",
+            "text": "成功"
+        },
+        "resultText": "🔥 看看我在 swap.coffee 上多么划算地买到了 {token}！\n🤑 加入并与我一起划算地交换吧！"
+    },
+    "dexRouteInfo": {
+        "cashback": "您将收到返现",
+        "plan": "通过 {dexNames} 的分配计划",
+        "shortPlan": "通过 {dexNames}",
+        "caption": [
+            "分配计划",
+            "路由"
+        ]
+    },
+    "claimCenter": {
+        "description": "邀请朋友，赚取他们交易佣金的一部分，并领取您的奖励！",
+        "titles": [
+            "所有奖励",
+            "返现",
+            "推荐",
+            "竞赛",
+            "质押",
+            "流动性池"
+        ],
+        "caption": "选择要提取的奖励",
+        "text": "提取费用取决于您选择的代币数量",
+        "empty-title": "您在领取中心没有奖励",
+        "empty-description": "使用 swap.coffee 赚取奖励",
+        "tooltip": "我们从不同的钱包中发放奖励，一个代币可以从多个钱包中提取，每笔交易都需要支付Gas费用"
+    },
+    "claim-banner": {
+        "title": "领取中心",
+        "description": "欢迎来到领取中心——您在 swap.coffee 上管理奖励的个人中心。\n\n我们设计了它，使奖励领取过程尽可能简单和愉快。",
+        "detail-button": "如何运作",
+        "connect-button": "连接钱包"
+    },
+    "claimHistory": {
+        "empty": "领取历史目前为空。"
+    },
+    "claimStatus": {
+        "failedText": "代币领取错误。请稍后重试或联系支持。",
+        "error": "领取失败",
+        "timed_out": "交易超时",
+        "pending": "再等一秒",
+        "success": "领取成功！"
+    },
+    "claimTokens": {
+        "category": [
+            "全选",
+            "返现",
+            "质押",
+            "流动性池",
+            "推荐",
+            "竞赛",
+            "奖励"
+        ],
+        "all-rewards": "所有奖励",
+        "claim-now": "立即领取",
+        "claim-selected": "领取选中项",
+        "unselect": "取消选择",
+        "table-titles": [
+            "代币",
+            "价值",
+            "数量",
+            "来源",
+            "流动性",
+            "价格"
+        ],
+        "select-all": "全选"
+    },
+    "qr-modal": {
+        "title": "二维码",
+        "description": "用您的手机扫描"
+    },
+    "referralInfo": {
+        "referrals": "{count} 个推荐",
+        "withdraw": "可提取",
+        "emptyWithdraw": "没有可提取的代币",
+        "blockNames": [
+            "未领取奖励",
+            "收入（全部）",
+            "收入（30天）",
+            "交易额（全部）",
+            "交易额（30天）"
+        ],
+        "tooltip-income": "显示的是“账面”利润，取决于我们供应商的支付，可能无法立即提取",
+        "statsNames": [
+            "奖励百分比",
+            "您的等级",
+            "推荐人数"
+        ],
+        "tableTitles": [
+            "地址",
+            "交易次数",
+            "交易额",
+            "我的奖励"
+        ],
+        "levels": [
+            "青铜",
+            "白银",
+            "黄金"
+        ],
+        "empty": [
+            "推荐列表目前为空。",
+            "与其他用户分享您的推荐链接"
+        ],
+        "level-tooltip": "随着您的推荐人数和交易量的增加，您可以获得更高的佣金奖励和一个自定义的吸引人链接。"
+    },
+    "referralHistory": {
+        "tableTitles": [
+            "交易",
+            "时间",
+            "价值"
+        ]
+    },
+    "referralLink": {
+        "caption": "您的推荐链接",
+        "description": "这是您的推荐链接，当您的朋友点击该链接时，他将自动成为您的推荐人",
+        "copyBtn": "复制推荐链接",
+        "linkCopied": "链接已复制！",
+        "qrBtn": "显示二维码"
+    },
+    "referralNav": {
+        "info": "我的信息",
+        "referrals": "我的推荐",
+        "history": "领取历史"
+    },
+    "referralFaq": {
+        "questions": [
+            "奖励百分比是如何计算的？",
+            "什么是推荐系统等级？",
+            "谁可以成为我的推荐人？",
+            "如何提高奖励百分比？",
+            "如何领取奖励？"
+        ],
+        "answers": [
+            "奖励百分比基于您的等级。\nswap.coffee 不向用户收取任何额外费用。我们与用户分享部分佣金利润，确保没有额外成本。",
+            "推荐系统的等级表示您从推荐人中获得收入的百分比。等级越高，奖励百分比越高。",
+            "只有新用户可以被邀请为推荐人。以前使用过 swap.coffee 的用户不能被邀请为推荐人。",
+            "升级等级的工具将稍后添加。对于影响者有特殊条件。详情请联系我们的 Telegram。",
+            "在推荐计划页面，您可以看到您的总收入金额。这包括您所有推荐人的所有 DEX 收入。\n在领取中心，您可以请求从 StonFi 获得的金额。来自 DeDust 的奖励将在分发后可供领取。"
+        ],
+        "levels": "我们有三个佣金等级：\n青铜 - 适用于所有用户\n白银 - 适用于 CES 质押者（即将推出）\n黄金 - 适用于影响者"
+    },
+    "referral-banner": {
+        "title": "推荐计划",
+        "description": "欢迎来到 swap.coffee 推荐计划的赚钱机会世界！邀请朋友并从他们的交易中赚取佣金百分比！",
+        "detail-button": "社区经理",
+        "connect-button": "连接钱包",
+        "claim-rewards": "领取奖励"
+    },
+    "cashback": {
+        "addCashback": "添加返现",
+        "bannerTopText": "平台活动奖励计划。",
+        "bannerBottomText": "像传统银行一样，但完全去中心化。",
+        "btnText": "更多详情",
+        "menuDetail": "详情",
+        "menuPromo": "促销条款",
+        "terms": [
+            "使用 swap.coffee，每次交换都可获得 {token} 的返现奖励。奖励按交易量的 {percent}% 计算。每日最高奖励为 {dailyLimit} {token}，总奖励为 {totalLimit} {token}。总共将分发 {distributed} {token}。",
+            "使用 swap.coffee，在代币对 {pair1} 和 {pair2} 的每次交换中赚取 {token} 的返现奖励。奖励按交易量的 {percent}% 计算。每日最高奖励为 {dailyLimit} {token}，总奖励为 {totalLimit} {token}。总共将分发 {distributed} {token}。",
+            "使用 swap.coffee，在与 {pair1} 配对的代币对的每次交换中赚取 {token} 的返现奖励。奖励按交易量的 {percent}% 计算。每日最高奖励为 {dailyLimit} {token}，总奖励为 {totalLimit} {token}。总共将分发 {distributed} {token}。"
+        ],
+        "specialTerms": "使用 swap.coffee 并赚取 XROCK 的返现！\n\n奖励为交易金额的 0.01%。每日最高奖励为 10 XROCK，总奖励为 100 XROCK。总共将分发 55,000 XROCK。\n\n此外，将为与 XROCK 配对的交换分发 42,000 XROCK。奖励为交易金额的 0.035%。每日最高奖励为 30 XROCK，每月最高奖励为 300 XROCK。",
+        "specialTerms1": "使用 swap.coffee 并赚取 STORM 的返现！\n\n奖励按交易金额的 0.01% 计算。每日最高奖励为 250 STORM，终身奖励为 2,500 STORM。总共将分发 65,000 STORM。\n\n此外，将在与 STORM 配对的交换中分发 50,000 STORM。\n奖励按交易金额的 0.035% 计算。每日最高奖励为 250 STORM，每月奖励为 2,500 STORM。",
+        "details": [
+            "促销开始",
+            "促销结束",
+            "奖励池",
+            "返现（每日）",
+            "返现（总计）",
+            "交易金额百分比",
+            "返现（每月）"
+        ],
+        "ads": {
+            "btnText": "获取奖励",
+            "title": "每日 30% \"无废话\" 返现仅限于 ",
+            "description": "今天存款并开始！",
+            "subtitle": "最佳 DEX 聚合器"
+        }
+    },
+    "contestPage": {
+        "leaderboardTitles": [
+            "排名",
+            "用户地址",
+            "交易量",
+            "预计奖励"
+        ],
+        "leaderBoard": "排行榜",
+        "prize": "奖池",
+        "faq": "常见问题 / 比赛规则",
+        "leaderboardPlace": "您在第 {place} 名",
+        "withoutPlace": "您未在排行榜中",
+        "lastUpdate": "最后更新：",
+        "showing": "显示 {low} - {high}，共 {total}",
+        "empty": "比赛列表为空。",
+        "leaderboardEmpty": "排行榜为空。\n尚无人参与比赛",
+        "bannerTitle": "交易竞赛",
+        "bannerSubtitle": "欢迎来到 swap.coffee 交易竞赛的激动人心的世界！",
+        "createBtn": "创建竞赛"
+    },
+    "contestItem": {
+        "details": "详情",
+        "rewards": "总奖励",
+        "rewardsUn": "现成的奖励",
+        "timerTitles": [
+            "直到开始：",
+            "直到最后：",
+            "比赛结束"
+        ],
+        "eventPeriod": "活动时间："
+    },
+    "contestFaq": {
+        "questions": [
+            "如何参与交易竞赛？",
+            "中间代币是否计入交易量？",
+            "我可以同时参与多个交易竞赛吗？",
+            "我在交易竞赛中获胜了。如何领取我的奖励？"
+        ],
+        "answers": [
+            "交易任何包含活跃交易竞赛的代币对。您可以购买或出售代币。",
+            "是的",
+            "是的。如果您交易的两个代币都参与了竞赛，一次交换交易将计入两个竞赛。",
+            "所有奖励将在竞赛结束后30天内记入奖励中心。"
+        ]
+    },
+    "interfaceTag": {
+        "soon": "即将推出",
+        "new": "新",
+        "cashback": "返现",
+        "contest": "竞赛"
+    },
+    "stakeDetails": {
+        "title": "{token} 信息",
+        "stakingTitle": "质押 {token}",
+        "price": "{token} 价格",
+        "circulated": "流通供应量",
+        "totalSupply": "总供应量",
+        "yourPoints": "您的积分",
+        "totalPoints": "总积分",
+        "apr": "年化收益率",
+        "totalStaked": "总质押 {token}"
+    },
+    "stakeFaq": {
+        "questions": [
+            "奖励是如何计算的？",
+            "我如何领取奖励？",
+            "什么是积分？",
+            "什么是池份额？",
+            "年化收益率（APR）是多少？",
+            "我可以提前提取质押的代币吗？",
+            "你们可以访问我的代币吗？"
+        ],
+        "answers": [
+            "奖励取决于您的积分数量。积分越多，您从总奖励池中获得的份额就越大。",
+            "奖励会自动记入领取中心。您可以在任何方便的时候领取。",
+            "积分是衡量您对 {token} 质押贡献的通用单位。通过质押 LP 代币和/或选择更长的质押期，您可以赚取更多积分。",
+            "池份额是您的积分与所有质押参与者持有的总积分的比率。您的份额越高，您获得的奖励就越多。",
+            "池的年化收益率是动态的，取决于各种因素，例如池中奖励的数量及其市场价值，以及质押的 {token}（包括 {token} LP 代币）的数量和价值。",
+            "不能。",
+            "不能。您的代币质押在智能合约中，只有您可以在质押期结束后提取它们。"
+        ]
+    },
+    "stakeMenu": {
+        "new": "新质押",
+        "stakes": "我的质押",
+        "now": "立即质押",
+        "explore": "探索质押"
+    },
+    "stakeTimeframes": [
+        "分钟",
+        "小时",
+        "天",
+        "月",
+        "年",
+        "年"
+    ],
+    "stakeFormInfo": {
+        "earn": "您可以赚取高达",
+        "estimated": "预计约为 ~{points} 积分。",
+        "notEnough": "您需要 {token} 才能质押",
+        "showDetails": "质押详情",
+        "hideDetails": "隐藏详情",
+        "yearly": "每年"
+    },
+    "stakeFormDetails": {
+        "historical": "历史年化收益率",
+        "duration": "持续时间",
+        "estimated": "预计积分",
+        "boost": "加成"
+    },
+    "stakeForm": {
+        "select": "选择要质押的代币",
+        "stake": "您质押",
+        "notEnough": "您需要 {token} 才能质押。",
+        "back": "返回质押"
+    },
+    "stakeItem": {
+        "stakeTime": "质押时间",
+        "unstakeTime": "取消质押时间",
+        "newDuration": "新的持续时间",
+        "points": "积分",
+        "positionNumber": "职位",
+        "position": "职位",
+        "totalEarned": "总收入",
+        "newPoints": "新积分",
+        "staked": "已质押",
+        "earned": "已赚取",
+        "rewards": "奖励",
+        "details": "查看更多详情",
+        "restake": "延长质押",
+        "restakeWindow": "延长质押窗口",
+        "restakeLocked": "位置已锁定",
+        "closeStake": "关闭质押",
+        "yourStake": "您的质押",
+        "restakeInfo": "您可以将质押位置延长至",
+        "fee": "区块链费用",
+        "feeInfo": "最高0.510 TON",
+        "showDetails": "展览详情",
+        "hideDetails": "隐藏详细信息",
+        "showSteps": "显示步骤",
+        "hideSteps": "隐藏步骤",
+        "unclaimRewards": "无人认领的奖赏",
+        "selectFrame": "选择时间范围",
+        "aprTooltip": "APR取决于资产成本，金额和分配奖励的价值。"
+    },
+    "stakeStatus": {
+        "failedText": "质押操作失败！",
+        "error": "质押失败",
+        "timed_out": "质押交易超时",
+        "pending": "再等一秒",
+        "success": "质押操作成功！"
+    },
+    "stakeBtn": {
+        "connectWallet": "连接钱包",
+        "enterAmount": "输入金额",
+        "buyCes": "购买 {token} 以获得奖励",
+        "noBalance": "余额不足",
+        "stakeAction": "质押 {token}"
+    },
+    "stakeRewards": {
+        "title": "奖励详情",
+        "profit": "累计收益"
+    },
+    "stakeBanner": {
+        "title": "质押",
+        "description": "欢迎来到 swap.coffee 的质押世界，每一笔投资都是迈向加密货币未来的一步。",
+        "buttonClaimRewards": "领取奖励",
+        "buttonAddMyStaking": "添加我的质押"
+    },
+    "snowflakePopup": {
+        "topTitle": "蛋糕狂欢",
+        "balanceDescription": "您的余额：",
+        "itemTitle": "比赛规则和条件：",
+        "itemDescriptionFirst": "每完成 $25 的交易量，将出现一个蛋糕。",
+        "itemDescriptionSecond": "在等待交易完成的过程中，蛋糕开始掉落。",
+        "itemDescriptionThird": "在蛋糕掉落并破碎之前抓住它们，将其添加到您的余额中。",
+        "itemDescriptionFourth": "如果蛋糕掉落，它将破碎并不会添加到您的余额中。",
+        "itemDescriptionFive": "蛋糕数量最多的前10名用户将获得奖品！您可以在我们的",
+        "itemDescriptionLink": "Telegram 频道"
+    },
+    "charts-frames": {
+        "1d": "24 小时",
+        "1w": "1 周",
+        "1m": "1 月",
+        "3m": "3 月",
+        "6m": "6 月",
+        "all": "全部"
+    },
+    "charts-info": {
+        "info": [
+            "持有者",
+            "流动性",
+            "信任分数"
+        ]
+    },
+    "connectBanner": {
+        "title": "钱包未连接",
+        "description": "连接您的钱包以查看您的奖励"
+    },
+    "swapPlug": {
+        "titleClosed": "封闭测试版",
+        "titleReady": "开始吧！",
+        "titleLoading": "请稍候...",
+        "descriptionTextClosed": "限价单和定投仅对质押1000 CES的持有者开放。",
+        "descriptionTextReady": "为了安全使用限价单和定投，您需要部署一个特殊的智能合约。",
+        "descriptionTextLoading": "区块链正在处理，一旦准备就绪，限价单和定投将可用。",
+        "description2TextClosed": "您需要稍等片刻或质押1000 CES。",
+        "description2TextReady": "这很快且非常便宜。",
+        "firstTitleDex": "您发送",
+        "firstTitleLimit": "出售",
+        "firstTitleDca": "我想分配",
+        "secondTitleLimit": "购买",
+        "secondTitleDca": "我想购买",
+        "assetOne": "资产 1",
+        "assetTwo": "资产 2",
+        "assetByNumber": "资产 {number}"
+    },
+    "limitDetails": {
+        "titleSend": "您发送",
+        "titleReceive": "您接收",
+        "titleRate": "当前汇率",
+        "titleSuborders": "最大子订单数"
+    },
+    "limitHistory": {
+        "firstTitleDeposit": "总存入",
+        "secondTitleDepositFirst": "每笔订单大小",
+        "secondTitleDepositSecond": "您接收"
+    },
+    "limitHistoryDetails": {
+        "limitDetails": {
+            "firstTitleSelling": "出售",
+            "secondTitleBuying": "购买",
+            "firstTitlePrice": "价格",
+            "firstTitleCommission": "预计佣金",
+            "secondTitleSuborders": "子订单数量",
+            "firstTitleCreated": "创建时间"
+        },
+        "dcaDetails": {
+            "firstTitleDeposited": "总存入",
+            "secondTitleActiveStatus": "每笔订单大小",
+            "secondTitleCancelStatus": "您接收",
+            "secondTitleCurrentAveragePrice": "当前平均价格",
+            "firstTitleCreated": "创建时间",
+            "firstTitleEstimated": "预计佣金",
+            "secondTitleEstimated": "子订单数量"
+        },
+        "displayStatus": {
+            "cancel": "取消",
+            "completed": "已完成",
+            "cancelled": "已取消",
+            "max-retries": "超出最大重试次数"
+        },
+        "limitTimeTitle": {
+            "expiryTime": "到期时间",
+            "completed": "已完成",
+            "cancelled": "已取消"
+        },
+        "dcaTitles": {
+            "balance": "余额",
+            "priceRange": "价格范围"
+        },
+        "dcaTime": {
+            "estimatedEndData": "预计结束日期",
+            "completed": "已完成",
+            "cancelled": "已取消"
+        }
+    },
+    "limitHistoryItem": {
+        "balance": "余额",
+        "cancelOrder": "取消订单"
+    },
+    "ordersStatus": {
+        "completed": "已完成",
+        "cancelled": "已取消",
+        "maxRetries": "超出最大重试次数",
+        "cancellation": "取消中"
+    },
+    "limitOrdersHistory": {
+        "tabs": [
+            "未完成订单",
+            "{historyType} 历史"
+        ],
+        "tabDca": "定投",
+        "tabLimit": "限价",
+        "emptyList": "订单列表为空",
+        "connectWallet": "连接钱包以查看您的订单"
+    },
+    "limitSubordersField": {
+        "text": "子订单数量"
+    },
+    "limitTokenRate": {
+        "setToMarket": "设置为市场价",
+        "atRate": "以价格",
+        "send": "发送",
+        "receive": "接收"
+    },
+    "transactionStatusModal": {
+        "swapStatus": {
+            "swapPendingBlockchain": "区块链费用",
+            "swapSuccessPriceImpact": "价格影响",
+            "swapSuccessEconomy": "您的经济",
+            "swapSuccessCashback": "返现"
+        },
+        "swapDetails": {
+            "name": "中间代币"
+        },
+        "limitDetails": {
+            "price": "价格",
+            "buying": "购买",
+            "suborders": "子订单数量",
+            "created": "创建时间",
+            "expiryTime": "到期时间"
+        },
+        "dcaDetails": {
+            "totalDeposited": "总存入",
+            "eachOrderSize": "每笔订单大小",
+            "orderCount": "订单数量",
+            "created": "创建时间",
+            "estimatedEndDate": "预计结束日期"
+        }
+    },
+    "dcaDetails": {
+        "dcaSummary": "定投摘要",
+        "details": [
+            "总出售",
+            "每笔订单出售",
+            "购买",
+            "订单间隔",
+            "预计结束日期"
+        ],
+        "dcaDeal": {
+            "swapMessage": "每 ~{orderInterval} 交换 {sellPerOrder} 为 {toBuy}，总预算为 {sellTotal}，共 {orders} 笔订单，持续 ~{totalInterval}"
+        }
+    },
+    "dcaSettings": {
+        "rangeOptional": "范围（可选）",
+        "everyField": "每",
+        "overField": "持续",
+        "enable": "启用",
+        "disable": "禁用",
+        "suborders": "子订单",
+        "orders": "订单"
+    },
+    "bannersMain": {
+        "whale": {
+            "text1": "注册并获得免费战利品箱！ - 每日高达20%的返现！",
+            "text2": "零Gas费用，无限制 🚀",
+            "bannerDesc": "注册并获得免费战利品箱！ - 每日高达20%的返现！零Gas费用，无限制 🚀",
+            "getBonus": "获取奖励",
+            "actionBtn": "前往应用"
+        },
+        "major": {
+            "text1": "加入 swap.coffee 大使计划。分享内容，获取奖励！",
+            "actionBtn": "阅读更多"
+        }
+    },
+    "stakesBoosts": {
+        "endsIn": "结束于",
+        "days": "天",
+        "hours": "小时",
+        "day": "天",
+        "ended": "已结束"
+    },
+    "tradeMode": {
+        "title": "交易模式",
+        "descriptions": [
+            "以最佳价格即时交换",
+            "以指定或最佳价格交换资产",
+            "定期交换资产"
+        ]
+    },
+    "invocations": {
+        "title": "最大调用次数",
+        "text": "子订单数量的倍数"
+    },
+    "timeZone": {
+        "minutes": "分钟",
+        "hours": "小时",
+        "days": "天",
+        "months": "月",
+        "years": "年",
+        "minute": "分钟",
+        "hour": "小时",
+        "day": "天",
+        "week": "周",
+        "month": "月"
+    },
+    "poolsBanner": {
+        "title": "提供流动性并赚取费用",
+        "descriptionFirst": "通过提供流动性探索新机会。",
+        "descriptionSecond": "选择适合您的池并从今天开始赚取交易费用！"
+    },
+    "poolsActions": {
+        "transferLiquidity": "转移流动性",
+        "createPool": "创建池"
+    },
+    "poolsFilters": {
+        "hidden": "隐藏",
+        "group": "分组",
+        "boost": "加成",
+        "newPairs": "新交易对"
+    },
+    "poolsCommon": {
         "noActiveBoostDescr": "向池中添加奖励以促进流动性提供商加入—还没有积极的提升，成为第一个启动一个！",
         "noActiveBoost": "没有主动提升",
         "boostPool": "提升泳池",
@@ -813,43 +845,44 @@
         "boost": "提升",
         "day": "天",
         "backToPools": "返回流动性池",
-        "poolsAmountSmall": "池子"
-  },
-  "poolsTable": {
-      "poolName": "池",
-      "source": "来源",
-      "tvl": "总锁仓价值",
-      "volume": "交易量 (24小时)",
-      "apr": "年化收益率",
-      "noPoolsFound": "未找到池"
-  },
-  "poolsTabs": {
-      "allPools": "所有池",
-      "myPools": "我的池",
-      "searchPool": "搜索池"
-  },
-  "earnInterface": {
-      "createPool": "创建池",
-      "addLiquidity": "添加流动性",
-      "deposit": "存入"
-  },
-  "aprTooltip": {
-      "poolApr": "基础年化收益率",
-      "boostApr": "奖励年化收益率",
-      "totalApr": "总年化收益率",
-      "aprDescription": "年化收益率基于过去24小时的池费用计算。"
-  },
-  "farmPositions": {
-      "farmPositionsTitle": "流动性挖矿",
-      "farmLpTokens": "添加流动性代币",
-      "farmDisabled": "无流动性代币量"
-  },
-  "myPoolAction": {
-      "claimAllRewards": "索取所有奖赏",
-    "claimRewards": "领取奖励",
-    "goToWithdraw": "前往提现",
-    "custom": "自定义"
-  },
+        "poolsAmountSmall": "池子",
+        "remove": "移除"
+    },
+    "poolsTable": {
+        "poolName": "池",
+        "source": "来源",
+        "tvl": "总锁仓价值",
+        "volume": "交易量 (24小时)",
+        "apr": "年化收益率",
+        "noPoolsFound": "未找到池"
+    },
+    "poolsTabs": {
+        "allPools": "所有池",
+        "myPools": "我的池",
+        "searchPool": "搜索池"
+    },
+    "earnInterface": {
+        "createPool": "创建池",
+        "addLiquidity": "添加流动性",
+        "deposit": "存入"
+    },
+    "aprTooltip": {
+        "poolApr": "基础年化收益率",
+        "boostApr": "奖励年化收益率",
+        "totalApr": "总年化收益率",
+        "aprDescription": "年化收益率基于过去24小时的池费用计算。"
+    },
+    "farmPositions": {
+        "farmPositionsTitle": "流动性挖矿",
+        "farmLpTokens": "添加流动性代币",
+        "farmDisabled": "无流动性代币量"
+    },
+    "myPoolAction": {
+        "claimAllRewards": "索取所有奖赏",
+        "claimRewards": "领取奖励",
+        "goToWithdraw": "前往提现",
+        "custom": "自定义"
+    },
     "myPoolLiquidity": {
         "dedustTooltip": "协议没有公开审计报告。",
         "rewardsRemove": "删除和索赔",
@@ -868,288 +901,301 @@
         ]
     },
     "poolHeading": {
-    "infoText": "农场 LP 代币以获得奖励",
-    "totalApr": "总年化收益率",
-    "farmApr": "农场年化收益率",
-    "tradeFee": "交易费用"
-  },
-  "poolLiq": {
-    "title": "池子流",
-    "tvl": "总锁仓价值",
-    "volume": "交易量 (24小时)",
-    "fees": "费用 (24小时)",
-      "poolAddress": "泳池地址"
-  },
-  "transferActions": {
-      "transferLiq": "转移流动性"
-  },
-  "transferAprDifference": {
-      "aprDifference": "年化收益率差异",
-      "apr": "年化收益率"
-  },
-  "transferDetails": {
-      "title": "转移详情"
-  },
-  "transferFirstStep": {
-      "title": "未连接钱包",
-      "text": "连接钱包以管理您的流动性",
-      "connect": "连接钱包"
-  },
-  "transferMyLiq": {
-      "myLiq": "我的流动性",
-      "total": "总计",
-      "value": "价值"
-  },
-  "transferSteps": {
-      "connectWallet": "连接钱包",
-      "selectPool": "选择一个池",
-      "transferLiq": "转移流动性"
-  },
-  "earnModal": {
-      "depositTitle": "添加流动性",
-      "withdrawTitle": "提取流动性",
-      "farmTitle": "质押流动性代币",
-      "price": "价格",
-      "blockchainFee": "区块链费用",
-      "apr": "年化收益率 (24小时)",
-      "slippage": "滑点",
-      "estPoolShare": "预计池份额",
-      "minimumReceive": "最低接收",
-      "myFarm": "我的挖矿",
-      "farmApr": "挖矿年化收益率",
-      "withdrawFarmTitle": "移除挖矿并领取奖励"
-  },
-  "earnModalFirstStep": {
-      "youReceive": "您接收",
-      "youSend": "您发送",
-      "withdrawLiquidity": "提取流动性",
-      "addLiquidity": "添加流动性",
-      "enterLpAmount": "输入流动性代币数量",
-      "farm": "挖矿",
-      "available": "可用"
-  },
-  "poolSettingsModal": {
-      "title": "池设置",
-      "saveBtn": "保存设置"
-  },
-  "poolDetails": {
-      "poolShare": "池份额",
-      "provided": "已提供",
-      "lpTokens": "流动性代币"
-  },
-  "poolsGroupList": {
-      "view-all": "查看所有池"
-  },
-  "farmPositionsDetails": {
-      "farmApr": "挖矿年化收益率",
-      "lpTokens": "流动性代币",
-      "totalEarned": "总收益"
-  },
-  "detailsList": {
-      "hideDetails": "隐藏详情",
-      "showDetails": "显示详情"
-  },
-  "farmModal": {
-      "farmTitle": "我的挖矿奖励",
-      "rewards": "奖励",
-      "hide": "隐藏",
-      "withdraw": "提取",
-      "claim": "领取",
-      "farm": "挖矿",
-      "details": "详情"
-  },
-  "modalStatusSteps": {
-      "detailsTitle": {
-          "deposit": "存入流动性",
-          "withdraw": "提取流动性",
-          "claim": "移除挖矿并领取奖励",
-          "create": "创建并存入流动性",
-          "swap": "交换",
-          "limit": "限价",
-          "dca": "定投",
-          "withdrawFarm": "移除挖矿并领取奖励",
-          "vault": "DEX Vault 部署",
-          "createPool": "创建资金池并存入流动性",
-          "default": "存入流动性"
-      },
-      "title": {
-          "pending": "交易处理中...",
-          "failed": "交易失败",
-          "success": "成功！",
-          "default": "交易处理中..."
-      },
-      "description": {
-          "default": "您知道咖啡是世界上第二大交易商品吗？仅次于石油。"
-      },
-      "successDescription": {
-          "deposit": "流动性已存入池中",
-          "create": "池已创建",
-          "deploySmart": "智能合约已部署",
-          "limit": "订单已成功创建",
-          "stake": "代币已成功质押",
-          "cancel": "订单已成功取消",
-          "vault": "Vault 已部署",
-          "createPool": "资金池已创建",
-          "default": "代币已在您的钱包中。"
-      },
-      "pendingDescription": {
-          "deploySmart": "正在部署智能合约",
-          "limit": "限价订单处理中...",
-          "cancel": "订单取消中...",
-          "default": "您知道咖啡是世界上第二大交易商品吗？仅次于石油。"
-      },
-      "failedDescription": {
-          "swap": "尝试使用高于正常的滑点以确保您的交易完成。",
-          "default": "发生意外错误，请重试。"
-      },
-      "share": "分享",
-      "close": "关闭",
-      "copyToClipboard": "复制到剪贴板！"
-  },
-  "globalSearch": {
-      "placeholder": "按池、钱包、地址或代码搜索",
-      "paste": "粘贴",
-      "back": "返回",
-      "open": "在 {sourceName} 中打开",
-      "hints": ["关闭", "选择", "导航"],
-      "empty": {
-          "text": "未找到搜索结果",
-          "description": "请确保您正确输入了搜索词"
-      },
-      "categories": ["代币", "池", "福利", "链接"],
-      "benefitTypes": ["返现", "交易竞赛", "质押"]
-  },
-  "mevProtect": {
-      "title": "MEV 保护",
-      "status": {
-          "enabled": "启用",
-          "disabled": "禁用"
-      },
-      "settings": {
-          "first": {
-              "title": "MEV 保护",
-              "description": "在99%的情况下保护您的交换免受MEV攻击。",
-              "description2": "折扣！",
-              "oldPrice": "原价：0.5 TON",
-              "newPrice": "新价：每次分割 0.25 TON"
-          },
-          "second": {
-              "title": "多跳交换",
-              "description": "在包含中间代币的交换中使用MEV保护",
-              "description2": "注意：MEV保护仅保护第一跳，不影响路径中的后续跳跃",
-              "yes": "是",
-              "no": "否"
-          },
-          "third": {
-              "title": "最低交换金额",
-              "description": "仅对超过此金额的交换使用MEV保护",
-              "customField": "自定义"
-          },
-          "fourth": {
-              "title": "附加信息",
-              "description1": "MEV保护仅保护第一跳，不影响路径中的后续跳跃。",
-              "description2": "MEV保护不保证保护，但使用区块链的最大能力进行保护。",
-              "description3": "MEV保护不允许模拟交易。"
-          }
-      }
-  },
-  "boostLiquidity": {
-      "boostLiquidity": "提升流动性",
-      "boostLiquidityDescription": "向池中添加奖励以吸引更多流动性提供者加入。",
-      "pool": {
-              "title": "池",
-              "poolDescription": "选择您想要提升的池"
-      },
-      "rewards": {
-              "title": "奖励",
-              "rewardsDescription": "您想分发多少奖励？\n每天至少相当于 $5 的奖励。",
-              "amount": "金额"
-      },
-      "duration": {
-              "title": "持续时间",
-              "durationDescription": "您希望分发奖励的时间段。"
-      },
-      "address": {
-              "title": "排除某些地址接收奖励",
-              "addressDescription": "最多可指定10个地址（可选）",
-              "enterAddress": "输入地址"
-      },
-      "buttons": {
-              "boostPool": "提升池",
-              "enterAmount": "输入金额",
-              "selectDuration": "选择持续时间",
-              "addMyWallet": "添加我的钱包",
-              "add": "添加"
-      }
-  },
-  "bridge": {
-      "recAddress": "指定接收者的地址",
-      "via": "通过",
-      "accept": "接受",
-      "notSelected": "未选择",
-      "bridgeProvider": "桥接提供商",
-      "from": "从",
-      "to": "到",
-      "providersList": "提供商列表",
-      "swapVia": "交换通过",
-      "selectChainAndToken": "选择链和代币",
-      "best": "最佳",
-      "warn": "警告",
-      "invalidAddress": "此钱包地址似乎有误。请再试一次。",
-      "correctAddress": "看起来不错——地址已保存。",
-      "depositInfo": "存款地址以转移资金",
-      "addressCopied": "地址已复制！",
-      "addressNotCopied": "地址未复制",
-      "tokensMustBeSendingSoon": "代币将很快记入您的钱包。", 
-      "awaitingDeposit": "等待存款",
-      "errors": {
-          "noProvidersFound": "未找到提供商",
-          "pleaseTryAgain": "请尝试使用其他代币或金额重试",
-          "ratesError": "更新汇率时出错。请重试"
-      },
-      "buttons": {
-              "notAvailableProviders": "无可用提供商",
-              "selectProvider": "选择提供商",
-              "findProvider": "正在查找提供商...",
-              "enterAmount": "输入金额",
-              "connectTonWallet": "连接 TON 钱包",
-              "connectMultiWallet": "连接多链钱包",
-              "enterReceiverAddress": "输入接收地址"
-      },
-      "bridgePopup": {
-              "chainTitle": "链列表",
-              "tokenTitle": "代币列表",
-              "bridgeSearchInput": "按名称搜索",
-              "list": {
-                      "allChains": "所有链",
-                      "All": "所有",
-                      "Popular": "热门",
-                      "Promo": "促销",
-                      "Layer-2": "Layer-2",
-                      "EVM": "EVM"
-              },
-              "tokens": {
-                      "All": "所有",
-                      "Trending": "趋势",
-                      "Gainers": "涨幅",
-                      "Losers": "跌幅"
-              }
-      },
-      "connectModal": {
-              "title": "连接钱包",
-              "receiverAddress": "接收地址",
-              "receiverAddressDescription1": "您可以手动输入或使用钱包连接。",
-              "receiverAddressDescription2": "（不支持 CEX 地址）",
-              "inputPlaceholder": "输入网络地址",
-              "clearBtn": "清除",
-              "pasteBtn": "粘贴"
-     },
-     "detail": {
-       "minimumReceived": "最低接收",
-       "receiverAddress": "接收地址",
-       "estimatedTime": "预计时间",
-       "estimatedFee": "预计费用"
-      }
+        "infoText": "农场 LP 代币以获得奖励",
+        "totalApr": "总年化收益率",
+        "farmApr": "农场年化收益率",
+        "tradeFee": "交易费用"
+    },
+    "poolLiq": {
+        "title": "池子流",
+        "tvl": "总锁仓价值",
+        "volume": "交易量 (24小时)",
+        "fees": "费用 (24小时)",
+        "poolAddress": "泳池地址"
+    },
+    "transferActions": {
+        "transferLiq": "转移流动性"
+    },
+    "transferAprDifference": {
+        "aprDifference": "年化收益率差异",
+        "apr": "年化收益率"
+    },
+    "transferDetails": {
+        "title": "转移详情"
+    },
+    "transferFirstStep": {
+        "title": "未连接钱包",
+        "text": "连接钱包以管理您的流动性",
+        "connect": "连接钱包"
+    },
+    "transferMyLiq": {
+        "myLiq": "我的流动性",
+        "total": "总计",
+        "value": "价值"
+    },
+    "transferSteps": {
+        "connectWallet": "连接钱包",
+        "selectPool": "选择一个池",
+        "transferLiq": "转移流动性"
+    },
+    "earnModal": {
+        "depositTitle": "添加流动性",
+        "withdrawTitle": "提取流动性",
+        "farmTitle": "质押流动性代币",
+        "price": "价格",
+        "blockchainFee": "区块链费用",
+        "apr": "年化收益率 (24小时)",
+        "slippage": "滑点",
+        "estPoolShare": "预计池份额",
+        "minimumReceive": "最低接收",
+        "myFarm": "我的挖矿",
+        "farmApr": "挖矿年化收益率",
+        "withdrawFarmTitle": "移除挖矿并领取奖励"
+    },
+    "earnModalFirstStep": {
+        "youReceive": "您接收",
+        "youSend": "您发送",
+        "withdrawLiquidity": "提取流动性",
+        "addLiquidity": "添加流动性",
+        "enterLpAmount": "输入流动性代币数量",
+        "farm": "挖矿",
+        "available": "可用"
+    },
+    "poolSettingsModal": {
+        "title": "池设置",
+        "saveBtn": "保存设置"
+    },
+    "poolDetails": {
+        "poolShare": "池份额",
+        "provided": "已提供",
+        "lpTokens": "流动性代币"
+    },
+    "poolsGroupList": {
+        "view-all": "查看所有池"
+    },
+    "farmPositionsDetails": {
+        "farmApr": "挖矿年化收益率",
+        "lpTokens": "流动性代币",
+        "totalEarned": "总收益"
+    },
+    "detailsList": {
+        "hideDetails": "隐藏详情",
+        "showDetails": "显示详情"
+    },
+    "farmModal": {
+        "farmTitle": "我的挖矿奖励",
+        "rewards": "奖励",
+        "hide": "隐藏",
+        "withdraw": "提取",
+        "claim": "领取",
+        "farm": "挖矿",
+        "details": "详情"
+    },
+    "modalStatusSteps": {
+        "detailsTitle": {
+            "deposit": "存入流动性",
+            "withdraw": "提取流动性",
+            "claim": "移除挖矿并领取奖励",
+            "create": "创建并存入流动性",
+            "swap": "交换",
+            "limit": "限价",
+            "dca": "定投",
+            "withdrawFarm": "移除挖矿并领取奖励",
+            "vault": "DEX Vault 部署",
+            "createPool": "创建资金池并存入流动性",
+            "default": "存入流动性"
+        },
+        "title": {
+            "pending": "交易处理中...",
+            "failed": "交易失败",
+            "success": "成功！",
+            "default": "交易处理中..."
+        },
+        "description": {
+            "default": "您知道咖啡是世界上第二大交易商品吗？仅次于石油。"
+        },
+        "successDescription": {
+            "deposit": "流动性已存入池中",
+            "create": "池已创建",
+            "deploySmart": "智能合约已部署",
+            "limit": "订单已成功创建",
+            "stake": "代币已成功质押",
+            "cancel": "订单已成功取消",
+            "vault": "Vault 已部署",
+            "createPool": "资金池已创建",
+            "default": "代币已在您的钱包中。"
+        },
+        "pendingDescription": {
+            "deploySmart": "正在部署智能合约",
+            "limit": "限价订单处理中...",
+            "cancel": "订单取消中...",
+            "default": "您知道咖啡是世界上第二大交易商品吗？仅次于石油。"
+        },
+        "failedDescription": {
+            "swap": "尝试使用高于正常的滑点以确保您的交易完成。",
+            "default": "发生意外错误，请重试。"
+        },
+        "share": "分享",
+        "close": "关闭",
+        "copyToClipboard": "复制到剪贴板！"
+    },
+    "globalSearch": {
+        "placeholder": "按池、钱包、地址或代码搜索",
+        "paste": "粘贴",
+        "back": "返回",
+        "open": "在 {sourceName} 中打开",
+        "hints": [
+            "关闭",
+            "选择",
+            "导航"
+        ],
+        "empty": {
+            "text": "未找到搜索结果",
+            "description": "请确保您正确输入了搜索词"
+        },
+        "categories": [
+            "代币",
+            "池",
+            "福利",
+            "链接"
+        ],
+        "benefitTypes": [
+            "返现",
+            "交易竞赛",
+            "质押"
+        ]
+    },
+    "mevProtect": {
+        "title": "MEV 保护",
+        "status": {
+            "enabled": "启用",
+            "disabled": "禁用"
+        },
+        "settings": {
+            "first": {
+                "title": "MEV 保护",
+                "description": "在99%的情况下保护您的交换免受MEV攻击。",
+                "description2": "折扣！",
+                "oldPrice": "原价：0.5 TON",
+                "newPrice": "新价：每次分割 0.25 TON"
+            },
+            "second": {
+                "title": "多跳交换",
+                "description": "在包含中间代币的交换中使用MEV保护",
+                "description2": "注意：MEV保护仅保护第一跳，不影响路径中的后续跳跃",
+                "yes": "是",
+                "no": "否"
+            },
+            "third": {
+                "title": "最低交换金额",
+                "description": "仅对超过此金额的交换使用MEV保护",
+                "customField": "自定义"
+            },
+            "fourth": {
+                "title": "附加信息",
+                "description1": "MEV保护仅保护第一跳，不影响路径中的后续跳跃。",
+                "description2": "MEV保护不保证保护，但使用区块链的最大能力进行保护。",
+                "description3": "MEV保护不允许模拟交易。"
+            }
+        }
+    },
+    "boostLiquidity": {
+        "boostLiquidity": "提升流动性",
+        "boostLiquidityDescription": "向池中添加奖励以吸引更多流动性提供者加入。",
+        "pool": {
+            "title": "池",
+            "poolDescription": "选择您想要提升的池"
+        },
+        "rewards": {
+            "title": "奖励",
+            "rewardsDescription": "您想分发多少奖励？\n每天至少相当于 $5 的奖励。",
+            "amount": "金额"
+        },
+        "duration": {
+            "title": "持续时间",
+            "durationDescription": "您希望分发奖励的时间段。"
+        },
+        "address": {
+            "title": "排除某些地址接收奖励",
+            "addressDescription": "最多可指定10个地址（可选）",
+            "enterAddress": "输入地址"
+        },
+        "buttons": {
+            "boostPool": "提升池",
+            "enterAmount": "输入金额",
+            "selectDuration": "选择持续时间",
+            "addMyWallet": "添加我的钱包",
+            "add": "添加"
+        }
+    },
+    "bridge": {
+        "recAddress": "指定接收者的地址",
+        "via": "通过",
+        "accept": "接受",
+        "notSelected": "未选择",
+        "bridgeProvider": "桥接提供商",
+        "from": "从",
+        "to": "到",
+        "providersList": "提供商列表",
+        "swapVia": "交换通过",
+        "selectChainAndToken": "选择链和代币",
+        "best": "最佳",
+        "warn": "警告",
+        "invalidAddress": "此钱包地址似乎有误。请再试一次。",
+        "correctAddress": "看起来不错——地址已保存。",
+        "depositInfo": "存款地址以转移资金",
+        "addressCopied": "地址已复制！",
+        "addressNotCopied": "地址未复制",
+        "tokensMustBeSendingSoon": "代币将很快记入您的钱包。",
+        "awaitingDeposit": "等待存款",
+        "errors": {
+            "noProvidersFound": "未找到提供商",
+            "pleaseTryAgain": "请尝试使用其他代币或金额重试",
+            "ratesError": "更新汇率时出错。请重试"
+        },
+        "buttons": {
+            "notAvailableProviders": "无可用提供商",
+            "selectProvider": "选择提供商",
+            "findProvider": "正在查找提供商...",
+            "enterAmount": "输入金额",
+            "connectTonWallet": "连接 TON 钱包",
+            "connectMultiWallet": "连接多链钱包",
+            "enterReceiverAddress": "输入接收地址"
+        },
+        "bridgePopup": {
+            "chainTitle": "链列表",
+            "tokenTitle": "代币列表",
+            "bridgeSearchInput": "按名称搜索",
+            "list": {
+                "allChains": "所有链",
+                "All": "所有",
+                "Popular": "热门",
+                "Promo": "促销",
+                "Layer-2": "Layer-2",
+                "EVM": "EVM"
+            },
+            "tokens": {
+                "All": "所有",
+                "Trending": "趋势",
+                "Gainers": "涨幅",
+                "Losers": "跌幅"
+            }
+        },
+        "connectModal": {
+            "title": "连接钱包",
+            "receiverAddress": "接收地址",
+            "receiverAddressDescription1": "您可以手动输入或使用钱包连接。",
+            "receiverAddressDescription2": "（不支持 CEX 地址）",
+            "inputPlaceholder": "输入网络地址",
+            "clearBtn": "清除",
+            "pasteBtn": "粘贴"
+        },
+        "detail": {
+            "minimumReceived": "最低接收",
+            "receiverAddress": "接收地址",
+            "estimatedTime": "预计时间",
+            "estimatedFee": "预计费用"
+        }
     },
     "newPool": {
         "ratio": {

@@ -827,7 +827,8 @@
         "boost": "Буст",
         "day": "день",
         "backToPools": "Назад до пулів",
-        "poolsAmountSmall": "пул"
+        "poolsAmountSmall": "пул",
+        "remove": "Видалити"
     },
     "poolsTable": {
         "poolName": "Пул",
