@@ -1180,5 +1180,19 @@
             "deployMultiVault": "Desplegar múltiples vaults",
             "selectSecondAsset": "Seleccionar segundo activo"
         }
+    },
+    "transferLiquidity": {
+        "title": "Transferir liquidez",
+        "slippage": "Deslizamiento",
+        "transferDetail": {
+            "slippage": "Deslizamiento",
+            "blockchainFee": "Tarifa de blockchain",
+            "description": "El gas consumido se tomó en exceso a propósito, para garantizar la seguridad de la transacción; la mayor parte será devuelta"
+        },
+        "notFound": {
+            "title": "No se encontraron posiciones",
+            "text": "No tienes depósitos en pools de liquidez.",
+            "btn": "Agregar liquidez"
+        }
     }
 }

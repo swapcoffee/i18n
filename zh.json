@@ -1178,5 +1178,19 @@
             "deployMultiVault": "部署多个 vaults",
             "selectSecondAsset": "选择第二资产"
         }
+    },
+    "transferLiquidity": {
+        "title": "转移流动性",
+        "slippage": "滑点",
+        "transferDetail": {
+            "slippage": "滑点",
+            "blockchainFee": "区块链费用",
+            "description": "为确保交易安全，消耗的Gas被故意多收取；大部分将被退还"
+        },
+        "notFound": {
+            "title": "未找到位置",
+            "text": "您在流动性池中没有任何存款。",
+            "btn": "添加流动性"
+        }
     }
 }
