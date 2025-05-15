@@ -1035,7 +1035,8 @@
         "address": {
             "title": "Исключить некоторые адреса из получения наград",
             "addressDescription": "Укажите до 10 адресов (опционально)",
-            "enterAddress": "Введите адрес"
+            "enterAddress": "Введите адрес",
+            "enterValidAddress": "Введите валидный адрес"
         },
         "buttons": {
             "boostPool": "Увеличить пул",
@@ -1043,7 +1044,12 @@
             "selectDuration": "Выберите длительность",
             "addMyWallet": "Добавить мой кошелек",
             "add": "Добавить"
-        }
+        },
+        "selectPool": "Выберите пул",
+        "yourPools": "Ваши пулы",
+        "popularPools": "Популярные пулы",
+        "start": "Начало",
+        "end": "Конец"
     },
     "bridge": {
         "recAddress": "Укажите адрес получателя",

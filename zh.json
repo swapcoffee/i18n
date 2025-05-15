@@ -1121,7 +1121,8 @@
         "address": {
             "title": "排除某些地址接收奖励",
             "addressDescription": "最多可指定10个地址（可选）",
-            "enterAddress": "输入地址"
+            "enterAddress": "输入地址",
+            "enterValidAddress": "输入有效地址"
         },
         "buttons": {
             "boostPool": "提升池",
@@ -1129,7 +1130,12 @@
             "selectDuration": "选择持续时间",
             "addMyWallet": "添加我的钱包",
             "add": "添加"
-        }
+        },
+        "selectPool": "选择一个池",
+        "yourPools": "你的游泳池",
+        "popularPools": "热门泳池",
+        "start": "开始",
+        "end": "结束"
     },
     "bridge": {
         "recAddress": "指定接收者的地址",

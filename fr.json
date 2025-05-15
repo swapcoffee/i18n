@@ -1122,7 +1122,8 @@
         "address": {
             "title": "Exclure certaines adresses de la réception des récompenses",
             "addressDescription": "Spécifiez jusqu'à 10 adresses (facultatif)",
-            "enterAddress": "Entrez une adresse"
+            "enterAddress": "Entrez une adresse",
+            "enterValidAddress": "Entrez une adresse valide"
         },
         "buttons": {
             "boostPool": "Booster un pool",
@@ -1130,7 +1131,12 @@
             "selectDuration": "Sélectionner une durée",
             "addMyWallet": "Ajouter mon portefeuille",
             "add": "Ajouter"
-        }
+        },
+        "selectPool": "Sélectionnez une piscine",
+        "yourPools": "Vos piscines",
+        "popularPools": "Piscines populaires",
+        "start": "Démarrer",
+        "end": "Fin"
     },
     "bridge": {
         "recAddress": "Spécifiez l'adresse du destinataire",

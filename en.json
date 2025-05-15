@@ -1075,7 +1075,8 @@
         "address": {
             "title": "Exclude some addresses from receiving rewards",
             "addressDescription": "Specify up to 10 addresses (optional)",
-            "enterAddress": "Enter the address"
+            "enterAddress": "Enter the address",
+            "enterValidAddress": "Enter a valid address"
         },
         "buttons": {
             "boostPool": "Boost a pool",
@@ -1083,7 +1084,12 @@
             "selectDuration": "Select duration",
             "addMyWallet": "Add my wallet",
             "add": "Add"
-        }
+        },
+        "selectPool": "Select a pool",
+        "yourPools": "Your pools",
+        "popularPools": "Popular pools",
+        "start": "Start",
+        "end": "End"
     },
     "bridge": {
         "recAddress": "Specify the recipient's address",

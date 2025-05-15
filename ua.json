@@ -1090,7 +1090,8 @@
         "address": {
             "title": "Виключити деякі адреси з отримання винагород",
             "addressDescription": "Вкажіть до 10 адрес (необов'язково)",
-            "enterAddress": "Введіть адресу"
+            "enterAddress": "Введіть адресу",
+            "enterValidAddress": "Введите валидный адрес"
         },
         "buttons": {
             "boostPool": "Підвищити пул",
@@ -1098,7 +1099,12 @@
             "selectDuration": "Виберіть тривалість",
             "addMyWallet": "Додати мій гаманець",
             "add": "Додати"
-        }
+        },
+        "selectPool": "Виберіть пул",
+        "yourPools": "Ваші пулы",
+        "popularPools": "Популярные пулы",
+        "start": "Начало",
+        "end": "Конец"
     },
     "bridge": {
         "recAddress": "Вкажіть адресу отримувача",
