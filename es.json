@@ -552,7 +552,10 @@
         "hideSteps": "Ocultar Steps",
         "unclaimRewards": "Recompensas no reclamadas",
         "selectFrame": "Selecciona el periodo de tiempo",
-        "aprTooltip": "La TAE depende del costo de los activos, el monto y el valor de las recompensas distribuidas."
+        "aprTooltip": "La TAE depende del costo de los activos, el monto y el valor de las recompensas distribuidas.",
+        "positionTooltip": "El puesto ha expirado. Las recompensas ya no se acumulan.",
+        "activePositions": "Posiciones activas",
+        "expiredPositions": "Posiciones vencidas"
     },
     "stakeStatus": {
         "failedText": "¡La acción de apuesta falló!",

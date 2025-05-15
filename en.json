@@ -552,7 +552,10 @@
         "hideSteps": "Hide Steps",
         "unclaimRewards": "Rewards",
         "selectFrame": "Select timeframe",
-        "aprTooltip": "APR depends on the asset cost, amount and the value of distributed rewards."
+        "aprTooltip": "APR depends on the asset cost, amount and the value of distributed rewards.",
+        "positionTooltip": "The position has expired. Rewards are no longer accrued.",
+        "activePositions": "Active positions",
+        "expiredPositions": "Expired positions"
     },
     "stakeStatus": {
         "failedText": "Stake action was failed !",

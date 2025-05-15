@@ -575,7 +575,10 @@
         "hideSteps": "隐藏步骤",
         "unclaimRewards": "无人认领的奖赏",
         "selectFrame": "选择时间范围",
-        "aprTooltip": "APR取决于资产成本，金额和分配奖励的价值。"
+        "aprTooltip": "APR取决于资产成本，金额和分配奖励的价值。",
+        "positionTooltip": "该职位已过期。 奖励不再累积。",
+        "activePositions": "活跃职位",
+        "expiredPositions": "过期职位"
     },
     "stakeStatus": {
         "failedText": "质押操作失败！",
