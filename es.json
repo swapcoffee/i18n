@@ -815,7 +815,8 @@
         "boost": "Impulso",
         "day": "día",
         "backToPools": "Volver a pools",
-        "poolsAmountSmall": "pool"
+        "poolsAmountSmall": "pool",
+        "remove": "Eliminar"
     },
     "poolsTable": {
         "poolName": "Pool",

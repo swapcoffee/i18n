@@ -4,7 +4,12 @@
         "cashback": {
             "title": "Cashback",
             "text": "En activant cette fonctionnalité, vous acceptez de réclamer votre bonus",
-            "colorText": ["$KINGY", "$DFC", "$WEB3", "$DYOR"]
+            "colorText": [
+                "$KINGY",
+                "$DFC",
+                "$WEB3",
+                "$DYOR"
+            ]
         },
         "expert": {
             "title": "Mode expert",
@@ -264,7 +269,14 @@
     },
     "claimCenter": {
         "description": "Invitez des amis, gagnez un pourcentage de la commission de leurs transactions et réclamez vos récompenses !",
-        "titles": ["Toutes les récompenses", "Cashback", "Parrainage", "Concours", "Staking", "Pools"],
+        "titles": [
+            "Toutes les récompenses",
+            "Cashback",
+            "Parrainage",
+            "Concours",
+            "Staking",
+            "Pools"
+        ],
         "caption": "Sélectionnez une récompense à retirer",
         "text": "Le coût du retrait dépend du nombre de tokens que vous avez sélectionnés",
         "empty-title": "Vous n'avez aucune récompense dans le Centre de Réclamation",
@@ -350,7 +362,11 @@
         "level-tooltip": "Au fur et à mesure que le nombre de vos parrainages et leur volume augmentent, vous pouvez prétendre à des récompenses de commission plus élevées et à un lien personnalisé et attractif."
     },
     "referralHistory": {
-        "tableTitles": ["Transaction", "Heure", "Valeur"]
+        "tableTitles": [
+            "Transaction",
+            "Heure",
+            "Valeur"
+        ]
     },
     "referralLink": {
         "caption": "Votre lien de parrainage",
@@ -419,7 +435,12 @@
         }
     },
     "contestPage": {
-        "leaderboardTitles": ["Classement", "Adresse utilisateur", "Volume", "Récompenses estimées"],
+        "leaderboardTitles": [
+            "Classement",
+            "Adresse utilisateur",
+            "Volume",
+            "Récompenses estimées"
+        ],
         "leaderBoard": "Classement",
         "prize": "Cagnotte",
         "faq": "FAQ / Règles de la compétition",
@@ -602,7 +623,11 @@
         "all": "Tout"
     },
     "charts-info": {
-        "info": ["Détenteurs", "Liquidité", "Score de confiance"]
+        "info": [
+            "Détenteurs",
+            "Liquidité",
+            "Score de confiance"
+        ]
     },
     "connectBanner": {
         "title": "Portefeuille non connecté",
@@ -687,7 +712,10 @@
         "cancellation": "Annulation"
     },
     "limitOrdersHistory": {
-        "tabs": ["Ordres ouverts", "Historique {historyType}"],
+        "tabs": [
+            "Ordres ouverts",
+            "Historique {historyType}"
+        ],
         "tabDca": "DCA",
         "tabLimit": "Limite",
         "emptyList": "La liste des ordres est vide",
@@ -809,18 +837,19 @@
         "newPairs": "Nouvelles paires"
     },
     "poolsCommon": {
-      "noActiveBoostDescr": "Ajoutez des récompenses à un pool pour stimuler l'adhésion des fournisseurs de liquidités — pas encore de boosts actifs, soyez le premier à en lancer un!",
-      "noActiveBoost": "Pas de boosts actifs",
-      "boostPool": "Booster une piscine",
-      "boostFarmSubDescription": "Pour participer à l'agriculture, ajoutez d'abord des liquidités à un pool spécifique. Cela vous accordera des jetons LP, qui sont nécessaires pour l'agriculture.",
-      "boostFarmSubTitle": "Ajoutez de la liquidité pour gagner",
-      "boostFarmTitle": "La ferme est active!",
-    "pools": "pools",
-    "boost": "Boost",
-    "day": "jour",
-    "backToPools": "Retour aux pools",
-    "poolsAmountSmall": "piscine"
-  },
+        "noActiveBoostDescr": "Ajoutez des récompenses à un pool pour stimuler l'adhésion des fournisseurs de liquidités — pas encore de boosts actifs, soyez le premier à en lancer un!",
+        "noActiveBoost": "Pas de boosts actifs",
+        "boostPool": "Booster une piscine",
+        "boostFarmSubDescription": "Pour participer à l'agriculture, ajoutez d'abord des liquidités à un pool spécifique. Cela vous accordera des jetons LP, qui sont nécessaires pour l'agriculture.",
+        "boostFarmSubTitle": "Ajoutez de la liquidité pour gagner",
+        "boostFarmTitle": "La ferme est active!",
+        "pools": "pools",
+        "boost": "Boost",
+        "day": "jour",
+        "backToPools": "Retour aux pools",
+        "poolsAmountSmall": "piscine",
+        "remove": "Retirer"
+    },
     "poolsTable": {
         "poolName": "Pool",
         "source": "Source",
@@ -946,13 +975,13 @@
         "view-all": "Voir tous les pools"
     },
     "farmPositionsDetails": {
-        "farmApr":"APR du farming",
+        "farmApr": "APR du farming",
         "lpTokens": "Tokens LP",
-        "totalEarned":"Total gagné"
+        "totalEarned": "Total gagné"
     },
     "detailsList": {
-        "hideDetails":"Masquer les détails",
-        "showDetails":"Afficher les détails"
+        "hideDetails": "Masquer les détails",
+        "showDetails": "Afficher les détails"
     },
     "farmModal": {
         "farmTitle": "Mes récompenses de farming",
@@ -1016,13 +1045,26 @@
         "paste": "Coller",
         "back": "Retour",
         "open": "Ouvrir dans {sourceName}",
-        "hints": ["Fermer", "Sélectionner", "Naviguer"],
+        "hints": [
+            "Fermer",
+            "Sélectionner",
+            "Naviguer"
+        ],
         "empty": {
             "text": "Aucun résultat de recherche trouvé",
             "description": "Veuillez vous assurer que vous avez correctement saisi le terme de recherche"
         },
-        "categories": ["Tokens", "Pools", "Avantages", "Liens"],
-        "benefitTypes": ["Cashback", "Compétition de trading", "Staking"]
+        "categories": [
+            "Tokens",
+            "Pools",
+            "Avantages",
+            "Liens"
+        ],
+        "benefitTypes": [
+            "Cashback",
+            "Compétition de trading",
+            "Staking"
+        ]
     },
     "mevProtect": {
         "title": "Protection MEV",
