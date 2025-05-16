@@ -1023,7 +1023,8 @@
             "cancel": "订单已成功取消",
             "vault": "Vault 已部署",
             "createPool": "资金池已创建",
-            "default": "代币已在您的钱包中。"
+            "default": "代币已在您的钱包中。",
+            "boost": "奖励加入奖池"
         },
         "pendingDescription": {
             "deploySmart": "正在部署智能合约",

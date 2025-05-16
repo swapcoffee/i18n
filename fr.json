@@ -1024,7 +1024,8 @@
             "cancel": "L'ordre a été annulé avec succès",
             "vault": "Le vault a été déployé",
             "createPool": "La réserve a été créée",
-            "default": "Les tokens sont déjà dans votre portefeuille."
+            "default": "Les tokens sont déjà dans votre portefeuille.",
+            "boost": "Récompenses ajoutées à la cagnotte"
         },
         "pendingDescription": {
             "deploySmart": "Déploiement du contrat intelligent",

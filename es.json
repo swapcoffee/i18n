@@ -993,7 +993,8 @@
             "cancel": "La orden se canceló con éxito",
             "vault": "El vault ha sido desplegado",
             "createPool": "El fondo ha sido creado",
-            "default": "Los tokens ya están en tu billetera."
+            "default": "Los tokens ya están en tu billetera.",
+            "boost": "Recompensas añadidas al fondo común"
         },
         "pendingDescription": {
             "deploySmart": "Desplegando contrato inteligente",

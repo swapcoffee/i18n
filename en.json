@@ -990,7 +990,8 @@
             "cancel": "The order was successfully cancelled",
             "vault": "Vault has been deployed",
             "createPool": "The pool has been created",
-            "default": "The tokens are already in your wallet."
+            "default": "The tokens are already in your wallet.",
+            "boost": "Rewards added to pool"
         },
         "pendingDescription": {
             "deploySmart": "Deploying smart contract",
