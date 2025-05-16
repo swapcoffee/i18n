@@ -575,7 +575,10 @@
         "hideSteps": "隐藏步骤",
         "unclaimRewards": "无人认领的奖赏",
         "selectFrame": "选择时间范围",
-        "aprTooltip": "APR取决于资产成本，金额和分配奖励的价值。"
+        "aprTooltip": "APR取决于资产成本，金额和分配奖励的价值。",
+        "positionTooltip": "该职位已过期。 奖励不再累积。",
+        "activePositions": "活跃职位",
+        "expiredPositions": "过期职位"
     },
     "stakeStatus": {
         "failedText": "质押操作失败！",
@@ -1119,7 +1122,8 @@
         "address": {
             "title": "排除某些地址接收奖励",
             "addressDescription": "最多可指定10个地址（可选）",
-            "enterAddress": "输入地址"
+            "enterAddress": "输入地址",
+            "enterValidAddress": "输入有效地址"
         },
         "buttons": {
             "boostPool": "提升池",
@@ -1127,7 +1131,12 @@
             "selectDuration": "选择持续时间",
             "addMyWallet": "添加我的钱包",
             "add": "添加"
-        }
+        },
+        "selectPool": "选择一个池",
+        "yourPools": "你的游泳池",
+        "popularPools": "热门泳池",
+        "start": "开始",
+        "end": "结束"
     },
     "bridge": {
         "recAddress": "指定接收者的地址",
@@ -1224,6 +1233,20 @@
             "deploySingleVault": "部署 {token} vault",
             "deployMultiVault": "部署多个 vaults",
             "selectSecondAsset": "选择第二资产"
+        }
+    },
+    "transferLiquidity": {
+        "title": "转移流动性",
+        "slippage": "滑点",
+        "transferDetail": {
+            "slippage": "滑点",
+            "blockchainFee": "区块链费用",
+            "description": "为确保交易安全，消耗的Gas被故意多收取；大部分将被退还"
+        },
+        "notFound": {
+            "title": "未找到位置",
+            "text": "您在流动性池中没有任何存款。",
+            "btn": "添加流动性"
         }
     }
 }

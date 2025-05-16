@@ -552,7 +552,10 @@
         "hideSteps": "Hide Steps",
         "unclaimRewards": "Rewards",
         "selectFrame": "Select timeframe",
-        "aprTooltip": "APR depends on the asset cost, amount and the value of distributed rewards."
+        "aprTooltip": "APR depends on the asset cost, amount and the value of distributed rewards.",
+        "positionTooltip": "The position has expired. Rewards are no longer accrued.",
+        "activePositions": "Active positions",
+        "expiredPositions": "Expired positions"
     },
     "stakeStatus": {
         "failedText": "Stake action was failed !",
@@ -1073,7 +1076,8 @@
         "address": {
             "title": "Exclude some addresses from receiving rewards",
             "addressDescription": "Specify up to 10 addresses (optional)",
-            "enterAddress": "Enter the address"
+            "enterAddress": "Enter the address",
+            "enterValidAddress": "Enter a valid address"
         },
         "buttons": {
             "boostPool": "Boost a pool",
@@ -1081,7 +1085,12 @@
             "selectDuration": "Select duration",
             "addMyWallet": "Add my wallet",
             "add": "Add"
-        }
+        },
+        "selectPool": "Select a pool",
+        "yourPools": "Your pools",
+        "popularPools": "Popular pools",
+        "start": "Start",
+        "end": "End"
     },
     "bridge": {
         "recAddress": "Specify the recipient's address",
@@ -1178,6 +1187,20 @@
       "deploySingleVault": "Deploy {token} vault",
       "deployMultiVault": "Deploy multi vaults",
       "selectSecondAsset": "Select second asset"
+    }
+  },
+  "transferLiquidity": {
+    "title": "Transfer Liquidity",
+    "slippage": "slippage",
+    "transferDetail": {
+        "slippage": "Slippage",
+        "blockchainFee": "Blockchain fee",
+        "description": "The gas consumed was taken in excess on purpose, to ensure the security of the transaction, most of it will be returned"
+    },
+    "notFound": {
+        "title": "No Positions Found",
+        "text": "You don't have any liquidities pools deposits.",
+        "btn": "Add Liquidity"
     }
   }
 }

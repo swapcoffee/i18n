@@ -577,7 +577,10 @@
         "hideSteps": "Masquer Les Étapes",
         "unclaimRewards": "Récompenses non réclamées",
         "selectFrame": "Sélectionnez la période",
-        "aprTooltip": "Le TAP dépend du coût de l'actif, du montant et de la valeur des récompenses distribuées."
+        "aprTooltip": "Le TAP dépend du coût de l'actif, du montant et de la valeur des récompenses distribuées.",
+        "positionTooltip": "Le poste a expiré. Les récompenses ne sont plus accumulées.",
+        "activePositions": "Positions actives",
+        "expiredPositions": "Postes expirés"
     },
     "stakeStatus": {
         "failedText": "L'action de staking a échoué !",
@@ -1120,7 +1123,8 @@
         "address": {
             "title": "Exclure certaines adresses de la réception des récompenses",
             "addressDescription": "Spécifiez jusqu'à 10 adresses (facultatif)",
-            "enterAddress": "Entrez une adresse"
+            "enterAddress": "Entrez une adresse",
+            "enterValidAddress": "Entrez une adresse valide"
         },
         "buttons": {
             "boostPool": "Booster un pool",
@@ -1128,7 +1132,12 @@
             "selectDuration": "Sélectionner une durée",
             "addMyWallet": "Ajouter mon portefeuille",
             "add": "Ajouter"
-        }
+        },
+        "selectPool": "Sélectionnez une piscine",
+        "yourPools": "Vos piscines",
+        "popularPools": "Piscines populaires",
+        "start": "Démarrer",
+        "end": "Fin"
     },
     "bridge": {
         "recAddress": "Spécifiez l'adresse du destinataire",
@@ -1225,6 +1234,20 @@
             "deploySingleVault": "Déployer le vault {token}",
             "deployMultiVault": "Déployer plusieurs vaults",
             "selectSecondAsset": "Sélectionner le second actif"
+        }
+    },
+    "transferLiquidity": {
+        "title": "Transférer la liquidité",
+        "slippage": "Glissement",
+        "transferDetail": {
+            "slippage": "Glissement",
+            "blockchainFee": "Frais de blockchain",
+            "description": "Le gaz consommé est intentionnellement surestimé pour garantir la sécurité de la transaction ; la majeure partie sera remboursée."
+        },
+        "notFound": {
+            "title": "Aucune position trouvée",
+            "text": "Vous n'avez aucun dépôt dans les pools de liquidité.",
+            "btn": "Ajouter de la liquidité"
         }
     }
 }
