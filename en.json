@@ -1071,7 +1071,9 @@
         },
         "duration": {
             "title": "Duration",
-            "durationDescription": "Period you want to distribute rewards."
+            "durationDescription": "Period you want to distribute rewards.",
+            "select": "Select duration",
+            "confirm": "Confirm duration"
         },
         "address": {
             "title": "Exclude some addresses from receiving rewards",

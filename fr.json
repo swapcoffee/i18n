@@ -1118,7 +1118,9 @@
         },
         "duration": {
             "title": "Durée",
-            "durationDescription": "Période pendant laquelle vous souhaitez distribuer les récompenses."
+            "durationDescription": "Période pendant laquelle vous souhaitez distribuer les récompenses.",
+            "select": "Sélectionner la durée",
+            "confirm": "Confirmer la durée"
         },
         "address": {
             "title": "Exclure certaines adresses de la réception des récompenses",

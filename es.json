@@ -1074,7 +1074,9 @@
         },
         "duration": {
             "title": "Duración",
-            "durationDescription": "Período durante el cual deseas distribuir recompensas."
+            "durationDescription": "Período durante el cual deseas distribuir recompensas.",
+            "select": "Seleccione la duración",
+            "confirm": "Confirmar duración"
         },
         "address": {
             "title": "Excluir algunas direcciones de recibir recompensas",

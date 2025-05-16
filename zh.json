@@ -1117,7 +1117,9 @@
         },
         "duration": {
             "title": "持续时间",
-            "durationDescription": "您希望分发奖励的时间段。"
+            "durationDescription": "您希望分发奖励的时间段。",
+            "select": "选择持续时间",
+            "confirm": "确认持续时间"
         },
         "address": {
             "title": "排除某些地址接收奖励",
