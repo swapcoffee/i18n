@@ -577,7 +577,10 @@
         "hideSteps": "Masquer Les Étapes",
         "unclaimRewards": "Récompenses non réclamées",
         "selectFrame": "Sélectionnez la période",
-        "aprTooltip": "Le TAP dépend du coût de l'actif, du montant et de la valeur des récompenses distribuées."
+        "aprTooltip": "Le TAP dépend du coût de l'actif, du montant et de la valeur des récompenses distribuées.",
+        "positionTooltip": "Le poste a expiré. Les récompenses ne sont plus accumulées.",
+        "activePositions": "Positions actives",
+        "expiredPositions": "Postes expirés"
     },
     "stakeStatus": {
         "failedText": "L'action de staking a échoué !",
@@ -1024,7 +1027,8 @@
             "cancel": "L'ordre a été annulé avec succès",
             "vault": "Le vault a été déployé",
             "createPool": "La réserve a été créée",
-            "default": "Les tokens sont déjà dans votre portefeuille."
+            "default": "Les tokens sont déjà dans votre portefeuille.",
+            "boost": "Récompenses ajoutées à la cagnotte"
         },
         "pendingDescription": {
             "deploySmart": "Déploiement du contrat intelligent",
@@ -1114,12 +1118,16 @@
         },
         "duration": {
             "title": "Durée",
-            "durationDescription": "Période pendant laquelle vous souhaitez distribuer les récompenses."
+            "durationDescription": "Période pendant laquelle vous souhaitez distribuer les récompenses.",
+            "select": "Sélectionner la durée",
+            "confirm": "Confirmer la durée"
         },
         "address": {
             "title": "Exclure certaines adresses de la réception des récompenses",
             "addressDescription": "Spécifiez jusqu'à 10 adresses (facultatif)",
-            "enterAddress": "Entrez une adresse"
+            "enterAddress": "Entrez une adresse",
+            "enterValidAddress": "Entrez une adresse valide",
+            "addressAlreadyAdded": "L'adresse a déjà été ajoutée"
         },
         "buttons": {
             "boostPool": "Booster un pool",
@@ -1127,7 +1135,12 @@
             "selectDuration": "Sélectionner une durée",
             "addMyWallet": "Ajouter mon portefeuille",
             "add": "Ajouter"
-        }
+        },
+        "selectPool": "Sélectionnez une piscine",
+        "yourPools": "Vos piscines",
+        "popularPools": "Piscines populaires",
+        "start": "Démarrer",
+        "end": "Fin"
     },
     "bridge": {
         "recAddress": "Spécifiez l'adresse du destinataire",

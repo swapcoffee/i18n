@@ -575,7 +575,10 @@
         "hideSteps": "隐藏步骤",
         "unclaimRewards": "无人认领的奖赏",
         "selectFrame": "选择时间范围",
-        "aprTooltip": "APR取决于资产成本，金额和分配奖励的价值。"
+        "aprTooltip": "APR取决于资产成本，金额和分配奖励的价值。",
+        "positionTooltip": "该职位已过期。 奖励不再累积。",
+        "activePositions": "活跃职位",
+        "expiredPositions": "过期职位"
     },
     "stakeStatus": {
         "failedText": "质押操作失败！",
@@ -1023,7 +1026,8 @@
             "cancel": "订单已成功取消",
             "vault": "Vault 已部署",
             "createPool": "资金池已创建",
-            "default": "代币已在您的钱包中。"
+            "default": "代币已在您的钱包中。",
+            "boost": "奖励加入奖池"
         },
         "pendingDescription": {
             "deploySmart": "正在部署智能合约",
@@ -1113,12 +1117,16 @@
         },
         "duration": {
             "title": "持续时间",
-            "durationDescription": "您希望分发奖励的时间段。"
+            "durationDescription": "您希望分发奖励的时间段。",
+            "select": "选择持续时间",
+            "confirm": "确认持续时间"
         },
         "address": {
             "title": "排除某些地址接收奖励",
             "addressDescription": "最多可指定10个地址（可选）",
-            "enterAddress": "输入地址"
+            "enterAddress": "输入地址",
+            "enterValidAddress": "输入有效地址",
+            "addressAlreadyAdded": "地址已添加"
         },
         "buttons": {
             "boostPool": "提升池",
@@ -1126,7 +1134,12 @@
             "selectDuration": "选择持续时间",
             "addMyWallet": "添加我的钱包",
             "add": "添加"
-        }
+        },
+        "selectPool": "选择一个池",
+        "yourPools": "你的游泳池",
+        "popularPools": "热门泳池",
+        "start": "开始",
+        "end": "结束"
     },
     "bridge": {
         "recAddress": "指定接收者的地址",
