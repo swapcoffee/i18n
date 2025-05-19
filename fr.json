@@ -1229,6 +1229,19 @@
     "transferLiquidity": {
         "title": "Transférer la liquidité",
         "slippage": "Glissement",
+        "buttons": {
+            "unstakeAndClaim": "Désengager et réclamer",
+            "transferLiquidity": "Transférer la liquidité",
+            "goToCreatePool": "Aller à la création de pool"
+        },
+        "poolName": "Nom du pool",
+        "poolsNotBeenCreated": "Aucun pool n'a été créé",
+        "notCreated": "Non créé",
+        "aprDifference": "Différence d'APR",
+        "alert": {
+            "warnTitle": "La différence de prix des tokens LP dépasse 10 %",
+            "warnText": "Vous êtes sur le point de transférer votre liquidité. Veuillez vous assurer d'avoir sélectionné le bon pool et le bon montant avant de continuer."
+        },
         "transferDetail": {
             "slippage": "Glissement",
             "blockchainFee": "Frais de blockchain",

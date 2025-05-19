@@ -1184,6 +1184,19 @@
   "transferLiquidity": {
     "title": "انتقال نقدینگی",
     "slippage": "لغزش",
+    "buttons": {
+        "unstakeAndClaim": "لغو استیک و درخواست پاداش",
+        "transferLiquidity": "انتقال نقدینگی",
+        "goToCreatePool": "رفتن به ایجاد استخر"
+    },
+    "poolName": "نام استخر",
+    "poolsNotBeenCreated": "هیچ استخری ایجاد نشده است",
+    "notCreated": "ایجاد نشده",
+    "aprDifference": "تفاوت APR",
+    "alert": {
+        "warnTitle": "تفاوت قیمت توکن‌های LP بیش از ۱۰٪ است",
+        "warnText": "شما در حال انتقال نقدینگی خود هستید. لطفاً قبل از ادامه، مطمئن شوید که استخر و مقدار صحیح را انتخاب کرده‌اید."
+    },
     "transferDetail": {
             "slippage": "لغزش",
             "blockchainFee": "کارمزد بلاکچین",

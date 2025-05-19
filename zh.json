@@ -1228,6 +1228,19 @@
     "transferLiquidity": {
         "title": "转移流动性",
         "slippage": "滑点",
+        "buttons": {
+            "unstakeAndClaim": "解质押并领取",
+            "transferLiquidity": "转移流动性",
+            "goToCreatePool": "前往创建池"
+        },
+        "poolName": "池名称",
+        "poolsNotBeenCreated": "尚未创建任何池",
+        "notCreated": "未创建",
+        "aprDifference": "年化收益率差异",
+        "alert": {
+            "warnTitle": "LP 代币价格差异超过 10%",
+            "warnText": "您即将转移您的流动性。请确保您已选择正确的池和数量后再继续操作。"
+        },
         "transferDetail": {
             "slippage": "滑点",
             "blockchainFee": "区块链费用",

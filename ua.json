@@ -1197,6 +1197,19 @@
     "transferLiquidity": {
         "title": "Передача ліквідності",
         "slippage": "Сліппедж",
+        "buttons": {
+            "unstakeAndClaim": "Видалити ставку та забрати",
+            "transferLiquidity": "Передати ліквідність",
+            "goToCreatePool": "Перейти до створення пулу"
+        },
+        "poolName": "Назва пулу",
+        "poolsNotBeenCreated": "Жодного пулу не створено",
+        "notCreated": "Не створено",
+        "aprDifference": "Різниця APR",
+        "alert": {
+            "warnTitle": "Різниця ціни LP токенів перевищує 10%",
+            "warnText": "Ви збираєтеся передати свою ліквідність. Переконайтеся, що ви вибрали правильний пул і суму перед продовженням."
+        },
         "transferDetail": {
             "slippage": "Сліппедж",
             "blockchainFee": "Комісія блокчейну",

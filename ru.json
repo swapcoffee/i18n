@@ -1142,6 +1142,19 @@
     "transferLiquidity": {
         "title": "Перенос ликвидности",
         "slippage": "Проскальзывание",
+        "buttons": {
+            "unstakeAndClaim": "Анстейк и забрать",
+            "transferLiquidity": "Перенести ликвидность",
+            "goToCreatePool": "Перейти к созданию пула"
+        },
+        "poolName": "Название пула",
+        "poolsNotBeenCreated": "Пулы еще не созданы",
+        "notCreated": "Не создано",
+        "aprDifference": "Разница APR",
+        "alert": {
+            "warnTitle": "Разница в цене LP токенов превышает 10%",
+            "warnText": "Вы собираетесь перенести свою ликвидность. Пожалуйста, убедитесь, что выбрали правильный пул и сумму перед продолжением."
+        },
         "transferDetail": {
             "slippage": "Проскальзывание",
             "blockchainFee": "Комиссия блокчейна",

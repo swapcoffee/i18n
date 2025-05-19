@@ -1182,6 +1182,19 @@
   "transferLiquidity": {
     "title": "Transfer Liquidity",
     "slippage": "slippage",
+    "buttons": {
+        "unstakeAndClaim": "Unstake and claim",
+        "transferLiquidity": "Transfer liquidity",
+        "goToCreatePool": "Go to create pool"
+    },
+    "poolName": "Pool name",
+    "poolsNotBeenCreated": "No pools have been created",
+    "notCreated": "Not created",
+    "aprDifference": "APR Difference",
+    "alert": {
+        "warnTitle": "The price difference of LP tokens exceeds 10%",
+        "warnText": "You are about to transfer your liquidity. Please ensure that you have selected the correct pool and amount before proceeding."
+    },
     "transferDetail": {
         "slippage": "Slippage",
         "blockchainFee": "Blockchain fee",
