@@ -1126,7 +1126,8 @@
             "title": "Exclure certaines adresses de la réception des récompenses",
             "addressDescription": "Spécifiez jusqu'à 10 adresses (facultatif)",
             "enterAddress": "Entrez une adresse",
-            "enterValidAddress": "Entrez une adresse valide"
+            "enterValidAddress": "Entrez une adresse valide",
+            "addressAlreadyAdded": "L'adresse a déjà été ajoutée"
         },
         "buttons": {
             "boostPool": "Booster un pool",

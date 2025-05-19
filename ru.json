@@ -1039,7 +1039,8 @@
             "title": "Исключить некоторые адреса из получения наград",
             "addressDescription": "Укажите до 10 адресов (опционально)",
             "enterAddress": "Введите адрес",
-            "enterValidAddress": "Введите валидный адрес"
+            "enterValidAddress": "Введите валидный адрес",
+            "addressAlreadyAdded": "Адрес уже добавлен"
         },
         "buttons": {
             "boostPool": "Увеличить пул",

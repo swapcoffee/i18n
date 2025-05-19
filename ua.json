@@ -1094,7 +1094,8 @@
             "title": "Виключити деякі адреси з отримання винагород",
             "addressDescription": "Вкажіть до 10 адрес (необов'язково)",
             "enterAddress": "Введіть адресу",
-            "enterValidAddress": "Введите валидный адрес"
+            "enterValidAddress": "Введите валидный адрес",
+            "addressAlreadyAdded": "Адреса вже була додана"
         },
         "buttons": {
             "boostPool": "Підвищити пул",

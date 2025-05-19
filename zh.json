@@ -1125,7 +1125,8 @@
             "title": "排除某些地址接收奖励",
             "addressDescription": "最多可指定10个地址（可选）",
             "enterAddress": "输入地址",
-            "enterValidAddress": "输入有效地址"
+            "enterValidAddress": "输入有效地址",
+            "addressAlreadyAdded": "地址已添加"
         },
         "buttons": {
             "boostPool": "提升池",

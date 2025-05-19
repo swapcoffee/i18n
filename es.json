@@ -1082,7 +1082,8 @@
             "title": "Excluir algunas direcciones de recibir recompensas",
             "addressDescription": "Especifica hasta 10 direcciones (opcional)",
             "enterAddress": "Introduce dirección",
-            "enterValidAddress": "Ingrese una dirección válida"
+            "enterValidAddress": "Ingrese una dirección válida",
+            "addressAlreadyAdded": "La dirección ya ha sido agregada"
         },
         "buttons": {
             "boostPool": "Impulsar un pool",
