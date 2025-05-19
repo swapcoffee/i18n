@@ -1220,6 +1220,10 @@
             "title": "No se encontraron posiciones",
             "text": "No tienes depósitos en pools de liquidez.",
             "btn": "Agregar liquidez"
-        }
+        },
+        "newApr": "Nuevo APR",
+        "oldApr": "APR anterior",
+        "newDex": "Nuevo DEX",
+        "oldDex": "DEX anterior"
     }
 }

@@ -1217,6 +1217,10 @@
         "title": "No Positions Found",
         "text": "You don't have any liquidities pools deposits.",
         "btn": "Add Liquidity"
-    }
+    },
+    "newApr": "New APR",
+    "oldApr": "Old APR",
+    "newDex": "New DEX",
+    "oldDex": "Old DEX"
   }
 }

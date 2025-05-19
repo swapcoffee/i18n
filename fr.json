@@ -1264,6 +1264,10 @@
             "title": "Aucune position trouvée",
             "text": "Vous n'avez aucun dépôt dans les pools de liquidité.",
             "btn": "Ajouter de la liquidité"
-        }
+        },
+        "newApr": "Nouvel APR",
+        "oldApr": "Ancien APR",
+        "newDex": "Nouveau DEX",
+        "oldDex": "Ancien DEX"
     }
 }
