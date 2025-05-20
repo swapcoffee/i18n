@@ -915,7 +915,8 @@
     "tvl": "القيمة الإجمالية المقفلة",
     "volume": "الحجم (24 ساعة)",
     "fees": "الرسوم (24 ساعة)",
-      "poolAddress": "عنوان المسبح"
+      "poolAddress": "عنوان المسبح",
+      "addressCopied": "تم نسخ عنوان المسبح"
   },
   "transferActions": {
       "transferLiq": "انتقال نقدینگی"

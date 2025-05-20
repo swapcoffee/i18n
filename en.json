@@ -881,7 +881,8 @@
         "tvl": "TVL",
         "volume": "Volume (24h)",
         "fees": "Fees (24h)",
-        "poolAddress": "Pool address"
+        "poolAddress": "Pool address",
+        "addressCopied": "Pool address copied"
     },
     "transferActions": {
         "transferLiq": "Transfer liquidity"

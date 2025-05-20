@@ -884,7 +884,8 @@
     "tvl": "TVL",
     "volume": "Volumen (24h)",
     "fees": "Comisiones (24h)",
-      "poolAddress": "Dirección de la piscina"
+      "poolAddress": "Dirección de la piscina",
+      "addressCopied": "Dirección del grupo copiada"
   },
     "transferActions": {
         "transferLiq": "Transferir liquidez"

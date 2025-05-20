@@ -841,7 +841,8 @@
         "tvl": "Общая стоимость",
         "volume": "Объём (24ч)",
         "fees": "Комиссии (24ч)",
-        "poolAddress": "Адрес пула"
+        "poolAddress": "Адрес пула",
+        "addressCopied": "Адрес пула скопирован"
     },
     "transferActions": {
         "transferLiq": "Перенести ликвидность"
