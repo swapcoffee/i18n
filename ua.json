@@ -317,7 +317,8 @@
             "Ліквідність",
             "Ціна"
         ],
-        "select-all": "Вибрати все"
+        "select-all": "Вибрати все",
+        "selectRewards": "Виберіть нагороди"
     },
     "qr-modal": {
         "title": "QR Код",
@@ -896,7 +897,8 @@
         "tvl": "Загальна вартість",
         "volume": "Обсяг (24г)",
         "fees": "Комісії (24г)",
-        "poolAddress": "Адреса пулу"
+        "poolAddress": "Адреса пулу",
+        "addressCopied": "Адреса пулу скопирован"
     },
     "transferActions": {
         "transferLiq": "Передати ліквідність"
@@ -1094,7 +1096,8 @@
             "title": "Виключити деякі адреси з отримання винагород",
             "addressDescription": "Вкажіть до 10 адрес (необов'язково)",
             "enterAddress": "Введіть адресу",
-            "enterValidAddress": "Введите валидный адрес"
+            "enterValidAddress": "Введите валидный адрес",
+            "addressAlreadyAdded": "Адреса вже була додана"
         },
         "buttons": {
             "boostPool": "Підвищити пул",
@@ -1216,6 +1219,19 @@
     "transferLiquidity": {
         "title": "Передача ліквідності",
         "slippage": "Сліппедж",
+        "buttons": {
+            "unstakeAndClaim": "Видалити ставку та забрати",
+            "transferLiquidity": "Передати ліквідність",
+            "goToCreatePool": "Перейти до створення пулу"
+        },
+        "poolName": "Назва пулу",
+        "poolsNotBeenCreated": "Жодного пулу не створено",
+        "notCreated": "Не створено",
+        "aprDifference": "Різниця APR",
+        "alert": {
+            "warnTitle": "Різниця ціни LP токенів перевищує 10%",
+            "warnText": "Ви збираєтеся передати свою ліквідність. Переконайтеся, що ви вибрали правильний пул і суму перед продовженням."
+        },
         "transferDetail": {
             "slippage": "Сліппедж",
             "blockchainFee": "Комісія блокчейну",
@@ -1225,6 +1241,10 @@
             "title": "Позицій не знайдено",
             "text": "У вас немає депозитів у пулах ліквідності.",
             "btn": "Додати ліквідність"
-        }
+        },
+        "newApr": "Новий APR",
+        "oldApr": "Старий APR",
+        "newDex": "Новий DEX",
+        "oldDex": "Старий DEX"
     }
 }

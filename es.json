@@ -321,7 +321,8 @@
             "Liquidez",
             "Precio"
         ],
-        "select-all": "Seleccionar todo"
+        "select-all": "Seleccionar todo",
+        "selectRewards": "Seleccionar recompensas"
     },
     "qr-modal": {
         "title": "Código QR",
@@ -883,41 +884,42 @@
         "farmDisabled": "Sin volumen de LP"
     },
     "myPoolAction": {
-        "claimAllRewards": "Reclama todas las recompensas",
-        "claimRewards": "Reclamar recompensas",
-        "goToWithdraw": "Ir a retirar",
-        "custom": "Personalizado"
-    },
-    "myPoolLiquidity": {
-        "dedustTooltip": "El protocolo no tiene informe de auditoría pública.",
-        "rewardsRemove": "Eliminar y reclamar",
-        "rewardsForClaim": "Recompensas por reclamo",
-        "liquidityPool": "Liquidez en el pool",
-        "liquidityFarm": "Liquidez en la granja",
-        "myLiquidityTitle": "Mi liquidez total",
-        "addLiquidity": "Agregar liquidez",
-        "yourPositions": "Tus Posiciones",
-        "connectWalletDescr": "Conecte su billetera ahora para ver sus posiciones",
-        "noPositions": "No Se Encontraron Posiciones",
-        "noPositionsTitle": "No tienes liquidez en este grupo. Agregue liquidez para ganar recompensas de grupo.",
-        "addLiquidityDisabledTooltip": [
-            "El protocolo STON.fi v1 está obsoleto.",
-            "Recomendamos usar el protocolo STON.fi v2."
-        ]
-    },
-    "poolHeading": {
-        "infoText": "Farma tokens LP para obtener recompensas",
-        "totalApr": "APR Total",
-        "farmApr": "APR de Farming",
-        "tradeFee": "Tarifa de Comercio"
-    },
-    "poolLiq": {
-        "title": "Liquidez",
-        "tvl": "TVL",
-        "volume": "Volumen (24h)",
-        "fees": "Comisiones (24h)",
-        "poolAddress": "Dirección de la piscina"
-    },
+      "claimAllRewards": "Reclama todas las recompensas",
+    "claimRewards": "Reclamar recompensas",
+    "goToWithdraw": "Ir a retirar",
+    "custom": "Personalizado"
+  },
+  "myPoolLiquidity": {
+      "dedustTooltip": "El protocolo no tiene informe de auditoría pública.",
+      "rewardsRemove": "Eliminar y reclamar",
+      "rewardsForClaim": "Recompensas por reclamo",
+      "liquidityPool": "Liquidez en el pool",
+      "liquidityFarm": "Liquidez en la granja",
+    "myLiquidityTitle": "Mi liquidez total",
+    "addLiquidity": "Agregar liquidez",
+      "yourPositions": "Tus Posiciones",
+      "connectWalletDescr": "Conecte su billetera ahora para ver sus posiciones",
+      "noPositions": "No Se Encontraron Posiciones",
+      "noPositionsTitle": "No tienes liquidez en este grupo. Agregue liquidez para ganar recompensas de grupo.",
+    "addLiquidityDisabledTooltip": [
+      "El protocolo STON.fi v1 está obsoleto.",
+      "Recomendamos usar el protocolo STON.fi v2."
+    ]
+  },
+  "poolHeading": {
+    "infoText": "Farma tokens LP para obtener recompensas",
+    "totalApr": "APR Total",
+    "farmApr": "APR de Farming",
+    "tradeFee": "Tarifa de Comercio"
+  },
+  "poolLiq": {
+    "title": "Liquidez",
+    "tvl": "TVL",
+    "volume": "Volumen (24h)",
+    "fees": "Comisiones (24h)",
+      "poolAddress": "Dirección de la piscina",
+      "addressCopied": "Dirección del grupo copiada"
+  },
     "transferActions": {
         "transferLiq": "Transferir liquidez"
     },
@@ -1127,7 +1129,8 @@
             "title": "Excluir algunas direcciones de recibir recompensas",
             "addressDescription": "Especifica hasta 10 direcciones (opcional)",
             "enterAddress": "Introduce dirección",
-            "enterValidAddress": "Ingrese una dirección válida"
+            "enterValidAddress": "Ingrese una dirección válida",
+            "addressAlreadyAdded": "La dirección ya ha sido agregada"
         },
         "buttons": {
             "boostPool": "Impulsar un pool",
@@ -1249,6 +1252,19 @@
     "transferLiquidity": {
         "title": "Transferir liquidez",
         "slippage": "Deslizamiento",
+        "buttons": {
+            "unstakeAndClaim": "Desapostar y reclamar",
+            "transferLiquidity": "Transferir liquidez",
+            "goToCreatePool": "Ir a crear pool"
+        },
+        "poolName": "Nombre del pool",
+        "poolsNotBeenCreated": "No se han creado pools",
+        "notCreated": "No creado",
+        "aprDifference": "Diferencia de APR",
+        "alert": {
+            "warnTitle": "La diferencia de precio de los tokens LP supera el 10%",
+            "warnText": "Estás a punto de transferir tu liquidez. Por favor, asegúrate de haber seleccionado el pool y la cantidad correctos antes de continuar."
+        },
         "transferDetail": {
             "slippage": "Deslizamiento",
             "blockchainFee": "Tarifa de blockchain",
@@ -1258,6 +1274,10 @@
             "title": "No se encontraron posiciones",
             "text": "No tienes depósitos en pools de liquidez.",
             "btn": "Agregar liquidez"
-        }
+        },
+        "newApr": "Nuevo APR",
+        "oldApr": "APR anterior",
+        "newDex": "Nuevo DEX",
+        "oldDex": "DEX anterior"
     }
 }

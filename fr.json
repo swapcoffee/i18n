@@ -321,7 +321,8 @@
             "Liquidité",
             "Prix"
         ],
-        "select-all": "Tout sélectionner"
+        "select-all": "Tout sélectionner",
+        "selectRewards": "Sélectionnez les récompenses"
     },
     "qr-modal": {
         "title": "Code QR",
@@ -915,7 +916,8 @@
         "tvl": "Valeur totale verrouillée (TVL)",
         "volume": "Volume (24h)",
         "fees": "Frais (24h)",
-        "poolAddress": "Adresse de la piscine"
+        "poolAddress": "Adresse de la piscine",
+        "addressCopied": "Adresse du pool copiée"
     },
     "transferActions": {
         "transferLiq": "Transférer la liquidité"
@@ -1126,7 +1128,8 @@
             "title": "Exclure certaines adresses de la réception des récompenses",
             "addressDescription": "Spécifiez jusqu'à 10 adresses (facultatif)",
             "enterAddress": "Entrez une adresse",
-            "enterValidAddress": "Entrez une adresse valide"
+            "enterValidAddress": "Entrez une adresse valide",
+            "addressAlreadyAdded": "L'adresse a déjà été ajoutée"
         },
         "buttons": {
             "boostPool": "Booster un pool",
@@ -1248,6 +1251,19 @@
     "transferLiquidity": {
         "title": "Transférer la liquidité",
         "slippage": "Glissement",
+        "buttons": {
+            "unstakeAndClaim": "Désengager et réclamer",
+            "transferLiquidity": "Transférer la liquidité",
+            "goToCreatePool": "Aller à la création de pool"
+        },
+        "poolName": "Nom du pool",
+        "poolsNotBeenCreated": "Aucun pool n'a été créé",
+        "notCreated": "Non créé",
+        "aprDifference": "Différence d'APR",
+        "alert": {
+            "warnTitle": "La différence de prix des tokens LP dépasse 10 %",
+            "warnText": "Vous êtes sur le point de transférer votre liquidité. Veuillez vous assurer d'avoir sélectionné le bon pool et le bon montant avant de continuer."
+        },
         "transferDetail": {
             "slippage": "Glissement",
             "blockchainFee": "Frais de blockchain",
@@ -1257,6 +1273,10 @@
             "title": "Aucune position trouvée",
             "text": "Vous n'avez aucun dépôt dans les pools de liquidité.",
             "btn": "Ajouter de la liquidité"
-        }
+        },
+        "newApr": "Nouvel APR",
+        "oldApr": "Ancien APR",
+        "newDex": "Nouveau DEX",
+        "oldDex": "Ancien DEX"
     }
 }

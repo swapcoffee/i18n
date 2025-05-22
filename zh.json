@@ -319,7 +319,8 @@
             "流动性",
             "价格"
         ],
-        "select-all": "全选"
+        "select-all": "全选",
+        "selectRewards": "选择奖励"
     },
     "qr-modal": {
         "title": "二维码",
@@ -914,7 +915,8 @@
         "tvl": "总锁仓价值",
         "volume": "交易量 (24小时)",
         "fees": "费用 (24小时)",
-        "poolAddress": "泳池地址"
+        "poolAddress": "泳池地址",
+        "addressCopied": "复制的池地址"
     },
     "transferActions": {
         "transferLiq": "转移流动性"
@@ -1125,7 +1127,8 @@
             "title": "排除某些地址接收奖励",
             "addressDescription": "最多可指定10个地址（可选）",
             "enterAddress": "输入地址",
-            "enterValidAddress": "输入有效地址"
+            "enterValidAddress": "输入有效地址",
+            "addressAlreadyAdded": "地址已添加"
         },
         "buttons": {
             "boostPool": "提升池",
@@ -1247,6 +1250,19 @@
     "transferLiquidity": {
         "title": "转移流动性",
         "slippage": "滑点",
+        "buttons": {
+            "unstakeAndClaim": "解质押并领取",
+            "transferLiquidity": "转移流动性",
+            "goToCreatePool": "前往创建池"
+        },
+        "poolName": "池名称",
+        "poolsNotBeenCreated": "尚未创建任何池",
+        "notCreated": "未创建",
+        "aprDifference": "年化收益率差异",
+        "alert": {
+            "warnTitle": "LP 代币价格差异超过 10%",
+            "warnText": "您即将转移您的流动性。请确保您已选择正确的池和数量后再继续操作。"
+        },
         "transferDetail": {
             "slippage": "滑点",
             "blockchainFee": "区块链费用",
@@ -1256,6 +1272,10 @@
             "title": "未找到位置",
             "text": "您在流动性池中没有任何存款。",
             "btn": "添加流动性"
-        }
+        },
+        "newApr": "新年化收益率",
+        "oldApr": "旧年化收益率",
+        "newDex": "新DEX",
+        "oldDex": "旧DEX"
     }
 }

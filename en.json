@@ -309,7 +309,8 @@
             "Liquidity",
             "Price"
         ],
-        "select-all": "Select all"
+        "select-all": "Select all",
+        "selectRewards": "Select rewards"
     },
     "qr-modal": {
         "title": "QR Code",
@@ -881,7 +882,8 @@
         "tvl": "TVL",
         "volume": "Volume (24h)",
         "fees": "Fees (24h)",
-        "poolAddress": "Pool address"
+        "poolAddress": "Pool address",
+        "addressCopied": "Pool address copied"
     },
     "transferActions": {
         "transferLiq": "Transfer liquidity"
@@ -1079,7 +1081,8 @@
             "title": "Exclude some addresses from receiving rewards",
             "addressDescription": "Specify up to 10 addresses (optional)",
             "enterAddress": "Enter the address",
-            "enterValidAddress": "Enter a valid address"
+            "enterValidAddress": "Enter a valid address",
+            "addressAlreadyAdded": "The address has already been added"
         },
         "buttons": {
             "boostPool": "Boost a pool",
@@ -1201,6 +1204,19 @@
   "transferLiquidity": {
     "title": "Transfer Liquidity",
     "slippage": "slippage",
+    "buttons": {
+        "unstakeAndClaim": "Unstake and claim",
+        "transferLiquidity": "Transfer liquidity",
+        "goToCreatePool": "Go to create pool"
+    },
+    "poolName": "Pool name",
+    "poolsNotBeenCreated": "No pools have been created",
+    "notCreated": "Not created",
+    "aprDifference": "APR Difference",
+    "alert": {
+        "warnTitle": "The price difference of LP tokens exceeds 10%",
+        "warnText": "You are about to transfer your liquidity. Please ensure that you have selected the correct pool and amount before proceeding."
+    },
     "transferDetail": {
         "slippage": "Slippage",
         "blockchainFee": "Blockchain fee",
@@ -1210,6 +1226,10 @@
         "title": "No Positions Found",
         "text": "You don't have any liquidities pools deposits.",
         "btn": "Add Liquidity"
-    }
+    },
+    "newApr": "New APR",
+    "oldApr": "Old APR",
+    "newDex": "New DEX",
+    "oldDex": "Old DEX"
   }
 }

@@ -320,7 +320,8 @@
             "نقدینگی",
             "قیمت"
         ],
-        "select-all": "انتخاب همه"
+        "select-all": "انتخاب همه",
+        "selectRewards": "حدد المكافآت"
     },
     "qr-modal": {
         "title": "کد QR",
@@ -902,325 +903,297 @@
         "addLiquidityDisabledTooltip": [
             "پروتکل STON.fi v1 منسوخ شده است.",
             "توصیه می‌شود از پروتکل STON.fi v2 استفاده کنید."
-        ]
+      ]
+  },
+  "poolHeading": {
+    "infoText": "قم بزراعة رموز LP للحصول على المكافآت",
+    "totalApr": "إجمالي معدل الفائدة السنوي",
+    "farmApr": "معدل الفائدة السنوي للمزرعة",
+    "tradeFee": "رسوم التداول"
+  },
+  "poolLiq": {
+    "title": "التجمع",
+    "tvl": "القيمة الإجمالية المقفلة",
+    "volume": "الحجم (24 ساعة)",
+    "fees": "الرسوم (24 ساعة)",
+      "poolAddress": "عنوان المسبح",
+      "addressCopied": "تم نسخ عنوان المسبح"
+  },
+  "transferActions": {
+      "transferLiq": "انتقال نقدینگی"
+  },
+  "transferAprDifference": {
+      "aprDifference": "تفاوت APR",
+      "apr": "APR"
+  },
+  "transferDetails": {
+      "title": "جزئیات انتقال"
+  },
+  "transferFirstStep": {
+      "title": "کیف پول متصل نیست",
+      "text": "برای مدیریت نقدینگی خود یک کیف پول متصل کنید",
+      "connect": "اتصال کیف پول"
+  },
+  "transferMyLiq": {
+      "myLiq": "نقدینگی من",
+      "total": "کل",
+      "value": "ارزش"
+  },
+  "transferSteps": {
+      "connectWallet": "اتصال کیف پول",
+      "selectPool": "انتخاب یک استخر",
+      "transferLiq": "انتقال نقدینگی"
+  },
+  "earnModal": {
+      "depositTitle": "افزودن نقدینگی",
+      "withdrawTitle": "برداشت نقدینگی",
+      "farmTitle": "فارم کردن توکن‌های LP",
+      "price": "قیمت",
+      "blockchainFee": "کارمزد بلاکچین",
+      "apr": "APR ۲۴ ساعت",
+      "slippage": "لغزش",
+      "estPoolShare": "سهم تخمینی استخر",
+      "minimumReceive": "حداقل دریافت",
+      "myFarm": "فارم من",
+      "farmApr": "APR فارم",
+      "withdrawFarmTitle": "حذف فارم و درخواست پاداش‌ها"
+  },
+  "earnModalFirstStep": {
+      "youReceive": "شما دریافت می‌کنید",
+      "youSend": "شما ارسال می‌کنید",
+      "withdrawLiquidity": "برداشت نقدینگی",
+      "addLiquidity": "افزودن نقدینگی",
+      "enterLpAmount": "مقدار توکن LP را وارد کنید",
+      "farm": "فارم",
+      "available": "موجود"
+  },
+  "poolSettingsModal": {
+      "title": "تنظیمات استخر",
+      "saveBtn": "ذخیره تنظیمات"
+  },
+  "poolDetails": {
+      "poolShare": "سهم استخر",
+      "provided": "ارائه‌شده",
+      "lpTokens": "توکن‌های LP"
+  },
+  "poolsGroupList": {
+      "view-all": "مشاهده تمام استخرها"
+  },
+  "farmPositionsDetails": {
+      "farmApr": "APR فارم",
+      "lpTokens": "توکن‌های LP",
+      "totalEarned": "کل درآمد"
+  },
+  "detailsList": {
+      "hideDetails": "پنهان کردن جزئیات",
+      "showDetails": "نمایش جزئیات"
+  },
+  "farmModal": {
+      "farmTitle": "پاداش‌های فارم من",
+      "rewards": "پاداش‌ها",
+      "hide": "پنهان کردن",
+      "withdraw": "برداشت",
+      "claim": "درخواست",
+      "farm": "فارم",
+      "details": "جزئیات"
+  },
+  "modalStatusSteps": {
+      "detailsTitle": {
+          "deposit": "واریز نقدینگی",
+          "withdraw": "برداشت نقدینگی",
+          "claim": "حذف فارم و درخواست پاداش‌ها",
+          "create": "ایجاد و واریز نقدینگی",
+          "swap": "مبادله",
+          "limit": "محدود",
+          "dca": "DCA",
+          "withdrawFarm": "حذف فارم و درخواست پاداش‌ها",
+          "vault": "استقرار DEX Vault",
+          "createPool": "ایجاد استخر و واریز نقدینگی",
+          "default": "واریز نقدینگی"
+      },
+      "title": {
+          "pending": "پردازش تراکنش...",
+          "failed": "تراکنش ناموفق",
+          "success": "موفقیت‌آمیز!",
+          "default": "پردازش تراکنش..."
+      },
+      "description": {
+          "default": "آیا می‌دانستید که قهوه دومین کالای پرمعامله در جهان است؟ فقط نفت از آن پیشی می‌گیرد."
+      },
+      "successDescription": {
+          "deposit": "نقدینگی در حال حاضر در استخر است",
+          "create": "استخر ایجاد شده است",
+          "deploySmart": "قرارداد هوشمند مستقر شده است",
+          "limit": "سفارش با موفقیت ایجاد شد",
+          "stake": "توکن‌ها با موفقیت استیک شدند",
+          "cancel": "سفارش با موفقیت لغو شد",
+          "vault": "Vault مستقر شده است",
+          "createPool": "استخر ایجاد شد",
+          "default": "توکن‌ها در حال حاضر در کیف پول شما هستند."
+      },
+      "pendingDescription": {
+          "deploySmart": "در حال استقرار قرارداد هوشمند",
+          "limit": "سفارش محدود در حال پردازش...",
+          "cancel": "لغو سفارش در حال انجام...",
+          "default": "آیا می‌دانستید که قهوه دومین کالای پرمعامله در جهان است؟ فقط نفت از آن پیشی می‌گیرد."
+      },
+      "failedDescription": {
+          "swap": "سعی کنید از لغزش بالاتر از حد معمول استفاده کنید تا اطمینان حاصل شود که تراکنش شما تکمیل می‌شود.",
+          "default": "یک خطای غیرمنتظره رخ داده است، لطفاً دوباره تلاش کنید."
+      },
+      "share": "اشتراک‌گذاری",
+      "close": "بستن",
+      "copyToClipboard": "کپی به کلیپ‌بورد!"
+  },
+  "globalSearch": {
+      "placeholder": "جستجو بر اساس استخرها، کیف پول، آدرس یا نماد",
+      "paste": "چسباندن",
+      "back": "بازگشت",
+      "open": "باز کردن در {sourceName}",
+      "hints": ["بستن", "انتخاب", "پیمایش"],
+      "empty": {
+          "text": "نتیجه‌ای برای جستجو یافت نشد",
+          "description": "لطفاً اطمینان حاصل کنید که عبارت جستجو را به درستی وارد کرده‌اید"
+      },
+      "categories": ["توکن‌ها", "استخرها", "مزایا", "لینک‌ها"],
+      "benefitTypes": ["بازگشت نقدی", "مسابقه معاملاتی", "استیکینگ"]
+  },
+  "mevProtect": {
+      "title": "محافظت MEV",
+      "status": {
+          "enabled": "فعال کردن",
+          "disabled": "غیرفعال کردن"
+      },
+      "settings": {
+          "first": {
+              "title": "محافظت MEV",
+              "description": "مبادلات خود را در ۹۹٪ موارد از حملات MEV محافظت کنید.",
+              "description2": "تخفیف!",
+              "oldPrice": "قدیم: ۰.۵ TON",
+              "newPrice": "جدید: ۰.۲۵ TON برای هر تقسیم."
+          },
+          "second": {
+              "title": "مبادلات چند مرحله‌ای",
+              "description": "از محافظت MEV در مبادلات با توکن‌های واسطه استفاده کنید",
+              "description2": "توجه: محافظت MEV فقط مرحله اول را محافظت می‌کند و بر مراحل بعدی در مسیر تأثیری ندارد",
+              "yes": "بله",
+              "no": "خیر"
+          },
+          "third": {
+              "title": "حداقل مقدار مبادله",
+              "description": "از محافظت MEV فقط برای مبادلاتی که از مقدار مشخصی بیشتر هستند استفاده کنید",
+              "customField": "سفارشی"
+          },
+          "fourth": {
+              "title": "اطلاعات اضافی",
+              "description1": "محافظت MEV فقط مرحله اول را محافظت می‌کند و بر مراحل بعدی در مسیر تأثیری ندارد.",
+              "description2": "محافظت MEV تضمین محافظت نمی‌دهد، اما از حداکثر قابلیت‌های بلاکچین برای محافظت استفاده می‌کند.",
+              "description3": "محافظت MEV اجازه شبیه‌سازی تراکنش را نمی‌دهد."
+          }
+      }
+  },
+  "boostLiquidity": {
+      "boostLiquidity": "افزایش نقدینگی",
+      "boostLiquidityDescription": "پاداش‌هایی به یک استخر اضافه کنید تا ارائه‌دهندگان نقدینگی بیشتری جذب شوند.",
+      "pool": {
+              "title": "استخر",
+              "poolDescription": "استخری را که می‌خواهید افزایش دهید انتخاب کنید"
+      },
+      "rewards": {
+              "title": "پاداش‌ها",
+              "rewardsDescription": "چه مقدار پاداش می‌خواهید توزیع کنید؟\n حداقل معادل ۵ دلار در روز.",
+              "amount": "مقدار"
+      },
+      "duration": {
+              "title": "مدت زمان",
+              "durationDescription": "دوره‌ای که می‌خواهید پاداش‌ها را توزیع کنید."
+      },
+      "address": {
+              "title": "برخی آدرس‌ها را از دریافت پاداش‌ها مستثنی کنید",
+              "addressDescription": "حداکثر ۱۰ آدرس مشخص کنید (اختیاری)",
+              "enterAddress": "آدرس را وارد کنید"
+      },
+      "buttons": {
+              "boostPool": "افزایش استخر",
+              "enterAmount": "مقدار را وارد کنید",
+              "selectDuration": "مدت زمان را انتخاب کنید",
+              "addMyWallet": "کیف پول من را اضافه کنید",
+              "add": "اضافه کردن"
+      }
+   },
+   "bridge": {
+    "recAddress": "آدرس گیرنده را مشخص کنید",
+    "via": "از طریق",
+    "accept": "接受",
+    "notSelected": "انتخاب نشده",
+    "bridgeProvider": "ارائه‌دهنده پل",
+    "from": "از",
+    "to": "به",
+    "providersList": "لیست ارائه‌دهندگان",
+    "swapVia": "مبادله از طریق",
+    "selectChainAndToken": "زنجیره و توکن را انتخاب کنید",
+    "best": "بهترین",
+    "warn": "هشدار",
+    "invalidAddress": "این آدرس کیف پول به نظر نادرست است. دوباره تلاش کنید.",
+    "correctAddress": "به نظر خوب می‌رسد — آدرس ذخیره شد.",
+    "depositInfo": "آدرس واریز برای انتقال وجوه",
+    "addressCopied": "آدرس کپی شد!",
+    "addressNotCopied": "آدرس کپی نشد",
+    "tokensMustBeSendingSoon": "توکن‌ها به زودی به کیف پول شما واریز خواهند شد.",
+    "awaitingDeposit": "در انتظار واریز",
+    "errors": {
+        "noProvidersFound": "هیچ ارائه‌دهنده‌ای یافت نشد",
+        "pleaseTryAgain": "لطفاً با توکن یا مقدار دیگری دوباره تلاش کنید",
+        "ratesError": "خطا در به‌روزرسانی نرخ‌ها. لطفاً دوباره تلاش کنید"
     },
-    "poolHeading": {
-        "infoText": "قم بزراعة رموز LP للحصول على المكافآت",
-        "totalApr": "إجمالي معدل الفائدة السنوي",
-        "farmApr": "معدل الفائدة السنوي للمزرعة",
-        "tradeFee": "رسوم التداول"
+    "buttons": {
+         "notAvailableProviders": "ارائه‌دهندگان در دسترس نیستند",
+         "selectProvider": "انتخاب ارائه‌دهنده",
+         "findProvider": "در حال یافتن ارائه‌دهندگان...",
+         "enterAmount": "مقدار را وارد کنید",
+         "connectTonWallet": "اتصال کیف پول TON",
+         "connectMultiWallet": "اتصال کیف پول چند زنجیره‌ای",
+         "enterReceiverAddress": "تنظیم آدرس گیرنده"
     },
-    "poolLiq": {
-        "title": "التجمع",
-        "tvl": "القيمة الإجمالية المقفلة",
-        "volume": "الحجم (24 ساعة)",
-        "fees": "الرسوم (24 ساعة)",
-        "poolAddress": "عنوان المسبح"
+    "bridgePopup": {
+         "chainTitle": "لیست زنجیره‌ها",
+         "tokenTitle": "لیست توکن‌ها",
+         "bridgeSearchInput": "جستجو بر اساس نام",
+         "list": {
+               "allChains": "همه زنجیره‌ها",
+               "All": "همه",
+               "Popular": "محبوب",
+               "Promo": "تبلیغ",
+               "Layer-2": "لایه-۲",
+               "EVM": "EVM"
+         },
+         "tokens": {
+               "All": "همه",
+               "Trending": "روندها",
+               "Gainers": "برندگان",
+               "Losers": "بازندگان"
+         }
     },
-    "transferActions": {
-        "transferLiq": "انتقال نقدینگی"
+    "connectModal": {
+         "title": "اتصال کیف پول",
+         "receiverAddress": "آدرس گیرنده",
+         "receiverAddressDescription1": "می‌توانید آن را به صورت دستی وارد کنید یا از اتصال کیف پول استفاده کنید.",
+         "receiverAddressDescription2": "(آدرس‌های CEX پشتیبانی نمی‌شوند)",
+         "inputPlaceholder": "آدرس را در شبکه وارد کنید",
+         "clearBtn": "پاک کردن",
+         "pasteBtn": "چسباندن"
     },
-    "transferAprDifference": {
-        "aprDifference": "تفاوت APR",
-        "apr": "APR"
-    },
-    "transferDetails": {
-        "title": "جزئیات انتقال"
-    },
-    "transferFirstStep": {
-        "title": "کیف پول متصل نیست",
-        "text": "برای مدیریت نقدینگی خود یک کیف پول متصل کنید",
-        "connect": "اتصال کیف پول"
-    },
-    "transferMyLiq": {
-        "myLiq": "نقدینگی من",
-        "total": "کل",
-        "value": "ارزش"
-    },
-    "transferSteps": {
-        "connectWallet": "اتصال کیف پول",
-        "selectPool": "انتخاب یک استخر",
-        "transferLiq": "انتقال نقدینگی"
-    },
-    "earnModal": {
-        "depositTitle": "افزودن نقدینگی",
-        "withdrawTitle": "برداشت نقدینگی",
-        "farmTitle": "فارم کردن توکن‌های LP",
-        "price": "قیمت",
-        "blockchainFee": "کارمزد بلاکچین",
-        "apr": "APR ۲۴ ساعت",
-        "slippage": "لغزش",
-        "estPoolShare": "سهم تخمینی استخر",
-        "minimumReceive": "حداقل دریافت",
-        "myFarm": "فارم من",
-        "farmApr": "APR فارم",
-        "withdrawFarmTitle": "حذف فارم و درخواست پاداش‌ها"
-    },
-    "earnModalFirstStep": {
-        "youReceive": "شما دریافت می‌کنید",
-        "youSend": "شما ارسال می‌کنید",
-        "withdrawLiquidity": "برداشت نقدینگی",
-        "addLiquidity": "افزودن نقدینگی",
-        "enterLpAmount": "مقدار توکن LP را وارد کنید",
-        "farm": "فارم",
-        "available": "موجود"
-    },
-    "poolSettingsModal": {
-        "title": "تنظیمات استخر",
-        "saveBtn": "ذخیره تنظیمات"
-    },
-    "poolDetails": {
-        "poolShare": "سهم استخر",
-        "provided": "ارائه‌شده",
-        "lpTokens": "توکن‌های LP"
-    },
-    "poolsGroupList": {
-        "view-all": "مشاهده تمام استخرها"
-    },
-    "farmPositionsDetails": {
-        "farmApr": "APR فارم",
-        "lpTokens": "توکن‌های LP",
-        "totalEarned": "کل درآمد"
-    },
-    "detailsList": {
-        "hideDetails": "پنهان کردن جزئیات",
-        "showDetails": "نمایش جزئیات"
-    },
-    "farmModal": {
-        "farmTitle": "پاداش‌های فارم من",
-        "rewards": "پاداش‌ها",
-        "hide": "پنهان کردن",
-        "withdraw": "برداشت",
-        "claim": "درخواست",
-        "farm": "فارم",
-        "details": "جزئیات"
-    },
-    "modalStatusSteps": {
-        "detailsTitle": {
-            "deposit": "واریز نقدینگی",
-            "withdraw": "برداشت نقدینگی",
-            "claim": "حذف فارم و درخواست پاداش‌ها",
-            "create": "ایجاد و واریز نقدینگی",
-            "swap": "مبادله",
-            "limit": "محدود",
-            "dca": "DCA",
-            "withdrawFarm": "حذف فارم و درخواست پاداش‌ها",
-            "vault": "استقرار DEX Vault",
-            "createPool": "ایجاد استخر و واریز نقدینگی",
-            "default": "واریز نقدینگی"
-        },
-        "title": {
-            "pending": "پردازش تراکنش...",
-            "failed": "تراکنش ناموفق",
-            "success": "موفقیت‌آمیز!",
-            "default": "پردازش تراکنش..."
-        },
-        "description": {
-            "default": "آیا می‌دانستید که قهوه دومین کالای پرمعامله در جهان است؟ فقط نفت از آن پیشی می‌گیرد."
-        },
-        "successDescription": {
-            "deposit": "نقدینگی در حال حاضر در استخر است",
-            "create": "استخر ایجاد شده است",
-            "deploySmart": "قرارداد هوشمند مستقر شده است",
-            "limit": "سفارش با موفقیت ایجاد شد",
-            "stake": "توکن‌ها با موفقیت استیک شدند",
-            "cancel": "سفارش با موفقیت لغو شد",
-            "vault": "Vault مستقر شده است",
-            "createPool": "استخر ایجاد شد",
-            "default": "توکن‌ها در حال حاضر در کیف پول شما هستند.",
-            "boost": "المكافآت المضافة إلى المجموعة"
-        },
-        "pendingDescription": {
-            "deploySmart": "در حال استقرار قرارداد هوشمند",
-            "limit": "سفارش محدود در حال پردازش...",
-            "cancel": "لغو سفارش در حال انجام...",
-            "default": "آیا می‌دانستید که قهوه دومین کالای پرمعامله در جهان است؟ فقط نفت از آن پیشی می‌گیرد."
-        },
-        "failedDescription": {
-            "swap": "سعی کنید از لغزش بالاتر از حد معمول استفاده کنید تا اطمینان حاصل شود که تراکنش شما تکمیل می‌شود.",
-            "default": "یک خطای غیرمنتظره رخ داده است، لطفاً دوباره تلاش کنید."
-        },
-        "share": "اشتراک‌گذاری",
-        "close": "بستن",
-        "copyToClipboard": "کپی به کلیپ‌بورد!"
-    },
-    "globalSearch": {
-        "placeholder": "جستجو بر اساس استخرها، کیف پول، آدرس یا نماد",
-        "paste": "چسباندن",
-        "back": "بازگشت",
-        "open": "باز کردن در {sourceName}",
-        "hints": [
-            "بستن",
-            "انتخاب",
-            "پیمایش"
-        ],
-        "empty": {
-            "text": "نتیجه‌ای برای جستجو یافت نشد",
-            "description": "لطفاً اطمینان حاصل کنید که عبارت جستجو را به درستی وارد کرده‌اید"
-        },
-        "categories": [
-            "توکن‌ها",
-            "استخرها",
-            "مزایا",
-            "لینک‌ها"
-        ],
-        "benefitTypes": [
-            "بازگشت نقدی",
-            "مسابقه معاملاتی",
-            "استیکینگ"
-        ]
-    },
-    "mevProtect": {
-        "title": "محافظت MEV",
-        "status": {
-            "enabled": "فعال کردن",
-            "disabled": "غیرفعال کردن"
-        },
-        "settings": {
-            "first": {
-                "title": "محافظت MEV",
-                "description": "مبادلات خود را در ۹۹٪ موارد از حملات MEV محافظت کنید.",
-                "description2": "تخفیف!",
-                "oldPrice": "قدیم: ۰.۵ TON",
-                "newPrice": "جدید: ۰.۲۵ TON برای هر تقسیم."
-            },
-            "second": {
-                "title": "مبادلات چند مرحله‌ای",
-                "description": "از محافظت MEV در مبادلات با توکن‌های واسطه استفاده کنید",
-                "description2": "توجه: محافظت MEV فقط مرحله اول را محافظت می‌کند و بر مراحل بعدی در مسیر تأثیری ندارد",
-                "yes": "بله",
-                "no": "خیر"
-            },
-            "third": {
-                "title": "حداقل مقدار مبادله",
-                "description": "از محافظت MEV فقط برای مبادلاتی که از مقدار مشخصی بیشتر هستند استفاده کنید",
-                "customField": "سفارشی"
-            },
-            "fourth": {
-                "title": "اطلاعات اضافی",
-                "description1": "محافظت MEV فقط مرحله اول را محافظت می‌کند و بر مراحل بعدی در مسیر تأثیری ندارد.",
-                "description2": "محافظت MEV تضمین محافظت نمی‌دهد، اما از حداکثر قابلیت‌های بلاکچین برای محافظت استفاده می‌کند.",
-                "description3": "محافظت MEV اجازه شبیه‌سازی تراکنش را نمی‌دهد."
-            }
-        }
-    },
-    "boostLiquidity": {
-        "boostLiquidity": "افزایش نقدینگی",
-        "boostLiquidityDescription": "پاداش‌هایی به یک استخر اضافه کنید تا ارائه‌دهندگان نقدینگی بیشتری جذب شوند.",
-        "pool": {
-            "title": "استخر",
-            "poolDescription": "استخری را که می‌خواهید افزایش دهید انتخاب کنید"
-        },
-        "rewards": {
-            "title": "پاداش‌ها",
-            "rewardsDescription": "چه مقدار پاداش می‌خواهید توزیع کنید؟\n حداقل معادل ۵ دلار در روز.",
-            "amount": "مقدار"
-        },
-        "duration": {
-            "title": "مدت زمان",
-            "durationDescription": "دوره‌ای که می‌خواهید پاداش‌ها را توزیع کنید.",
-            "select": "حدد المدة",
-            "confirm": "تأكيد المدة"
-        },
-        "address": {
-            "title": "برخی آدرس‌ها را از دریافت پاداش‌ها مستثنی کنید",
-            "addressDescription": "حداکثر ۱۰ آدرس مشخص کنید (اختیاری)",
-            "enterAddress": "آدرس را وارد کنید",
-            "enterValidAddress": "أدخل عنوانا صالحا"
-        },
-        "buttons": {
-            "boostPool": "افزایش استخر",
-            "enterAmount": "مقدار را وارد کنید",
-            "selectDuration": "مدت زمان را انتخاب کنید",
-            "addMyWallet": "کیف پول من را اضافه کنید",
-            "add": "اضافه کردن"
-        },
-        "modal": {
-            "serviceFee": "رسوم الخدمة",
-            "period": "الفترة",
-            "perDay": "في اليوم",
-            "excluded": "المحافظ المستبعدة",
-            "budget": "الميزانية"
-        },
-        "selectPool": "اختر بركة",
-        "yourPools": "حمامات السباحة الخاصة بك",
-        "popularPools": "حمامات السباحة الشعبية",
-        "start": "ابدأ",
-        "end": "النهاية"
-    },
-    "bridge": {
-        "recAddress": "آدرس گیرنده را مشخص کنید",
-        "via": "از طریق",
-        "accept": "接受",
-        "notSelected": "انتخاب نشده",
-        "bridgeProvider": "ارائه‌دهنده پل",
-        "from": "از",
-        "to": "به",
-        "providersList": "لیست ارائه‌دهندگان",
-        "swapVia": "مبادله از طریق",
-        "selectChainAndToken": "زنجیره و توکن را انتخاب کنید",
-        "best": "بهترین",
-        "warn": "هشدار",
-        "invalidAddress": "این آدرس کیف پول به نظر نادرست است. دوباره تلاش کنید.",
-        "correctAddress": "به نظر خوب می‌رسد — آدرس ذخیره شد.",
-        "depositInfo": "آدرس واریز برای انتقال وجوه",
-        "addressCopied": "آدرس کپی شد!",
-        "addressNotCopied": "آدرس کپی نشد",
-        "tokensMustBeSendingSoon": "توکن‌ها به زودی به کیف پول شما واریز خواهند شد.",
-        "awaitingDeposit": "در انتظار واریز",
-        "errors": {
-            "noProvidersFound": "هیچ ارائه‌دهنده‌ای یافت نشد",
-            "pleaseTryAgain": "لطفاً با توکن یا مقدار دیگری دوباره تلاش کنید",
-            "ratesError": "خطا در به‌روزرسانی نرخ‌ها. لطفاً دوباره تلاش کنید"
-        },
-        "buttons": {
-            "notAvailableProviders": "ارائه‌دهندگان در دسترس نیستند",
-            "selectProvider": "انتخاب ارائه‌دهنده",
-            "findProvider": "در حال یافتن ارائه‌دهندگان...",
-            "enterAmount": "مقدار را وارد کنید",
-            "connectTonWallet": "اتصال کیف پول TON",
-            "connectMultiWallet": "اتصال کیف پول چند زنجیره‌ای",
-            "enterReceiverAddress": "تنظیم آدرس گیرنده"
-        },
-        "bridgePopup": {
-            "chainTitle": "لیست زنجیره‌ها",
-            "tokenTitle": "لیست توکن‌ها",
-            "bridgeSearchInput": "جستجو بر اساس نام",
-            "list": {
-                "allChains": "همه زنجیره‌ها",
-                "All": "همه",
-                "Popular": "محبوب",
-                "Promo": "تبلیغ",
-                "Layer-2": "لایه-۲",
-                "EVM": "EVM"
-            },
-            "tokens": {
-                "All": "همه",
-                "Trending": "روندها",
-                "Gainers": "برندگان",
-                "Losers": "بازندگان"
-            }
-        },
-        "connectModal": {
-            "title": "اتصال کیف پول",
-            "receiverAddress": "آدرس گیرنده",
-            "receiverAddressDescription1": "می‌توانید آن را به صورت دستی وارد کنید یا از اتصال کیف پول استفاده کنید.",
-            "receiverAddressDescription2": "(آدرس‌های CEX پشتیبانی نمی‌شوند)",
-            "inputPlaceholder": "آدرس را در شبکه وارد کنید",
-            "clearBtn": "پاک کردن",
-            "pasteBtn": "چسباندن"
-        },
-        "detail": {
-            "minimumReceived": "حداقل دریافت",
-            "receiverAddress": "آدرس گیرنده",
-            "estimatedTime": "زمان تخمینی",
-            "estimatedFee": "هزینه تخمینی"
-        }
-    },
-    "newPool": {
+    "detail": {
+        "minimumReceived": "حداقل دریافت",
+        "receiverAddress": "آدرس گیرنده",
+        "estimatedTime": "زمان تخمینی",
+        "estimatedFee": "هزینه تخمینی"
+    }
+  },
+  "newPool": {
         "ratio": {
-            "title": "نسبت توکن‌ها",
-            "enter": "نسبت را وارد کنید"
+        "title": "نسبت توکن‌ها",
+        "enter": "نسبت را وارد کنید"
         },
         "infoList": {
             "badRatio": {
@@ -1233,21 +1206,34 @@
             }
         },
         "details": {
-            "firstAsset": "دارایی اول",
-            "secondAsset": "دارایی دوم",
-            "poolRatio": "نسبت استخر"
+        "firstAsset": "دارایی اول",
+        "secondAsset": "دارایی دوم",
+        "poolRatio": "نسبت استخر"
         },
         "buttons": {
-            "create": "ایجاد استخر جدید",
-            "poolExist": "استخر از قبل وجود دارد",
-            "deploySingleVault": "استقرار vault {token}",
-            "deployMultiVault": "استقرار چندین vault",
-            "selectSecondAsset": "انتخاب دارایی دوم"
+        "create": "ایجاد استخر جدید",
+        "poolExist": "استخر از قبل وجود دارد",
+        "deploySingleVault": "استقرار vault {token}",
+        "deployMultiVault": "استقرار چندین vault",
+        "selectSecondAsset": "انتخاب دارایی دوم"
         }
     },
     "transferLiquidity": {
         "title": "انتقال نقدینگی",
         "slippage": "لغزش",
+        "buttons": {
+            "unstakeAndClaim": "لغو استیک و درخواست پاداش",
+            "transferLiquidity": "انتقال نقدینگی",
+            "goToCreatePool": "رفتن به ایجاد استخر"
+        },
+        "poolName": "نام استخر",
+        "poolsNotBeenCreated": "هیچ استخری ایجاد نشده است",
+        "notCreated": "ایجاد نشده",
+        "aprDifference": "تفاوت APR",
+        "alert": {
+            "warnTitle": "تفاوت قیمت توکن‌های LP بیش از ۱۰٪ است",
+            "warnText": "شما در حال انتقال نقدینگی خود هستید. لطفاً قبل از ادامه، مطمئن شوید که استخر و مقدار صحیح را انتخاب کرده‌اید."
+        },
         "transferDetail": {
             "slippage": "لغزش",
             "blockchainFee": "کارمزد بلاکچین",
@@ -1257,6 +1243,10 @@
             "title": "موقعیتی یافت نشد",
             "text": "شما هیچ سپرده‌ای در استخرهای نقدینگی ندارید.",
             "btn": "افزودن نقدینگی"
-        }
+        },
+        "newApr": "APR جدید",
+        "oldApr": "APR قبلی",
+        "newDex": "DEX جدید",
+        "oldDex": "DEX قبلی"
     }
 }

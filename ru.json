@@ -286,7 +286,8 @@
             "Ликвидность",
             "Цена"
         ],
-        "select-all": "Выбрать все"
+        "select-all": "Выбрать все",
+        "selectRewards": "Выберите награды"
     },
     "qr-modal": {
         "title": "QR код",
@@ -841,7 +842,8 @@
         "tvl": "Общая стоимость",
         "volume": "Объём (24ч)",
         "fees": "Комиссии (24ч)",
-        "poolAddress": "Адрес пула"
+        "poolAddress": "Адрес пула",
+        "addressCopied": "Адрес пула скопирован"
     },
     "transferActions": {
         "transferLiq": "Перенести ликвидность"
@@ -1039,7 +1041,8 @@
             "title": "Исключить некоторые адреса из получения наград",
             "addressDescription": "Укажите до 10 адресов (опционально)",
             "enterAddress": "Введите адрес",
-            "enterValidAddress": "Введите валидный адрес"
+            "enterValidAddress": "Введите валидный адрес",
+            "addressAlreadyAdded": "Адрес уже добавлен"
         },
         "buttons": {
             "boostPool": "Увеличить пул",
@@ -1161,6 +1164,19 @@
     "transferLiquidity": {
         "title": "Перенос ликвидности",
         "slippage": "Проскальзывание",
+        "buttons": {
+            "unstakeAndClaim": "Анстейк и забрать",
+            "transferLiquidity": "Перенести ликвидность",
+            "goToCreatePool": "Перейти к созданию пула"
+        },
+        "poolName": "Название пула",
+        "poolsNotBeenCreated": "Пулы еще не созданы",
+        "notCreated": "Не создано",
+        "aprDifference": "Разница APR",
+        "alert": {
+            "warnTitle": "Разница в цене LP токенов превышает 10%",
+            "warnText": "Вы собираетесь перенести свою ликвидность. Пожалуйста, убедитесь, что выбрали правильный пул и сумму перед продолжением."
+        },
         "transferDetail": {
             "slippage": "Проскальзывание",
             "blockchainFee": "Комиссия блокчейна",
@@ -1170,6 +1186,10 @@
             "title": "Позиция не найдена",
             "text": "У вас нет депозитов в пулах ликвидности.",
             "btn": "Добавить ликвидность"
-        }
+        },
+        "newApr": "Новый APR",
+        "oldApr": "Старый APR",
+        "newDex": "Новый DEX",
+        "oldDex": "Старый DEX"
     }
 }
