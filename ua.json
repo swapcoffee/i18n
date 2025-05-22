@@ -1103,6 +1103,13 @@
             "addMyWallet": "Додати мій гаманець",
             "add": "Додати"
         },
+        "modal": {
+            "serviceFee": "Плата за послугу",
+            "period": "Крапка",
+            "perDay": "На день",
+            "excluded": "Виключені гаманці",
+            "budget": "Бюджет"
+        },
         "selectPool": "Виберіть пул",
         "yourPools": "Ваші пулы",
         "popularPools": "Популярные пулы",

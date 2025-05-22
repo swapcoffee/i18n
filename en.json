@@ -1088,6 +1088,13 @@
             "addMyWallet": "Add my wallet",
             "add": "Add"
         },
+        "modal": {
+            "serviceFee": "Service fee",
+            "period": "Period",
+            "perDay": "Per day",
+            "excluded": "Excluded wallets",
+            "budget": "Budget"
+        },
         "selectPool": "Select a pool",
         "yourPools": "Your pools",
         "popularPools": "Popular pools",

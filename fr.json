@@ -1135,6 +1135,13 @@
             "addMyWallet": "Ajouter mon portefeuille",
             "add": "Ajouter"
         },
+        "modal": {
+            "serviceFee": "Frais de service",
+            "period": "Période",
+            "perDay": "Par jour",
+            "excluded": "Portefeuilles exclus",
+            "budget": "Budget"
+        },
         "selectPool": "Sélectionnez une piscine",
         "yourPools": "Vos piscines",
         "popularPools": "Piscines populaires",

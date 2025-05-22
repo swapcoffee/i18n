@@ -1134,6 +1134,13 @@
             "addMyWallet": "添加我的钱包",
             "add": "添加"
         },
+        "modal": {
+            "serviceFee": "服务费",
+            "period": "期间",
+            "perDay": "每天",
+            "excluded": "不包括的钱包",
+            "budget": "预算"
+        },
         "selectPool": "选择一个池",
         "yourPools": "你的游泳池",
         "popularPools": "热门泳池",

@@ -4,7 +4,12 @@
         "cashback": {
             "title": "Reembolso",
             "text": "Al activar esta función, aceptas que deseas reclamar tu bono",
-            "colorText": ["$KINGY", "$DFC", "$WEB3", "$DYOR"]
+            "colorText": [
+                "$KINGY",
+                "$DFC",
+                "$WEB3",
+                "$DYOR"
+            ]
         },
         "expert": {
             "title": "Modo experto",
@@ -264,7 +269,14 @@
     },
     "claimCenter": {
         "description": "Invita a tus amigos, gana un porcentaje de la comisión de sus transacciones y reclama tus recompensas.",
-        "titles": ["Todas las recompensas", "Reembolso", "Referidos", "Concursos", "Staking", "Pools"],
+        "titles": [
+            "Todas las recompensas",
+            "Reembolso",
+            "Referidos",
+            "Concursos",
+            "Staking",
+            "Pools"
+        ],
         "caption": "Selecciona una recompensa para retirar",
         "text": "El costo del retiro depende de la cantidad de tokens que hayas seleccionado",
         "empty-title": "No tienes recompensas en el Centro de Reclamaciones",
@@ -350,7 +362,11 @@
         "level-tooltip": "A medida que aumenta el número de tus referidos y su volumen, puedes calificar para recompensas de comisión más altas y un enlace personalizado y atractivo."
     },
     "referralHistory": {
-        "tableTitles": ["Transacción", "Hora", "Valor"]
+        "tableTitles": [
+            "Transacción",
+            "Hora",
+            "Valor"
+        ]
     },
     "referralLink": {
         "caption": "Tu enlace de referido",
@@ -419,7 +435,12 @@
         }
     },
     "contestPage": {
-        "leaderboardTitles": ["Rango", "Dirección del usuario", "Volumen", "Recompensas estimadas"],
+        "leaderboardTitles": [
+            "Rango",
+            "Dirección del usuario",
+            "Volumen",
+            "Recompensas estimadas"
+        ],
         "leaderBoard": "Tabla de clasificación",
         "prize": "Fondo de premios",
         "faq": "Preguntas frecuentes / Reglas de la competencia",
@@ -437,7 +458,11 @@
         "details": "Detalles",
         "rewards": "Recompensas totales",
         "rewardsUn": "Recompensas no reclamadas",
-        "timerTitles": ["Hasta el comienzo:", "Hasta el final:", "La competencia ha terminado"],
+        "timerTitles": [
+            "Hasta el comienzo:",
+            "Hasta el final:",
+            "La competencia ha terminado"
+        ],
         "eventPeriod": "Periodo del evento:"
     },
     "contestFaq": {
@@ -601,7 +626,11 @@
         "all": "Todo"
     },
     "charts-info": {
-        "info": ["Holders", "Liquidez", "Puntaje de confianza"]
+        "info": [
+            "Holders",
+            "Liquidez",
+            "Puntaje de confianza"
+        ]
     },
     "connectBanner": {
         "title": "Billetera no conectada",
@@ -623,7 +652,7 @@
         "secondTitleDca": "Quiero comprar",
         "assetOne": "Activo 1",
         "assetTwo": "Activo 2",
-        "assetByNumber" : "Activo {number}"
+        "assetByNumber": "Activo {number}"
     },
     "limitDetails": {
         "titleSend": "Tú envías",
@@ -686,7 +715,10 @@
         "cancellation": "Cancelación"
     },
     "limitOrdersHistory": {
-        "tabs": ["Órdenes abiertas", "Historial de {historyType}"],
+        "tabs": [
+            "Órdenes abiertas",
+            "Historial de {historyType}"
+        ],
         "tabDca": "DCA",
         "tabLimit": "Límite",
         "emptyList": "La lista de órdenes está vacía",
@@ -851,41 +883,41 @@
         "farmDisabled": "Sin volumen de LP"
     },
     "myPoolAction": {
-      "claimAllRewards": "Reclama todas las recompensas",
-    "claimRewards": "Reclamar recompensas",
-    "goToWithdraw": "Ir a retirar",
-    "custom": "Personalizado"
-  },
-  "myPoolLiquidity": {
-      "dedustTooltip": "El protocolo no tiene informe de auditoría pública.",
-      "rewardsRemove": "Eliminar y reclamar",
-      "rewardsForClaim": "Recompensas por reclamo",
-      "liquidityPool": "Liquidez en el pool",
-      "liquidityFarm": "Liquidez en la granja",
-    "myLiquidityTitle": "Mi liquidez total",
-    "addLiquidity": "Agregar liquidez",
-      "yourPositions": "Tus Posiciones",
-      "connectWalletDescr": "Conecte su billetera ahora para ver sus posiciones",
-      "noPositions": "No Se Encontraron Posiciones",
-      "noPositionsTitle": "No tienes liquidez en este grupo. Agregue liquidez para ganar recompensas de grupo.",
-    "addLiquidityDisabledTooltip": [
-      "El protocolo STON.fi v1 está obsoleto.",
-      "Recomendamos usar el protocolo STON.fi v2."
-    ]
-  },
-  "poolHeading": {
-    "infoText": "Farma tokens LP para obtener recompensas",
-    "totalApr": "APR Total",
-    "farmApr": "APR de Farming",
-    "tradeFee": "Tarifa de Comercio"
-  },
-  "poolLiq": {
-    "title": "Liquidez",
-    "tvl": "TVL",
-    "volume": "Volumen (24h)",
-    "fees": "Comisiones (24h)",
-      "poolAddress": "Dirección de la piscina"
-  },
+        "claimAllRewards": "Reclama todas las recompensas",
+        "claimRewards": "Reclamar recompensas",
+        "goToWithdraw": "Ir a retirar",
+        "custom": "Personalizado"
+    },
+    "myPoolLiquidity": {
+        "dedustTooltip": "El protocolo no tiene informe de auditoría pública.",
+        "rewardsRemove": "Eliminar y reclamar",
+        "rewardsForClaim": "Recompensas por reclamo",
+        "liquidityPool": "Liquidez en el pool",
+        "liquidityFarm": "Liquidez en la granja",
+        "myLiquidityTitle": "Mi liquidez total",
+        "addLiquidity": "Agregar liquidez",
+        "yourPositions": "Tus Posiciones",
+        "connectWalletDescr": "Conecte su billetera ahora para ver sus posiciones",
+        "noPositions": "No Se Encontraron Posiciones",
+        "noPositionsTitle": "No tienes liquidez en este grupo. Agregue liquidez para ganar recompensas de grupo.",
+        "addLiquidityDisabledTooltip": [
+            "El protocolo STON.fi v1 está obsoleto.",
+            "Recomendamos usar el protocolo STON.fi v2."
+        ]
+    },
+    "poolHeading": {
+        "infoText": "Farma tokens LP para obtener recompensas",
+        "totalApr": "APR Total",
+        "farmApr": "APR de Farming",
+        "tradeFee": "Tarifa de Comercio"
+    },
+    "poolLiq": {
+        "title": "Liquidez",
+        "tvl": "TVL",
+        "volume": "Volumen (24h)",
+        "fees": "Comisiones (24h)",
+        "poolAddress": "Dirección de la piscina"
+    },
     "transferActions": {
         "transferLiq": "Transferir liquidez"
     },
@@ -1018,13 +1050,26 @@
         "paste": "Pegar",
         "back": "Atrás",
         "open": "Abrir en {sourceName}",
-        "hints": ["Cerrar", "Seleccionar", "Navegar"],
+        "hints": [
+            "Cerrar",
+            "Seleccionar",
+            "Navegar"
+        ],
         "empty": {
             "text": "No se encontraron resultados de búsqueda",
             "description": "Por favor, asegúrate de haber escrito correctamente el término de búsqueda"
         },
-        "categories": ["Tokens", "Pools", "Beneficios", "Enlaces"],
-        "benefitTypes": ["Reembolso", "Competencia de trading", "Staking"]
+        "categories": [
+            "Tokens",
+            "Pools",
+            "Beneficios",
+            "Enlaces"
+        ],
+        "benefitTypes": [
+            "Reembolso",
+            "Competencia de trading",
+            "Staking"
+        ]
     },
     "mevProtect": {
         "title": "Protección MEV",
@@ -1090,6 +1135,13 @@
             "selectDuration": "Seleccionar duración",
             "addMyWallet": "Añadir mi billetera",
             "add": "Añadir"
+        },
+        "modal": {
+            "serviceFee": "Cuota de servicio",
+            "period": "Periodo",
+            "perDay": "Por día",
+            "excluded": "Carteras excluidas",
+            "budget": "Presupuesto"
         },
         "selectPool": "Seleccione una piscina",
         "yourPools": "Tus piscinas",
