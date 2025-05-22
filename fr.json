@@ -321,7 +321,8 @@
             "Liquidité",
             "Prix"
         ],
-        "select-all": "Tout sélectionner"
+        "select-all": "Tout sélectionner",
+        "selectRewards": "Sélectionnez les récompenses"
     },
     "qr-modal": {
         "title": "Code QR",

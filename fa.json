@@ -320,7 +320,8 @@
             "نقدینگی",
             "قیمت"
         ],
-        "select-all": "انتخاب همه"
+        "select-all": "انتخاب همه",
+        "selectRewards": "حدد المكافآت"
     },
     "qr-modal": {
         "title": "کد QR",

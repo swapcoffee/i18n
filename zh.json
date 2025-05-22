@@ -319,7 +319,8 @@
             "流动性",
             "价格"
         ],
-        "select-all": "全选"
+        "select-all": "全选",
+        "selectRewards": "选择奖励"
     },
     "qr-modal": {
         "title": "二维码",

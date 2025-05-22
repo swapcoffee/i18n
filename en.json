@@ -309,7 +309,8 @@
             "Liquidity",
             "Price"
         ],
-        "select-all": "Select all"
+        "select-all": "Select all",
+        "selectRewards": "Select rewards"
     },
     "qr-modal": {
         "title": "QR Code",
