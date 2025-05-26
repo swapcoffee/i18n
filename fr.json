@@ -33,6 +33,7 @@
         },
         "parallel": {
             "title": "Transactions parallèles",
+            "newText": "Vous pouvez définir le nombre maximum de transactions parallèles, ce qui permet de construire des routes plus rentables. Obtenez l'option de choisir jusqu'à 20 routes avec portefeuille W5",
             "text": "Vous pouvez définir le nombre maximum de transactions parallèles, ce qui permet de construire des routes plus rentables.",
             "textW5": "Obtenez l'option de choisir jusqu'à 20 routes avec",
             "colorText": "portefeuille W5",

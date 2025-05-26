@@ -28,6 +28,7 @@
         },
         "parallel": {
             "title": "Parallel transactions",
+            "newText": "You can set the maximum number of parallel transactions, which allows for build more profitable routes. Get the option to choose up to 20 routes with W5 wallet",
             "text": "You can set the maximum number of parallel transactions, which allows for build more profitable routes.",
             "textW5": "Get the option to choose up to 20 routes with",
             "colorText": "W5 wallet",

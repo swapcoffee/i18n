@@ -33,6 +33,7 @@
         },
         "parallel": {
             "title": "Transacciones paralelas",
+            "newText": "Puedes establecer el número máximo de transacciones paralelas, lo que permite construir rutas más rentables. Obtén la opción de elegir hasta 20 rutas con billetera W5",
             "text": "Puedes establecer el número máximo de transacciones paralelas, lo que permite construir rutas más rentables.",
             "textW5": "Obtén la opción de elegir hasta 20 rutas con",
             "colorText": "billetera W5",
