@@ -883,8 +883,10 @@
         "tvl": "TVL",
         "volume": "Volume (24h)",
         "fees": "Fees (24h)",
+        "transactions": "Transactions (24h)",
         "poolAddress": "Pool address",
-        "addressCopied": "Pool address copied"
+        "addressCopied": "Pool address copied",
+        "securityAudit": "Security audit"
     },
     "transferActions": {
         "transferLiq": "Transfer liquidity"

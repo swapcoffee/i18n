@@ -917,8 +917,10 @@
         "tvl": "Valeur totale verrouillée (TVL)",
         "volume": "Volume (24h)",
         "fees": "Frais (24h)",
+        "transactions": "Transactions (24h)",
         "poolAddress": "Adresse de la piscine",
-        "addressCopied": "Adresse du pool copiée"
+        "addressCopied": "Adresse du pool copiée",
+        "securityAudit": "Audit de sécurité"
     },
     "transferActions": {
         "transferLiq": "Transférer la liquidité"
