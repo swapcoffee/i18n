@@ -894,7 +894,8 @@
         "goToWithdraw": "Aller au retrait"
     },
     "myPoolLiquidity": {
-        "dedustTooltip": "Le protocole n'a pas de rapport d'audit public.",
+        "notProtectedDex": "Le protocole n'a pas de rapport d'audit public.",
+        "protectedByAudit": "Le protocole a été audité par {auditor}.",
         "rewardsRemove": "Retirer et réclamer",
         "rewardsForClaim": "Récompenses pour réclamation",
         "liquidityPool": "Liquidité dans le pool",
@@ -1129,7 +1130,11 @@
             "title": "Durée",
             "durationDescription": "Période pendant laquelle vous souhaitez distribuer les récompenses.",
             "select": "Sélectionner la durée",
-            "confirm": "Confirmer la durée"
+            "confirm": "Confirmer la durée",
+            "from": "De.",
+            "to": "Avant",
+            "startTime": "Heure de début",
+            "timeValues": ["h", "m", "hr", "min"]
         },
         "address": {
             "title": "Exclure certaines adresses de la réception des récompenses",

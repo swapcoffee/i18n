@@ -893,7 +893,8 @@
         "custom": "自定义"
     },
     "myPoolLiquidity": {
-        "dedustTooltip": "协议没有公开审计报告。",
+        "notProtectedDex": "协议没有公开审计报告。",
+        "protectedByAudit": "协议已由 {auditor}.",
         "rewardsRemove": "删除和索赔",
         "rewardsForClaim": "申索的奖赏",
         "liquidityPool": "池中的流动性",
@@ -1128,7 +1129,11 @@
             "title": "持续时间",
             "durationDescription": "您希望分发奖励的时间段。",
             "select": "选择持续时间",
-            "confirm": "确认持续时间"
+            "confirm": "确认持续时间",
+            "from": "来自",
+            "to": "之前",
+            "startTime": "开始时间",
+            "timeValues": ["时钟", "分钟", "时钟", "分钟"]
         },
         "address": {
             "title": "排除某些地址接收奖励",

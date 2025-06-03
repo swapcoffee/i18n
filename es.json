@@ -895,7 +895,8 @@
     "custom": "Personalizado"
   },
   "myPoolLiquidity": {
-      "dedustTooltip": "El protocolo no tiene informe de auditoría pública.",
+      "notProtectedDex": "El protocolo no tiene informe de auditoría pública.",
+      "protectedByAudit": "El protocolo ha sido auditado por {auditor}.",
       "rewardsRemove": "Eliminar y reclamar",
       "rewardsForClaim": "Recompensas por reclamo",
       "liquidityPool": "Liquidez en el pool",
@@ -1130,7 +1131,11 @@
             "title": "Duración",
             "durationDescription": "Período durante el cual deseas distribuir recompensas.",
             "select": "Seleccione la duración",
-            "confirm": "Confirmar duración"
+            "confirm": "Confirmar duración",
+            "from": "De.",
+            "to": "Antes de",
+            "startTime": "Hora de inicio",
+            "timeValues": ["h", "m", "hr", "min"]
         },
         "address": {
             "title": "Excluir algunas direcciones de recibir recompensas",
