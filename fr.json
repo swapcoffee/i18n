@@ -831,9 +831,9 @@
         "month": "mois"
     },
     "poolsBanner": {
-        "title": "Fournissez de la liquidité et gagnez des frais",
-        "descriptionFirst": "Explorez de nouvelles opportunités en fournissant de la liquidité.",
-        "descriptionSecond": "Choisissez le pool parfait pour vous et commencez à gagner sur les frais de trading dès aujourd'hui !"
+        "title": "Fournissez de la liquidité et gagnez",
+        "descriptionFirst": "Découvrez de nouvelles opportunités pour faire croître vos actifs.",
+        "descriptionSecond": "Choisissez un pool et commencez à gagner sur les frais de trading dès aujourd'hui !"
     },
     "poolsActions": {
         "transferLiquidity": "Transférer la liquidité",

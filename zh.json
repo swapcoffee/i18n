@@ -829,9 +829,9 @@
         "month": "月"
     },
     "poolsBanner": {
-        "title": "提供流动性并赚取费用",
-        "descriptionFirst": "通过提供流动性探索新机会。",
-        "descriptionSecond": "选择适合您的池并从今天开始赚取交易费用！"
+        "title": "提供流动性并赚取收益",
+        "descriptionFirst": "发现增长资产的新机会。",
+        "descriptionSecond": "选择一个池，立即开始赚取交易手续费！"
     },
     "poolsActions": {
         "transferLiquidity": "转移流动性",

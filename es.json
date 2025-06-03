@@ -831,9 +831,9 @@
         "month": "mes"
     },
     "poolsBanner": {
-        "title": "Proporciona liquidez y gana comisiones",
-        "descriptionFirst": "Explora nuevas oportunidades proporcionando liquidez.",
-        "descriptionSecond": "¡Elige el pool perfecto para ti y comienza a ganar con las comisiones de trading hoy!"
+        "title": "Proporciona liquidez y gana",
+        "descriptionFirst": "Descubre nuevas oportunidades para hacer crecer tus activos.",
+        "descriptionSecond": "¡Elige un pool y comienza a ganar con las comisiones de trading hoy mismo!"
     },
     "poolsActions": {
         "transferLiquidity": "Transferir liquidez",

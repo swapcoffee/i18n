@@ -799,9 +799,9 @@
         "month": "month"
     },
     "poolsBanner": {
-        "title": "Provide liquidity and earn fees",
-        "descriptionFirst": "Explore new opportunities with providing liquidity.",
-        "descriptionSecond": "Choose the perfect pool for you and start earning on trading fees today!"
+        "title": "Provide liquidity and earn",
+        "descriptionFirst": "Discover new opportunities to grow your assets.",
+        "descriptionSecond": "Choose a pool and start earning on trading fees today!"
     },
     "poolsActions": {
         "transferLiquidity": "Transfer liquidity",
