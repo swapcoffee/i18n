@@ -793,6 +793,10 @@
         "major": {
             "text1": "Únete al Programa de Embajadores de swap.coffee. ¡Comparte contenido y gana recompensas!",
             "actionBtn": "Leer más"
+        },
+        "coffee": {
+            "text1": "Únete a nosotros y transfiere liquidez a Coffee DEX — el DEX más avanzado tecnológicamente en TON",
+            "actionBtn": "Transferir liquidez"
         }
     },
     "stakesBoosts": {

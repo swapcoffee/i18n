@@ -791,6 +791,10 @@
         "major": {
             "text1": "加入 swap.coffee 大使计划。分享内容，获取奖励！",
             "actionBtn": "阅读更多"
+        },
+        "coffee": {
+            "text1": "加入我们，将您的流动性转移到 Coffee DEX —— TON 上技术最先进的 DEX",
+            "actionBtn": "转移流动性"
         }
     },
     "stakesBoosts": {
