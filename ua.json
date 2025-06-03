@@ -871,7 +871,8 @@
         "custom": "Користувацький"
     },
     "myPoolLiquidity": {
-        "dedustTooltip": "Протокол не містить звіту про Публічний аудит.",
+        "notProtectedDex": "Протокол не містить звіту про Публічний аудит.",
+        "protectedByAudit": "Протокол був перевірений {auditor}.",
         "rewardsRemove": "Удалить и забрать",
         "rewardsForClaim": "Награды",
         "liquidityPool": "Ліквідність в пуле",

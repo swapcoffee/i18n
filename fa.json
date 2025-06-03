@@ -890,7 +890,8 @@
         "custom": "مخصص"
     },
     "myPoolLiquidity": {
-        "dedustTooltip": "لا يحتوي البروتوكول على تقرير تدقيق عام.",
+        "notProtectedDex": "لا يحتوي البروتوكول على تقرير تدقيق عام.",
+        "protectedByAudit": "تم تدقيق البروتوكول من قبل {auditor}.",
         "rewardsRemove": "إزالة والمطالبة",
         "rewardsForClaim": "مكافآت للمطالبة",
         "liquidityPool": "السيولة في المجمع",

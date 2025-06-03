@@ -859,7 +859,8 @@
         "custom": "Custom"
     },
     "myPoolLiquidity": {
-        "dedustTooltip": "Protocol doesn’t have public audit report.",
+        "notProtectedDex": "Protocol doesn't have public audit report.",
+        "protectedByAudit": "Protocol has been audited by {auditor}.",
         "rewardsRemove": "Remove and claim",
         "rewardsForClaim": "Rewards for claim",
         "liquidityPool": "Liquidity in the pool",

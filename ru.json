@@ -816,7 +816,8 @@
         "custom": "Настраиваемый"
     },
     "myPoolLiquidity": {
-        "dedustTooltip": "Протокол не содержит отчета о публичном аудите.",
+        "notProtectedDex": "Протокол не содержит отчета о публичном аудите.",
+        "protectedByAudit": "Протокол был проверен {auditor}.",
         "rewardsRemove": "Удалить и забрать",
         "rewardsForClaim": "Награды",
         "liquidityPool": "Ликвидность в пуле",

@@ -889,7 +889,8 @@
         "custom": "自定义"
     },
     "myPoolLiquidity": {
-        "dedustTooltip": "协议没有公开审计报告。",
+        "notProtectedDex": "协议没有公开审计报告。",
+        "protectedByAudit": "协议已由 {auditor}.",
         "rewardsRemove": "删除和索赔",
         "rewardsForClaim": "申索的奖赏",
         "liquidityPool": "池中的流动性",

@@ -891,7 +891,8 @@
     "custom": "Personalizado"
   },
   "myPoolLiquidity": {
-      "dedustTooltip": "El protocolo no tiene informe de auditoría pública.",
+      "notProtectedDex": "El protocolo no tiene informe de auditoría pública.",
+      "protectedByAudit": "El protocolo ha sido auditado por {auditor}.",
       "rewardsRemove": "Eliminar y reclamar",
       "rewardsForClaim": "Recompensas por reclamo",
       "liquidityPool": "Liquidez en el pool",

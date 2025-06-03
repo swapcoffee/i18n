@@ -890,7 +890,8 @@
         "goToWithdraw": "Aller au retrait"
     },
     "myPoolLiquidity": {
-        "dedustTooltip": "Le protocole n'a pas de rapport d'audit public.",
+        "notProtectedDex": "Le protocole n'a pas de rapport d'audit public.",
+        "protectedByAudit": "Le protocole a été audité par {auditor}.",
         "rewardsRemove": "Retirer et réclamer",
         "rewardsForClaim": "Récompenses pour réclamation",
         "liquidityPool": "Liquidité dans le pool",
