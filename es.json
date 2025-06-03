@@ -1127,7 +1127,11 @@
             "title": "Duración",
             "durationDescription": "Período durante el cual deseas distribuir recompensas.",
             "select": "Seleccione la duración",
-            "confirm": "Confirmar duración"
+            "confirm": "Confirmar duración",
+            "from": "De.",
+            "to": "Antes de",
+            "startTime": "Hora de inicio",
+            "timeValues": ["h", "m", "hr", "min"]
         },
         "address": {
             "title": "Excluir algunas direcciones de recibir recompensas",

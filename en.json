@@ -1079,7 +1079,11 @@
             "title": "Duration",
             "durationDescription": "Period you want to distribute rewards.",
             "select": "Select duration",
-            "confirm": "Confirm duration"
+            "confirm": "Confirm duration",
+            "from": "From",
+            "to": "To",
+            "startTime": "Start time",
+            "timeValues": ["h", "m", "hr", "min"]
         },
         "address": {
             "title": "Exclude some addresses from receiving rewards",
