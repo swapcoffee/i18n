@@ -843,7 +843,8 @@
         "hidden": "caché",
         "group": "Groupe",
         "boost": "Boost",
-        "newPairs": "Nouvelles paires"
+        "newPairs": "Nouvelles paires",
+        "myTokens": "Mes jetons"
     },
     "poolsCommon": {
         "noActiveBoostDescr": "Ajoutez des récompenses à un pool pour stimuler l'adhésion des fournisseurs de liquidités — pas encore de boosts actifs, soyez le premier à en lancer un!",

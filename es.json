@@ -843,7 +843,8 @@
         "hidden": "oculto",
         "group": "Grupo",
         "boost": "Impulso",
-        "newPairs": "Nuevos pares"
+        "newPairs": "Nuevos pares",
+        "myTokens": "Mis fichas"
     },
     "poolsCommon": {
         "noActiveBoostDescr": "Agregue recompensas a un grupo para impulsar a los proveedores de liquidez que se unan; ¡aún no hay aumentos activos, sea el primero en lanzar uno!",

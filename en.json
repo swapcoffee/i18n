@@ -811,7 +811,8 @@
         "hidden": "hidden",
         "group": "Group",
         "boost": "Boost",
-        "newPairs": "New pairs"
+        "newPairs": "New pairs",
+        "myTokens": "My tokens"
     },
     "poolsCommon": {
         "noActiveBoostDescr": "Add rewards to a pool to boost liquidity providers joining in — no active boosts yet, be the first to launch one!",

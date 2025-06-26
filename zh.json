@@ -841,7 +841,8 @@
         "hidden": "隐藏",
         "group": "分组",
         "boost": "加成",
-        "newPairs": "新交易对"
+        "newPairs": "新交易对",
+        "myTokens": "我的代币"
     },
     "poolsCommon": {
         "noActiveBoostDescr": "向池中添加奖励以促进流动性提供商加入—还没有积极的提升，成为第一个启动一个！",
