@@ -123,6 +123,7 @@
         "createOrder": "创建订单",
         "notPermission": "池不可用",
         "addLiquidity": "添加流动性",
+        "amountBelowMin": "金额低于最低限额",
         "tooltip": [
             "• 尝试增加池波动性设置。",
             "• 尝试增加中间代币设置。",
@@ -981,7 +982,9 @@
     "poolDetails": {
         "poolShare": "池份额",
         "provided": "已提供",
-        "lpTokens": "流动性代币"
+        "lpTokens": "流动性代币",
+        "availableStake": "可供质押",
+        "availableUnstake": "可解除质押"
     },
     "poolsGroupList": {
         "view-all": "查看所有池"

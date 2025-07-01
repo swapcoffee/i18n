@@ -118,6 +118,7 @@
         "createOrder": "Create order",
         "notPermission": "Pool not available",
         "addLiquidity": "Add liquidity",
+        "amountBelowMin": "Amount below minimum",
         "tooltip": [
             "• Try to increase Pool Volatility setting.",
             "• Try to increase Intermediate Tokens setting.",
@@ -948,7 +949,9 @@
     "poolDetails": {
         "poolShare": "Pool share",
         "provided": "provided",
-        "lpTokens": "LP tokens"
+        "lpTokens": "LP tokens",
+        "availableStake": "Available to stake",
+        "availableUnstake": "Available to unstake"
     },
     "poolsGroupList": {
         "view-all": "View all pools"

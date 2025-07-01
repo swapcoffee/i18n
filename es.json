@@ -123,6 +123,7 @@
         "createOrder": "Crear orden",
         "notPermission": "Pool no disponible",
         "addLiquidity": "Añadir liquidez",
+        "amountBelowMin": "Cantidad por debajo del mínimo",
         "tooltip": [
             "• Intenta aumentar la configuración de Volatilidad de Pools.",
             "• Intenta aumentar la configuración de Tokens Intermedios.",
@@ -983,7 +984,9 @@
     "poolDetails": {
         "poolShare": "Participación en el pool",
         "provided": "proporcionado",
-        "lpTokens": "Tokens LP"
+        "lpTokens": "Tokens LP",
+        "availableStake": "Disponible para apostar",
+        "availableUnstake": "Disponible para deshacer apuestas"
     },
     "poolsGroupList": {
         "view-all": "Ver todos los pools"

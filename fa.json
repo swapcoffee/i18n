@@ -123,6 +123,7 @@
         "createOrder": "ایجاد سفارش",
         "notPermission": "استخر در دسترس نیست",
         "addLiquidity": "افزودن نقدینگی",
+        "amountBelowMin": "مبلغ کمتر از حداقل",
         "tooltip": [
             "• سعی کنید تنظیم نوسانات استخر را افزایش دهید.",
             "• سعی کنید تنظیم توکن‌های واسطه را افزایش دهید.",
@@ -982,7 +983,9 @@
     "poolDetails": {
         "poolShare": "سهم استخر",
         "provided": "ارائه‌شده",
-        "lpTokens": "توکن‌های LP"
+        "lpTokens": "توکن‌های LP",
+        "availableStake": "قابل شرط بندی",
+        "availableUnstake": "قابل برداشت"
     },
     "poolsGroupList": {
         "view-all": "مشاهده تمام استخرها"

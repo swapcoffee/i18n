@@ -123,6 +123,7 @@
         "createOrder": "Créer une commande",
         "notPermission": "Pool non disponible",
         "addLiquidity": "Ajouter de la liquidité",
+        "amountBelowMin": "Montant inférieur au minimum",
         "tooltip": [
             "• Essayez d'augmenter le paramètre de volatilité du pool.",
             "• Essayez d'augmenter le paramètre de jetons intermédiaires.",
@@ -982,7 +983,9 @@
     "poolDetails": {
         "poolShare": "Part du pool",
         "provided": "fourni",
-        "lpTokens": "Tokens LP"
+        "lpTokens": "Tokens LP",
+        "availableStake": "Disponible pour miser",
+        "availableUnstake": "Disponible pour le désengagement"
     },
     "poolsGroupList": {
         "view-all": "Voir tous les pools"
