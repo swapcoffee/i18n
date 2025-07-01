@@ -1297,17 +1297,20 @@
     "yieldInfo": {
         "type": "类型",
         "descriptionCoffee": "",
-        "descriptionStonfi": "",
-        "descriptionTonco": "TONCO是TON上第一个集中流动性DEX（CL AMM），使流动性提供者能够最大化资本效率，并为交易者提供更好的交换体验，减少滑点。",
-        "descriptionDedust": "",
+        "descriptionStonfi": "STON.fi 在 TON 上构建领先的 AMM 和流动性聚合协议，为任何基于 TON 的代币提供快速、安全和用户友好的交换服务。",
+        "descriptionTonco": "TON 上第一个集中流动性 DEX (CL AMM)。",
+        "descriptionDedust": "DeDust.io 是建立在 TON 区块链上的自动做市商去中心化交易所 (AMM DEX)，提供各种代币供交易。",
         "descriptionTonstakers": "",
-        "descriptionColossus": "Colossus是Titan在TON区块链上的旗舰集中流动性做市商。它提供快速、资本高效的执行，同时为流动性提供者和交易者提供对流动性分配方式的精确控制——所有这些都由TON的速度和可扩展性提供支持。",
-        "descriptionTorch": "Torch Stable Swap是TON上一个类Curve风格的DEX，专为稳定币和收益型代币的低滑点交易而设计。",
-        "descriptionHipo": "TON上最赚钱的流动质押平台！",
-        "descriptionBemo": "Bemo是TON区块链上第一个流动质押平台，重新定义了用户在保持资产灵活性的同时赚取奖励的方式。",
-        "descriptionStakee": "The Open Network的第一个移动质押平台。",
-        "descriptionKTON": "KTON是TON生态系统中的下一代流动质押协议，旨在为机构和零售用户解锁流动性。",
-        "descriptionEVAA": "EVAA是TON区块链上原生于Telegram的开源去中心化流动性协议，允许用户作为存款人，通过提供流动性赚取被动收入，或作为借款人，可以获得超额抵押的贷款。",
-        "descriptionCoffin": "Coffin让你从炒作降温中获利。使用隔离借贷市场做空TON迷因币。"
+        "descriptionFarmix": "",
+        "descriptionStorm": "以高达 x500 的杠杆交易加密货币、股票和外汇。",
+        "descriptionMoon": "Moon.cx — TON 上快速、低费用的 AMM DEX，拥有基于智能合约的限价订单功能。",
+        "descriptionColossus": "Colossus 是 Titan 在 TON 上的旗舰 CLMM，提供快速、资本高效的执行和精确的流动性控制，由 TON 的速度和可扩展性提供支持。",
+        "descriptionTorch": "Torch Stable Swap 是 TON 上类似 Curve 的 DEX，专为稳定币和收益型代币的低滑点交易而设计。",
+        "descriptionHipo": "TON 上最有利可图的流动性质押平台！",
+        "descriptionBemo": "Bemo 是 TON 区块链上的第一个流动性质押平台，重新定义了用户在保持资产灵活性的同时获得奖励的方式。",
+        "descriptionStakee": "The Open Network 的第一个移动质押平台。",
+        "descriptionKTON": "KTON 是 TON 生态系统的下一代流动性质押协议，专为机构和零售用户解锁流动性而设计。",
+        "descriptionEVAA": "EVAA 是 TON 上的 Telegram 原生流动性协议，通过超额抵押贷款获取收益或借款。",
+        "descriptionCoffin": "Coffin 让您从减弱炒作中获利。使用隔离借贷市场做空 TON 迷因币。"
     }
 }

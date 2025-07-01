@@ -1299,17 +1299,20 @@
     "yieldInfo": {
         "type": "Tipo",
         "descriptionCoffee": "",
-        "descriptionStonfi": "",
-        "descriptionTonco": "TONCO es el primer DEX de liquidez concentrada (CL AMM) en TON, que permite a los proveedores de liquidez maximizar la eficiencia del capital y ofrecer a los operadores mejores intercambios con menor deslizamiento.",
-        "descriptionDedust": "",
+        "descriptionStonfi": "STON.fi desarrolla protocolos líderes de AMM y agregación de liquidez en TON, permitiendo intercambios rápidos, seguros y fáciles de usar para cualquier token basado en TON.",
+        "descriptionTonco": "Primer DEX con liquidez concentrada (CL AMM) en TON.",
+        "descriptionDedust": "DeDust.io es un Exchange Descentralizado de Creador de Mercado Automatizado (AMM DEX) construido en la blockchain TON, que ofrece una amplia variedad de tokens para trading.",
         "descriptionTonstakers": "",
-        "descriptionColossus": "Colossus, el principal creador de mercado de liquidez concentrada de Titan en la blockchain TON. Ofrece una ejecución rápida y eficiente en términos de capital, al tiempo que proporciona a los proveedores de liquidez y operadores un control preciso sobre cómo se asigna la liquidez, todo impulsado por la velocidad y escalabilidad de TON.",
-        "descriptionTorch": "Torch Stable Swap es un DEX tipo Curve en TON, diseñado para el comercio de stablecoins y tokens que generan rendimiento con bajo deslizamiento.",
+        "descriptionFarmix": "",
+        "descriptionStorm": "Opera con criptomonedas, acciones y forex con un apalancamiento de hasta x500.",
+        "descriptionMoon": "Moon.cx — AMM DEX rápido y de baja comisión en TON con órdenes limitadas basadas en contratos inteligentes.",
+        "descriptionColossus": "Colossus es el CLMM insignia de Titan en TON, que ofrece ejecución rápida y eficiente de capital con control preciso de liquidez, impulsado por la velocidad y escalabilidad de TON.",
+        "descriptionTorch": "Torch Stable Swap es un DEX tipo Curve en TON, diseñado para el trading con bajo deslizamiento de stablecoins y tokens que generan rendimiento.",
         "descriptionHipo": "¡El staking líquido más rentable en TON!",
         "descriptionBemo": "Bemo es la primera plataforma de staking líquido en la blockchain TON, redefiniendo cómo los usuarios ganan recompensas mientras mantienen sus activos flexibles.",
         "descriptionStakee": "Primer staking móvil para The Open Network.",
         "descriptionKTON": "KTON es un protocolo de staking líquido de próxima generación para el ecosistema TON, diseñado para desbloquear liquidez tanto para usuarios institucionales como minoristas.",
-        "descriptionEVAA": "EVAA es un protocolo de liquidez descentralizado de código abierto nativo de Telegram en la Blockchain TON que permite a los usuarios actuar como depositantes, ganando ingresos pasivos proporcionando liquidez, o como prestatarios, que pueden asegurar préstamos con garantías excesivas.",
-        "descriptionCoffin": "Coffin te permite beneficiarte de la disminución del hype. Haz posiciones cortas en memecoins de TON usando mercados de préstamos aislados."
+        "descriptionEVAA": "EVAA es un protocolo de liquidez nativo de Telegram en TON para ganar o pedir prestado con préstamos sobrecolateralizados.",
+        "descriptionCoffin": "Coffin te permite beneficiarte de la caída del hype. Haz short en memecoins de TON usando mercados de préstamos aislados."
     }
 }

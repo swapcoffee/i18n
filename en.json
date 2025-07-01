@@ -1304,17 +1304,20 @@
     "yieldInfo": {
         "type": "Type",
         "descriptionCoffee": "",
-        "descriptionStonfi": "",
-        "descriptionTonco": "TONCO is the first concentrated liquidity DEX (CL AMM) on TON, enabling LPs to maximize capital efficiency & offer traders better swaps with lower slippage.",
-        "descriptionDedust": "",
+        "descriptionStonfi": "STON.fi builds leading AMM and liquidity aggregation protocols on TON, enabling fast, secure, and user-friendly swaps for any TON-based token.",
+        "descriptionTonco": "First concentrated liquidity DEX (CL AMM) on TON.",
+        "descriptionDedust": "DeDust.io is an Automated Market Maker Decentralized Exchange (AMM DEX) built on the TON blockchain, offering an extensive variety of tokens for trading.",
         "descriptionTonstakers": "",
-        "descriptionColossus": "Colossus, Titan’s flagship concentrated liquidity market maker on the TON blockchain. Delivers fast, capital-efficient execution while giving LPs and traders precise control over how liquidity is allocated - all powered by TON’s speed and scalability.",
+        "descriptionFarmix": "",
+        "descriptionStorm": "Trade crypto, stocks & forex with up to x500 leverage.",
+        "descriptionMoon": "Moon.cx — fast, low-fee AMM DEX on TON with smart contract-based limit orders.",
+        "descriptionColossus": "Colossus is Titan’s flagship CLMM on TON, offering fast, capital-efficient execution and precise liquidity control, powered by TON’s speed and scalability.",
         "descriptionTorch": "Torch Stable Swap is a Curve-style DEX on TON, designed for low-slippage trading of stablecoins and yield-bearing tokens.",
         "descriptionHipo": "Most Profitable Liquid Staking on TON!",
         "descriptionBemo": "Bemo is the first liquid staking platform on the TON blockchain, redefining how users earn rewards while keeping their assets flexible.",
         "descriptionStakee": "First mobile staking for The Open Network.",
         "descriptionKTON": "KTON is a next-generation liquid staking protocol for the TON ecosystem, designed to unlock liquidity for both institutional and retail users.",
-        "descriptionEVAA": "EVAA is a Telegram-native open-sourced decentralized liquidity protocol on TON Blockchain that allows users to act as depositors, earning passive income by providing liquidity, or as borrowers, who can secure overcollateralised loans.",
+        "descriptionEVAA": "EVAA is a Telegram-native liquidity protocol on TON for earning or borrowing with overcollateralized loans.",
         "descriptionCoffin": "Coffin lets you profit from fading hype. Short TON memecoins using isolated lending markets."
     }
 }
