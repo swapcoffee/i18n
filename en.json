@@ -4,7 +4,12 @@
         "cashback": {
             "title": "Cashback",
             "text": "By activating this feature, you agree that you want to claim your bonus",
-            "colorText": ["$KINGY", "$DFC", "$WEB3", "$DYOR"]
+            "colorText": [
+                "$KINGY",
+                "$DFC",
+                "$WEB3",
+                "$DYOR"
+            ]
         },
         "expert": {
             "title": "Expert mode",
@@ -266,7 +271,14 @@
     },
     "claimCenter": {
         "description": "Invite friends, earn a percentage of the commission from their transactions, and claim your rewards!",
-        "titles": ["All rewards", "Cashback", "Referral", "Contests", "Staking", "Pools"],
+        "titles": [
+            "All rewards",
+            "Cashback",
+            "Referral",
+            "Contests",
+            "Staking",
+            "Pools"
+        ],
         "caption": "Select a reward for withdrawal",
         "text": "The cost of withdrawal depends on the number of tokens you have selected",
         "empty-title": "You have no rewards in the Claim Center",
@@ -353,7 +365,11 @@
         "level-tooltip": "As the number of your referrals and their volume increases, you can qualify for higher commission rewards and a custom, attractive link."
     },
     "referralHistory": {
-        "tableTitles": ["Transaction", "Time", "Value"]
+        "tableTitles": [
+            "Transaction",
+            "Time",
+            "Value"
+        ]
     },
     "referralLink": {
         "caption": "Your referral link",
@@ -422,7 +438,12 @@
         }
     },
     "contestPage": {
-        "leaderboardTitles": ["Rank", "User address", "Volume", "Estimated rewards"],
+        "leaderboardTitles": [
+            "Rank",
+            "User address",
+            "Volume",
+            "Estimated rewards"
+        ],
         "leaderBoard": "Leaderboard",
         "prize": "Prize pool",
         "faq": "F.A.Q / Competition Rules",
@@ -440,7 +461,11 @@
         "details": "Details",
         "rewards": "Total rewards",
         "rewardsUn": "Unclaimed rewards",
-        "timerTitles": ["Until the start:", "Until the end:", "Competition is over"],
+        "timerTitles": [
+            "Until the start:",
+            "Until the end:",
+            "Competition is over"
+        ],
         "eventPeriod": "Event period:"
     },
     "contestFaq": {
@@ -604,7 +629,11 @@
         "all": "All"
     },
     "charts-info": {
-        "info": ["Holders", "Liquidity", "Trust score"]
+        "info": [
+            "Holders",
+            "Liquidity",
+            "Trust score"
+        ]
     },
     "connectBanner": {
         "title": "Wallet is not connected",
@@ -626,7 +655,7 @@
         "secondTitleDca": "I want to buy",
         "assetOne": "Asset 1",
         "assetTwo": "Asset 2",
-        "assetByNumber" : "Asset {number}"
+        "assetByNumber": "Asset {number}"
     },
     "limitDetails": {
         "titleSend": "You send",
@@ -689,7 +718,10 @@
         "cancellation": "Cancellation"
     },
     "limitOrdersHistory": {
-        "tabs": ["Open orders", "{historyType} history"],
+        "tabs": [
+            "Open orders",
+            "{historyType} history"
+        ],
         "tabDca": "DCA",
         "tabLimit": "Limit",
         "emptyList": "Order list is empty",
@@ -800,9 +832,9 @@
         "month": "month"
     },
     "poolsBanner": {
-        "title": "Provide liquidity and earn fees",
-        "descriptionFirst": "Explore new opportunities with providing liquidity.",
-        "descriptionSecond": "Choose the perfect pool for you and start earning on trading fees today!"
+        "title": "Provide liquidity and earn",
+        "descriptionFirst": "Discover new opportunities to grow your assets.",
+        "descriptionSecond": "Choose a pool and start earning on trading fees today!"
     },
     "poolsActions": {
         "transferLiquidity": "Transfer liquidity",
@@ -812,7 +844,8 @@
         "hidden": "hidden",
         "group": "Group",
         "boost": "Boost",
-        "newPairs": "New pairs"
+        "newPairs": "New pairs",
+        "myTokens": "My tokens"
     },
     "poolsCommon": {
         "noActiveBoostDescr": "Add rewards to a pool to boost liquidity providers joining in — no active boosts yet, be the first to launch one!",
@@ -876,12 +909,15 @@
         "connectWalletDescr": "Connect your wallet now to see your positions",
         "noPositions": "No Positions Found",
         "noPositionsTitle": "You don't have any liquidities in this pool. Add liquidity to earn pool rewards.",
-        "addLiquidityDisabledTooltip": ["Protocol STON.fi v1 is deprecated.", "Recommend using protocol STON.fi v2."]
+        "addLiquidityDisabledTooltip": [
+            "Protocol STON.fi v1 is deprecated.",
+            "Recommend using protocol STON.fi v2."
+        ]
     },
     "poolHeading": {
         "infoText": "Farm LP tokens to get rewards",
-        "totalApr":"Total APR",
-        "farmApr":"Farm APR",
+        "totalApr": "Total APR",
+        "farmApr": "Farm APR",
         "tradeFee": "Trade fee"
     },
     "poolLiq": {
@@ -957,13 +993,13 @@
         "view-all": "View all pools"
     },
     "farmPositionsDetails": {
-        "farmApr":"Farm APR",
+        "farmApr": "Farm APR",
         "lpTokens": "LP tokens",
-        "totalEarned":"Total earned"
+        "totalEarned": "Total earned"
     },
     "detailsList": {
-        "hideDetails":"Hide details",
-        "showDetails":"Show details"
+        "hideDetails": "Hide details",
+        "showDetails": "Show details"
     },
     "farmModal": {
         "farmTitle": "My farm rewards",
@@ -1028,13 +1064,26 @@
         "paste": "Paste",
         "back": "Back",
         "open": "Open in {sourceName}",
-        "hints": ["Close", "Select", "Navigate"],
+        "hints": [
+            "Close",
+            "Select",
+            "Navigate"
+        ],
         "empty": {
             "text": "No search results found",
             "description": "Please ensure that you have typed the search term correctly"
         },
-        "categories": ["Tokens", "Pools", "Benefits", "Links"],
-        "benefitTypes": ["Cashback", "Trading competition", "Staking"]
+        "categories": [
+            "Tokens",
+            "Pools",
+            "Benefits",
+            "Links"
+        ],
+        "benefitTypes": [
+            "Cashback",
+            "Trading competition",
+            "Staking"
+        ]
     },
     "mevProtect": {
         "title": "MEV Protect",
@@ -1090,7 +1139,12 @@
             "from": "From",
             "to": "To",
             "startTime": "Start time",
-            "timeValues": ["h", "m", "hr", "min"]
+            "timeValues": [
+                "h",
+                "m",
+                "hr",
+                "min"
+            ]
         },
         "address": {
             "title": "Exclude some addresses from receiving rewards",
@@ -1183,68 +1237,84 @@
         },
         "detail": {
             "minimumReceived": "Minimum received",
-            "receiverAddress":"Receiver address",
+            "receiverAddress": "Receiver address",
             "estimatedTime": "Estimated time",
             "estimatedFee": "Estimated fee"
         }
     },
-  "newPool": {
-    "ratio": {
-      "title": "Tokens ratio",
-      "enter": "Enter ratio"
-    },
-    "infoList": {
-        "badRatio": {
-            "title": "Bad Ratio Alert",
-            "text": "The ratio of assets you're providing is significantly unbalanced. This may result in suboptimal liquidity provision and potential losses."
+    "newPool": {
+        "ratio": {
+            "title": "Tokens ratio",
+            "enter": "Enter ratio"
         },
-        "existPool": {
-            "title": "Pool has already exist",
-            "text": "A liquidity pool for these two tokens already exists. Please consider adding liquidity to the existing pool instead of creating a new one."
+        "infoList": {
+            "badRatio": {
+                "title": "Bad Ratio Alert",
+                "text": "The ratio of assets you're providing is significantly unbalanced. This may result in suboptimal liquidity provision and potential losses."
+            },
+            "existPool": {
+                "title": "Pool has already exist",
+                "text": "A liquidity pool for these two tokens already exists. Please consider adding liquidity to the existing pool instead of creating a new one."
+            }
+        },
+        "details": {
+            "firstAsset": "First Asset",
+            "secondAsset": "Second Asset",
+            "poolRatio": "Pool ratio"
+        },
+        "buttons": {
+            "create": "Create new pool",
+            "poolExist": "Pool already exists",
+            "deploySingleVault": "Deploy {token} vault",
+            "deployMultiVault": "Deploy multi vaults",
+            "selectSecondAsset": "Select second asset"
         }
     },
-    "details": {
-      "firstAsset": "First Asset",
-      "secondAsset": "Second Asset",
-      "poolRatio": "Pool ratio"
+    "transferLiquidity": {
+        "title": "Transfer Liquidity",
+        "slippage": "slippage",
+        "buttons": {
+            "unstakeAndClaim": "Unstake and claim",
+            "transferLiquidity": "Transfer liquidity",
+            "goToCreatePool": "Go to create pool"
+        },
+        "poolName": "Pool name",
+        "poolsNotBeenCreated": "No pools have been created",
+        "notCreated": "Not created",
+        "aprDifference": "APR Difference",
+        "alert": {
+            "warnTitle": "The price difference of LP tokens exceeds 10%",
+            "warnText": "You are about to transfer your liquidity. Please ensure that you have selected the correct pool and amount before proceeding."
+        },
+        "transferDetail": {
+            "slippage": "Slippage",
+            "blockchainFee": "Blockchain fee",
+            "description": "The gas consumed was taken in excess on purpose, to ensure the security of the transaction, most of it will be returned"
+        },
+        "notFound": {
+            "title": "No Positions Found",
+            "text": "You don't have any liquidities pools deposits.",
+            "btn": "Add Liquidity"
+        },
+        "newApr": "New APR",
+        "oldApr": "Old APR",
+        "newDex": "New DEX",
+        "oldDex": "Old DEX"
     },
-    "buttons": {
-      "create": "Create new pool",
-      "poolExist": "Pool already exists",
-      "deploySingleVault": "Deploy {token} vault",
-      "deployMultiVault": "Deploy multi vaults",
-      "selectSecondAsset": "Select second asset"
+    "yieldInfo": {
+        "type": "Type",
+        "descriptionCoffee": "",
+        "descriptionStonfi": "",
+        "descriptionTonco": "TONCO is the first concentrated liquidity DEX (CL AMM) on TON, enabling LPs to maximize capital efficiency & offer traders better swaps with lower slippage.",
+        "descriptionDedust": "",
+        "descriptionTonstakers": "",
+        "descriptionColossus": "Colossus, Titan’s flagship concentrated liquidity market maker on the TON blockchain. Delivers fast, capital-efficient execution while giving LPs and traders precise control over how liquidity is allocated - all powered by TON’s speed and scalability.",
+        "descriptionTorch": "Torch Stable Swap is a Curve-style DEX on TON, designed for low-slippage trading of stablecoins and yield-bearing tokens.",
+        "descriptionHipo": "Most Profitable Liquid Staking on TON!",
+        "descriptionBemo": "Bemo is the first liquid staking platform on the TON blockchain, redefining how users earn rewards while keeping their assets flexible.",
+        "descriptionStakee": "First mobile staking for The Open Network.",
+        "descriptionKTON": "KTON is a next-generation liquid staking protocol for the TON ecosystem, designed to unlock liquidity for both institutional and retail users.",
+        "descriptionEVAA": "EVAA is a Telegram-native open-sourced decentralized liquidity protocol on TON Blockchain that allows users to act as depositors, earning passive income by providing liquidity, or as borrowers, who can secure overcollateralised loans.",
+        "descriptionCoffin": "Coffin lets you profit from fading hype. Short TON memecoins using isolated lending markets."
     }
-  },
-  "transferLiquidity": {
-    "title": "Transfer Liquidity",
-    "slippage": "slippage",
-    "buttons": {
-        "unstakeAndClaim": "Unstake and claim",
-        "transferLiquidity": "Transfer liquidity",
-        "goToCreatePool": "Go to create pool"
-    },
-    "poolName": "Pool name",
-    "poolsNotBeenCreated": "No pools have been created",
-    "notCreated": "Not created",
-    "aprDifference": "APR Difference",
-    "alert": {
-        "warnTitle": "The price difference of LP tokens exceeds 10%",
-        "warnText": "You are about to transfer your liquidity. Please ensure that you have selected the correct pool and amount before proceeding."
-    },
-    "transferDetail": {
-        "slippage": "Slippage",
-        "blockchainFee": "Blockchain fee",
-        "description": "The gas consumed was taken in excess on purpose, to ensure the security of the transaction, most of it will be returned"
-    },
-    "notFound": {
-        "title": "No Positions Found",
-        "text": "You don't have any liquidities pools deposits.",
-        "btn": "Add Liquidity"
-    },
-    "newApr": "New APR",
-    "oldApr": "Old APR",
-    "newDex": "New DEX",
-    "oldDex": "Old DEX"
-  }
 }
