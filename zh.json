@@ -796,6 +796,10 @@
         "coffee": {
             "text1": "加入我们，将您的流动性转移到 Coffee DEX —— TON 上技术最先进的 DEX",
             "actionBtn": "转移流动性"
+        },
+        "thermos": {
+            "text1": "一键购买和出售Telegram礼品 — 返现高达10%。由swap.coffee提供的礼品聚合器",
+            "actionBtn": "打开应用"
         }
     },
     "stakesBoosts": {

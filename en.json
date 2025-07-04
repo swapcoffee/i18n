@@ -798,6 +798,10 @@
         "coffee": {
             "text1": "Join us and transfer liquidity to Coffee DEX — most technologically advanced DEX in TON",
             "actionBtn": "Transfer liquidity"
+        },
+        "thermos": {
+            "text1": "Buy & sell Telegram Gifts in one click — cashback up to 10%. Gift Aggregator by swap.coffee",
+            "actionBtn": "Open app"
         }
     },
     "stakesBoosts": {
