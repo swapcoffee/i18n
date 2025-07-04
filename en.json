@@ -144,7 +144,8 @@
         "stake": "Staking",
         "aggregator": "Aggregator",
         "tools": "Tools",
-        "memes": "Memes"
+        "memes": "Memes",
+        "gifts": "Gifts"
     },
     "dexGlobal": {
         "chart": {
