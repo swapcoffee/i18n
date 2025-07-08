@@ -843,7 +843,9 @@
     },
     "poolsActions": {
         "transferLiquidity": "Transférer la liquidité",
-        "createPool": "Créer un pool"
+        "createPool": "Créer un pool",
+        "clearAll": "Tout Effacer",
+        "selected": "Sélectionné"
     },
     "poolsFilters": {
         "hidden": "caché",

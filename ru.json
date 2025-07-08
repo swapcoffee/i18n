@@ -768,7 +768,9 @@
     },
     "poolsActions": {
         "transferLiquidity": "Перевести ликвидность",
-        "createPool": "Создать пул"
+        "createPool": "Создать пул",
+        "clearAll": "Очистить всё",
+        "selected": "Выбрано"
     },
     "poolsFilters": {
         "hidden": "скрытые",

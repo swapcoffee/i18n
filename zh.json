@@ -841,7 +841,9 @@
     },
     "poolsActions": {
         "transferLiquidity": "转移流动性",
-        "createPool": "创建池"
+        "createPool": "创建池",
+        "clearAll": "清除全部",
+        "selected": "已选择"
     },
     "poolsFilters": {
         "hidden": "隐藏",

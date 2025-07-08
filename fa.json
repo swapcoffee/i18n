@@ -842,7 +842,9 @@
     },
     "poolsActions": {
         "transferLiquidity": "انتقال نقدینگی",
-        "createPool": "ایجاد استخر"
+        "createPool": "ایجاد استخر",
+        "clearAll": "مسح الكل",
+        "selected": "محدد"
     },
     "poolsFilters": {
         "hidden": "پنهان",
