@@ -240,6 +240,7 @@
         "mev": {
             "name": "Tarifa de protección MEV"
         },
+        "smart": "Tarifa de Smart Mode",
         "economy": "Tu economía",
         "distribution": "Plan de distribución"
     },

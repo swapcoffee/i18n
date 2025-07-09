@@ -238,8 +238,9 @@
             "integrator": "Frais d'intégrateur"
         },
         "mev": {
-            "name": "Frais MEV Protect"
+            "name": "Frais de MEV Protect"
         },
+        "smart": "Frais de Smart Mode",
         "economy": "Votre Économie",
         "distribution": "Plan de Distribution"
     },

@@ -236,6 +236,7 @@
         "mev": {
            "name": "Комісія за захист MEV"
         },
+        "smart": "Комісія за Smart Mode",
         "economy": "Ваша економія",
         "distribution": "План розподілу"
     },

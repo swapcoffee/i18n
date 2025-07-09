@@ -238,6 +238,7 @@
         "mev": {
             "name": "MEV 保护费用"
         },
+        "smart": "Smart Mode 委员会",
         "economy": "您的经济",
         "distribution": "分配计划"
     },
