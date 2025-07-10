@@ -1324,6 +1324,7 @@
     },
     "smart": {
         "desc": "Nous utilisons des réseaux neuronaux et des algorithmes avancés pour définir les paramètres les plus optimaux.",
-        "isActivated": "{mode} est activé."
+        "isActivated": "{mode} est activé.",
+        "tooltip": "{mode} ne peut pas être utilisé avec les jetons sélectionnés."
     }
 }

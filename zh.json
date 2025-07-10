@@ -1323,6 +1323,7 @@
     },
     "smart": {
         "desc": "我们使用神经网络和先进的算法来设置最优设置。",
-        "isActivated": "{mode} 已激活。"
+        "isActivated": "{mode} 已激活。",
+        "tooltip": "{mode} 不能与选定的令牌一起使用。"
     }
 }

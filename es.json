@@ -1325,6 +1325,7 @@
     },
     "smart": {
         "desc": "Utilizamos redes neuronales y algoritmos avanzados para establecer la configuración más óptima.",
-        "isActivated": "{mode} está activado."
+        "isActivated": "{mode} está activado.",
+        "tooltip": "{mode} no se puede utilizar con tokens seleccionados."
     }
 }

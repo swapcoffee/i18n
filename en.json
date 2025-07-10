@@ -1330,6 +1330,7 @@
     },
     "smart": {
         "desc": "We use neural networks and advanced algorithms to set the most optimal settings.",
-        "isActivated": "{mode} is activated."
+        "isActivated": "{mode} is activated.",
+        "tooltip": "{mode} can't be used with selected tokens"
     }
 }
