@@ -148,6 +148,10 @@
         "gifts": "Cadeaux"
     },
     "dexGlobal": {
+        "community": {
+            "title": "Jetons communautaires",
+            "description": "Activer l'affichage des jetons communautaires"
+        },
         "chart": {
             "title": "Graphique des prix",
             "description": "Activer l'affichage du graphique"

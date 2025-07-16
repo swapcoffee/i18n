@@ -148,6 +148,10 @@
         "gifts": "礼物"
     },
     "dexGlobal": {
+        "community": {
+            "title": "社区代币",
+            "description": "启用社区代币显示"
+        },
         "chart": {
             "title": "价格图表",
             "description": "启用图表显示"

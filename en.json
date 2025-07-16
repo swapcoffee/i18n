@@ -148,6 +148,10 @@
         "gifts": "Gifts"
     },
     "dexGlobal": {
+        "community": {
+            "title": "Community tokens",
+            "description": "Enable display of community tokens"
+        },
         "chart": {
             "title": "Price chart",
             "description": "Enable graph display"

@@ -148,6 +148,10 @@
         "gifts": "Regalos"
     },
     "dexGlobal": {
+        "community": {
+            "title": "Tokens comunitarios",
+            "description": "Habilitar la visualización de tokens comunitarios"
+        },
         "chart": {
             "title": "Gráfico de precios",
             "description": "Habilitar visualización de gráficos"

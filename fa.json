@@ -148,6 +148,10 @@
         "gifts": "الهدايا"
     },
     "dexGlobal": {
+        "community": {
+            "title": "رموز المجتمع",
+            "description": "تمكين عرض رموز المجتمع"
+        },
         "chart": {
             "title": "نمودار قیمت",
             "description": "نمایش نمودار را فعال کنید"
