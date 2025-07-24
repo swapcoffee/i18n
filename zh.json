@@ -1329,5 +1329,16 @@
         "desc": "我们使用神经网络和先进的算法来设置最优设置。",
         "isActivated": "{mode} 已激活。",
         "tooltip": "{mode} 不能与选定的令牌一起使用。"
+    },
+    "earnChart": {
+        "liquidityPreset": "选择流动性预设",
+        "currentPrice": "当前价格",
+        "minPrice": "最低价格",
+        "maxPrice": "最高价格",
+        "rangeChart": "范围图表",
+        "range": "范围",
+        "min": "最小值",
+        "max": "最大值",
+        "per": "每"
     }
 }

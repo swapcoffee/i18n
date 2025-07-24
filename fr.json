@@ -1330,5 +1330,16 @@
         "desc": "Nous utilisons des réseaux neuronaux et des algorithmes avancés pour définir les paramètres les plus optimaux.",
         "isActivated": "{mode} est activé.",
         "tooltip": "{mode} ne peut pas être utilisé avec les jetons sélectionnés."
+    },
+    "earnChart": {
+        "liquidityPreset": "Choisir un préréglage de liquidité",
+        "currentPrice": "Prix actuel",
+        "minPrice": "Prix minimum",
+        "maxPrice": "Prix maximum",
+        "rangeChart": "Graphique de plage",
+        "range": "Plage",
+        "min": "Min",
+        "max": "Max",
+        "per": "par"
     }
 }

@@ -1331,5 +1331,16 @@
         "desc": "Utilizamos redes neuronales y algoritmos avanzados para establecer la configuración más óptima.",
         "isActivated": "{mode} está activado.",
         "tooltip": "{mode} no se puede utilizar con tokens seleccionados."
+    },
+    "earnChart": {
+        "liquidityPreset": "Elegir preajuste de liquidez",
+        "currentPrice": "Precio actual",
+        "minPrice": "Precio mínimo",
+        "maxPrice": "Precio máximo",
+        "rangeChart": "Gráfico de rango",
+        "range": "Rango",
+        "min": "Mín",
+        "max": "Máx",
+        "per": "por"
     }
 }
