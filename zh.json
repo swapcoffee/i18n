@@ -61,6 +61,7 @@
         }
     },
     "dexTokens": {
+        "noTokensWithTag": "没有找到带有此标签的代币",
         "searchPlaceholder": "按名称搜索",
         "emptySearch": [
             "我们没有找到任何资产。",

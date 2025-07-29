@@ -61,6 +61,7 @@
         }
     },
     "dexTokens": {
+        "noTokensWithTag": "لم يتم العثور على رموز مميزة بهذا الوسم",
         "searchPlaceholder": "جستجو بر اساس نام",
         "emptySearch": [
             "ما هیچ دارایی‌ای پیدا نکردیم.",

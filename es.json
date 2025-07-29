@@ -61,6 +61,7 @@
         }
     },
     "dexTokens": {
+        "noTokensWithTag": "No se encontraron tokens con esta etiqueta",
         "searchPlaceholder": "Buscar por nombre",
         "emptySearch": [
             "No encontramos ningún activo.",

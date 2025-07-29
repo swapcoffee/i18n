@@ -61,6 +61,7 @@
         }
     },
     "dexTokens": {
+        "noTokensWithTag": "Aucun jeton portant ce tag n'a été trouvé",
         "searchPlaceholder": "Rechercher par nom",
         "emptySearch": [
             "Nous n'avons trouvé aucun actif.",
