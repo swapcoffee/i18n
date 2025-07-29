@@ -1324,7 +1324,8 @@
         "descriptionStakee": "The Open Network 的第一个移动质押平台。",
         "descriptionKTON": "KTON 是 TON 生态系统的下一代流动性质押协议，专为机构和零售用户解锁流动性而设计。",
         "descriptionEVAA": "EVAA 是 TON 上的 Telegram 原生流动性协议，通过超额抵押贷款获取收益或借款。",
-        "descriptionCoffin": "Coffin 让您从减弱炒作中获利。使用隔离借贷市场做空 TON 迷因币。"
+        "descriptionCoffin": "Coffin 让您从减弱炒作中获利。使用隔离借贷市场做空 TON 迷因币。",
+        "descriptionBidask": "Bidask 是一个基于 CLMM 的去中心化交易所，构建在 TON 区块链上。该协议针对高速度、可扩展性和效率进行了优化。"
     },
     "smart": {
         "desc": "我们使用神经网络和先进的算法来设置最优设置。",

@@ -1326,7 +1326,8 @@
         "descriptionStakee": "Primer staking móvil para The Open Network.",
         "descriptionKTON": "KTON es un protocolo de staking líquido de próxima generación para el ecosistema TON, diseñado para desbloquear liquidez tanto para usuarios institucionales como minoristas.",
         "descriptionEVAA": "EVAA es un protocolo de liquidez nativo de Telegram en TON para ganar o pedir prestado con préstamos sobrecolateralizados.",
-        "descriptionCoffin": "Coffin te permite beneficiarte de la caída del hype. Haz short en memecoins de TON usando mercados de préstamos aislados."
+        "descriptionCoffin": "Coffin te permite beneficiarte de la caída del hype. Haz short en memecoins de TON usando mercados de préstamos aislados.",
+        "descriptionBidask": "Bidask es un DEX basado en CLMM construido sobre la cadena de bloques TON. El protocolo está optimizado para alta velocidad, escalabilidad y eficiencia."
     },
     "smart": {
         "desc": "Utilizamos redes neuronales y algoritmos avanzados para establecer la configuración más óptima.",
