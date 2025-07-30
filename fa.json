@@ -492,7 +492,8 @@
         "soon": "به زودی",
         "new": "جدید",
         "cashback": "بازگشت نقدی",
-        "contest": "مسابقه"
+        "contest": "مسابقه",
+        "community": "مجتمع"
     },
     "stakeDetails": {
         "title": "اطلاعات درباره {token}",

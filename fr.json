@@ -493,7 +493,8 @@
         "soon": "Bientôt",
         "new": "Nouveau",
         "cashback": "Cashback",
-        "contest": "Concours"
+        "contest": "Concours",
+        "community": "Communauté"
     },
     "stakeDetails": {
         "title": "Informations sur {token}",

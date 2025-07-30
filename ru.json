@@ -423,7 +423,8 @@
         "soon": "Скоро",
         "new": "Новое",
         "cashback": "Кэшбэк",
-        "contest": "Конкурс"
+        "contest": "Конкурс",
+        "community": "Комьюнити"
     },
     "stakeDetails": {
         "title": "Информация о {token}",

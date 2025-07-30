@@ -491,7 +491,8 @@
         "soon": "即将推出",
         "new": "新",
         "cashback": "返现",
-        "contest": "竞赛"
+        "contest": "竞赛",
+        "community": "社区"
     },
     "stakeDetails": {
         "title": "{token} 信息",
