@@ -492,7 +492,9 @@
         "new": "新",
         "cashback": "返现",
         "contest": "竞赛",
-        "community": "社区"
+        "community": "社区",
+        "star": "收藏",
+        "hot": "热门"
     },
     "stakeDetails": {
         "title": "{token} 信息",

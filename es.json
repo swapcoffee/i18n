@@ -494,7 +494,9 @@
         "new": "Nuevo",
         "cashback": "Reembolso",
         "contest": "Concurso",
-        "community": "Comunidad"
+        "community": "Comunidad",
+        "star": "Favorito",
+        "hot": "Popular"
     },
     "stakeDetails": {
         "title": "Información sobre {token}",

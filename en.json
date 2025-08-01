@@ -494,7 +494,9 @@
         "new": "New",
         "cashback": "Cashback",
         "contest": "Contest",
-        "community": "Community"
+        "community": "Community",
+        "star": "Favorite",
+        "hot": "Hot"
     },
     "stakeDetails": {
         "title": "Information about {token}",

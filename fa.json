@@ -493,7 +493,9 @@
         "new": "جدید",
         "cashback": "بازگشت نقدی",
         "contest": "مسابقه",
-        "community": "مجتمع"
+        "community": "مجتمع",
+        "star": "المفضلة",
+        "hot": "الرائجة"
     },
     "stakeDetails": {
         "title": "اطلاعات درباره {token}",

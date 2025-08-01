@@ -424,7 +424,9 @@
         "new": "Новое",
         "cashback": "Кэшбэк",
         "contest": "Конкурс",
-        "community": "Комьюнити"
+        "community": "Комьюнити",
+        "star": "Популярный",
+        "hot": "Горячий"
     },
     "stakeDetails": {
         "title": "Информация о {token}",
