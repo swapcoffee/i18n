@@ -781,6 +781,7 @@
             "Estimated end date"
         ],
         "dcaDeal": {
+            "swapMessage": "Swap {sellPerOrder} for {toBuy} every ~{orderInterval} with a total budget of {sellTotal} with {orders} order(s) over the period of ~{totalInterval}",
             "summary": "Swap {sellPerOrder} for {toBuy} every ~{orderInterval} with a total budget of {sellTotal} with {orders} order(s) over the period of ~{totalInterval}",
             "summaryWithRange": "Swap {sellPerOrder} for {toBuy} every ~{orderInterval} with a total budget of {sellTotal} with {orders} order(s) over the period of ~{totalInterval} with price range of {minRange} - {maxRange}"
         }

@@ -706,6 +706,7 @@
             "Оценочная дата завершения"
         ],
         "dcaDeal": {
+            "swapMessage": "Обмен {sellPerOrder} на {toBuy} каждые ~{orderInterval} с общим бюджетом {sellTotal} за {orders} ордер(ов) на период ~{totalInterval}",
             "summary": "Обмен {sellPerOrder} на {toBuy} каждые ~{orderInterval} с общим бюджетом {sellTotal} за {orders} ордер(ов) на период ~{totalInterval}",
             "summaryWithRange": "Обмен {sellPerOrder} на {toBuy} каждые ~{orderInterval} с общим бюджетом {sellTotal} за {orders} ордер(ов) на период ~{totalInterval} с ценовым диапазоном {minRange} - {maxRange}"
         },
