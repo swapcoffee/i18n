@@ -761,8 +761,9 @@
             "Орієнтовна дата завершення"
         ],
         "dcaDeal": {
-            "swapMessage": "Обмін {sellPerOrder} на {toBuy} кожні ~{orderInterval} з загальним бюджетом {sellTotal} з {orders} ордер(ами) протягом ~{totalInterval}"
-        }
+            "summary": "Обмін {sellPerOrder} на {toBuy} кожні ~{orderInterval} з загальним бюджетом {sellTotal} з {orders} ордер(ами) протягом ~{totalInterval}",
+            "summaryWithRange": "Обмін {sellPerOrder} на {toBuy} кожні ~{orderInterval} з загальним бюджетом {sellTotal} з {orders} ордер(ами) протягом ~{totalInterval} з діапазоном ціни {minRange} - {maxRange}"
+        },
     },
     "dcaSettings": {
         "rangeOptional": "Діапазон (необов'язково)",

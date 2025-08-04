@@ -781,7 +781,8 @@
             "Date de fin estimée"
         ],
         "dcaDeal": {
-            "swapMessage": "Échanger {sellPerOrder} contre {toBuy} toutes les ~{orderInterval} avec un budget total de {sellTotal} en {orders} ordre(s) sur une période de ~{totalInterval}"
+            "summary": "Échanger {sellPerOrder} contre {toBuy} toutes les ~{orderInterval} avec un budget total de {sellTotal} en {orders} ordre(s) sur une période de ~{totalInterval}",
+            "summaryWithRange": "Échanger {sellPerOrder} contre {toBuy} toutes les ~{orderInterval} avec un budget total de {sellTotal} en {orders} ordre(s) sur une période de ~{totalInterval} avec une fourchette de prix de {minRange} - {maxRange}."
         }
     },
     "dcaSettings": {

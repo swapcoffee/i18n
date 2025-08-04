@@ -780,7 +780,8 @@
             "تاریخ پایان تخمینی"
         ],
         "dcaDeal": {
-            "swapMessage": "مبادله {sellPerOrder} برای {toBuy} هر ~{orderInterval} با بودجه کل {sellTotal} با {orders} سفارش در دوره ~{totalInterval}"
+            "summary": "مبادله {sellPerOrder} برای {toBuy} هر ~{orderInterval} با بودجه کل {sellTotal} با {orders} سفارش در دوره ~{totalInterval}",
+            "summaryWithRange": "مبادله {sellPerOrder} برای {toBuy} هر ~{orderInterval} با بودجه کل {sellTotal} با {orders} سفارش در دوره ~{totalInterval} با محدوده قیمتی {minRange} - {maxRange}"
         }
     },
     "dcaSettings": {

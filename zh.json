@@ -779,7 +779,8 @@
             "预计结束日期"
         ],
         "dcaDeal": {
-            "swapMessage": "每 ~{orderInterval} 交换 {sellPerOrder} 为 {toBuy}，总预算为 {sellTotal}，共 {orders} 笔订单，持续 ~{totalInterval}"
+            "summary": "每 ~{orderInterval} 交换 {sellPerOrder} 为 {toBuy}，总预算为 {sellTotal}，共 {orders} 笔订单，持续 ~{totalInterval}",
+            "summaryWithRange": "每隔 ~{orderInterval} 将总预算为 {sellTotal} 的 {sellPerOrder} 与价格范围为 {minRange} - {maxRange} 的 {orders} 订单进行 {toBuy} 交换。"
         }
     },
     "dcaSettings": {
