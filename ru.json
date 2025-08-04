@@ -56,6 +56,8 @@
         }
     },
     "dexTokens": {
+        "importBlacklist": "Выявлены признаки вредоносной активности токена. Доступ к торгам приостановлен для предотвращения рисков.",
+        "importUnknown": "Токен основан на непроверенном смарт-контракте, что может повлечь риски, связанные с дополнительными комиссиями при операциях купли-продажи и другими скрытыми издержками.",
         "noTokensWithTag": "Токены с данным тегом не найдены",
         "searchPlaceholder": "Поиск по названию",
         "emptySearch": ["Мы не нашли никаких активов.", "Попробуйте указать адрес токена."],
@@ -708,7 +710,7 @@
         "dcaDeal": {
             "summary": "Обмен {sellPerOrder} на {toBuy} каждые ~{orderInterval} с общим бюджетом {sellTotal} за {orders} ордер(ов) на период ~{totalInterval}",
             "summaryWithRange": "Обмен {sellPerOrder} на {toBuy} каждые ~{orderInterval} с общим бюджетом {sellTotal} за {orders} ордер(ов) на период ~{totalInterval} с ценовым диапазоном {minRange} - {maxRange}"
-        },
+        }
     },
     "dcaSettings": {
         "rangeOptional": "Диапазон (необязательно)",

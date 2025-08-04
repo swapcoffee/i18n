@@ -56,6 +56,8 @@
         }
     },
     "dexTokens": {
+        "importBlacklist": "Виявлено ознаки шкідливої діяльності токена. Доступ до торгівлі призупинено задля запобігання ризикам.",
+        "importUnknown": "Токен заснований на неперевіреному смарт-контракті, що може спричиняти ризики, пов’язані з додатковими комісіями під час операцій купівлі-продажу, та інші приховані витрати.",
         "noTokensWithTag": "Токени з цим тегом не знайдені",
         "searchPlaceholder": "Пошук за назвою",
         "emptySearch": [
@@ -763,7 +765,7 @@
         "dcaDeal": {
             "summary": "Обмін {sellPerOrder} на {toBuy} кожні ~{orderInterval} з загальним бюджетом {sellTotal} з {orders} ордер(ами) протягом ~{totalInterval}",
             "summaryWithRange": "Обмін {sellPerOrder} на {toBuy} кожні ~{orderInterval} з загальним бюджетом {sellTotal} з {orders} ордер(ами) протягом ~{totalInterval} з діапазоном ціни {minRange} - {maxRange}"
-        },
+        }
     },
     "dcaSettings": {
         "rangeOptional": "Діапазон (необов'язково)",

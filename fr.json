@@ -61,6 +61,8 @@
         }
     },
     "dexTokens": {
+        "importBlacklist": "Des signes d'activité malveillante du jeton ont été détectés. L'accès aux échanges a été suspendu afin de prévenir les risques.",
+        "importUnknown": "Le jeton est basé sur un contrat intelligent non vérifié, ce qui peut entraîner des risques liés à des frais supplémentaires lors des opérations d'achat et de vente, ainsi qu'à d'autres coûts cachés.",
         "noTokensWithTag": "Aucun jeton portant ce tag n'a été trouvé",
         "searchPlaceholder": "Rechercher par nom",
         "emptySearch": [
