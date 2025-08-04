@@ -61,6 +61,8 @@
         }
     },
     "dexTokens": {
+        "importBlacklist": "Se han detectado indicios de actividad maliciosa del token. El acceso a las operaciones ha sido suspendido para prevenir riesgos.",
+        "importUnknown": "El token se basa en un contrato inteligente no verificado, lo que puede conllevar riesgos relacionados con comisiones adicionales en operaciones de compra y venta, así como otros costos ocultos.",
         "noTokensWithTag": "No se encontraron tokens con esta etiqueta",
         "searchPlaceholder": "Buscar por nombre",
         "emptySearch": [

@@ -61,6 +61,8 @@
         }
     },
     "dexTokens": {
+        "importBlacklist": "Signs of malicious token activity have been detected. Trading access has been suspended to prevent potential risks.",
+        "importUnknown": "The token is based on an unverified smart contract, which may entail risks related to additional transaction fees when buying or selling, as well as other hidden costs.",
         "noTokensWithTag": "No tokens with this tag were found",
         "searchPlaceholder": "Search by name",
         "emptySearch": [

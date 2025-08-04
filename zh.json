@@ -61,6 +61,8 @@
         }
     },
     "dexTokens": {
+        "importBlacklist": "已发现该代币存在恶意活动迹象。为防范风险，交易访问已被暂停。",
+        "importUnknown": "该代币基于未经验证的智能合约，可能存在交易买卖时产生额外手续费及其他隐性成本的风险。",
         "noTokensWithTag": "没有找到带有此标签的代币",
         "searchPlaceholder": "按名称搜索",
         "emptySearch": [
