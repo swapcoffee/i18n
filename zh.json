@@ -974,6 +974,7 @@
         "transferLiq": "转移流动性"
     },
     "earnModal": {
+        "createOrderTitle": "创建{mode}订单",
         "depositTitle": "添加流动性",
         "withdrawTitle": "提取流动性",
         "farmTitle": "质押流动性代币",

@@ -956,6 +956,7 @@
         "transferLiq": "Передати ліквідність"
     },
     "earnModal": {
+        "createOrderTitle": "Створити {mode} замовлення",
         "depositTitle": "Додати ліквідність",
         "withdrawTitle": "Виведення ліквідності",
         "farmTitle": "Фарм LP токенів",

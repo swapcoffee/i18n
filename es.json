@@ -976,6 +976,7 @@
         "transferLiq": "Transferir liquidez"
     },
     "earnModal": {
+        "createOrderTitle": "Crear orden {mode}",
         "depositTitle": "Añadir liquidez",
         "withdrawTitle": "Retirar liquidez",
         "farmTitle": "Farmear tokens LP",

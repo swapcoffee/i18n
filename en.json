@@ -976,6 +976,7 @@
         "transferLiq": "Transfer liquidity"
     },
     "earnModal": {
+        "createOrderTitle": "Create {mode} order",
         "depositTitle": "Add liquidity",
         "withdrawTitle": "Liquidity withdraw",
         "farmTitle": "Farm LP tokens",

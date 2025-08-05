@@ -901,6 +901,7 @@
         "transferLiq": "Перевести ликвидность"
     },
     "earnModal": {
+        "createOrderTitle": "Создать {mode} ордер",
         "depositTitle": "Добавить ликвидность",
         "withdrawTitle": "Вывод ликвидности",
         "farmTitle": "Фармить LP токены",

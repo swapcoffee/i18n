@@ -975,6 +975,7 @@
         "transferLiq": "انتقال نقدینگی"
     },
     "earnModal": {
+        "createOrderTitle": "ایجاد سفارش {mode}",
         "depositTitle": "افزودن نقدینگی",
         "withdrawTitle": "برداشت نقدینگی",
         "farmTitle": "فارم کردن توکن‌های LP",
