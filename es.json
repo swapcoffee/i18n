@@ -721,7 +721,8 @@
     },
     "limitHistoryItem": {
         "balance": "Saldo",
-        "cancelOrder": "Cancelar orden"
+        "cancelOrder": "Cancelar orden",
+        "loadMore": "Cargar más"
     },
     "ordersStatus": {
         "completed": "Completado",

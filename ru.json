@@ -649,7 +649,8 @@
     },
     "limitHistoryItem": {
         "balance": "Баланс",
-        "cancelOrder": "Отменить ордер"
+        "cancelOrder": "Отменить ордер",
+        "loadMore": "Показать больше"
     },
     "ordersStatus": {
         "completed": "Завершено",

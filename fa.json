@@ -720,7 +720,8 @@
     },
     "limitHistoryItem": {
         "balance": "موجودی",
-        "cancelOrder": "لغو سفارش"
+        "cancelOrder": "لغو سفارش",
+        "loadMore": "تحميل المزيد"
     },
     "ordersStatus": {
         "completed": "تکمیل شده",

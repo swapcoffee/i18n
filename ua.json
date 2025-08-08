@@ -704,7 +704,8 @@
     },
     "limitHistoryItem": {
         "balance": "Баланс",
-        "cancelOrder": "Скасувати замовлення"
+        "cancelOrder": "Скасувати замовлення",
+        "loadMore": "Показати більше"
     },
     "ordersStatus": {
         "completed": "Завершено",

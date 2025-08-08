@@ -719,7 +719,8 @@
     },
     "limitHistoryItem": {
         "balance": "余额",
-        "cancelOrder": "取消订单"
+        "cancelOrder": "取消订单",
+        "loadMore": "展示更多"
     },
     "ordersStatus": {
         "completed": "已完成",
