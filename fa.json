@@ -879,7 +879,8 @@
         "day": "يوم",
         "backToPools": "بازگشت به استخرها",
         "poolsAmountSmall": "استخر",
-        "remove": "إزالة"
+        "remove": "إزالة",
+        "goToPool": "الذهاب إلى المجمع"
     },
     "poolsTable": {
         "poolName": "استخر",

@@ -880,7 +880,8 @@
         "day": "jour",
         "backToPools": "Retour aux pools",
         "poolsAmountSmall": "piscine",
-        "remove": "Retirer"
+        "remove": "Retirer",
+        "goToPool": "Accéder au pool"
     },
     "poolsTable": {
         "poolName": "Pool",

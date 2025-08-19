@@ -805,7 +805,8 @@
         "day": "день",
         "backToPools": "Назад к пулам",
         "poolsAmountSmall": "пул",
-        "remove": "Удалить"
+        "remove": "Удалить",
+        "goToPool": "Перейти к пулу"
     },
     "poolsTable": {
         "poolName": "Пул",

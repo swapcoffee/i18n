@@ -878,7 +878,8 @@
         "day": "天",
         "backToPools": "返回流动性池",
         "poolsAmountSmall": "池子",
-        "remove": "移除"
+        "remove": "移除",
+        "goToPool": "前往资金池"
     },
     "poolsTable": {
         "poolName": "池",

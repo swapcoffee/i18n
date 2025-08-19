@@ -880,7 +880,8 @@
         "day": "day",
         "backToPools": "Back to pools",
         "poolsAmountSmall": "pool",
-        "remove": "Remove"
+        "remove": "Remove",
+        "goToPool": "Go to pool"
     },
     "poolsTable": {
         "poolName": "Pool",
