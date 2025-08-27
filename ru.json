@@ -423,12 +423,12 @@
     },
     "interfaceTag": {
         "soon": "Скоро",
-        "new": "Новое",
+        "new": "Новые",
         "cashback": "Кэшбэк",
         "contest": "Конкурс",
         "community": "Комьюнити",
-        "star": "Популярный",
-        "hot": "Горячий"
+        "star": "Рекомендуемое",
+        "hot": "Горящий"
     },
     "stakeDetails": {
         "title": "Информация о {token}",
