@@ -1185,6 +1185,10 @@
             "existPool": {
                 "title": "Пул уже существует",
                 "text": "Пул ликвидности для этих двух токенов уже существует. Пожалуйста, рассмотрите возможность добавления ликвидности в существующий пул вместо создания нового."
+            },
+            "invalidTokens": {
+                "title": "Некорректные токены",
+                "text": "Вы можете создать пул, выбирая только whitelist токены."
             }
         },
         "details": {
@@ -1197,7 +1201,8 @@
             "poolExist": "Пул уже существует",
             "deploySingleVault": "Развернуть vault {token}",
             "deployMultiVault": "Развернуть несколько vaults",
-            "selectSecondAsset": "Выбрать второй актив"
+            "selectSecondAsset": "Выбрать второй актив",
+            "selectWhitelistTokens": "Выберите whitelist токены"
         }
     },
     "transferLiquidity": {

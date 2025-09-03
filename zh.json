@@ -1271,6 +1271,10 @@
             "existPool": {
                 "title": "池已存在",
                 "text": "这两个代币的流动性池已经存在。请考虑向现有池添加流动性，而不是创建新池。"
+            },
+            "invalidTokens": {
+                "title": "不正确的代币",
+                "text": "您只能通过选择白名单中的代币来创建资金池。"
             }
         },
         "details": {
@@ -1283,7 +1287,8 @@
             "poolExist": "池已存在",
             "deploySingleVault": "部署 {token} vault",
             "deployMultiVault": "部署多个 vaults",
-            "selectSecondAsset": "选择第二资产"
+            "selectSecondAsset": "选择第二资产",
+            "selectWhitelistTokens": "选择白名单代币"
         }
     },
     "transferLiquidity": {

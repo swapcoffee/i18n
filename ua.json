@@ -1240,6 +1240,10 @@
             "existPool": {
                 "title": "Пул вже існує",
                 "text": "Пул ліквідності для цих двох токенів вже існує. Будь ласка, розгляньте можливість додавання ліквідності до існуючого пулу замість створення нового."
+            },
+            "invalidTokens": {
+                "title": "Некоректні токени",
+                "text": "Ви можете створити пул, вибираючи лише whitelist токени."
             }
         },
         "details": {
@@ -1252,7 +1256,8 @@
             "poolExist": "Пул вже існує",
             "deploySingleVault": "Розгорнути vault {token}",
             "deployMultiVault": "Розгорнути кілька vaults",
-            "selectSecondAsset": "Вибрати другий актив"
+            "selectSecondAsset": "Вибрати другий актив",
+            "selectWhitelistTokens": "Виберіть whitelist токени"
         }
     },
     "transferLiquidity": {

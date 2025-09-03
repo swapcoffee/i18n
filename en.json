@@ -1278,6 +1278,10 @@
             "existPool": {
                 "title": "Pool has already exist",
                 "text": "A liquidity pool for these two tokens already exists. Please consider adding liquidity to the existing pool instead of creating a new one."
+            },
+            "invalidTokens": {
+                "title": "Incorrect tokens",
+                "text": "You can create a pool by selecting only whitelist tokens."
             }
         },
         "details": {
@@ -1290,7 +1294,8 @@
             "poolExist": "Pool already exists",
             "deploySingleVault": "Deploy {token} vault",
             "deployMultiVault": "Deploy multi vaults",
-            "selectSecondAsset": "Select second asset"
+            "selectSecondAsset": "Select second asset",
+            "selectWhitelistTokens": "Select whitelist tokens"
         }
     },
     "transferLiquidity": {
