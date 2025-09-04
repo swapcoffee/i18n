@@ -108,6 +108,7 @@
     },
     "dexButton": {
         "poolNotFound": "Пули ліквідності не знайдено",
+        "temporarilyUnavailable": "Временно недоступно",
         "connectWallet": "Підключити гаманець",
         "notEnoughGas": "Недостатньо TON для газу",
         "highPriceImpact": "Занадто високий вплив на ціну",

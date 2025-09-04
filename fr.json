@@ -113,6 +113,7 @@
     },
     "dexButton": {
         "poolNotFound": "Pools de liquidité introuvables",
+        "temporarilyUnavailable": "Temporairement indisponible",
         "connectWallet": "Connecter le portefeuille",
         "notEnoughGas": "Pas assez de TON pour les frais",
         "highPriceImpact": "Impact sur le prix trop élevé",

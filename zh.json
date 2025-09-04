@@ -113,6 +113,7 @@
     },
     "dexButton": {
         "poolNotFound": "未找到流动性池",
+        "temporarilyUnavailable": "暂时不可用",
         "connectWallet": "连接钱包",
         "notEnoughGas": "TON不足以支付Gas费用",
         "highPriceImpact": "价格影响过高",

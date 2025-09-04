@@ -105,6 +105,7 @@
     },
     "dexButton": {
         "poolNotFound": "Ликвидные пулы не найдены",
+        "temporarilyUnavailable": "Временно недоступно",
         "connectWallet": "Подключить кошелёк",
         "highPriceImpact": "Высокое влияние цены",
         "notEnoughGas": "Недостаточно TON для газа",

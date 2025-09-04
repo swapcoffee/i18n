@@ -113,6 +113,7 @@
     },
     "dexButton": {
         "poolNotFound": "Liquidity pools not found",
+        "temporarilyUnavailable": "Temporarily unavailable",
         "connectWallet": "Connect Wallet",
         "notEnoughGas": "Not enough TON for gas",
         "highPriceImpact": "Price impact too high",
