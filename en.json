@@ -249,7 +249,7 @@
             "name": "MEV Protect fee"
         },
         "smart": "Smart Mode fee",
-        "economy": "Your Economy",
+        "economy": "Your Savings",
         "distribution": "Distribution Plan"
     },
     "dexSuccess": {
@@ -754,7 +754,7 @@
         "swapStatus": {
             "swapPendingBlockchain": "Blockchain fee",
             "swapSuccessPriceImpact": "Price impact",
-            "swapSuccessEconomy": "Your Economy",
+            "swapSuccessEconomy": "Your Savings",
             "swapSuccessCashback": "Cashback"
         },
         "swapDetails": {
