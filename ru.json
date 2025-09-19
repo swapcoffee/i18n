@@ -51,7 +51,7 @@
         "half": "Half",
         "slippage": "{slippageCount}% slippage",
         "cashback": {
-            "name": "Кешбэк",
+            "name": "Кэшбек",
             "status": "Включён"
         }
     },
@@ -163,7 +163,7 @@
             "caption": "Выберите язык"
         },
         "chart-provider": {
-            "title": "Поставщик графика",
+            "title": "Поставщик графиков",
             "caption": "Выберите график",
             "providers-description": [
                 "Продвинутый график (TradingView)",
@@ -253,7 +253,7 @@
     },
     "claimCenter": {
         "description": "Приглашайте друзей, получайте процент от комиссии с их сделок и получайте свои вознаграждения!",
-        "titles": ["Все награды", "Кешбэк", "Рефералы", "Конкурсы", "Стейкинг", "Пулы"],
+        "titles": ["Все награды", "Кэшбек", "Рефералы", "Конкурсы", "Стейкинг", "Пулы"],
         "caption": "Выберите награду для вывода",
         "text": "Стоимость вывода зависит от количества выбранных вами токенов",
         "empty-title": "У вас нет наград в Центре наград",
@@ -279,7 +279,7 @@
     "claimTokens": {
         "category": [
             "Выбрать все",
-            "Кешбэк",
+            "Кэшбек",
             "Стейкинг",
             "Пулы",
             "Реферал",
@@ -680,7 +680,7 @@
             "swapPendingBlockchain": "Комиссия блокчейна",
             "swapSuccessPriceImpact": "Влияние цены",
             "swapSuccessEconomy": "Ваша экономия",
-            "swapSuccessCashback": "Кешбэк"
+            "swapSuccessCashback": "Кэшбек"
         },
         "swapDetails": {
             "name": "Промежуточные токены"
@@ -916,7 +916,7 @@
         "minimumReceive": "Минимум к получению",
         "myFarm": "Мой фарм",
         "farmApr": "APR фарминга",
-        "withdrawFarmTitle": "Удалить фарм и получить награды"
+        "withdrawFarmTitle": "Остановить фарм и получить награды"
     },
     "earnModalFirstStep": {
         "youReceive": "Вы получаете",
