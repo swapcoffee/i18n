@@ -623,14 +623,14 @@
         "buttonAddMyStaking": "Añadir mi staking"
     },
     "snowflakePopup": {
-        "topTitle": "CakeMania",
-        "balanceDescription": "Tu saldo:",
-        "itemTitle": "Reglas y condiciones del concurso:",
-        "itemDescriptionFirst": "Por cada $25 de volumen de transacción, aparecerá 1 pastel.",
-        "itemDescriptionSecond": "En el proceso de espera para la finalización de la transacción, los pasteles comienzan a caer.",
-        "itemDescriptionThird": "Atrapa los pasteles antes de que caigan y se rompan para agregarlos a tu saldo.",
-        "itemDescriptionFourth": "Si el pastel cae, simplemente se romperá y no se agregará a tu saldo.",
-        "itemDescriptionFive": "¡Los 10 mejores usuarios con el mayor número de pasteles recibirán premios! Puedes ver los premios en nuestro",
+        "topTitle": "Halloween",
+        "balanceDescription": "Tu Saldo:",
+        "itemTitle": "Reglas y Condiciones del Concurso:",
+        "itemDescriptionFirst": "Por cada $25 del volumen de la transacción, aparecerá 1 calabaza.",
+        "itemDescriptionSecond": "Durante el proceso de espera de la finalización de la transacción, las calabazas comienzan a caer.",
+        "itemDescriptionThird": "Atrapa las calabazas antes de que caigan y se rompan para añadirlas a tu saldo.",
+        "itemDescriptionFourth": "Si la calabaza cae, simplemente se romperá y no se añadirá a tu saldo.",
+        "itemDescriptionFive": "¡Los 10 MEJORES usuarios con el mayor número de calabazas recibirán premios! Puedes ver los premios en nuestro",
         "itemDescriptionLink": "canal de Telegram"
     },
     "charts-frames": {

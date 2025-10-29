@@ -621,15 +621,15 @@
         "buttonAddMyStaking": "添加我的质押"
     },
     "snowflakePopup": {
-        "topTitle": "蛋糕狂欢",
+        "topTitle": "万圣节",
         "balanceDescription": "您的余额：",
-        "itemTitle": "比赛规则和条件：",
-        "itemDescriptionFirst": "每完成 $25 的交易量，将出现一个蛋糕。",
-        "itemDescriptionSecond": "在等待交易完成的过程中，蛋糕开始掉落。",
-        "itemDescriptionThird": "在蛋糕掉落并破碎之前抓住它们，将其添加到您的余额中。",
-        "itemDescriptionFourth": "如果蛋糕掉落，它将破碎并不会添加到您的余额中。",
-        "itemDescriptionFive": "蛋糕数量最多的前10名用户将获得奖品！您可以在我们的",
-        "itemDescriptionLink": "Telegram 频道"
+        "itemTitle": "竞赛规则和条件：",
+        "itemDescriptionFirst": "每交易量25美元，将出现1个南瓜。",
+        "itemDescriptionSecond": "在等待交易完成的过程中，南瓜开始掉落。",
+        "itemDescriptionThird": "在南瓜掉落并破碎前接住它们，将它们添加到您的余额中。",
+        "itemDescriptionFourth": "如果南瓜掉落，它将直接破碎，不会被添加到您的余额中。",
+        "itemDescriptionFive": "拥有最多南瓜的前10名用户将获得奖品！您可以在我们的",
+        "itemDescriptionLink": "Telegram频道中查看奖品"
     },
     "charts-frames": {
         "1d": "24 小时",

@@ -623,14 +623,14 @@
         "buttonAddMyStaking": "Ajouter mon staking"
     },
     "snowflakePopup": {
-        "topTitle": "CakeMania",
-        "balanceDescription": "Votre Solde :",
-        "itemTitle": "Règles et Conditions du Concours :",
-        "itemDescriptionFirst": "Pour chaque 25 $ de volume de transaction, 1 gâteau apparaîtra.",
-        "itemDescriptionSecond": "Pendant l'attente de la finalisation de la transaction, des gâteaux commencent à tomber.",
-        "itemDescriptionThird": "Attrapez les gâteaux avant qu'ils ne tombent et se cassent pour les ajouter à votre solde.",
-        "itemDescriptionFourth": "Si le gâteau tombe, il se cassera simplement et ne sera pas ajouté à votre solde.",
-        "itemDescriptionFive": "Les 10 meilleurs utilisateurs avec le plus grand nombre de gâteaux recevront des prix ! Vous pouvez consulter les prix dans notre",
+        "topTitle": "Halloween",
+        "balanceDescription": "Votre Solde:",
+        "itemTitle": "Règles et Conditions du Concours:",
+        "itemDescriptionFirst": "Pour chaque 25$ de volume de transaction, 1 citrouille apparaîtra.",
+        "itemDescriptionSecond": "Pendant le processus d'attente de la finalisation de la transaction, les citrouilles commencent à tomber.",
+        "itemDescriptionThird": "Attrapez les citrouilles avant qu'elles ne tombent et se cassent pour les ajouter à votre solde.",
+        "itemDescriptionFourth": "Si la citrouille tombe, elle se cassera simplement et ne sera pas ajoutée à votre solde.",
+        "itemDescriptionFive": "Les 10 MEILLEURS utilisateurs avec le plus grand nombre de citrouilles recevront des prix! Vous pouvez voir les prix dans notre",
         "itemDescriptionLink": "chaîne Telegram"
     },
     "charts-frames": {

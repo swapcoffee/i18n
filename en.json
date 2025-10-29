@@ -623,14 +623,14 @@
         "buttonAddMyStaking": "Add my staking"
     },
     "snowflakePopup": {
-        "topTitle": "CakeMania",
+        "topTitle": "Halloween",
         "balanceDescription": "Your Balance:",
         "itemTitle": "Contest rules and Conditions:",
-        "itemDescriptionFirst": "For every $25 of the transaction volume, 1 cake will appear.",
-        "itemDescriptionSecond": "In the process of waiting for the completion of the transaction, cakes begin to fall.",
-        "itemDescriptionThird": "Catch the cakes before they fall and break to add them to your balance.",
-        "itemDescriptionFourth": "If the cake falls, it will simply break and will not be added to your balance.",
-        "itemDescriptionFive": "The TOP 10 users with the highest number of cakes will receive prizes! You can view the prizes in our",
+        "itemDescriptionFirst": "For every $25 of the transaction volume, 1 pumpkin will appear.",
+        "itemDescriptionSecond": "In the process of waiting for the completion of the transaction, pumpkins begin to fall.",
+        "itemDescriptionThird": "Catch the pumpkins before they fall and break to add them to your balance.",
+        "itemDescriptionFourth": "If the pumpkin falls, it will simply break and will not be added to your balance.",
+        "itemDescriptionFive": "The TOP 10 users with the highest number of pumpkins will receive prizes! You can view the prizes in our",
         "itemDescriptionLink": "Telegram channel"
     },
     "charts-frames": {
