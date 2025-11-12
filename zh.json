@@ -149,7 +149,8 @@
         "aggregator": "聚合器",
         "tools": "工具",
         "memes": "表情包",
-        "gifts": "礼物和贴纸"
+        "gifts": "礼物和贴纸",
+        "swapi": "最快的交易机器人"
     },
     "dexGlobal": {
         "community": {
@@ -816,6 +817,10 @@
         "thermos": {
             "text1": "一键购买和出售Telegram礼品 — 返现高达10%。由swap.coffee提供的礼品聚合器",
             "actionBtn": "打开应用"
+        },
+        "swapi": {
+            "text1": "{'@'}swapcoffee & {'@'}thermos团队打造的最快交易机器人。",
+            "actionBtn": "前往应用"
         }
     },
     "stakesBoosts": {

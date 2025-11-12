@@ -149,7 +149,8 @@
         "aggregator": "Agrégateur",
         "tools": "Outils",
         "memes": "Mèmes",
-        "gifts": "Cadeaux et autocollants"
+        "gifts": "Cadeaux et autocollants",
+        "swapi": "Le bot de trading le plus rapide"
     },
     "dexGlobal": {
         "community": {
@@ -818,6 +819,10 @@
         "thermos": {
             "text1": "Achetez et vendez des Cadeaux Telegram en un clic — cashback jusqu'à 10%. Agrégateur de Cadeaux par swap.coffee",
             "actionBtn": "Ouvrir l'app"
+        },
+        "swapi": {
+            "text1": "Le bot de trading le plus rapide par l'équipe {'@'}swapcoffee & {'@'}thermos.",
+            "actionBtn": "Aller à l'application"
         }
     },
     "stakesBoosts": {
