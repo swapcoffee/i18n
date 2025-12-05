@@ -1353,7 +1353,8 @@
         "descriptionKTON": "KTON is a next-generation liquid staking protocol for the TON ecosystem, designed to unlock liquidity for both institutional and retail users.",
         "descriptionEVAA": "EVAA is a Telegram-native liquidity protocol on TON for earning or borrowing with overcollateralized loans.",
         "descriptionCoffin": "Coffin lets you profit from fading hype. Short TON memecoins using isolated lending markets.",
-        "descriptionBidask": "Bidask is a CLMM-based DEX built on the TON blockchain. The protocol is optimized for high speed, scalability and efficiency."
+        "descriptionBidask": "Bidask is a CLMM-based DEX built on the TON blockchain. The protocol is optimized for high speed, scalability and efficiency.",
+        "descriptionDaolama": "Use your NFT as collateral to instantly get TON."
     },
     "smart": {
         "desc": "We use neural networks and advanced algorithms to set the most optimal settings.",
