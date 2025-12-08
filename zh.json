@@ -800,9 +800,9 @@
     },
     "bannersMain": {
         "whale": {
-            "mainText": "22%返现和每日新奖品和奖励！立即开始！",
-            "text1": "领取价值77K的奖金和奖励，使用Battlepass！💰 ",
-            "text2": "立即领取！",
+            "mainText": "领取价值77K的奖金和奖励，使用Battlepass！💰 立即领取！",
+            "text1": "每日22%返现！ ",
+            "text2": " 立即开始！",
             "bannerDesc": "每日22%返现！立即开始！",
             "getBonus": "获取奖励",
             "actionBtn": "前往应用"

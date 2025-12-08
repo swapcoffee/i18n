@@ -802,9 +802,9 @@
     },
     "bannersMain": {
         "whale": {
-            "mainText": "¡22% de Cashback y nuevos premios y recompensas diarias! ¡Juega ahora!",
-            "text1": "¡Reclama 77K en Bonos y Recompensas con Battlepass!💰 ",
-            "text2": "¡Reclamar ahora!",
+            "mainText": "¡Reclama 77K en Bonos y Recompensas con Battlepass!💰 ¡Reclamar ahora!",
+            "text1": "¡Cashback Diario del 22%! ",
+            "text2": " ¡Juega Ahora!",
             "bannerDesc": "¡Cashback Diario del 22%! ¡Juega Ahora!",
             "getBonus": "Obtén un bono",
             "actionBtn": "Ir a la App"
