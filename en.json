@@ -809,6 +809,10 @@
             "getBonus": "Get a bonus",
             "actionBtn": "Go to App"
         },
+        "og": {
+          "mainText": "Get 15% Bonus + 99% RTP at TheOriginals.io! Instant transactions, prediction markets. Play Now!",
+          "text1": "99% RTP. No KYC. 15% Bonus!"
+        },
         "major": {
             "text1": "Join the swap.coffee Ambassador Program. Share content — earn rewards!",
             "actionBtn": "Read more"

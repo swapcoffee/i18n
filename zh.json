@@ -807,6 +807,10 @@
             "getBonus": "获取奖励",
             "actionBtn": "前往应用"
         },
+        "og": {
+          "mainText": "在TheOriginals.io获得15%奖金 + 99% RTP！即时交易，预测市场。立即开始！",
+          "text1": "99% RTP. 无需KYC. 15%奖金！"
+        },
         "major": {
             "text1": "加入 swap.coffee 大使计划。分享内容，获取奖励！",
             "actionBtn": "阅读更多"

@@ -809,6 +809,10 @@
             "getBonus": "Obtén un bono",
             "actionBtn": "Ir a la App"
         },
+        "og": {
+          "mainText": "¡Obtén 15% de Bono + 99% RTP en TheOriginals.io! Transacciones instantáneas, mercados de predicción. ¡Juega Ahora!",
+          "text1": "99% RTP. Sin KYC. ¡15% de Bono!"
+        },
         "major": {
             "text1": "Únete al Programa de Embajadores de swap.coffee. ¡Comparte contenido y gana recompensas!",
             "actionBtn": "Leer más"
