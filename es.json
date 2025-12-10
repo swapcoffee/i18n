@@ -128,6 +128,7 @@
         "notPermission": "Pool no disponible",
         "addLiquidity": "Añadir liquidez",
         "amountBelowMin": "Cantidad por debajo del mínimo",
+        "limitReached": "Límite de liquidez alcanzado",
         "tooltip": [
             "• Intenta aumentar la configuración de Volatilidad de Pools.",
             "• Intenta aumentar la configuración de Tokens Intermedios.",

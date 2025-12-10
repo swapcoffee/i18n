@@ -128,6 +128,7 @@
         "notPermission": "Pool not available",
         "addLiquidity": "Add liquidity",
         "amountBelowMin": "Amount below minimum",
+        "limitReached": "Liquidity limit is reached",
         "tooltip": [
             "• Try to increase Pool Volatility setting.",
             "• Try to increase Intermediate Tokens setting.",

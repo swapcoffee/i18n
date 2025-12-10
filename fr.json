@@ -128,6 +128,7 @@
         "notPermission": "Pool non disponible",
         "addLiquidity": "Ajouter de la liquidité",
         "amountBelowMin": "Montant inférieur au minimum",
+        "limitReached": "Limite de liquidités atteinte",
         "tooltip": [
             "• Essayez d'augmenter le paramètre de volatilité du pool.",
             "• Essayez d'augmenter le paramètre de jetons intermédiaires.",

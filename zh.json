@@ -128,6 +128,7 @@
         "notPermission": "池不可用",
         "addLiquidity": "添加流动性",
         "amountBelowMin": "金额低于最低限额",
+        "limitReached": "流动性已达极限",
         "tooltip": [
             "• 尝试增加池波动性设置。",
             "• 尝试增加中间代币设置。",
